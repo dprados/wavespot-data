@@ -1,0 +1,5815 @@
+[
+ {
+  "id": "es-el-quemao",
+  "name": "El Quemao",
+  "aliases": [],
+  "lat": 29.1122,
+  "lon": -13.6662,
+  "country": "ES",
+  "zone": "es-lanzarote",
+  "break": "reef",
+  "sports": [
+   "surf"
+  ],
+  "facing": 322,
+  "window": [
+   250,
+   25
+  ],
+  "bestTide": [
+   "high"
+  ],
+  "dangerTide": [
+   "low"
+  ],
+  "bestSwell": [
+   300,
+   10
+  ],
+  "bestWind": [
+   97,
+   187
+  ],
+  "kiteWind": null,
+  "level": "advanced",
+  "hazards": [
+   "reef",
+   "rocks",
+   "currents",
+   "crowds"
+  ],
+  "notes": "Heavy, hollow left (and shorter right) over shallow volcanic reef in front of La Santa village; entry from the pier.",
+  "sources": [
+   "https://www.hellocanaryislands.com/surfing/lanzarote/surfing-in-el-quemao/",
+   "https://www.hellocanaryislands.com/bodyboarding/lanzarote/bodyboarding-in-el-quemao/",
+   "https://lanzasurf.com/lanzarote-canaries/surf-map/",
+   "https://thesurfatlas.com/surfing-in-canary-islands/lanzarote-surf/",
+   "https://www.guiarepsol.com/content/repsol-guia/es/home/viajar/vamos-de-excursion/surf-en-lanzarote-lugares-mas-importantes-islas-canarias.html",
+   "https://turismolanzarote.com/en/land-sea-and-air-the-three-elements-that-make-up-lanzarotes-sporting-paradise/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "es-la-santa-izquierda",
+  "name": "La Santa Left",
+  "aliases": [
+   "La Izquierda de La Santa"
+  ],
+  "lat": 29.1197,
+  "lon": -13.6634,
+  "country": "ES",
+  "zone": "es-lanzarote",
+  "break": "reef",
+  "sports": [
+   "surf"
+  ],
+  "facing": 299,
+  "window": [
+   245,
+   40
+  ],
+  "bestTide": [
+   "mid",
+   "high"
+  ],
+  "dangerTide": [
+   "low"
+  ],
+  "bestSwell": [
+   290,
+   0
+  ],
+  "bestWind": [
+   74,
+   164
+  ],
+  "kiteWind": null,
+  "level": "advanced",
+  "hazards": [
+   "reef",
+   "rocks",
+   "crowds"
+  ],
+  "notes": "Long, hollow left over lava reef in La Santa bay; works most of the year.",
+  "sources": [
+   "https://www.hellocanaryislands.com/surfing/lanzarote/surfing-the-left-hand-wave-of-la-santa/",
+   "https://www.hellocanaryislands.com/bodyboarding/lanzarote/bodyboarding-on-the-left-hand-wave-of-la-santa/",
+   "https://lanzasurf.com/lanzarote-canaries/surf-map/",
+   "https://www.lavozdelanzarote.com/en/top-plans/the-best-spots-for-surfing-in-lanzarote-and-graciosa_213702_102.html",
+   "https://www.guiarepsol.com/content/repsol-guia/es/home/viajar/vamos-de-excursion/surf-en-lanzarote-lugares-mas-importantes-islas-canarias.html"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "es-la-santa-centro",
+  "name": "La Santa Centro",
+  "aliases": [
+   "El Centrito"
+  ],
+  "lat": 29.124,
+  "lon": -13.6598,
+  "country": "ES",
+  "zone": "es-lanzarote",
+  "break": "reef",
+  "sports": [
+   "surf"
+  ],
+  "facing": 330,
+  "window": [
+   245,
+   40
+  ],
+  "bestTide": [
+   "mid"
+  ],
+  "dangerTide": [
+   "low"
+  ],
+  "bestSwell": [
+   290,
+   0
+  ],
+  "bestWind": [
+   105,
+   195
+  ],
+  "kiteWind": null,
+  "level": "intermediate",
+  "hazards": [
+   "reef",
+   "rocks"
+  ],
+  "notes": "Mellower, longer reef wave between the La Santa left and right.",
+  "sources": [
+   "https://lanzasurf.com/lanzarote-canaries/surf-map/",
+   "https://www.lavozdelanzarote.com/en/top-plans/the-best-spots-for-surfing-in-lanzarote-and-graciosa_213702_102.html"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "es-la-santa-derecha",
+  "name": "La Santa Right",
+  "aliases": [
+   "La Derecha de La Santa",
+   "Morro Negro"
+  ],
+  "lat": 29.1237,
+  "lon": -13.6551,
+  "country": "ES",
+  "zone": "es-lanzarote",
+  "break": "reef",
+  "sports": [
+   "surf"
+  ],
+  "facing": 335,
+  "window": [
+   245,
+   40
+  ],
+  "bestTide": [
+   "mid"
+  ],
+  "dangerTide": [
+   "low"
+  ],
+  "bestSwell": [
+   290,
+   0
+  ],
+  "bestWind": [
+   110,
+   200
+  ],
+  "kiteWind": null,
+  "level": "advanced",
+  "hazards": [
+   "reef",
+   "rocks",
+   "currents"
+  ],
+  "notes": "Powerful right over lava reef that holds big swells.",
+  "sources": [
+   "https://lanzasurf.com/lanzarote-canaries/surf-map/",
+   "https://www.lavozdelanzarote.com/en/top-plans/the-best-spots-for-surfing-in-lanzarote-and-graciosa_213702_102.html",
+   "https://www.guiarepsol.com/content/repsol-guia/es/home/viajar/vamos-de-excursion/surf-en-lanzarote-lugares-mas-importantes-islas-canarias.html",
+   "https://thesurfatlas.com/surfing-in-canary-islands/lanzarote-surf/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "es-caleta-de-caballo",
+  "name": "Caleta de Caballo",
+  "aliases": [],
+  "lat": 29.1195,
+  "lon": -13.64,
+  "country": "ES",
+  "zone": "es-lanzarote",
+  "break": "reef",
+  "sports": [
+   "surf"
+  ],
+  "facing": 359,
+  "window": [
+   325,
+   30
+  ],
+  "bestTide": [
+   "mid"
+  ],
+  "dangerTide": [
+   "low"
+  ],
+  "bestSwell": [
+   325,
+   20
+  ],
+  "bestWind": [
+   134,
+   224
+  ],
+  "kiteWind": null,
+  "level": "intermediate",
+  "hazards": [
+   "reef",
+   "rocks",
+   "rips"
+  ],
+  "notes": "Rights and a left over reef either side of a narrow gap in the coastal rocks.",
+  "sources": [
+   "https://lanzasurf.com/lanzarote-canaries/surf-map/",
+   "https://thesurfatlas.com/surfing-in-canary-islands/lanzarote-surf/",
+   "https://www.guiarepsol.com/content/repsol-guia/es/home/viajar/vamos-de-excursion/surf-en-lanzarote-lugares-mas-importantes-islas-canarias.html"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "es-san-juan",
+  "name": "San Juan",
+  "aliases": [],
+  "lat": 29.1268,
+  "lon": -13.5742,
+  "country": "ES",
+  "zone": "es-lanzarote",
+  "break": "reef",
+  "sports": [
+   "surf"
+  ],
+  "facing": 340,
+  "window": [
+   310,
+   10
+  ],
+  "bestTide": [
+   "low",
+   "mid"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   310,
+   10
+  ],
+  "bestWind": [
+   115,
+   205
+  ],
+  "kiteWind": null,
+  "level": "advanced",
+  "hazards": [
+   "reef",
+   "rocks",
+   "crowds"
+  ],
+  "notes": "Long, fast left over reef west of Caleta de Famara; contest venue.",
+  "sources": [
+   "https://www.hellocanaryislands.com/surfing/lanzarote/surfing-the-left-hand-wave-in-san-juan/",
+   "https://lanzasurf.com/lanzarote-canaries/surf-map/",
+   "https://thesurfatlas.com/surfing-in-canary-islands/lanzarote-surf/",
+   "https://www.turismoteguise.com/en/surf-kitesurf-in-famara.php",
+   "https://www.guiarepsol.com/content/repsol-guia/es/home/viajar/vamos-de-excursion/surf-en-lanzarote-lugares-mas-importantes-islas-canarias.html",
+   "https://www.lavozdelanzarote.com/en/top-plans/the-best-spots-for-surfing-in-lanzarote-and-graciosa_213702_102.html"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "es-famara-el-muelle",
+  "name": "El Muelle (Caleta de Famara)",
+  "aliases": [],
+  "lat": 29.1196,
+  "lon": -13.5648,
+  "country": "ES",
+  "zone": "es-lanzarote",
+  "break": "reef",
+  "sports": [
+   "surf"
+  ],
+  "facing": 338,
+  "window": [
+   310,
+   5
+  ],
+  "bestTide": [
+   "mid"
+  ],
+  "dangerTide": [
+   "low"
+  ],
+  "bestSwell": [
+   310,
+   5
+  ],
+  "bestWind": [
+   113,
+   203
+  ],
+  "kiteWind": null,
+  "level": "intermediate",
+  "hazards": [
+   "reef",
+   "rocks"
+  ],
+  "notes": "Fast lefts and rights over rock by the Caleta de Famara pier.",
+  "sources": [
+   "https://lanzasurf.com/lanzarote-canaries/surf-map/",
+   "https://www.turismoteguise.com/en/surf-kitesurf-in-famara.php",
+   "https://www.guiarepsol.com/content/repsol-guia/es/home/viajar/vamos-de-excursion/surf-en-lanzarote-lugares-mas-importantes-islas-canarias.html",
+   "https://www.lavozdelanzarote.com/en/top-plans/the-best-spots-for-surfing-in-lanzarote-and-graciosa_213702_102.html"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "es-famara-el-cagao",
+  "name": "El Cagao",
+  "aliases": [],
+  "lat": 29.1168,
+  "lon": -13.5605,
+  "country": "ES",
+  "zone": "es-lanzarote",
+  "break": "reef",
+  "sports": [
+   "surf"
+  ],
+  "facing": 338,
+  "window": [
+   310,
+   5
+  ],
+  "bestTide": [
+   "mid"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   310,
+   5
+  ],
+  "bestWind": [
+   113,
+   203
+  ],
+  "kiteWind": null,
+  "level": "all",
+  "hazards": [
+   "reef",
+   "rocks"
+  ],
+  "notes": "Short, fast reef peak at Caleta de Famara.",
+  "sources": [
+   "https://lanzasurf.com/lanzarote-canaries/surf-map/"
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "es-playa-de-famara",
+  "name": "Playa de Famara",
+  "aliases": [],
+  "lat": 29.122,
+  "lon": -13.545,
+  "country": "ES",
+  "zone": "es-lanzarote",
+  "break": "beach",
+  "sports": [
+   "surf",
+   "kite",
+   "windsurf"
+  ],
+  "facing": 323,
+  "window": [
+   290,
+   355
+  ],
+  "bestTide": [
+   "mid"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   290,
+   355
+  ],
+  "bestWind": [
+   98,
+   188
+  ],
+  "kiteWind": [
+   0,
+   80
+  ],
+  "level": "all",
+  "hazards": [
+   "rips",
+   "currents"
+  ],
+  "notes": "Long sandy beach under the Famara cliffs with peaks for every level; main surf-school beach.",
+  "sources": [
+   "https://www.hellocanaryislands.com/surfing/lanzarote/playa-de-famara/",
+   "https://www.hellocanaryislands.com/kitesurfing/lanzarote/kitesurfing-on-famara-beach/",
+   "https://lanzasurf.com/lanzarote-canaries/surf-map/",
+   "https://thesurfatlas.com/surfing-in-canary-islands/lanzarote-surf/",
+   "https://www.turismoteguise.com/en/surf-kitesurf-in-famara.php",
+   "https://www.guiarepsol.com/content/repsol-guia/es/home/viajar/vamos-de-excursion/surf-en-lanzarote-lugares-mas-importantes-islas-canarias.html",
+   "https://www.surf-magazin.de/en/spots-and-areas/international/spain/los-charcos-las-cucharas-and-co-the-best-windsurfing-spots-on-lanzarote/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "es-playa-de-la-canteria",
+  "name": "Playa de La Cantería",
+  "aliases": [
+   "Órzola"
+  ],
+  "lat": 29.2262,
+  "lon": -13.462,
+  "country": "ES",
+  "zone": "es-lanzarote",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 34,
+  "window": [
+   355,
+   90
+  ],
+  "bestTide": [
+   "mid",
+   "high"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   355,
+   40
+  ],
+  "bestWind": [
+   169,
+   259
+  ],
+  "kiteWind": null,
+  "level": "all",
+  "hazards": [
+   "rips",
+   "rocks"
+  ],
+  "notes": "Exposed beach near Órzola with an easier inside and a faster left off the rocks on the rising tide.",
+  "sources": [
+   "https://lanzasurf.com/lanzarote-canaries/surf-map/",
+   "https://thesurfatlas.com/surfing-in-canary-islands/lanzarote-surf/",
+   "https://www.guiarepsol.com/content/repsol-guia/es/home/viajar/vamos-de-excursion/surf-en-lanzarote-lugares-mas-importantes-islas-canarias.html"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "es-jameos-del-agua",
+  "name": "Jameos del Agua",
+  "aliases": [],
+  "lat": 29.159,
+  "lon": -13.4258,
+  "country": "ES",
+  "zone": "es-lanzarote",
+  "break": "point",
+  "sports": [
+   "surf",
+   "windsurf",
+   "kite"
+  ],
+  "facing": 102,
+  "window": [
+   15,
+   190
+  ],
+  "bestTide": [
+   "mid"
+  ],
+  "dangerTide": [
+   "low"
+  ],
+  "bestSwell": [
+   15,
+   80
+  ],
+  "bestWind": [
+   237,
+   327
+  ],
+  "kiteWind": [
+   340,
+   60
+  ],
+  "level": "advanced",
+  "hazards": [
+   "reef",
+   "rocks",
+   "localism",
+   "currents"
+  ],
+  "notes": "Long left over reef on the north-east coast, also a down-the-line wave spot for windsurfers.",
+  "sources": [
+   "https://www.hellocanaryislands.com/windsurfing/lanzarote/windsurfing-in-jameos-del-agua/",
+   "https://www.hellocanaryislands.com/kitesurfing/lanzarote/kitesurfing-in-jameos-del-agua/",
+   "https://lanzasurf.com/lanzarote-canaries/surf-map/",
+   "https://thesurfatlas.com/surfing-in-canary-islands/lanzarote-surf/",
+   "https://www.surf-magazin.de/en/spots-and-areas/international/spain/los-charcos-las-cucharas-and-co-the-best-windsurfing-spots-on-lanzarote/",
+   "https://www.guiarepsol.com/content/repsol-guia/es/home/viajar/vamos-de-excursion/surf-en-lanzarote-lugares-mas-importantes-islas-canarias.html"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "es-punta-mujeres",
+  "name": "Punta Mujeres",
+  "aliases": [],
+  "lat": 29.149,
+  "lon": -13.441,
+  "country": "ES",
+  "zone": "es-lanzarote",
+  "break": "reef",
+  "sports": [
+   "surf"
+  ],
+  "facing": 130,
+  "window": [
+   60,
+   185
+  ],
+  "bestTide": [
+   "mid"
+  ],
+  "dangerTide": [
+   "low"
+  ],
+  "bestSwell": [
+   60,
+   90
+  ],
+  "bestWind": [
+   265,
+   355
+  ],
+  "kiteWind": null,
+  "level": "advanced",
+  "hazards": [
+   "rocks",
+   "reef"
+  ],
+  "sources": [
+   "https://www.guiarepsol.com/content/repsol-guia/es/home/viajar/vamos-de-excursion/surf-en-lanzarote-lugares-mas-importantes-islas-canarias.html"
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "es-la-garita",
+  "name": "Playa de La Garita (Arrieta)",
+  "aliases": [
+   "Arrieta"
+  ],
+  "lat": 29.1275,
+  "lon": -13.462,
+  "country": "ES",
+  "zone": "es-lanzarote",
+  "break": "beach",
+  "sports": [
+   "surf",
+   "windsurf"
+  ],
+  "facing": 117,
+  "window": [
+   50,
+   160
+  ],
+  "bestTide": [
+   "mid"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   50,
+   110
+  ],
+  "bestWind": [
+   252,
+   342
+  ],
+  "kiteWind": [
+   320,
+   30
+  ],
+  "level": "beginner",
+  "hazards": [
+   "shorebreak"
+  ],
+  "notes": "Dark-sand beach at Arrieta with short peaks; windsurf option in northerly wind.",
+  "sources": [
+   "https://lanzasurf.com/lanzarote-canaries/surf-map/",
+   "https://www.lavozdelanzarote.com/en/top-plans/the-best-spots-for-surfing-in-lanzarote-and-graciosa_213702_102.html",
+   "https://www.guiarepsol.com/content/repsol-guia/es/home/viajar/vamos-de-excursion/surf-en-lanzarote-lugares-mas-importantes-islas-canarias.html",
+   "https://www.surf-magazin.de/en/spots-and-areas/international/spain/los-charcos-las-cucharas-and-co-the-best-windsurfing-spots-on-lanzarote/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "es-las-cucharas",
+  "name": "Las Cucharas",
+  "aliases": [],
+  "lat": 28.998,
+  "lon": -13.4859,
+  "country": "ES",
+  "zone": "es-lanzarote",
+  "break": "beach",
+  "sports": [
+   "windsurf",
+   "kite"
+  ],
+  "facing": 129,
+  "window": [
+   50,
+   200
+  ],
+  "bestTide": [],
+  "dangerTide": [],
+  "bestSwell": null,
+  "bestWind": [
+   264,
+   354
+  ],
+  "kiteWind": [
+   20,
+   80
+  ],
+  "level": "all",
+  "hazards": [
+   "rocks",
+   "crowds"
+  ],
+  "notes": "Main windsurf bay of Costa Teguise: flat water inside, reef waves outside in NE trades.",
+  "sources": [
+   "https://www.hellocanaryislands.com/windsurfing/lanzarote/windsurfing-in-las-cucharas/",
+   "https://www.surf-magazin.de/en/spots-and-areas/international/spain/los-charcos-las-cucharas-and-co-the-best-windsurfing-spots-on-lanzarote/",
+   "https://www.unplug-kitesurf.com/spots/lanzarote-las-cucharas-canary-islands",
+   "https://www.barcelo.com/guia-turismo/en/spain/lanzarote/things-to-do/surfing-in-lanzarote/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "es-los-charcos",
+  "name": "Los Charcos",
+  "aliases": [],
+  "lat": 29.002,
+  "lon": -13.4804,
+  "country": "ES",
+  "zone": "es-lanzarote",
+  "break": "reef",
+  "sports": [
+   "windsurf"
+  ],
+  "facing": 136,
+  "window": [
+   40,
+   215
+  ],
+  "bestTide": [
+   "high"
+  ],
+  "dangerTide": [
+   "low"
+  ],
+  "bestSwell": null,
+  "bestWind": [
+   271,
+   1
+  ],
+  "kiteWind": [
+   340,
+   30
+  ],
+  "level": "intermediate",
+  "hazards": [
+   "rocks"
+  ],
+  "notes": "Small lagoon and reef wave at Costa Teguise used when the wind is too northerly for Las Cucharas.",
+  "sources": [
+   "https://www.surf-magazin.de/en/spots-and-areas/international/spain/los-charcos-las-cucharas-and-co-the-best-windsurfing-spots-on-lanzarote/",
+   "https://www.barcelo.com/guia-turismo/en/spain/lanzarote/things-to-do/surfing-in-lanzarote/"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "es-playa-honda-2",
+  "name": "Playa Honda",
+  "aliases": [],
+  "lat": 28.9495,
+  "lon": -13.59,
+  "country": "ES",
+  "zone": "es-lanzarote",
+  "break": "beach",
+  "sports": [
+   "windsurf",
+   "kite"
+  ],
+  "facing": 157,
+  "window": [
+   80,
+   230
+  ],
+  "bestTide": [],
+  "dangerTide": [],
+  "bestSwell": null,
+  "bestWind": [
+   292,
+   22
+  ],
+  "kiteWind": [
+   60,
+   200
+  ],
+  "level": "intermediate",
+  "hazards": [],
+  "notes": "Long beach south of Arrecife used as a flat-water alternative when Las Cucharas is too windy.",
+  "sources": [
+   "https://www.surf-magazin.de/en/spots-and-areas/international/spain/los-charcos-las-cucharas-and-co-the-best-windsurfing-spots-on-lanzarote/",
+   "https://lanzaroteguidebook.com/information/lifestyle/sport-and-leisure/kitesurfing"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "es-la-francesa",
+  "name": "Playa Francesa (La Graciosa)",
+  "aliases": [],
+  "lat": 29.2192,
+  "lon": -13.528,
+  "country": "ES",
+  "zone": "es-lanzarote",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 242,
+  "window": [
+   235,
+   250
+  ],
+  "bestTide": [
+   "mid"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   235,
+   250
+  ],
+  "bestWind": [
+   17,
+   107
+  ],
+  "kiteWind": null,
+  "level": "intermediate",
+  "hazards": [
+   "rocks"
+  ],
+  "notes": "Long right on La Graciosa's south shore.",
+  "sources": [
+   "https://www.lavozdelanzarote.com/en/top-plans/the-best-spots-for-surfing-in-lanzarote-and-graciosa_213702_102.html"
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "es-montana-amarilla",
+  "name": "Montaña Amarilla (La Graciosa)",
+  "aliases": [],
+  "lat": 29.2188,
+  "lon": -13.5383,
+  "country": "ES",
+  "zone": "es-lanzarote",
+  "break": "reef",
+  "sports": [
+   "surf"
+  ],
+  "facing": 258,
+  "window": [
+   230,
+   285
+  ],
+  "bestTide": [
+   "mid"
+  ],
+  "dangerTide": [
+   "low"
+  ],
+  "bestSwell": [
+   230,
+   285
+  ],
+  "bestWind": [
+   33,
+   123
+  ],
+  "kiteWind": null,
+  "level": "intermediate",
+  "hazards": [
+   "rocks"
+  ],
+  "notes": "Fast left at the south-west tip of La Graciosa.",
+  "sources": [
+   "https://www.lavozdelanzarote.com/en/top-plans/the-best-spots-for-surfing-in-lanzarote-and-graciosa_213702_102.html"
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "es-baja-del-ganado",
+  "name": "La Baja del Ganado (La Graciosa)",
+  "aliases": [],
+  "lat": 29.2636,
+  "lon": -13.523,
+  "country": "ES",
+  "zone": "es-lanzarote",
+  "break": "reef",
+  "sports": [
+   "surf"
+  ],
+  "facing": 270,
+  "window": [
+   220,
+   330
+  ],
+  "bestTide": [
+   "high"
+  ],
+  "dangerTide": [
+   "low"
+  ],
+  "bestSwell": [
+   300,
+   330
+  ],
+  "bestWind": [
+   45,
+   135
+  ],
+  "kiteWind": null,
+  "level": "advanced",
+  "hazards": [
+   "reef",
+   "currents"
+  ],
+  "notes": "Short, explosive right-hand tube over volcanic reef near Las Conchas.",
+  "sources": [
+   "https://www.hellocanaryislands.com/bodyboarding/la-graciosa/bodyboarding-in-la-baja-del-ganado/"
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "es-el-cotillo",
+  "name": "El Cotillo",
+  "aliases": [
+   "Piedra Playa",
+   "Playa del Castillo"
+  ],
+  "lat": 28.6746,
+  "lon": -14.0109,
+  "country": "ES",
+  "zone": "es-fuerteventura",
+  "break": "beach",
+  "sports": [
+   "surf",
+   "kite"
+  ],
+  "facing": 271,
+  "window": [
+   205,
+   340
+  ],
+  "bestTide": [
+   "mid",
+   "high"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   260,
+   340
+  ],
+  "bestWind": [
+   46,
+   136
+  ],
+  "kiteWind": [
+   0,
+   60
+  ],
+  "level": "all",
+  "hazards": [
+   "shorebreak",
+   "currents",
+   "rips"
+  ],
+  "notes": "Long west-facing beach south of El Cotillo; mellow on small days, heavy close-outs in big swell.",
+  "sources": [
+   "https://www.hellocanaryislands.com/surfing/fuerteventura/el-cotillo/",
+   "https://planetsurfcamps.co.uk/surf-camps-canary-islands/surf-camp-fuerteventura/surfspots-fuerteventura",
+   "https://www.puresurfcamps.com/en/blog/fuerteventura-surf-guide/",
+   "https://www.merian.de/europa/spanien/surfspots-auf-fuerteventura",
+   "https://www.22places.com/surfing-in-fuerteventura/",
+   "https://www.surf-magazin.de/reisen/international/spanien/sovatento-northshore-und-co-die-besten-windsurf-spots-auf-fuerteventura/",
+   "https://www.fuerteventuraplayas.com/en/spot/piedra-playa-surf-spot/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "es-cotillo-lagos",
+  "name": "Cotillo Lagos",
+  "aliases": [],
+  "lat": 28.6967,
+  "lon": -14.0185,
+  "country": "ES",
+  "zone": "es-fuerteventura",
+  "break": "beach",
+  "sports": [
+   "windsurf",
+   "kite"
+  ],
+  "facing": 266,
+  "window": [
+   200,
+   0
+  ],
+  "bestTide": [],
+  "dangerTide": [],
+  "bestSwell": null,
+  "bestWind": [
+   41,
+   131
+  ],
+  "kiteWind": [
+   20,
+   90
+  ],
+  "level": "beginner",
+  "hazards": [],
+  "notes": "Sheltered lagoons north of El Cotillo with flat water for learners.",
+  "sources": [
+   "https://planetsurfcamps.co.uk/surf-camps-canary-islands/surf-camp-fuerteventura/surfspots-fuerteventura",
+   "https://www.fuerteventuraplayas.com/en/spot/cotillo-lagos/"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "es-playa-de-esquinzo",
+  "name": "Playa de Esquinzo",
+  "aliases": [],
+  "lat": 28.6344,
+  "lon": -14.0308,
+  "country": "ES",
+  "zone": "es-fuerteventura",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 290,
+  "window": [
+   205,
+   5
+  ],
+  "bestTide": [
+   "mid",
+   "high"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   260,
+   340
+  ],
+  "bestWind": [
+   65,
+   155
+  ],
+  "kiteWind": null,
+  "level": "intermediate",
+  "hazards": [
+   "rocks",
+   "currents"
+  ],
+  "notes": "Cliff-backed beach break south of El Cotillo, reached by track.",
+  "sources": [
+   "https://www.merian.de/europa/spanien/surfspots-auf-fuerteventura",
+   "https://www.puresurfcamps.com/en/blog/fuerteventura-surf-guide/",
+   "https://www.fuerteventuraplayas.com/en/spot/esquinzo-surf-spot/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "es-la-escalera",
+  "name": "Playa del Águila (La Escalera)",
+  "aliases": [
+   "Playa de las Escaleras"
+  ],
+  "lat": 28.652,
+  "lon": -14.0205,
+  "country": "ES",
+  "zone": "es-fuerteventura",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 290,
+  "window": [
+   215,
+   0
+  ],
+  "bestTide": [
+   "low",
+   "mid"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   260,
+   340
+  ],
+  "bestWind": [
+   65,
+   155
+  ],
+  "kiteWind": null,
+  "level": "all",
+  "hazards": [
+   "rocks"
+  ],
+  "notes": "Beach break below a steep stairway on the north-west coast.",
+  "sources": [
+   "https://planetsurfcamps.co.uk/surf-camps-canary-islands/surf-camp-fuerteventura/surfspots-fuerteventura",
+   "https://www.fuerteventuraplayas.com/en/spot/la-escalera-surf-spot/"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "es-playa-de-jarugo",
+  "name": "Playa de Jarugo",
+  "aliases": [],
+  "lat": 28.5708,
+  "lon": -14.0513,
+  "country": "ES",
+  "zone": "es-fuerteventura",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 250,
+  "window": [
+   220,
+   10
+  ],
+  "bestTide": [
+   "mid"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   250,
+   330
+  ],
+  "bestWind": [
+   25,
+   115
+  ],
+  "kiteWind": null,
+  "level": "intermediate",
+  "hazards": [
+   "rocks",
+   "currents"
+  ],
+  "sources": [
+   "https://www.fuerteventuraplayas.com/en/spot/jarugo-surf-spot/"
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "es-punta-gorda",
+  "name": "Punta Gorda",
+  "aliases": [],
+  "lat": 28.7148,
+  "lon": -14.007,
+  "country": "ES",
+  "zone": "es-fuerteventura",
+  "break": "reef",
+  "sports": [
+   "surf"
+  ],
+  "facing": 334,
+  "window": [
+   285,
+   35
+  ],
+  "bestTide": [
+   "mid"
+  ],
+  "dangerTide": [
+   "low"
+  ],
+  "bestSwell": [
+   285,
+   350
+  ],
+  "bestWind": [
+   109,
+   199
+  ],
+  "kiteWind": null,
+  "level": "intermediate",
+  "hazards": [
+   "reef",
+   "rocks"
+  ],
+  "notes": "Right over a low volcanic shelf on the north-west corner.",
+  "sources": [
+   "https://thesurfatlas.com/surfing-in-canary-islands/el-hierro-surf/",
+   "https://www.fuerteventuraplayas.com/en/spot/punta-gorda/"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "es-punta-blanca-2",
+  "name": "Punta Blanca",
+  "aliases": [],
+  "lat": 28.7365,
+  "lon": -13.977,
+  "country": "ES",
+  "zone": "es-fuerteventura",
+  "break": "reef",
+  "sports": [
+   "surf"
+  ],
+  "facing": 333,
+  "window": [
+   240,
+   25
+  ],
+  "bestTide": [],
+  "dangerTide": [
+   "low"
+  ],
+  "bestSwell": [
+   280,
+   20
+  ],
+  "bestWind": [
+   108,
+   198
+  ],
+  "kiteWind": null,
+  "level": "intermediate",
+  "hazards": [
+   "reef",
+   "rocks"
+  ],
+  "notes": "North Shore reef with a long paddle to a wide take-off zone.",
+  "sources": [
+   "https://planetsurfcamps.co.uk/surf-camps-canary-islands/surf-camp-fuerteventura/surfspots-fuerteventura",
+   "https://www.22places.com/surfing-in-fuerteventura/",
+   "https://www.surf-magazin.de/reisen/international/spanien/sovatento-northshore-und-co-die-besten-windsurf-spots-auf-fuerteventura/",
+   "https://www.fuerteventuraplayas.com/en/spot/punta-blanca/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "es-derecha-de-los-alemanes",
+  "name": "Derecha de los Alemanes",
+  "aliases": [
+   "El Hierro Right",
+   "The Bubble"
+  ],
+  "lat": 28.7438,
+  "lon": -13.9484,
+  "country": "ES",
+  "zone": "es-fuerteventura",
+  "break": "reef",
+  "sports": [
+   "surf"
+  ],
+  "facing": 321,
+  "window": [
+   250,
+   20
+  ],
+  "bestTide": [
+   "mid"
+  ],
+  "dangerTide": [
+   "low"
+  ],
+  "bestSwell": [
+   290,
+   20
+  ],
+  "bestWind": [
+   96,
+   186
+  ],
+  "kiteWind": null,
+  "level": "advanced",
+  "hazards": [
+   "reef",
+   "currents",
+   "localism",
+   "crowds"
+  ],
+  "notes": "Fast, hollow right over shallow volcanic reef at El Hierro on the North Shore.",
+  "sources": [
+   "https://www.hellocanaryislands.com/surfing/fuerteventura/surfing-at-el-hierro/",
+   "https://planetsurfcamps.co.uk/surf-camps-canary-islands/surf-camp-fuerteventura/surfspots-fuerteventura",
+   "https://www.puresurfcamps.com/en/blog/fuerteventura-surf-guide/",
+   "https://thesurfatlas.com/surfing-in-canary-islands/el-hierro-surf/",
+   "https://www.fuerteventuraplayas.com/en/spot/derecha-de-los-alemanes/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "es-izquierda-del-hierro",
+  "name": "Izquierda del Hierro",
+  "aliases": [
+   "El Hierro Left"
+  ],
+  "lat": 28.7405,
+  "lon": -13.953,
+  "country": "ES",
+  "zone": "es-fuerteventura",
+  "break": "reef",
+  "sports": [
+   "surf"
+  ],
+  "facing": 317,
+  "window": [
+   255,
+   20
+  ],
+  "bestTide": [
+   "mid"
+  ],
+  "dangerTide": [
+   "low"
+  ],
+  "bestSwell": [
+   290,
+   20
+  ],
+  "bestWind": [
+   92,
+   182
+  ],
+  "kiteWind": null,
+  "level": "advanced",
+  "hazards": [
+   "reef",
+   "localism",
+   "crowds"
+  ],
+  "notes": "A-frame left with a long shoulder at El Hierro, best in winter groundswell.",
+  "sources": [
+   "https://www.hellocanaryislands.com/surfing/fuerteventura/surfing-at-el-hierro/",
+   "https://planetsurfcamps.co.uk/surf-camps-canary-islands/surf-camp-fuerteventura/surfspots-fuerteventura",
+   "https://thesurfatlas.com/surfing-in-canary-islands/el-hierro-surf/",
+   "https://www.fuerteventuraplayas.com/en/spot/izquiera-del-hierro/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "es-majanicho",
+  "name": "Majanicho",
+  "aliases": [],
+  "lat": 28.7441,
+  "lon": -13.9358,
+  "country": "ES",
+  "zone": "es-fuerteventura",
+  "break": "point",
+  "sports": [
+   "surf",
+   "kite"
+  ],
+  "facing": 331,
+  "window": [
+   275,
+   15
+  ],
+  "bestTide": [
+   "mid",
+   "high"
+  ],
+  "dangerTide": [
+   "low"
+  ],
+  "bestSwell": [
+   290,
+   0
+  ],
+  "bestWind": [
+   106,
+   196
+  ],
+  "kiteWind": [
+   30,
+   100
+  ],
+  "level": "intermediate",
+  "hazards": [
+   "reef",
+   "rocks"
+  ],
+  "notes": "Peeling right over reef in the bay of the Majanicho fishing hamlet; shallow at low tide.",
+  "sources": [
+   "https://planetsurfcamps.co.uk/surf-camps-canary-islands/surf-camp-fuerteventura/surfspots-fuerteventura",
+   "https://www.merian.de/europa/spanien/surfspots-auf-fuerteventura",
+   "https://www.puresurfcamps.com/en/blog/fuerteventura-surf-guide/",
+   "https://thesurfatlas.com/surfing-in-canary-islands/el-hierro-surf/",
+   "https://thesurfatlas.com/surfing-in-canary-islands/majanicho/",
+   "https://www.fuerteventuraplayas.com/en/spot/majanicho-inside/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "es-majanicho-outside",
+  "name": "Majanicho Outside",
+  "aliases": [],
+  "lat": 28.7487,
+  "lon": -13.9337,
+  "country": "ES",
+  "zone": "es-fuerteventura",
+  "break": "reef",
+  "sports": [
+   "surf"
+  ],
+  "facing": 312,
+  "window": [
+   250,
+   15
+  ],
+  "bestTide": [
+   "mid",
+   "high"
+  ],
+  "dangerTide": [
+   "low"
+  ],
+  "bestSwell": [
+   290,
+   0
+  ],
+  "bestWind": [
+   87,
+   177
+  ],
+  "kiteWind": null,
+  "level": "intermediate",
+  "hazards": [
+   "reef"
+  ],
+  "sources": [
+   "https://planetsurfcamps.co.uk/surf-camps-canary-islands/surf-camp-fuerteventura/surfspots-fuerteventura",
+   "https://www.fuerteventuraplayas.com/en/spot/majanicho-outside/"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "es-mejillones",
+  "name": "Mejillones",
+  "aliases": [],
+  "lat": 28.757,
+  "lon": -13.893,
+  "country": "ES",
+  "zone": "es-fuerteventura",
+  "break": "reef",
+  "sports": [
+   "surf"
+  ],
+  "facing": 320,
+  "window": [
+   260,
+   0
+  ],
+  "bestTide": [
+   "mid"
+  ],
+  "dangerTide": [
+   "low"
+  ],
+  "bestSwell": [
+   290,
+   0
+  ],
+  "bestWind": [
+   95,
+   185
+  ],
+  "kiteWind": null,
+  "level": "advanced",
+  "hazards": [
+   "reef",
+   "rocks"
+  ],
+  "notes": "Exposed North Shore reef reached by gravel track.",
+  "sources": [
+   "https://www.surf-magazin.de/reisen/international/spanien/sovatento-northshore-und-co-die-besten-windsurf-spots-auf-fuerteventura/",
+   "https://www.fuerteventuraplayas.com/en/spot/mejillones-surf-spot/"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "es-generosa",
+  "name": "Generosa",
+  "aliases": [
+   "Generoso"
+  ],
+  "lat": 28.7531,
+  "lon": -13.8794,
+  "country": "ES",
+  "zone": "es-fuerteventura",
+  "break": "reef",
+  "sports": [
+   "surf"
+  ],
+  "facing": 325,
+  "window": [
+   295,
+   355
+  ],
+  "bestTide": [
+   "high"
+  ],
+  "dangerTide": [
+   "low"
+  ],
+  "bestSwell": [
+   295,
+   355
+  ],
+  "bestWind": [
+   100,
+   190
+  ],
+  "kiteWind": null,
+  "level": "intermediate",
+  "hazards": [
+   "reef",
+   "rocks",
+   "currents"
+  ],
+  "notes": "Left over lava reef with a rocky entry and no beach.",
+  "sources": [
+   "https://planetsurfcamps.co.uk/surf-camps-canary-islands/surf-camp-fuerteventura/surfspots-fuerteventura",
+   "https://www.fuerteventuraplayas.com/en/spot/generoso-surf-spot/"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "es-shooting-gallery",
+  "name": "Bristol (Shooting Gallery)",
+  "aliases": [],
+  "lat": 28.747,
+  "lon": -13.872,
+  "country": "ES",
+  "zone": "es-fuerteventura",
+  "break": "reef",
+  "sports": [
+   "surf",
+   "windsurf"
+  ],
+  "facing": 330,
+  "window": [
+   305,
+   355
+  ],
+  "bestTide": [
+   "mid",
+   "high"
+  ],
+  "dangerTide": [
+   "low"
+  ],
+  "bestSwell": [
+   305,
+   355
+  ],
+  "bestWind": [
+   105,
+   195
+  ],
+  "kiteWind": [
+   30,
+   100
+  ],
+  "level": "advanced",
+  "hazards": [
+   "reef",
+   "currents",
+   "localism"
+  ],
+  "notes": "Steep, fast reef peak west of Corralejo, shallow at low tide.",
+  "sources": [
+   "https://www.hellocanaryislands.com/surfing/fuerteventura/windsurfing-at-bristol-shooting-gallery/",
+   "https://www.hellocanaryislands.com/bodyboarding/fuerteventura/bodyboarding-at-bristol-shooting-gallery/",
+   "https://planetsurfcamps.co.uk/surf-camps-canary-islands/surf-camp-fuerteventura/surfspots-fuerteventura",
+   "https://www.puresurfcamps.com/en/blog/fuerteventura-surf-guide/",
+   "https://www.fuerteventuraplayas.com/en/spot/bristol-corralejo/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "es-el-muelle-corralejo",
+  "name": "El Muelle (Harbour Wall)",
+  "aliases": [],
+  "lat": 28.748,
+  "lon": -13.8665,
+  "country": "ES",
+  "zone": "es-fuerteventura",
+  "break": "reef",
+  "sports": [
+   "surf"
+  ],
+  "facing": 325,
+  "window": [
+   300,
+   350
+  ],
+  "bestTide": [
+   "mid"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   300,
+   350
+  ],
+  "bestWind": [
+   100,
+   190
+  ],
+  "kiteWind": null,
+  "level": "intermediate",
+  "hazards": [
+   "reef",
+   "crowds"
+  ],
+  "notes": "Left over reef next to the old Corralejo harbour wall.",
+  "sources": [
+   "https://planetsurfcamps.co.uk/surf-camps-canary-islands/surf-camp-fuerteventura/surfspots-fuerteventura",
+   "https://www.fuerteventuraplayas.com/en/spot/el-muelle-corralejo/"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "es-waikiki-corralejo",
+  "name": "Waikiki Beach (Corralejo)",
+  "aliases": [
+   "Playa Galera"
+  ],
+  "lat": 28.7355,
+  "lon": -13.865,
+  "country": "ES",
+  "zone": "es-fuerteventura",
+  "break": "reef",
+  "sports": [
+   "surf",
+   "windsurf"
+  ],
+  "facing": 100,
+  "window": [
+   20,
+   130
+  ],
+  "bestTide": [
+   "high"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   20,
+   90
+  ],
+  "bestWind": [
+   235,
+   325
+  ],
+  "kiteWind": [
+   330,
+   30
+  ],
+  "level": "beginner",
+  "hazards": [],
+  "sources": [
+   "https://planetsurfcamps.co.uk/surf-camps-canary-islands/surf-camp-fuerteventura/surfspots-fuerteventura",
+   "https://www.merian.de/europa/spanien/surfspots-auf-fuerteventura",
+   "https://www.fuerteventuraplayas.com/en/spot/waikiki-beach-surf-spot/"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "es-rocky-point-inside",
+  "name": "Rocky Point Inside",
+  "aliases": [],
+  "lat": 28.7312,
+  "lon": -13.8564,
+  "country": "ES",
+  "zone": "es-fuerteventura",
+  "break": "reef",
+  "sports": [
+   "surf",
+   "kite",
+   "windsurf"
+  ],
+  "facing": 98,
+  "window": [
+   0,
+   120
+  ],
+  "bestTide": [
+   "high"
+  ],
+  "dangerTide": [
+   "low"
+  ],
+  "bestSwell": [
+   0,
+   80
+  ],
+  "bestWind": [
+   233,
+   323
+  ],
+  "kiteWind": [
+   290,
+   0
+  ],
+  "level": "intermediate",
+  "hazards": [
+   "reef",
+   "rocks",
+   "crowds"
+  ],
+  "notes": "Reef just south of Waikiki in Corralejo bay; best at high tide.",
+  "sources": [
+   "https://planetsurfcamps.co.uk/surf-camps-canary-islands/surf-camp-fuerteventura/surfspots-fuerteventura",
+   "https://www.surf-magazin.de/reisen/international/spanien/sovatento-northshore-und-co-die-besten-windsurf-spots-auf-fuerteventura/",
+   "https://thesurfatlas.com/surfing-in-canary-islands/corralejo-surf/",
+   "https://www.fuerteventuraplayas.com/en/spot/rocky-point-inside/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "es-rocky-point-outside",
+  "name": "Rocky Point Outside",
+  "aliases": [
+   "Punta Elena"
+  ],
+  "lat": 28.73,
+  "lon": -13.8548,
+  "country": "ES",
+  "zone": "es-fuerteventura",
+  "break": "reef",
+  "sports": [
+   "surf"
+  ],
+  "facing": 92,
+  "window": [
+   0,
+   120
+  ],
+  "bestTide": [],
+  "dangerTide": [
+   "low"
+  ],
+  "bestSwell": [
+   0,
+   80
+  ],
+  "bestWind": [
+   227,
+   317
+  ],
+  "kiteWind": null,
+  "level": "advanced",
+  "hazards": [
+   "reef",
+   "currents"
+  ],
+  "sources": [
+   "https://www.fuerteventuraplayas.com/en/spot/rocky-point-outside/",
+   "https://thesurfatlas.com/surfing-in-canary-islands/corralejo-surf/"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "es-lobos-derecha",
+  "name": "Lobos",
+  "aliases": [
+   "Isla de Lobos"
+  ],
+  "lat": 28.7555,
+  "lon": -13.8335,
+  "country": "ES",
+  "zone": "es-fuerteventura",
+  "break": "point",
+  "sports": [
+   "surf",
+   "windsurf"
+  ],
+  "facing": 307,
+  "window": [
+   275,
+   340
+  ],
+  "bestTide": [
+   "mid",
+   "high"
+  ],
+  "dangerTide": [
+   "low"
+  ],
+  "bestSwell": [
+   290,
+   340
+  ],
+  "bestWind": [
+   82,
+   172
+  ],
+  "kiteWind": [
+   20,
+   80
+  ],
+  "level": "advanced",
+  "hazards": [
+   "reef",
+   "currents",
+   "localism"
+  ],
+  "notes": "Long, powerful right on Isla de Lobos, reached by boat from Corralejo.",
+  "sources": [
+   "https://www.hellocanaryislands.com/surfing/fuerteventura/surfing-at-los-lobos/",
+   "https://planetsurfcamps.co.uk/surf-camps-canary-islands/surf-camp-fuerteventura/surfspots-fuerteventura",
+   "https://www.puresurfcamps.com/en/blog/fuerteventura-surf-guide/",
+   "https://thesurfatlas.com/surfing-in-canary-islands/corralejo-surf/",
+   "https://www.fuerteventuraplayas.com/en/spot/lobos-island-surf-spot/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "es-flag-beach",
+  "name": "Flag Beach",
+  "aliases": [],
+  "lat": 28.7215,
+  "lon": -13.8395,
+  "country": "ES",
+  "zone": "es-fuerteventura",
+  "break": "beach",
+  "sports": [
+   "surf",
+   "kite",
+   "windsurf"
+  ],
+  "facing": 92,
+  "window": [
+   50,
+   160
+  ],
+  "bestTide": [],
+  "dangerTide": [],
+  "bestSwell": [
+   50,
+   90
+  ],
+  "bestWind": [
+   227,
+   317
+  ],
+  "kiteWind": [
+   300,
+   60
+  ],
+  "level": "all",
+  "hazards": [
+   "rocks",
+   "crowds"
+  ],
+  "notes": "Main kite and windsurf beach south of Corralejo with a reef ramp offshore.",
+  "sources": [
+   "https://www.hellocanaryislands.com/windsurfing/fuerteventura/windsurfing-at-flag-beach-in-corralejo/",
+   "https://www.hellocanaryislands.com/kitesurfing/fuerteventura/kitesurf-on-flag-beach/",
+   "https://planetsurfcamps.co.uk/surf-camps-canary-islands/surf-camp-fuerteventura/surfspots-fuerteventura",
+   "https://www.surf-magazin.de/reisen/international/spanien/sovatento-northshore-und-co-die-besten-windsurf-spots-auf-fuerteventura/",
+   "https://www.merian.de/europa/spanien/surfspots-auf-fuerteventura",
+   "https://www.fuerteventuraplayas.com/en/spot/flag-beach-kite-beach/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "es-el-burro",
+  "name": "El Burro (Glass Beach)",
+  "aliases": [
+   "Glass Beach"
+  ],
+  "lat": 28.688,
+  "lon": -13.83,
+  "country": "ES",
+  "zone": "es-fuerteventura",
+  "break": "reef",
+  "sports": [
+   "surf",
+   "kite",
+   "windsurf"
+  ],
+  "facing": 97,
+  "window": [
+   20,
+   175
+  ],
+  "bestTide": [
+   "mid"
+  ],
+  "dangerTide": [
+   "low"
+  ],
+  "bestSwell": [
+   20,
+   100
+  ],
+  "bestWind": [
+   232,
+   322
+  ],
+  "kiteWind": [
+   300,
+   30
+  ],
+  "level": "intermediate",
+  "hazards": [
+   "reef",
+   "localism"
+  ],
+  "notes": "Reef peaks off the Corralejo dunes; kite and windsurf in NW wind.",
+  "sources": [
+   "https://www.hellocanaryislands.com/kitesurfing/fuerteventura/kitesurf-on-el-burro-beach/",
+   "https://www.hellocanaryislands.com/bodyboarding/fuerteventura/bodyboarding-at-el-burro/",
+   "https://planetsurfcamps.co.uk/surf-camps-canary-islands/surf-camp-fuerteventura/surfspots-fuerteventura",
+   "https://www.puresurfcamps.com/en/blog/fuerteventura-surf-guide/",
+   "https://www.surf-magazin.de/reisen/international/spanien/sovatento-northshore-und-co-die-besten-windsurf-spots-auf-fuerteventura/",
+   "https://www.fuerteventuraplayas.com/en/spot/glass-beach-surf-spot/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "es-playa-del-moro-2",
+  "name": "Playa del Moro",
+  "aliases": [],
+  "lat": 28.674,
+  "lon": -13.832,
+  "country": "ES",
+  "zone": "es-fuerteventura",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 92,
+  "window": [
+   20,
+   170
+  ],
+  "bestTide": [
+   "mid"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   20,
+   90
+  ],
+  "bestWind": [
+   227,
+   317
+  ],
+  "kiteWind": null,
+  "level": "beginner",
+  "hazards": [
+   "rocks",
+   "currents"
+  ],
+  "sources": [
+   "https://planetsurfcamps.co.uk/surf-camps-canary-islands/surf-camp-fuerteventura/surfspots-fuerteventura",
+   "https://www.puresurfcamps.com/en/blog/fuerteventura-surf-guide/",
+   "https://www.22places.com/surfing-in-fuerteventura/",
+   "https://www.fuerteventuraplayas.com/en/spot/el-moro-surf-spot/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "es-puerto-lajas",
+  "name": "Puerto Lajas",
+  "aliases": [],
+  "lat": 28.537,
+  "lon": -13.836,
+  "country": "ES",
+  "zone": "es-fuerteventura",
+  "break": "reef",
+  "sports": [
+   "surf",
+   "windsurf"
+  ],
+  "facing": 86,
+  "window": [
+   25,
+   165
+  ],
+  "bestTide": [
+   "high"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   25,
+   110
+  ],
+  "bestWind": [
+   221,
+   311
+  ],
+  "kiteWind": [
+   330,
+   30
+  ],
+  "level": "all",
+  "hazards": [],
+  "sources": [
+   "https://planetsurfcamps.co.uk/surf-camps-canary-islands/surf-camp-fuerteventura/surfspots-fuerteventura",
+   "https://www.fuerteventuraplayas.com/en/spot/puerto-lajas-surf-spot/"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "es-playa-blanca-fv",
+  "name": "Playa Blanca (Puerto del Rosario)",
+  "aliases": [],
+  "lat": 28.4785,
+  "lon": -13.8645,
+  "country": "ES",
+  "zone": "es-fuerteventura",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 88,
+  "window": [
+   40,
+   155
+  ],
+  "bestTide": [],
+  "dangerTide": [],
+  "bestSwell": [
+   40,
+   140
+  ],
+  "bestWind": [
+   223,
+   313
+  ],
+  "kiteWind": null,
+  "level": "all",
+  "hazards": [
+   "shorebreak"
+  ],
+  "sources": [
+   "https://planetsurfcamps.co.uk/surf-camps-canary-islands/surf-camp-fuerteventura/surfspots-fuerteventura",
+   "https://www.fuerteventuraplayas.com/en/spot/playa-blanca-surf-spot/"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "es-el-castillo-fv",
+  "name": "El Castillo (Caleta de Fuste)",
+  "aliases": [],
+  "lat": 28.394,
+  "lon": -13.8517,
+  "country": "ES",
+  "zone": "es-fuerteventura",
+  "break": "beach",
+  "sports": [
+   "windsurf"
+  ],
+  "facing": 122,
+  "window": [
+   15,
+   200
+  ],
+  "bestTide": [],
+  "dangerTide": [],
+  "bestSwell": null,
+  "bestWind": [
+   257,
+   347
+  ],
+  "kiteWind": [
+   340,
+   40
+  ],
+  "level": "beginner",
+  "hazards": [],
+  "sources": [
+   "https://www.surf-magazin.de/reisen/international/spanien/sovatento-northshore-und-co-die-besten-windsurf-spots-auf-fuerteventura/"
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "es-la-pared",
+  "name": "La Pared",
+  "aliases": [],
+  "lat": 28.219,
+  "lon": -14.2235,
+  "country": "ES",
+  "zone": "es-fuerteventura",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 301,
+  "window": [
+   235,
+   5
+  ],
+  "bestTide": [
+   "mid",
+   "high"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   260,
+   340
+  ],
+  "bestWind": [
+   76,
+   166
+  ],
+  "kiteWind": null,
+  "level": "all",
+  "hazards": [
+   "rocks",
+   "rips",
+   "currents"
+  ],
+  "notes": "Consistent west-coast beach break with rocks and strong rips on the south side.",
+  "sources": [
+   "https://planetsurfcamps.co.uk/surf-camps-canary-islands/surf-camp-fuerteventura/surfspots-fuerteventura",
+   "https://www.merian.de/europa/spanien/surfspots-auf-fuerteventura",
+   "https://www.puresurfcamps.com/en/blog/fuerteventura-surf-guide/",
+   "https://www.22places.com/surfing-in-fuerteventura/",
+   "https://www.fuerteventuraplayas.com/en/spot/la-pared-surf-spot/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "es-garcey",
+  "name": "Playa de Garcey",
+  "aliases": [
+   "Shipwreck"
+  ],
+  "lat": 28.344,
+  "lon": -14.1825,
+  "country": "ES",
+  "zone": "es-fuerteventura",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 250,
+  "window": [
+   235,
+   15
+  ],
+  "bestTide": [
+   "mid",
+   "high"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   240,
+   320
+  ],
+  "bestWind": [
+   25,
+   115
+  ],
+  "kiteWind": null,
+  "level": "advanced",
+  "hazards": [
+   "currents",
+   "rocks"
+  ],
+  "notes": "Remote beach by the American Star wreck with strong currents.",
+  "sources": [
+   "https://www.merian.de/europa/spanien/surfspots-auf-fuerteventura",
+   "https://www.puresurfcamps.com/en/blog/fuerteventura-surf-guide/",
+   "https://www.22places.com/surfing-in-fuerteventura/",
+   "https://www.fuerteventuraplayas.com/en/spot/playa-garcey-surf-spot/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "es-cofete",
+  "name": "Cofete",
+  "aliases": [],
+  "lat": 28.114,
+  "lon": -14.386,
+  "country": "ES",
+  "zone": "es-fuerteventura",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 342,
+  "window": [
+   270,
+   50
+  ],
+  "bestTide": [
+   "mid",
+   "high"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   280,
+   0
+  ],
+  "bestWind": [
+   117,
+   207
+  ],
+  "kiteWind": null,
+  "level": "advanced",
+  "hazards": [
+   "currents",
+   "rips",
+   "shorebreak"
+  ],
+  "notes": "Wild, remote beach on Jandía's windward side; no lifeguards and dangerous currents.",
+  "sources": [
+   "https://planetsurfcamps.co.uk/surf-camps-canary-islands/surf-camp-fuerteventura/surfspots-fuerteventura",
+   "https://www.puresurfcamps.com/en/blog/fuerteventura-surf-guide/",
+   "https://www.fuerteventuraplayas.com/en/spot/cofete-surf-spot/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "es-punta-del-tigre",
+  "name": "Punta del Tigre (La Turbia)",
+  "aliases": [
+   "La Turbia"
+  ],
+  "lat": 28.0805,
+  "lon": -14.5018,
+  "country": "ES",
+  "zone": "es-fuerteventura",
+  "break": "reef",
+  "sports": [
+   "surf",
+   "windsurf"
+  ],
+  "facing": 296,
+  "window": [
+   210,
+   5
+  ],
+  "bestTide": [
+   "high"
+  ],
+  "dangerTide": [
+   "low"
+  ],
+  "bestSwell": [
+   250,
+   320
+  ],
+  "bestWind": [
+   71,
+   161
+  ],
+  "kiteWind": [
+   20,
+   100
+  ],
+  "level": "advanced",
+  "hazards": [
+   "reef",
+   "rocks",
+   "localism"
+  ],
+  "notes": "Isolated right-hand reef near the Jandía lighthouse road.",
+  "sources": [
+   "https://planetsurfcamps.co.uk/surf-camps-canary-islands/surf-camp-fuerteventura/surfspots-fuerteventura",
+   "https://www.puresurfcamps.com/en/blog/fuerteventura-surf-guide/",
+   "https://www.fuerteventuraplayas.com/en/spot/punta-del-tigre/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "es-matas-blancas",
+  "name": "Matas Blancas",
+  "aliases": [],
+  "lat": 28.17,
+  "lon": -14.203,
+  "country": "ES",
+  "zone": "es-fuerteventura",
+  "break": "beach",
+  "sports": [
+   "windsurf",
+   "kite"
+  ],
+  "facing": 143,
+  "window": [
+   80,
+   215
+  ],
+  "bestTide": [],
+  "dangerTide": [],
+  "bestSwell": null,
+  "bestWind": [
+   278,
+   8
+  ],
+  "kiteWind": [
+   340,
+   40
+  ],
+  "level": "all",
+  "hazards": [],
+  "notes": "Flat-water speed spot north of Costa Calma with offshore trade wind.",
+  "sources": [
+   "https://www.hellocanaryislands.com/windsurfing/fuerteventura/matas-blancas/",
+   "https://planetsurfcamps.co.uk/surf-camps-canary-islands/surf-camp-fuerteventura/surfspots-fuerteventura",
+   "https://www.surf-magazin.de/reisen/international/spanien/sovatento-northshore-und-co-die-besten-windsurf-spots-auf-fuerteventura/",
+   "https://www.fuerteventuraplayas.com/en/spot/matas-blancas-surf-spot/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "es-costa-calma",
+  "name": "Costa Calma",
+  "aliases": [],
+  "lat": 28.157,
+  "lon": -14.2245,
+  "country": "ES",
+  "zone": "es-fuerteventura",
+  "break": "beach",
+  "sports": [
+   "windsurf"
+  ],
+  "facing": 130,
+  "window": [
+   75,
+   210
+  ],
+  "bestTide": [],
+  "dangerTide": [],
+  "bestSwell": null,
+  "bestWind": [
+   265,
+   355
+  ],
+  "kiteWind": [
+   330,
+   30
+  ],
+  "level": "all",
+  "hazards": [
+   "crowds"
+  ],
+  "sources": [
+   "https://planetsurfcamps.co.uk/surf-camps-canary-islands/surf-camp-fuerteventura/surfspots-fuerteventura",
+   "https://www.surf-magazin.de/reisen/international/spanien/sovatento-northshore-und-co-die-besten-windsurf-spots-auf-fuerteventura/"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "es-sotavento",
+  "name": "Sotavento (Playa de la Barca)",
+  "aliases": [
+   "Playa de Sotavento"
+  ],
+  "lat": 28.1235,
+  "lon": -14.2471,
+  "country": "ES",
+  "zone": "es-fuerteventura",
+  "break": "beach",
+  "sports": [
+   "windsurf",
+   "kite"
+  ],
+  "facing": 128,
+  "window": [
+   65,
+   215
+  ],
+  "bestTide": [],
+  "dangerTide": [],
+  "bestSwell": null,
+  "bestWind": [
+   263,
+   353
+  ],
+  "kiteWind": [
+   330,
+   60
+  ],
+  "level": "all",
+  "hazards": [],
+  "notes": "Very windy beach and tidal lagoon; long-running windsurf World Cup venue.",
+  "sources": [
+   "https://www.hellocanaryislands.com/windsurfing/fuerteventura/windsurfing-on-playa-de-sotavento/",
+   "https://www.hellocanaryislands.com/kitesurfing/fuerteventura/kitesurfing-on-sotavento-beach/",
+   "https://planetsurfcamps.co.uk/surf-camps-canary-islands/surf-camp-fuerteventura/surfspots-fuerteventura",
+   "https://www.surf-magazin.de/reisen/international/spanien/sovatento-northshore-und-co-die-besten-windsurf-spots-auf-fuerteventura/",
+   "https://www.merian.de/europa/spanien/surfspots-auf-fuerteventura",
+   "https://www.fuerteventuraplayas.com/en/spot/playa-barca-surf-spot/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "es-risco-del-paso",
+  "name": "Risco del Paso",
+  "aliases": [],
+  "lat": 28.1095,
+  "lon": -14.2625,
+  "country": "ES",
+  "zone": "es-fuerteventura",
+  "break": "beach",
+  "sports": [
+   "windsurf",
+   "kite"
+  ],
+  "facing": 146,
+  "window": [
+   65,
+   220
+  ],
+  "bestTide": [],
+  "dangerTide": [],
+  "bestSwell": null,
+  "bestWind": [
+   281,
+   11
+  ],
+  "kiteWind": [
+   330,
+   60
+  ],
+  "level": "all",
+  "hazards": [],
+  "sources": [
+   "https://www.surf-magazin.de/reisen/international/spanien/sovatento-northshore-und-co-die-besten-windsurf-spots-auf-fuerteventura/",
+   "https://planetsurfcamps.co.uk/surf-camps-canary-islands/surf-camp-fuerteventura/surfspots-fuerteventura",
+   "https://www.fuerteventuraplayas.com/en/spot/risco-del-paso-surf-spot/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "es-morro-jable",
+  "name": "Playa del Matorral (Morro Jable)",
+  "aliases": [
+   "Jandía"
+  ],
+  "lat": 28.0539,
+  "lon": -14.3176,
+  "country": "ES",
+  "zone": "es-fuerteventura",
+  "break": "beach",
+  "sports": [
+   "surf",
+   "windsurf"
+  ],
+  "facing": 131,
+  "window": [
+   50,
+   220
+  ],
+  "bestTide": [],
+  "dangerTide": [],
+  "bestSwell": [
+   90,
+   220
+  ],
+  "bestWind": [
+   266,
+   356
+  ],
+  "kiteWind": [
+   330,
+   40
+  ],
+  "level": "all",
+  "hazards": [],
+  "sources": [
+   "https://www.merian.de/europa/spanien/surfspots-auf-fuerteventura",
+   "https://www.surf-magazin.de/reisen/international/spanien/sovatento-northshore-und-co-die-besten-windsurf-spots-auf-fuerteventura/"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "es-tarajalejo",
+  "name": "Tarajalejo",
+  "aliases": [],
+  "lat": 28.1895,
+  "lon": -14.1225,
+  "country": "ES",
+  "zone": "es-fuerteventura",
+  "break": "beach",
+  "sports": [
+   "windsurf"
+  ],
+  "facing": 161,
+  "window": [
+   95,
+   230
+  ],
+  "bestTide": [],
+  "dangerTide": [],
+  "bestSwell": null,
+  "bestWind": [
+   296,
+   26
+  ],
+  "kiteWind": [
+   330,
+   40
+  ],
+  "level": "beginner",
+  "hazards": [],
+  "sources": [
+   "https://www.merian.de/europa/spanien/surfspots-auf-fuerteventura"
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "es-el-confital",
+  "name": "El Confital",
+  "aliases": [],
+  "lat": 28.1592,
+  "lon": -15.4392,
+  "country": "ES",
+  "zone": "es-gran-canaria",
+  "break": "reef",
+  "sports": [
+   "surf"
+  ],
+  "facing": 295,
+  "window": [
+   275,
+   315
+  ],
+  "bestTide": [
+   "high"
+  ],
+  "dangerTide": [
+   "low"
+  ],
+  "bestSwell": [
+   290,
+   315
+  ],
+  "bestWind": [
+   70,
+   160
+  ],
+  "kiteWind": null,
+  "level": "advanced",
+  "hazards": [
+   "reef",
+   "rocks",
+   "localism"
+  ],
+  "notes": "Hollow right on a shallow shelf at La Isleta; works best at high tide.",
+  "sources": [
+   "https://www.hellocanaryislands.com/surfing/gran-canaria/surf-at-el-confital/",
+   "https://www.hellocanaryislands.com/bodyboarding/gran-canaria/bodyboarding-at-el-confital/",
+   "https://www.grancanaria.com/turismo/en/nautical/surf-bodyboard-windsurf-y-kitesurf/surfing-and-windsurfing-spots/",
+   "https://www.gran-canaria-info.com/en/content/sports-activities/water-sports/surfing/the-ultimate-guide-to-gran-canaria-top-surfing-spots",
+   "https://thesurfatlas.com/surfing-in-canary-islands/gran-canaria-surf/",
+   "https://villagrancanaria.com/blog/surf-gran-canaria/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "es-la-barra-canteras",
+  "name": "La Barra (Las Canteras)",
+  "aliases": [],
+  "lat": 28.1445,
+  "lon": -15.437,
+  "country": "ES",
+  "zone": "es-gran-canaria",
+  "break": "reef",
+  "sports": [
+   "surf",
+   "windsurf"
+  ],
+  "facing": 311,
+  "window": [
+   280,
+   345
+  ],
+  "bestTide": [
+   "mid",
+   "high"
+  ],
+  "dangerTide": [
+   "low"
+  ],
+  "bestSwell": [
+   280,
+   345
+  ],
+  "bestWind": [
+   86,
+   176
+  ],
+  "kiteWind": [
+   0,
+   60
+  ],
+  "level": "intermediate",
+  "hazards": [
+   "reef",
+   "crowds"
+  ],
+  "notes": "Natural reef bar in front of Las Canteras with short, playful waves.",
+  "sources": [
+   "https://www.gran-canaria-info.com/en/content/sports-activities/water-sports/surfing/the-ultimate-guide-to-gran-canaria-top-surfing-spots",
+   "https://gran-canaria-info.com/en/news/the-ultimate-guide-to-gran-canaria-s-best-windsurfing-spots"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "es-la-cicer",
+  "name": "La Cícer",
+  "aliases": [
+   "Las Canteras"
+  ],
+  "lat": 28.1328,
+  "lon": -15.4448,
+  "country": "ES",
+  "zone": "es-gran-canaria",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 329,
+  "window": [
+   290,
+   5
+  ],
+  "bestTide": [
+   "mid"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   290,
+   5
+  ],
+  "bestWind": [
+   104,
+   194
+  ],
+  "kiteWind": null,
+  "level": "beginner",
+  "hazards": [
+   "crowds"
+  ],
+  "notes": "Sandy southern end of Las Canteras; the island's main learner spot.",
+  "sources": [
+   "https://www.hellocanaryislands.com/surfing/gran-canaria/playa-de-las-canteras/",
+   "https://www.gran-canaria-info.com/en/content/sports-activities/water-sports/surfing/the-ultimate-guide-to-gran-canaria-top-surfing-spots",
+   "https://thesurfatlas.com/surfing-in-canary-islands/gran-canaria-surf/",
+   "https://villagrancanaria.com/blog/surf-gran-canaria/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "es-los-muellitos",
+  "name": "Los Muellitos",
+  "aliases": [],
+  "lat": 28.1325,
+  "lon": -15.4485,
+  "country": "ES",
+  "zone": "es-gran-canaria",
+  "break": "reef",
+  "sports": [
+   "surf"
+  ],
+  "facing": 330,
+  "window": [
+   290,
+   10
+  ],
+  "bestTide": [
+   "mid"
+  ],
+  "dangerTide": [
+   "low"
+  ],
+  "bestSwell": [
+   290,
+   10
+  ],
+  "bestWind": [
+   105,
+   195
+  ],
+  "kiteWind": null,
+  "level": "intermediate",
+  "hazards": [
+   "reef",
+   "rocks",
+   "localism"
+  ],
+  "notes": "Left by the jetty at the south end of Las Canteras.",
+  "sources": [
+   "https://www.gran-canaria-info.com/en/content/sports-activities/water-sports/surfing/the-ultimate-guide-to-gran-canaria-top-surfing-spots",
+   "https://thesurfatlas.com/surfing-in-canary-islands/gran-canaria-surf/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "es-el-lloret",
+  "name": "El Lloret",
+  "aliases": [],
+  "lat": 28.131,
+  "lon": -15.4525,
+  "country": "ES",
+  "zone": "es-gran-canaria",
+  "break": "point",
+  "sports": [
+   "surf"
+  ],
+  "facing": 337,
+  "window": [
+   290,
+   15
+  ],
+  "bestTide": [
+   "low",
+   "mid"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   290,
+   15
+  ],
+  "bestWind": [
+   112,
+   202
+  ],
+  "kiteWind": null,
+  "level": "advanced",
+  "hazards": [
+   "rocks",
+   "crowds",
+   "localism"
+  ],
+  "notes": "Long right point over rock west of the Muellitos jetty.",
+  "sources": [
+   "https://www.hellocanaryislands.com/surfing/gran-canaria/surfing-the-lloret-wave/",
+   "https://www.gran-canaria-info.com/en/content/sports-activities/water-sports/surfing/the-ultimate-guide-to-gran-canaria-top-surfing-spots",
+   "https://thesurfatlas.com/surfing-in-canary-islands/gran-canaria-surf/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "es-el-pico-de-la-laja",
+  "name": "El Pico de La Laja",
+  "aliases": [
+   "La Laja"
+  ],
+  "lat": 28.0666,
+  "lon": -15.4162,
+  "country": "ES",
+  "zone": "es-gran-canaria",
+  "break": "reef",
+  "sports": [
+   "surf"
+  ],
+  "facing": 94,
+  "window": [
+   20,
+   145
+  ],
+  "bestTide": [
+   "high"
+  ],
+  "dangerTide": [
+   "low"
+  ],
+  "bestSwell": [
+   20,
+   120
+  ],
+  "bestWind": [
+   229,
+   319
+  ],
+  "kiteWind": null,
+  "level": "advanced",
+  "hazards": [
+   "reef",
+   "rocks",
+   "localism"
+  ],
+  "notes": "Hollow left over shallow volcanic reef at the north end of La Laja beach.",
+  "sources": [
+   "https://www.hellocanaryislands.com/bodyboarding/gran-canaria/bodyboarding-at-el-pico-de-la-laja/",
+   "https://www.gran-canaria-info.com/en/content/sports-activities/water-sports/surfing/the-ultimate-guide-to-gran-canaria-top-surfing-spots"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "es-quintanilla",
+  "name": "Quintanilla",
+  "aliases": [],
+  "lat": 28.1552,
+  "lon": -15.5286,
+  "country": "ES",
+  "zone": "es-gran-canaria",
+  "break": "reef",
+  "sports": [
+   "surf"
+  ],
+  "facing": 357,
+  "window": [
+   280,
+   75
+  ],
+  "bestTide": [
+   "mid"
+  ],
+  "dangerTide": [
+   "low"
+  ],
+  "bestSwell": [
+   290,
+   30
+  ],
+  "bestWind": [
+   132,
+   222
+  ],
+  "kiteWind": null,
+  "level": "advanced",
+  "hazards": [
+   "reef",
+   "rocks"
+  ],
+  "notes": "Fast left over rock that picks up the most swell on the north coast.",
+  "sources": [
+   "https://www.gran-canaria-info.com/en/content/sports-activities/water-sports/surfing/the-ultimate-guide-to-gran-canaria-top-surfing-spots",
+   "https://www.spain.info/pl/plaza/quintanilla/"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "es-los-enanos",
+  "name": "Los Enanos",
+  "aliases": [
+   "Playa de San Andrés"
+  ],
+  "lat": 28.1469,
+  "lon": -15.552,
+  "country": "ES",
+  "zone": "es-gran-canaria",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 0,
+  "window": [
+   290,
+   65
+  ],
+  "bestTide": [
+   "low",
+   "mid"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   290,
+   40
+  ],
+  "bestWind": [
+   135,
+   225
+  ],
+  "kiteWind": null,
+  "level": "all",
+  "hazards": [
+   "crowds"
+  ],
+  "sources": [
+   "https://www.gran-canaria-info.com/en/content/sports-activities/water-sports/surfing/the-ultimate-guide-to-gran-canaria-top-surfing-spots",
+   "https://thesurfatlas.com/surfing-in-canary-islands/gran-canaria-surf/",
+   "https://gran-canaria-info.com/en/news/the-ultimate-guide-to-gran-canaria-s-best-windsurfing-spots"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "es-molokai",
+  "name": "Molokai",
+  "aliases": [],
+  "lat": 28.1525,
+  "lon": -15.5385,
+  "country": "ES",
+  "zone": "es-gran-canaria",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 344,
+  "window": [
+   285,
+   70
+  ],
+  "bestTide": [
+   "low",
+   "mid"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   290,
+   40
+  ],
+  "bestWind": [
+   119,
+   209
+  ],
+  "kiteWind": null,
+  "level": "intermediate",
+  "hazards": [
+   "crowds"
+  ],
+  "sources": [
+   "https://www.gran-canaria-info.com/en/content/sports-activities/water-sports/surfing/the-ultimate-guide-to-gran-canaria-top-surfing-spots"
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "es-boquines",
+  "name": "Boquines",
+  "aliases": [],
+  "lat": 28.1475,
+  "lon": -15.5595,
+  "country": "ES",
+  "zone": "es-gran-canaria",
+  "break": "point",
+  "sports": [
+   "surf"
+  ],
+  "facing": 1,
+  "window": [
+   290,
+   70
+  ],
+  "bestTide": [
+   "mid",
+   "high"
+  ],
+  "dangerTide": [
+   "low"
+  ],
+  "bestSwell": [
+   300,
+   60
+  ],
+  "bestWind": [
+   136,
+   226
+  ],
+  "kiteWind": null,
+  "level": "intermediate",
+  "hazards": [
+   "reef",
+   "rocks",
+   "localism"
+  ],
+  "notes": "Right point and fast left over reef beside the El Altillo pools.",
+  "sources": [
+   "https://www.gran-canaria-info.com/en/content/sports-activities/water-sports/surfing/the-ultimate-guide-to-gran-canaria-top-surfing-spots",
+   "https://thesurfatlas.com/surfing-in-canary-islands/gran-canaria-surf/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "es-el-picacho",
+  "name": "El Picacho",
+  "aliases": [],
+  "lat": 28.148,
+  "lon": -15.567,
+  "country": "ES",
+  "zone": "es-gran-canaria",
+  "break": "reef",
+  "sports": [
+   "surf"
+  ],
+  "facing": 359,
+  "window": [
+   295,
+   75
+  ],
+  "bestTide": [
+   "low",
+   "mid"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   300,
+   40
+  ],
+  "bestWind": [
+   134,
+   224
+  ],
+  "kiteWind": null,
+  "level": "advanced",
+  "hazards": [
+   "reef",
+   "rocks"
+  ],
+  "sources": [
+   "https://www.gran-canaria-info.com/en/content/sports-activities/water-sports/surfing/the-ultimate-guide-to-gran-canaria-top-surfing-spots",
+   "https://gran-canaria-info.com/en/news/the-ultimate-guide-to-gran-canaria-s-best-windsurfing-spots"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "es-el-roque-gc",
+  "name": "La Derecha de El Roque",
+  "aliases": [],
+  "lat": 28.1452,
+  "lon": -15.5745,
+  "country": "ES",
+  "zone": "es-gran-canaria",
+  "break": "point",
+  "sports": [
+   "surf"
+  ],
+  "facing": 358,
+  "window": [
+   295,
+   75
+  ],
+  "bestTide": [
+   "low",
+   "mid"
+  ],
+  "dangerTide": [
+   "high"
+  ],
+  "bestSwell": [
+   300,
+   40
+  ],
+  "bestWind": [
+   133,
+   223
+  ],
+  "kiteWind": null,
+  "level": "advanced",
+  "hazards": [
+   "rocks",
+   "reef"
+  ],
+  "sources": [
+   "https://www.gran-canaria-info.com/en/content/sports-activities/water-sports/surfing/the-ultimate-guide-to-gran-canaria-top-surfing-spots"
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "es-soledad",
+  "name": "Soledad (El Paso)",
+  "aliases": [
+   "El Paso"
+  ],
+  "lat": 28.1478,
+  "lon": -15.585,
+  "country": "ES",
+  "zone": "es-gran-canaria",
+  "break": "reef",
+  "sports": [
+   "surf"
+  ],
+  "facing": 10,
+  "window": [
+   300,
+   75
+  ],
+  "bestTide": [
+   "mid"
+  ],
+  "dangerTide": [
+   "low"
+  ],
+  "bestSwell": [
+   300,
+   40
+  ],
+  "bestWind": [
+   145,
+   235
+  ],
+  "kiteWind": null,
+  "level": "advanced",
+  "hazards": [
+   "rocks",
+   "rips"
+  ],
+  "notes": "Fickle, powerful wave in Moya that only breaks a few times per season.",
+  "sources": [
+   "https://www.gran-canaria-info.com/en/content/sports-activities/water-sports/surfing/the-ultimate-guide-to-gran-canaria-top-surfing-spots",
+   "https://thesurfatlas.com/surfing-in-canary-islands/gran-canaria-surf/",
+   "https://grancanaria.com/blog/en/article/gran-canarias-secret-wave"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "es-el-circo",
+  "name": "El Circo (San Felipe)",
+  "aliases": [
+   "San Felipe"
+  ],
+  "lat": 28.146,
+  "lon": -15.5965,
+  "country": "ES",
+  "zone": "es-gran-canaria",
+  "break": "reef",
+  "sports": [
+   "surf"
+  ],
+  "facing": 8,
+  "window": [
+   310,
+   75
+  ],
+  "bestTide": [
+   "mid"
+  ],
+  "dangerTide": [
+   "low"
+  ],
+  "bestSwell": [
+   310,
+   40
+  ],
+  "bestWind": [
+   143,
+   233
+  ],
+  "kiteWind": null,
+  "level": "advanced",
+  "hazards": [
+   "reef",
+   "rocks"
+  ],
+  "notes": "Short, hollow left and right at San Felipe.",
+  "sources": [
+   "https://www.gran-canaria-info.com/en/content/sports-activities/water-sports/surfing/the-ultimate-guide-to-gran-canaria-top-surfing-spots",
+   "https://villagrancanaria.com/blog/surf-gran-canaria/"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "es-vagabundos",
+  "name": "Vagabundos",
+  "aliases": [],
+  "lat": 28.1487,
+  "lon": -15.6052,
+  "country": "ES",
+  "zone": "es-gran-canaria",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 16,
+  "window": [
+   315,
+   75
+  ],
+  "bestTide": [
+   "mid"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   315,
+   40
+  ],
+  "bestWind": [
+   151,
+   241
+  ],
+  "kiteWind": null,
+  "level": "all",
+  "hazards": [
+   "rocks",
+   "localism"
+  ],
+  "sources": [
+   "https://www.gran-canaria-info.com/en/content/sports-activities/water-sports/surfing/the-ultimate-guide-to-gran-canaria-top-surfing-spots",
+   "https://thesurfatlas.com/surfing-in-canary-islands/gran-canaria-surf/"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "es-el-fronton",
+  "name": "El Frontón",
+  "aliases": [],
+  "lat": 28.1666,
+  "lon": -15.6465,
+  "country": "ES",
+  "zone": "es-gran-canaria",
+  "break": "reef",
+  "sports": [
+   "surf"
+  ],
+  "facing": 351,
+  "window": [
+   280,
+   60
+  ],
+  "bestTide": [
+   "mid",
+   "high"
+  ],
+  "dangerTide": [
+   "low"
+  ],
+  "bestSwell": [
+   300,
+   40
+  ],
+  "bestWind": [
+   126,
+   216
+  ],
+  "kiteWind": null,
+  "level": "advanced",
+  "hazards": [
+   "reef",
+   "rocks",
+   "localism"
+  ],
+  "notes": "Heavy bodyboard slab over shallow reef near Gáldar; world-tour bodyboard venue.",
+  "sources": [
+   "https://www.hellocanaryislands.com/bodyboarding/gran-canaria/bodyboarding-at-el-fronton/",
+   "https://www.grancanaria.com/turismo/en/nautical/surf-bodyboard-windsurf-y-kitesurf/surfing-and-windsurfing-spots/",
+   "https://www.gran-canaria-info.com/en/content/sports-activities/water-sports/surfing/the-ultimate-guide-to-gran-canaria-top-surfing-spots",
+   "https://villagrancanaria.com/blog/surf-gran-canaria/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "es-la-guancha-galdar",
+  "name": "La Guancha (Gáldar)",
+  "aliases": [],
+  "lat": 28.1662,
+  "lon": -15.6551,
+  "country": "ES",
+  "zone": "es-gran-canaria",
+  "break": "reef",
+  "sports": [
+   "surf"
+  ],
+  "facing": 352,
+  "window": [
+   280,
+   70
+  ],
+  "bestTide": [
+   "mid"
+  ],
+  "dangerTide": [
+   "low"
+  ],
+  "bestSwell": [
+   300,
+   40
+  ],
+  "bestWind": [
+   127,
+   217
+  ],
+  "kiteWind": null,
+  "level": "advanced",
+  "hazards": [
+   "reef",
+   "rocks"
+  ],
+  "sources": [
+   "https://www.gran-canaria-info.com/en/content/sports-activities/water-sports/surfing/the-ultimate-guide-to-gran-canaria-top-surfing-spots"
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "es-el-agujero",
+  "name": "El Agujero",
+  "aliases": [],
+  "lat": 28.1625,
+  "lon": -15.6612,
+  "country": "ES",
+  "zone": "es-gran-canaria",
+  "break": "reef",
+  "sports": [
+   "surf"
+  ],
+  "facing": 343,
+  "window": [
+   290,
+   65
+  ],
+  "bestTide": [
+   "low",
+   "mid"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   300,
+   40
+  ],
+  "bestWind": [
+   118,
+   208
+  ],
+  "kiteWind": null,
+  "level": "advanced",
+  "hazards": [
+   "reef",
+   "rocks"
+  ],
+  "sources": [
+   "https://www.gran-canaria-info.com/en/content/sports-activities/water-sports/surfing/the-ultimate-guide-to-gran-canaria-top-surfing-spots"
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "es-jinamar",
+  "name": "Jinámar",
+  "aliases": [
+   "Bocabarranco (Telde)",
+   "Media Luna"
+  ],
+  "lat": 28.0316,
+  "lon": -15.3923,
+  "country": "ES",
+  "zone": "es-gran-canaria",
+  "break": "beach",
+  "sports": [
+   "kite",
+   "windsurf"
+  ],
+  "facing": 44,
+  "window": [
+   0,
+   115
+  ],
+  "bestTide": [
+   "mid"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   0,
+   110
+  ],
+  "bestWind": [
+   179,
+   269
+  ],
+  "kiteWind": [
+   310,
+   30
+  ],
+  "level": "advanced",
+  "hazards": [
+   "currents",
+   "shorebreak"
+  ],
+  "notes": "Pebble-and-sand kite spot used when the wind is too northerly for Vargas.",
+  "sources": [
+   "https://www.hellocanaryislands.com/kitesurfing/gran-canaria/kitesurfing-at-jinamar-beach/",
+   "https://gran-canaria-info.com/en/news/the-ultimate-guide-to-gran-canaria-s-best-windsurfing-spots"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "es-playa-del-hombre",
+  "name": "Playa del Hombre",
+  "aliases": [],
+  "lat": 27.9967,
+  "lon": -15.3722,
+  "country": "ES",
+  "zone": "es-gran-canaria",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 62,
+  "window": [
+   355,
+   160
+  ],
+  "bestTide": [
+   "mid"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   10,
+   120
+  ],
+  "bestWind": [
+   197,
+   287
+  ],
+  "kiteWind": null,
+  "level": "beginner",
+  "hazards": [
+   "rocks",
+   "crowds"
+  ],
+  "sources": [
+   "https://www.gran-canaria-info.com/en/content/sports-activities/water-sports/surfing/the-ultimate-guide-to-gran-canaria-top-surfing-spots",
+   "https://thesurfatlas.com/surfing-in-canary-islands/gran-canaria-surf/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "es-ojos-de-garza",
+  "name": "Ojos de Garza",
+  "aliases": [],
+  "lat": 27.951,
+  "lon": -15.379,
+  "country": "ES",
+  "zone": "es-gran-canaria",
+  "break": "beach",
+  "sports": [
+   "windsurf",
+   "kite"
+  ],
+  "facing": 72,
+  "window": [
+   20,
+   125
+  ],
+  "bestTide": [],
+  "dangerTide": [],
+  "bestSwell": null,
+  "bestWind": [
+   207,
+   297
+  ],
+  "kiteWind": [
+   0,
+   50
+  ],
+  "level": "intermediate",
+  "hazards": [
+   "rocks"
+  ],
+  "sources": [
+   "https://gran-canaria-info.com/en/news/the-ultimate-guide-to-gran-canaria-s-best-windsurfing-spots",
+   "https://www.grancanaria.com/turismo/en/nautical/surf-bodyboard-windsurf-y-kitesurf/surfing-and-windsurfing-spots/"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "es-el-burrero",
+  "name": "El Burrero",
+  "aliases": [],
+  "lat": 27.9079,
+  "lon": -15.3837,
+  "country": "ES",
+  "zone": "es-gran-canaria",
+  "break": "beach",
+  "sports": [
+   "windsurf"
+  ],
+  "facing": 102,
+  "window": [
+   50,
+   175
+  ],
+  "bestTide": [],
+  "dangerTide": [],
+  "bestSwell": null,
+  "bestWind": [
+   237,
+   327
+  ],
+  "kiteWind": [
+   20,
+   60
+  ],
+  "level": "intermediate",
+  "hazards": [
+   "rocks"
+  ],
+  "sources": [
+   "https://gran-canaria-info.com/en/news/the-ultimate-guide-to-gran-canaria-s-best-windsurfing-spots"
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "es-vargas",
+  "name": "Vargas",
+  "aliases": [],
+  "lat": 27.8905,
+  "lon": -15.392,
+  "country": "ES",
+  "zone": "es-gran-canaria",
+  "break": "beach",
+  "sports": [
+   "windsurf",
+   "kite"
+  ],
+  "facing": 104,
+  "window": [
+   40,
+   150
+  ],
+  "bestTide": [
+   "low"
+  ],
+  "dangerTide": [],
+  "bestSwell": null,
+  "bestWind": [
+   239,
+   329
+  ],
+  "kiteWind": [
+   0,
+   60
+  ],
+  "level": "advanced",
+  "hazards": [
+   "rocks"
+  ],
+  "notes": "Stony beach with strong trade wind and waves; kite zone at the south end.",
+  "sources": [
+   "https://www.hellocanaryislands.com/windsurfing/gran-canaria/windsurf-at-playa-de-vargas/",
+   "https://www.hellocanaryislands.com/kitesurfing/gran-canaria/kitesurfing-at-vargas-beach/",
+   "https://www.grancanaria.com/turismo/en/nautical/surf-bodyboard-windsurf-y-kitesurf/surfing-and-windsurfing-spots/",
+   "https://gran-canaria-info.com/en/news/the-ultimate-guide-to-gran-canaria-s-best-windsurfing-spots",
+   "https://www.surf-magazin.de/en/spots-and-areas/international/spain/pozo-vargas-and-co-the-best-windsurfing-spots-on-gran-canaria/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "es-salinas-de-arinaga",
+  "name": "Salinas de Arinaga",
+  "aliases": [],
+  "lat": 27.8469,
+  "lon": -15.4056,
+  "country": "ES",
+  "zone": "es-gran-canaria",
+  "break": "beach",
+  "sports": [
+   "windsurf",
+   "kite"
+  ],
+  "facing": 166,
+  "window": [
+   125,
+   200
+  ],
+  "bestTide": [],
+  "dangerTide": [],
+  "bestSwell": null,
+  "bestWind": [
+   301,
+   31
+  ],
+  "kiteWind": [
+   20,
+   80
+  ],
+  "level": "beginner",
+  "hazards": [],
+  "sources": [
+   "https://gran-canaria-info.com/en/news/the-ultimate-guide-to-gran-canaria-s-best-windsurfing-spots"
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "es-pozo-izquierdo",
+  "name": "Pozo Izquierdo",
+  "aliases": [],
+  "lat": 27.8238,
+  "lon": -15.4205,
+  "country": "ES",
+  "zone": "es-gran-canaria",
+  "break": "point",
+  "sports": [
+   "windsurf",
+   "surf"
+  ],
+  "facing": 99,
+  "window": [
+   50,
+   180
+  ],
+  "bestTide": [
+   "mid"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   50,
+   140
+  ],
+  "bestWind": [
+   234,
+   324
+  ],
+  "kiteWind": [
+   0,
+   60
+  ],
+  "level": "advanced",
+  "hazards": [
+   "rocks",
+   "crowds"
+  ],
+  "notes": "World-class wave-sailing spot with very strong summer trade wind; World Cup venue.",
+  "sources": [
+   "https://www.hellocanaryislands.com/windsurfing/gran-canaria/windsurfing-at-pozo-izquierdo/",
+   "https://hellocanaryislands.com/events/gran-canaria/gran-canaria-pwa-windsurf-world-cup",
+   "https://www.pwaworldtour.com/events/detail/2025-gran-canaria-gloria-windsurf-world-cup/",
+   "https://www.grancanaria.com/turismo/en/nautical/surf-bodyboard-windsurf-y-kitesurf/surfing-and-windsurfing-spots/",
+   "https://gran-canaria-info.com/en/news/the-ultimate-guide-to-gran-canaria-s-best-windsurfing-spots",
+   "https://www.gran-canaria-info.com/en/content/sports-activities/water-sports/surfing/the-ultimate-guide-to-gran-canaria-top-surfing-spots"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "es-mosca-point",
+  "name": "Mosca Point",
+  "aliases": [],
+  "lat": 27.8205,
+  "lon": -15.4195,
+  "country": "ES",
+  "zone": "es-gran-canaria",
+  "break": "point",
+  "sports": [
+   "surf",
+   "windsurf"
+  ],
+  "facing": 102,
+  "window": [
+   40,
+   195
+  ],
+  "bestTide": [
+   "mid"
+  ],
+  "dangerTide": [
+   "low"
+  ],
+  "bestSwell": [
+   40,
+   140
+  ],
+  "bestWind": [
+   237,
+   327
+  ],
+  "kiteWind": [
+   20,
+   70
+  ],
+  "level": "advanced",
+  "hazards": [
+   "rocks",
+   "reef"
+  ],
+  "notes": "Long left point next to Pozo that needs a big swell.",
+  "sources": [
+   "https://www.grancanaria.com/turismo/en/nautical/surf-bodyboard-windsurf-y-kitesurf/surfing-and-windsurfing-spots/",
+   "https://www.gran-canaria-info.com/en/content/sports-activities/water-sports/surfing/the-ultimate-guide-to-gran-canaria-top-surfing-spots",
+   "https://gran-canaria-info.com/en/news/the-ultimate-guide-to-gran-canaria-s-best-windsurfing-spots"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "es-salinas-de-pozo",
+  "name": "Salinas de Pozo",
+  "aliases": [
+   "Salinas del Tenefé"
+  ],
+  "lat": 27.8148,
+  "lon": -15.4195,
+  "country": "ES",
+  "zone": "es-gran-canaria",
+  "break": "reef",
+  "sports": [
+   "windsurf",
+   "kite"
+  ],
+  "facing": 110,
+  "window": [
+   40,
+   210
+  ],
+  "bestTide": [
+   "high"
+  ],
+  "dangerTide": [
+   "low"
+  ],
+  "bestSwell": null,
+  "bestWind": [
+   245,
+   335
+  ],
+  "kiteWind": [
+   20,
+   70
+  ],
+  "level": "advanced",
+  "hazards": [
+   "rocks"
+  ],
+  "sources": [
+   "https://www.hellocanaryislands.com/windsurfing/gran-canaria/windsurfing-at-salinas-de-pozo/",
+   "https://www.hellocanaryislands.com/kitesurfing/gran-canaria/kitesurfing-at-salinas-de-pozo/",
+   "https://gran-canaria-info.com/en/news/the-ultimate-guide-to-gran-canaria-s-best-windsurfing-spots"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "es-juan-grande",
+  "name": "Juan Grande",
+  "aliases": [
+   "Ketchup"
+  ],
+  "lat": 27.8026,
+  "lon": -15.4299,
+  "country": "ES",
+  "zone": "es-gran-canaria",
+  "break": "beach",
+  "sports": [
+   "surf",
+   "windsurf"
+  ],
+  "facing": 138,
+  "window": [
+   40,
+   225
+  ],
+  "bestTide": [
+   "low"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   60,
+   200
+  ],
+  "bestWind": [
+   273,
+   3
+  ],
+  "kiteWind": [
+   60,
+   200
+  ],
+  "level": "intermediate",
+  "hazards": [
+   "rocks"
+  ],
+  "sources": [
+   "https://www.gran-canaria-info.com/en/content/sports-activities/water-sports/surfing/the-ultimate-guide-to-gran-canaria-top-surfing-spots",
+   "https://gran-canaria-info.com/en/news/the-ultimate-guide-to-gran-canaria-s-best-windsurfing-spots"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "es-castillo-del-romeral",
+  "name": "Castillo del Romeral",
+  "aliases": [],
+  "lat": 27.7965,
+  "lon": -15.461,
+  "country": "ES",
+  "zone": "es-gran-canaria",
+  "break": "beach",
+  "sports": [
+   "windsurf",
+   "kite"
+  ],
+  "facing": 161,
+  "window": [
+   80,
+   235
+  ],
+  "bestTide": [],
+  "dangerTide": [],
+  "bestSwell": null,
+  "bestWind": [
+   296,
+   26
+  ],
+  "kiteWind": [
+   150,
+   230
+  ],
+  "level": "intermediate",
+  "hazards": [],
+  "sources": [
+   "https://gran-canaria-info.com/en/news/the-ultimate-guide-to-gran-canaria-s-best-windsurfing-spots"
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "es-bahia-feliz",
+  "name": "Bahía Feliz",
+  "aliases": [],
+  "lat": 27.781,
+  "lon": -15.5175,
+  "country": "ES",
+  "zone": "es-gran-canaria",
+  "break": "beach",
+  "sports": [
+   "windsurf"
+  ],
+  "facing": 156,
+  "window": [
+   85,
+   225
+  ],
+  "bestTide": [],
+  "dangerTide": [],
+  "bestSwell": null,
+  "bestWind": [
+   291,
+   21
+  ],
+  "kiteWind": [
+   40,
+   120
+  ],
+  "level": "beginner",
+  "hazards": [],
+  "sources": [
+   "https://www.grancanaria.com/turismo/en/nautical/surf-bodyboard-windsurf-y-kitesurf/surfing-and-windsurfing-spots/",
+   "https://gran-canaria-info.com/en/news/the-ultimate-guide-to-gran-canaria-s-best-windsurfing-spots",
+   "https://www.sportif.travel/destinations/68/Canary_Islands/Gran_Canaria_-_Bahia_Feliz"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "es-playa-del-aguila-4",
+  "name": "Playa del Águila",
+  "aliases": [],
+  "lat": 27.7755,
+  "lon": -15.528,
+  "country": "ES",
+  "zone": "es-gran-canaria",
+  "break": "beach",
+  "sports": [
+   "windsurf"
+  ],
+  "facing": 144,
+  "window": [
+   75,
+   225
+  ],
+  "bestTide": [],
+  "dangerTide": [],
+  "bestSwell": null,
+  "bestWind": [
+   279,
+   9
+  ],
+  "kiteWind": [
+   40,
+   120
+  ],
+  "level": "intermediate",
+  "hazards": [],
+  "sources": [
+   "https://www.grancanaria.com/turismo/en/nautical/surf-bodyboard-windsurf-y-kitesurf/surfing-and-windsurfing-spots/",
+   "https://gran-canaria-info.com/en/news/the-ultimate-guide-to-gran-canaria-s-best-windsurfing-spots"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "es-playa-del-ingles-2",
+  "name": "Playa del Inglés",
+  "aliases": [],
+  "lat": 27.752,
+  "lon": -15.566,
+  "country": "ES",
+  "zone": "es-gran-canaria",
+  "break": "beach",
+  "sports": [
+   "surf",
+   "windsurf"
+  ],
+  "facing": 116,
+  "window": [
+   70,
+   190
+  ],
+  "bestTide": [],
+  "dangerTide": [],
+  "bestSwell": [
+   70,
+   190
+  ],
+  "bestWind": [
+   251,
+   341
+  ],
+  "kiteWind": [
+   200,
+   290
+  ],
+  "level": "beginner",
+  "hazards": [
+   "crowds"
+  ],
+  "sources": [
+   "https://www.grancanaria.com/turismo/en/nautical/surf-bodyboard-windsurf-y-kitesurf/surfing-and-windsurfing-spots/",
+   "https://www.gran-canaria-info.com/en/content/sports-activities/water-sports/surfing/the-ultimate-guide-to-gran-canaria-top-surfing-spots",
+   "https://gran-canaria-info.com/en/news/the-ultimate-guide-to-gran-canaria-s-best-windsurfing-spots",
+   "https://thesurfatlas.com/surfing-in-canary-islands/gran-canaria-surf/",
+   "https://villagrancanaria.com/blog/surf-gran-canaria/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "es-la-punta-maspalomas",
+  "name": "La Punta (Maspalomas)",
+  "aliases": [],
+  "lat": 27.7369,
+  "lon": -15.5696,
+  "country": "ES",
+  "zone": "es-gran-canaria",
+  "break": "beach",
+  "sports": [
+   "surf",
+   "windsurf"
+  ],
+  "facing": 149,
+  "window": [
+   65,
+   260
+  ],
+  "bestTide": [],
+  "dangerTide": [],
+  "bestSwell": [
+   100,
+   240
+  ],
+  "bestWind": [
+   284,
+   14
+  ],
+  "kiteWind": [
+   220,
+   300
+  ],
+  "level": "all",
+  "hazards": [
+   "crowds"
+  ],
+  "sources": [
+   "https://www.grancanaria.com/turismo/en/nautical/surf-bodyboard-windsurf-y-kitesurf/surfing-and-windsurfing-spots/",
+   "https://www.gran-canaria-info.com/en/content/sports-activities/water-sports/surfing/the-ultimate-guide-to-gran-canaria-top-surfing-spots",
+   "https://gran-canaria-info.com/en/news/the-ultimate-guide-to-gran-canaria-s-best-windsurfing-spots"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "es-faro-de-maspalomas",
+  "name": "Faro de Maspalomas",
+  "aliases": [],
+  "lat": 27.734,
+  "lon": -15.6,
+  "country": "ES",
+  "zone": "es-gran-canaria",
+  "break": "point",
+  "sports": [
+   "surf",
+   "windsurf"
+  ],
+  "facing": 187,
+  "window": [
+   85,
+   280
+  ],
+  "bestTide": [
+   "mid"
+  ],
+  "dangerTide": [
+   "low"
+  ],
+  "bestSwell": [
+   170,
+   260
+  ],
+  "bestWind": [
+   322,
+   52
+  ],
+  "kiteWind": [
+   260,
+   330
+  ],
+  "level": "intermediate",
+  "hazards": [
+   "reef",
+   "rocks",
+   "currents"
+  ],
+  "notes": "Right point over reef in front of the lighthouse, best with south or west swell.",
+  "sources": [
+   "https://www.grancanaria.com/turismo/en/nautical/surf-bodyboard-windsurf-y-kitesurf/surfing-and-windsurfing-spots/",
+   "https://www.gran-canaria-info.com/en/content/sports-activities/water-sports/surfing/the-ultimate-guide-to-gran-canaria-top-surfing-spots",
+   "https://gran-canaria-info.com/en/news/the-ultimate-guide-to-gran-canaria-s-best-windsurfing-spots"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "es-arguineguin",
+  "name": "Arguineguín",
+  "aliases": [],
+  "lat": 27.7531,
+  "lon": -15.6775,
+  "country": "ES",
+  "zone": "es-gran-canaria",
+  "break": "point",
+  "sports": [
+   "surf"
+  ],
+  "facing": 213,
+  "window": [
+   145,
+   300
+  ],
+  "bestTide": [
+   "mid"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   180,
+   270
+  ],
+  "bestWind": [
+   348,
+   78
+  ],
+  "kiteWind": null,
+  "level": "intermediate",
+  "hazards": [
+   "rocks",
+   "crowds"
+  ],
+  "notes": "Long right point on the south coast that needs a big south or west swell.",
+  "sources": [
+   "https://www.grancanaria.com/turismo/en/nautical/surf-bodyboard-windsurf-y-kitesurf/surfing-and-windsurfing-spots/",
+   "https://www.gran-canaria-info.com/en/content/sports-activities/water-sports/surfing/the-ultimate-guide-to-gran-canaria-top-surfing-spots",
+   "https://thesurfatlas.com/surfing-in-canary-islands/gran-canaria-surf/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "es-tauro",
+  "name": "Tauro",
+  "aliases": [],
+  "lat": 27.795,
+  "lon": -15.729,
+  "country": "ES",
+  "zone": "es-gran-canaria",
+  "break": "reef",
+  "sports": [
+   "surf"
+  ],
+  "facing": 229,
+  "window": [
+   140,
+   305
+  ],
+  "bestTide": [
+   "mid"
+  ],
+  "dangerTide": [
+   "low"
+  ],
+  "bestSwell": [
+   180,
+   280
+  ],
+  "bestWind": [
+   4,
+   94
+  ],
+  "kiteWind": null,
+  "level": "advanced",
+  "hazards": [
+   "reef"
+  ],
+  "sources": [
+   "https://www.gran-canaria-info.com/en/content/sports-activities/water-sports/surfing/the-ultimate-guide-to-gran-canaria-top-surfing-spots"
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "es-el-puertillo",
+  "name": "El Puertillo (Arucas)",
+  "aliases": [],
+  "lat": 28.1505,
+  "lon": -15.5195,
+  "country": "ES",
+  "zone": "es-gran-canaria",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 24,
+  "window": [
+   310,
+   70
+  ],
+  "bestTide": [
+   "mid"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   310,
+   40
+  ],
+  "bestWind": [
+   159,
+   249
+  ],
+  "kiteWind": null,
+  "level": "intermediate",
+  "hazards": [
+   "rocks",
+   "currents"
+  ],
+  "sources": [
+   "https://villagrancanaria.com/blog/surf-gran-canaria/",
+   "https://www.gran-canaria-info.com/en/content/sports-activities/water-sports/surfing/the-ultimate-guide-to-gran-canaria-top-surfing-spots"
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "es-playa-de-tarajalillo",
+  "name": "Playa de Tarajalillo",
+  "aliases": [],
+  "lat": 27.7815,
+  "lon": -15.505,
+  "country": "ES",
+  "zone": "es-gran-canaria",
+  "break": "beach",
+  "sports": [
+   "windsurf"
+  ],
+  "facing": 151,
+  "window": [
+   75,
+   230
+  ],
+  "bestTide": [],
+  "dangerTide": [],
+  "bestSwell": null,
+  "bestWind": [
+   286,
+   16
+  ],
+  "kiteWind": [
+   30,
+   110
+  ],
+  "level": "intermediate",
+  "hazards": [],
+  "sources": [
+   "https://www.grancanaria.com/turismo/en/nautical/surf-bodyboard-windsurf-y-kitesurf/surfing-and-windsurfing-spots/"
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "es-san-agustin-gc",
+  "name": "San Agustín",
+  "aliases": [],
+  "lat": 27.7678,
+  "lon": -15.5407,
+  "country": "ES",
+  "zone": "es-gran-canaria",
+  "break": "beach",
+  "sports": [
+   "windsurf"
+  ],
+  "facing": 156,
+  "window": [
+   75,
+   220
+  ],
+  "bestTide": [],
+  "dangerTide": [],
+  "bestSwell": null,
+  "bestWind": [
+   291,
+   21
+  ],
+  "kiteWind": [
+   30,
+   110
+  ],
+  "level": "intermediate",
+  "hazards": [],
+  "sources": [
+   "https://www.grancanaria.com/turismo/en/nautical/surf-bodyboard-windsurf-y-kitesurf/surfing-and-windsurfing-spots/"
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "es-anfi-del-mar",
+  "name": "Anfi del Mar",
+  "aliases": [],
+  "lat": 27.7712,
+  "lon": -15.6959,
+  "country": "ES",
+  "zone": "es-gran-canaria",
+  "break": "beach",
+  "sports": [
+   "windsurf"
+  ],
+  "facing": 207,
+  "window": [
+   140,
+   305
+  ],
+  "bestTide": [],
+  "dangerTide": [],
+  "bestSwell": null,
+  "bestWind": [
+   342,
+   72
+  ],
+  "kiteWind": [
+   0,
+   80
+  ],
+  "level": "beginner",
+  "hazards": [],
+  "sources": [
+   "https://www.grancanaria.com/turismo/en/nautical/surf-bodyboard-windsurf-y-kitesurf/surfing-and-windsurfing-spots/"
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "es-puerto-rico-gc",
+  "name": "Puerto Rico (Gran Canaria)",
+  "aliases": [],
+  "lat": 27.7835,
+  "lon": -15.7135,
+  "country": "ES",
+  "zone": "es-gran-canaria",
+  "break": "beach",
+  "sports": [
+   "windsurf"
+  ],
+  "facing": 214,
+  "window": [
+   135,
+   305
+  ],
+  "bestTide": [],
+  "dangerTide": [],
+  "bestSwell": null,
+  "bestWind": [
+   349,
+   79
+  ],
+  "kiteWind": [
+   0,
+   80
+  ],
+  "level": "beginner",
+  "hazards": [],
+  "sources": [
+   "https://www.grancanaria.com/turismo/en/nautical/surf-bodyboard-windsurf-y-kitesurf/surfing-and-windsurfing-spots/"
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "es-puerto-de-las-nieves",
+  "name": "Puerto de las Nieves",
+  "aliases": [],
+  "lat": 28.102,
+  "lon": -15.7144,
+  "country": "ES",
+  "zone": "es-gran-canaria",
+  "break": "beach",
+  "sports": [
+   "windsurf"
+  ],
+  "facing": 278,
+  "window": [
+   230,
+   0
+  ],
+  "bestTide": [],
+  "dangerTide": [],
+  "bestSwell": null,
+  "bestWind": [
+   53,
+   143
+  ],
+  "kiteWind": [
+   20,
+   80
+  ],
+  "level": "advanced",
+  "hazards": [
+   "rocks",
+   "shorebreak"
+  ],
+  "sources": [
+   "https://gran-canaria-info.com/en/news/the-ultimate-guide-to-gran-canaria-s-best-windsurfing-spots"
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "es-la-laja-playa",
+  "name": "La Laja (beach)",
+  "aliases": [],
+  "lat": 28.0575,
+  "lon": -15.416,
+  "country": "ES",
+  "zone": "es-gran-canaria",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 65,
+  "window": [
+   10,
+   135
+  ],
+  "bestTide": [
+   "low"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   20,
+   120
+  ],
+  "bestWind": [
+   200,
+   290
+  ],
+  "kiteWind": null,
+  "level": "intermediate",
+  "hazards": [],
+  "sources": [
+   "https://www.gran-canaria-info.com/en/content/sports-activities/water-sports/surfing/the-ultimate-guide-to-gran-canaria-top-surfing-spots"
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "es-almaciga",
+  "name": "Almáciga",
+  "aliases": [
+   "La Derecha de Almáciga"
+  ],
+  "lat": 28.5735,
+  "lon": -16.1925,
+  "country": "ES",
+  "zone": "es-tenerife",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 344,
+  "window": [
+   275,
+   55
+  ],
+  "bestTide": [
+   "mid",
+   "high"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   290,
+   55
+  ],
+  "bestWind": [
+   119,
+   209
+  ],
+  "kiteWind": null,
+  "level": "all",
+  "hazards": [
+   "rips",
+   "crowds"
+  ],
+  "notes": "Sand-and-cobble beach in Anaga with lefts and rights; gets rippy when big.",
+  "sources": [
+   "https://www.webtenerife.co.uk/what-to-do/sports/water/surfing-bodyboarding/",
+   "https://thesurfatlas.com/surfing-in-canary-islands/tenerife-surf/",
+   "https://www.puresurfcamps.com/en/blog/surfing-in-tenerife/",
+   "https://www.tourspain.es/en/b2b/tenerife-european-surf-paradise/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "es-benijo",
+  "name": "Benijo",
+  "aliases": [],
+  "lat": 28.5772,
+  "lon": -16.186,
+  "country": "ES",
+  "zone": "es-tenerife",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 337,
+  "window": [
+   275,
+   55
+  ],
+  "bestTide": [
+   "mid",
+   "high"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   290,
+   55
+  ],
+  "bestWind": [
+   112,
+   202
+  ],
+  "kiteWind": null,
+  "level": "intermediate",
+  "hazards": [
+   "rips",
+   "rocks"
+  ],
+  "sources": [
+   "https://www.webtenerife.co.uk/what-to-do/sports/water/surfing-bodyboarding/",
+   "https://thesurfatlas.com/surfing-in-canary-islands/tenerife-surf/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "es-roque-de-las-bodegas",
+  "name": "Roque de las Bodegas",
+  "aliases": [
+   "Taganana"
+  ],
+  "lat": 28.5717,
+  "lon": -16.2052,
+  "country": "ES",
+  "zone": "es-tenerife",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 346,
+  "window": [
+   280,
+   60
+  ],
+  "bestTide": [
+   "mid",
+   "high"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   290,
+   60
+  ],
+  "bestWind": [
+   121,
+   211
+  ],
+  "kiteWind": null,
+  "level": "intermediate",
+  "hazards": [
+   "rips"
+  ],
+  "sources": [
+   "https://www.webtenerife.co.uk/what-to-do/sports/water/surfing-bodyboarding/",
+   "https://thesurfatlas.com/surfing-in-canary-islands/tenerife-surf/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "es-igueste-de-san-andres",
+  "name": "Igueste de San Andrés",
+  "aliases": [],
+  "lat": 28.5215,
+  "lon": -16.1525,
+  "country": "ES",
+  "zone": "es-tenerife",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 172,
+  "window": [
+   20,
+   230
+  ],
+  "bestTide": [
+   "mid",
+   "high"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   25,
+   75
+  ],
+  "bestWind": [
+   307,
+   37
+  ],
+  "kiteWind": null,
+  "level": "advanced",
+  "hazards": [
+   "rocks"
+  ],
+  "notes": "Left that only breaks with north-east swell wrapping into the Anaga bay.",
+  "sources": [
+   "https://www.hellocanaryislands.com/surfing/tenerife/surfing-at-igueste/",
+   "https://www.webtenerife.co.uk/what-to-do/sports/water/surfing-bodyboarding/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "es-punta-del-hidalgo",
+  "name": "El Roquete (Punta del Hidalgo)",
+  "aliases": [
+   "Punta del Hidalgo"
+  ],
+  "lat": 28.5755,
+  "lon": -16.3305,
+  "country": "ES",
+  "zone": "es-tenerife",
+  "break": "reef",
+  "sports": [
+   "surf"
+  ],
+  "facing": 329,
+  "window": [
+   240,
+   75
+  ],
+  "bestTide": [
+   "low",
+   "mid"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   280,
+   40
+  ],
+  "bestWind": [
+   104,
+   194
+  ],
+  "kiteWind": null,
+  "level": "advanced",
+  "hazards": [
+   "rocks",
+   "currents"
+  ],
+  "notes": "Powerful left over boulders at the point of Punta del Hidalgo.",
+  "sources": [
+   "https://www.webtenerife.co.uk/what-to-do/sports/water/surfing-bodyboarding/",
+   "https://www.puresurfcamps.com/en/blog/surfing-in-tenerife/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "es-el-arenal-bajamar",
+  "name": "El Arenal (Bajamar)",
+  "aliases": [
+   "El Callado"
+  ],
+  "lat": 28.5581,
+  "lon": -16.3364,
+  "country": "ES",
+  "zone": "es-tenerife",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 331,
+  "window": [
+   265,
+   15
+  ],
+  "bestTide": [
+   "mid"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   280,
+   15
+  ],
+  "bestWind": [
+   106,
+   196
+  ],
+  "kiteWind": null,
+  "level": "intermediate",
+  "hazards": [
+   "rocks"
+  ],
+  "sources": [
+   "https://thesurfatlas.com/surfing-in-canary-islands/tenerife-surf/",
+   "https://www.webtenerife.co.uk/what-to-do/sports/water/surfing-bodyboarding/"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "es-bajamar-el-lobo",
+  "name": "El Lobo (Bajamar)",
+  "aliases": [
+   "Bajamar"
+  ],
+  "lat": 28.5575,
+  "lon": -16.346,
+  "country": "ES",
+  "zone": "es-tenerife",
+  "break": "reef",
+  "sports": [
+   "surf"
+  ],
+  "facing": 331,
+  "window": [
+   255,
+   35
+  ],
+  "bestTide": [],
+  "dangerTide": [],
+  "bestSwell": [
+   280,
+   35
+  ],
+  "bestWind": [
+   106,
+   196
+  ],
+  "kiteWind": null,
+  "level": "intermediate",
+  "hazards": [
+   "rocks",
+   "currents"
+  ],
+  "notes": "Long left over pebbles and reef in front of Bajamar.",
+  "sources": [
+   "https://www.webtenerife.co.uk/what-to-do/sports/water/surfing-bodyboarding/",
+   "https://www.puresurfcamps.com/en/blog/surfing-in-tenerife/",
+   "https://www.tourspain.es/en/b2b/tenerife-european-surf-paradise/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "es-martianez",
+  "name": "Martiánez",
+  "aliases": [
+   "Puerto de la Cruz"
+  ],
+  "lat": 28.4199,
+  "lon": -16.5405,
+  "country": "ES",
+  "zone": "es-tenerife",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 350,
+  "window": [
+   265,
+   45
+  ],
+  "bestTide": [
+   "mid",
+   "high"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   290,
+   40
+  ],
+  "bestWind": [
+   125,
+   215
+  ],
+  "kiteWind": null,
+  "level": "beginner",
+  "hazards": [],
+  "sources": [
+   "https://www.webtenerife.co.uk/what-to-do/sports/water/surfing-bodyboarding/",
+   "https://thesurfatlas.com/surfing-in-canary-islands/tenerife-surf/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "es-baja-de-martianez",
+  "name": "Baja de Martiánez",
+  "aliases": [],
+  "lat": 28.421,
+  "lon": -16.537,
+  "country": "ES",
+  "zone": "es-tenerife",
+  "break": "reef",
+  "sports": [
+   "surf"
+  ],
+  "facing": 358,
+  "window": [
+   275,
+   45
+  ],
+  "bestTide": [
+   "low",
+   "mid"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   290,
+   40
+  ],
+  "bestWind": [
+   133,
+   223
+  ],
+  "kiteWind": null,
+  "level": "advanced",
+  "hazards": [
+   "rocks"
+  ],
+  "sources": [
+   "https://www.webtenerife.co.uk/what-to-do/sports/water/surfing-bodyboarding/"
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "es-los-patos",
+  "name": "Playa de Los Patos",
+  "aliases": [],
+  "lat": 28.4218,
+  "lon": -16.51,
+  "country": "ES",
+  "zone": "es-tenerife",
+  "break": "reef",
+  "sports": [
+   "surf"
+  ],
+  "facing": 333,
+  "window": [
+   270,
+   35
+  ],
+  "bestTide": [
+   "mid"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   290,
+   35
+  ],
+  "bestWind": [
+   108,
+   198
+  ],
+  "kiteWind": null,
+  "level": "advanced",
+  "hazards": [
+   "rips",
+   "rocks"
+  ],
+  "sources": [
+   "https://thesurfatlas.com/surfing-in-canary-islands/tenerife-surf/"
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "es-el-socorro",
+  "name": "El Socorro (Los Realejos)",
+  "aliases": [],
+  "lat": 28.3955,
+  "lon": -16.603,
+  "country": "ES",
+  "zone": "es-tenerife",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 344,
+  "window": [
+   280,
+   50
+  ],
+  "bestTide": [
+   "mid",
+   "high"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   280,
+   40
+  ],
+  "bestWind": [
+   119,
+   209
+  ],
+  "kiteWind": null,
+  "level": "intermediate",
+  "hazards": [
+   "currents",
+   "crowds",
+   "localism"
+  ],
+  "notes": "Popular north-coast beach with a right point at the west end and an A-frame in the middle.",
+  "sources": [
+   "https://www.webtenerife.co.uk/what-to-do/sports/water/surfing-bodyboarding/",
+   "https://thesurfatlas.com/surfing-in-canary-islands/tenerife-surf/",
+   "https://www.puresurfcamps.com/en/blog/surfing-in-tenerife/",
+   "https://www.tourspain.es/en/b2b/tenerife-european-surf-paradise/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "es-la-caleta-de-interian",
+  "name": "La Caleta de Interián",
+  "aliases": [
+   "Derecha de la Caleta"
+  ],
+  "lat": 28.375,
+  "lon": -16.7915,
+  "country": "ES",
+  "zone": "es-tenerife",
+  "break": "reef",
+  "sports": [
+   "surf"
+  ],
+  "facing": 10,
+  "window": [
+   300,
+   75
+  ],
+  "bestTide": [
+   "mid"
+  ],
+  "dangerTide": [
+   "low"
+  ],
+  "bestSwell": [
+   300,
+   30
+  ],
+  "bestWind": [
+   145,
+   235
+  ],
+  "kiteWind": null,
+  "level": "advanced",
+  "hazards": [
+   "rocks",
+   "currents"
+  ],
+  "sources": [
+   "https://www.puresurfcamps.com/en/blog/surfing-in-tenerife/",
+   "https://www.tourspain.es/en/b2b/tenerife-european-surf-paradise/"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "es-los-gigantes",
+  "name": "Los Gigantes",
+  "aliases": [],
+  "lat": 28.246,
+  "lon": -16.8443,
+  "country": "ES",
+  "zone": "es-tenerife",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 272,
+  "window": [
+   190,
+   320
+  ],
+  "bestTide": [
+   "mid"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   240,
+   320
+  ],
+  "bestWind": [
+   47,
+   137
+  ],
+  "kiteWind": null,
+  "level": "intermediate",
+  "hazards": [],
+  "sources": [
+   "https://www.puresurfcamps.com/en/blog/surfing-in-tenerife/"
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "es-punta-blanca-tf",
+  "name": "Punta Blanca (Alcalá)",
+  "aliases": [],
+  "lat": 28.214,
+  "lon": -16.838,
+  "country": "ES",
+  "zone": "es-tenerife",
+  "break": "reef",
+  "sports": [
+   "surf"
+  ],
+  "facing": 259,
+  "window": [
+   165,
+   325
+  ],
+  "bestTide": [
+   "low",
+   "mid"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   250,
+   325
+  ],
+  "bestWind": [
+   34,
+   124
+  ],
+  "kiteWind": null,
+  "level": "advanced",
+  "hazards": [
+   "reef",
+   "rocks"
+  ],
+  "notes": "Left (and short right) over volcanic reef at Guía de Isora; contest venue.",
+  "sources": [
+   "https://www.webtenerife.co.uk/what-to-do/sports/water/surfing-bodyboarding/",
+   "https://www.hellocanaryislands.com/bodyboarding/tenerife/bodyboarding-in-punta-blanca/",
+   "https://www.tourspain.es/en/b2b/tenerife-european-surf-paradise/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "es-la-caleta-adeje",
+  "name": "La Caleta (Adeje)",
+  "aliases": [],
+  "lat": 28.1001,
+  "lon": -16.7597,
+  "country": "ES",
+  "zone": "es-tenerife",
+  "break": "reef",
+  "sports": [
+   "surf"
+  ],
+  "facing": 231,
+  "window": [
+   160,
+   315
+  ],
+  "bestTide": [
+   "low",
+   "mid"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   180,
+   260
+  ],
+  "bestWind": [
+   6,
+   96
+  ],
+  "kiteWind": null,
+  "level": "advanced",
+  "hazards": [
+   "reef",
+   "rocks"
+  ],
+  "notes": "Reef right near La Caleta village that works with summer south swell.",
+  "sources": [
+   "https://www.webtenerife.co.uk/what-to-do/sports/water/surfing-bodyboarding/",
+   "https://thesurfatlas.com/surfing-in-canary-islands/tenerife-surf/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "es-el-conquistador",
+  "name": "La Derecha del Conquistador",
+  "aliases": [
+   "El Conquistador"
+  ],
+  "lat": 28.0688,
+  "lon": -16.736,
+  "country": "ES",
+  "zone": "es-tenerife",
+  "break": "reef",
+  "sports": [
+   "surf"
+  ],
+  "facing": 259,
+  "window": [
+   190,
+   320
+  ],
+  "bestTide": [
+   "low",
+   "mid"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   250,
+   320
+  ],
+  "bestWind": [
+   34,
+   124
+  ],
+  "kiteWind": null,
+  "level": "intermediate",
+  "hazards": [
+   "reef",
+   "rocks"
+  ],
+  "sources": [
+   "https://www.webtenerife.co.uk/what-to-do/sports/water/surfing-bodyboarding/",
+   "https://thesurfatlas.com/surfing-in-canary-islands/tenerife-surf/",
+   "https://thesurfatlas.com/surfing-in-canary-islands/playa-de-las-americas-surf/",
+   "https://www.tourspain.es/en/b2b/tenerife-european-surf-paradise/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "es-la-izquierda-tf",
+  "name": "La Izquierda (Las Palmeras)",
+  "aliases": [
+   "Spanish Left",
+   "Las Palmeras"
+  ],
+  "lat": 28.0655,
+  "lon": -16.736,
+  "country": "ES",
+  "zone": "es-tenerife",
+  "break": "reef",
+  "sports": [
+   "surf"
+  ],
+  "facing": 270,
+  "window": [
+   190,
+   320
+  ],
+  "bestTide": [
+   "mid",
+   "high"
+  ],
+  "dangerTide": [
+   "low"
+  ],
+  "bestSwell": [
+   250,
+   320
+  ],
+  "bestWind": [
+   45,
+   135
+  ],
+  "kiteWind": null,
+  "level": "advanced",
+  "hazards": [
+   "reef",
+   "crowds",
+   "localism"
+  ],
+  "notes": "Tubing left over volcanic reef at Playa de las Américas, best in winter north-west swell.",
+  "sources": [
+   "https://www.hellocanaryislands.com/surfing/tenerife/surf-la-izquierda-de-las-palmeras/",
+   "https://www.webtenerife.co.uk/what-to-do/sports/water/surfing-bodyboarding/",
+   "https://thesurfatlas.com/surfing-in-canary-islands/tenerife-surf/",
+   "https://thesurfatlas.com/surfing-in-canary-islands/playa-de-las-americas-surf/",
+   "https://www.tourspain.es/en/b2b/tenerife-european-surf-paradise/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "es-derecha-del-cartel",
+  "name": "La Derecha del Cartel",
+  "aliases": [],
+  "lat": 28.063,
+  "lon": -16.7368,
+  "country": "ES",
+  "zone": "es-tenerife",
+  "break": "reef",
+  "sports": [
+   "surf"
+  ],
+  "facing": 270,
+  "window": [
+   185,
+   325
+  ],
+  "bestTide": [
+   "mid"
+  ],
+  "dangerTide": [
+   "low"
+  ],
+  "bestSwell": [
+   250,
+   325
+  ],
+  "bestWind": [
+   45,
+   135
+  ],
+  "kiteWind": null,
+  "level": "advanced",
+  "hazards": [
+   "reef",
+   "localism"
+  ],
+  "sources": [
+   "https://thesurfatlas.com/surfing-in-canary-islands/tenerife-surf/",
+   "https://thesurfatlas.com/surfing-in-canary-islands/playa-de-las-americas-surf/"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "es-el-medio",
+  "name": "El Medio",
+  "aliases": [],
+  "lat": 28.061,
+  "lon": -16.7372,
+  "country": "ES",
+  "zone": "es-tenerife",
+  "break": "reef",
+  "sports": [
+   "surf"
+  ],
+  "facing": 268,
+  "window": [
+   175,
+   325
+  ],
+  "bestTide": [],
+  "dangerTide": [],
+  "bestSwell": [
+   250,
+   325
+  ],
+  "bestWind": [
+   43,
+   133
+  ],
+  "kiteWind": null,
+  "level": "beginner",
+  "hazards": [],
+  "notes": "Gentle, flat-reef bay in the middle of Playa de las Américas.",
+  "sources": [
+   "https://www.webtenerife.co.uk/what-to-do/sports/water/surfing-bodyboarding/",
+   "https://thesurfatlas.com/surfing-in-canary-islands/playa-de-las-americas-surf/"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "es-el-dedo",
+  "name": "El Dedo",
+  "aliases": [],
+  "lat": 28.059,
+  "lon": -16.7385,
+  "country": "ES",
+  "zone": "es-tenerife",
+  "break": "reef",
+  "sports": [
+   "surf"
+  ],
+  "facing": 263,
+  "window": [
+   165,
+   325
+  ],
+  "bestTide": [
+   "mid",
+   "high"
+  ],
+  "dangerTide": [
+   "low"
+  ],
+  "bestSwell": [
+   250,
+   325
+  ],
+  "bestWind": [
+   38,
+   128
+  ],
+  "kiteWind": null,
+  "level": "intermediate",
+  "hazards": [
+   "reef",
+   "rocks"
+  ],
+  "sources": [
+   "https://www.webtenerife.co.uk/what-to-do/sports/water/surfing-bodyboarding/",
+   "https://thesurfatlas.com/surfing-in-canary-islands/playa-de-las-americas-surf/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "es-el-bunker",
+  "name": "El Bunker",
+  "aliases": [],
+  "lat": 28.057,
+  "lon": -16.7395,
+  "country": "ES",
+  "zone": "es-tenerife",
+  "break": "reef",
+  "sports": [
+   "surf"
+  ],
+  "facing": 252,
+  "window": [
+   150,
+   325
+  ],
+  "bestTide": [
+   "low",
+   "mid"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   250,
+   325
+  ],
+  "bestWind": [
+   27,
+   117
+  ],
+  "kiteWind": null,
+  "level": "intermediate",
+  "hazards": [
+   "reef"
+  ],
+  "sources": [
+   "https://www.webtenerife.co.uk/what-to-do/sports/water/surfing-bodyboarding/",
+   "https://thesurfatlas.com/surfing-in-canary-islands/playa-de-las-americas-surf/"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "es-la-fitenia",
+  "name": "La Fitenia",
+  "aliases": [],
+  "lat": 28.0475,
+  "lon": -16.7215,
+  "country": "ES",
+  "zone": "es-tenerife",
+  "break": "reef",
+  "sports": [
+   "surf"
+  ],
+  "facing": 213,
+  "window": [
+   165,
+   290
+  ],
+  "bestTide": [
+   "mid"
+  ],
+  "dangerTide": [
+   "low"
+  ],
+  "bestSwell": [
+   170,
+   250
+  ],
+  "bestWind": [
+   348,
+   78
+  ],
+  "kiteWind": null,
+  "level": "intermediate",
+  "hazards": [
+   "reef",
+   "rocks",
+   "crowds"
+  ],
+  "notes": "Reef beside the Los Cristianos harbour wall that needs south swell.",
+  "sources": [
+   "https://www.webtenerife.co.uk/what-to-do/sports/water/surfing-bodyboarding/",
+   "https://thesurfatlas.com/surfing-in-canary-islands/playa-de-las-americas-surf/"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "es-la-machacona",
+  "name": "La Machacona",
+  "aliases": [],
+  "lat": 28.0285,
+  "lon": -16.5668,
+  "country": "ES",
+  "zone": "es-tenerife",
+  "break": "reef",
+  "sports": [
+   "surf"
+  ],
+  "facing": 180,
+  "window": [
+   100,
+   250
+  ],
+  "bestTide": [
+   "high"
+  ],
+  "dangerTide": [
+   "low"
+  ],
+  "bestSwell": [
+   140,
+   230
+  ],
+  "bestWind": [
+   315,
+   45
+  ],
+  "kiteWind": null,
+  "level": "advanced",
+  "hazards": [
+   "reef",
+   "rocks",
+   "currents"
+  ],
+  "notes": "Powerful left tube close to shore near La Tejita in summer south swell.",
+  "sources": [
+   "https://www.hellocanaryislands.com/bodyboarding/tenerife/bodyboarding-in-la-machacona/"
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "es-la-tejita",
+  "name": "La Tejita",
+  "aliases": [],
+  "lat": 28.03,
+  "lon": -16.5545,
+  "country": "ES",
+  "zone": "es-tenerife",
+  "break": "beach",
+  "sports": [
+   "surf",
+   "kite"
+  ],
+  "facing": 193,
+  "window": [
+   130,
+   250
+  ],
+  "bestTide": [
+   "mid"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   130,
+   240
+  ],
+  "bestWind": [
+   328,
+   58
+  ],
+  "kiteWind": [
+   40,
+   110
+  ],
+  "level": "beginner",
+  "hazards": [],
+  "sources": [
+   "https://thesurfatlas.com/surfing-in-canary-islands/tenerife-surf/",
+   "https://www.spain.info/en/discover-spain/kitesurfing-spain/"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "es-el-medano",
+  "name": "El Médano",
+  "aliases": [],
+  "lat": 28.043,
+  "lon": -16.5375,
+  "country": "ES",
+  "zone": "es-tenerife",
+  "break": "beach",
+  "sports": [
+   "surf",
+   "kite",
+   "windsurf"
+  ],
+  "facing": 140,
+  "window": [
+   60,
+   205
+  ],
+  "bestTide": [],
+  "dangerTide": [],
+  "bestSwell": [
+   60,
+   200
+  ],
+  "bestWind": [
+   275,
+   5
+  ],
+  "kiteWind": [
+   30,
+   110
+  ],
+  "level": "all",
+  "hazards": [
+   "currents",
+   "crowds"
+  ],
+  "notes": "Windy bay with flat water to the south and the island's main kite and windsurf schools.",
+  "sources": [
+   "https://www.hellocanaryislands.com/kitesurfing/tenerife/kitesurf-on-el-medano-beach/",
+   "https://www.hellocanaryislands.com/windsurfing/",
+   "https://www.surf-magazin.de/en/spots-and-areas/international/spain/el-medano-el-cabezo-and-co-the-best-windsurfing-spots-on-tenerife/",
+   "https://thesurfatlas.com/surfing-in-canary-islands/tenerife-surf/",
+   "https://www.spain.info/en/discover-spain/kitesurfing-spain/",
+   "https://www.webtenerife.co.uk/what-to-do/sports/water/kitesurfing/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "es-el-cabezo",
+  "name": "El Cabezo",
+  "aliases": [],
+  "lat": 28.046,
+  "lon": -16.532,
+  "country": "ES",
+  "zone": "es-tenerife",
+  "break": "reef",
+  "sports": [
+   "windsurf",
+   "kite",
+   "surf"
+  ],
+  "facing": 134,
+  "window": [
+   60,
+   205
+  ],
+  "bestTide": [
+   "low",
+   "mid"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   60,
+   180
+  ],
+  "bestWind": [
+   269,
+   359
+  ],
+  "kiteWind": [
+   30,
+   100
+  ],
+  "level": "advanced",
+  "hazards": [
+   "rocks",
+   "reef",
+   "crowds"
+  ],
+  "notes": "Wave-sailing reef next to El Médano with diagonal onshore trade wind.",
+  "sources": [
+   "https://www.hellocanaryislands.com/windsurfing/tenerife/windsurfing-on-el-cabezo-beach/",
+   "https://www.hellocanaryislands.com/kitesurfing/tenerife/playa-de-el-cabezo/",
+   "https://www.surf-magazin.de/en/spots-and-areas/international/spain/el-medano-el-cabezo-and-co-the-best-windsurfing-spots-on-tenerife/",
+   "https://www.webtenerife.co.uk/what-to-do/sports/water/surfing-bodyboarding/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "es-playa-grande-poris",
+  "name": "Playa Grande (El Porís)",
+  "aliases": [],
+  "lat": 28.1532,
+  "lon": -16.4277,
+  "country": "ES",
+  "zone": "es-tenerife",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 86,
+  "window": [
+   25,
+   190
+  ],
+  "bestTide": [
+   "low",
+   "mid"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   25,
+   90
+  ],
+  "bestWind": [
+   221,
+   311
+  ],
+  "kiteWind": null,
+  "level": "beginner",
+  "hazards": [],
+  "sources": [
+   "https://www.hellocanaryislands.com/surfing/tenerife/playa-el-poris/",
+   "https://www.webtenerife.co.uk/what-to-do/sports/water/surfing-bodyboarding/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "es-el-socorro-guimar",
+  "name": "El Socorro (Güímar)",
+  "aliases": [],
+  "lat": 28.3046,
+  "lon": -16.3607,
+  "country": "ES",
+  "zone": "es-tenerife",
+  "break": "reef",
+  "sports": [
+   "surf"
+  ],
+  "facing": 115,
+  "window": [
+   35,
+   200
+  ],
+  "bestTide": [
+   "low",
+   "mid"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   35,
+   90
+  ],
+  "bestWind": [
+   250,
+   340
+  ],
+  "kiteWind": null,
+  "level": "intermediate",
+  "hazards": [
+   "rocks"
+  ],
+  "sources": [
+   "https://www.webtenerife.co.uk/what-to-do/sports/water/surfing-bodyboarding/",
+   "https://www.tourspain.es/en/b2b/tenerife-european-surf-paradise/"
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "es-playa-de-nogales",
+  "name": "Playa de Nogales",
+  "aliases": [],
+  "lat": 28.7604,
+  "lon": -17.7388,
+  "country": "ES",
+  "zone": "es-la-palma",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 54,
+  "window": [
+   340,
+   145
+  ],
+  "bestTide": [
+   "mid"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   0,
+   90
+  ],
+  "bestWind": [
+   189,
+   279
+  ],
+  "kiteWind": null,
+  "level": "advanced",
+  "hazards": [
+   "currents",
+   "rips",
+   "rocks"
+  ],
+  "notes": "Cliff-backed black-sand beach in Puntallana; strong currents.",
+  "sources": [
+   "https://thesurfatlas.com/surfing-in-canary-islands/la-palma-surf/",
+   "https://www.spain.info/en/beach/nogales",
+   "https://www.holaislascanarias.com/playas/la-palma/playa-de-nogales/"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "es-la-zamora",
+  "name": "La Zamora",
+  "aliases": [],
+  "lat": 28.5155,
+  "lon": -17.877,
+  "country": "ES",
+  "zone": "es-la-palma",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 258,
+  "window": [
+   180,
+   330
+  ],
+  "bestTide": [
+   "mid"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   220,
+   320
+  ],
+  "bestWind": [
+   33,
+   123
+  ],
+  "kiteWind": null,
+  "level": "intermediate",
+  "hazards": [
+   "rips",
+   "rocks"
+  ],
+  "sources": [
+   "https://thesurfatlas.com/surfing-in-canary-islands/la-palma-surf/"
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "es-puerto-naos",
+  "name": "Puerto Naos",
+  "aliases": [],
+  "lat": 28.585,
+  "lon": -17.912,
+  "country": "ES",
+  "zone": "es-la-palma",
+  "break": "beach",
+  "sports": [
+   "kite"
+  ],
+  "facing": 237,
+  "window": [
+   165,
+   310
+  ],
+  "bestTide": [],
+  "dangerTide": [],
+  "bestSwell": null,
+  "bestWind": [
+   12,
+   102
+  ],
+  "kiteWind": [
+   300,
+   20
+  ],
+  "level": "intermediate",
+  "hazards": [],
+  "sources": [
+   "https://www.surf-store.com/posts/kitesurfing-la-palma-canary-islands-guide"
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "es-puerto-de-tazacorte",
+  "name": "Puerto de Tazacorte",
+  "aliases": [],
+  "lat": 28.6505,
+  "lon": -17.948,
+  "country": "ES",
+  "zone": "es-la-palma",
+  "break": "beach",
+  "sports": [
+   "kite"
+  ],
+  "facing": 235,
+  "window": [
+   160,
+   320
+  ],
+  "bestTide": [],
+  "dangerTide": [],
+  "bestSwell": null,
+  "bestWind": [
+   10,
+   100
+  ],
+  "kiteWind": [
+   300,
+   20
+  ],
+  "level": "intermediate",
+  "hazards": [],
+  "sources": [
+   "https://www.hellocanaryislands.com/kite-surfing/"
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "es-hermigua",
+  "name": "Playa de Hermigua",
+  "aliases": [],
+  "lat": 28.1734,
+  "lon": -17.1641,
+  "country": "ES",
+  "zone": "es-la-gomera",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 30,
+  "window": [
+   330,
+   95
+  ],
+  "bestTide": [
+   "mid"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   330,
+   60
+  ],
+  "bestWind": [
+   165,
+   255
+  ],
+  "kiteWind": null,
+  "level": "advanced",
+  "hazards": [
+   "rips",
+   "currents",
+   "rocks"
+  ],
+  "sources": [
+   "https://thesurfatlas.com/surfing-in-canary-islands/la-gomera-surf/",
+   "https://www.spain.info/en/beach/caleta-hermigua"
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "es-valle-gran-rey",
+  "name": "Valle Gran Rey",
+  "aliases": [],
+  "lat": 28.083,
+  "lon": -17.3372,
+  "country": "ES",
+  "zone": "es-la-gomera",
+  "break": "reef",
+  "sports": [
+   "surf"
+  ],
+  "facing": 228,
+  "window": [
+   150,
+   325
+  ],
+  "bestTide": [
+   "mid"
+  ],
+  "dangerTide": [
+   "low"
+  ],
+  "bestSwell": [
+   250,
+   325
+  ],
+  "bestWind": [
+   3,
+   93
+  ],
+  "kiteWind": null,
+  "level": "advanced",
+  "hazards": [
+   "reef",
+   "crowds",
+   "localism"
+  ],
+  "sources": [
+   "https://thesurfatlas.com/surfing-in-canary-islands/la-gomera-surf/"
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "es-alojera",
+  "name": "Alojera",
+  "aliases": [],
+  "lat": 28.164,
+  "lon": -17.3375,
+  "country": "ES",
+  "zone": "es-la-gomera",
+  "break": "reef",
+  "sports": [
+   "surf"
+  ],
+  "facing": 278,
+  "window": [
+   210,
+   5
+  ],
+  "bestTide": [
+   "mid"
+  ],
+  "dangerTide": [
+   "low"
+  ],
+  "bestSwell": [
+   270,
+   340
+  ],
+  "bestWind": [
+   53,
+   143
+  ],
+  "kiteWind": null,
+  "level": "advanced",
+  "hazards": [
+   "reef",
+   "rocks"
+  ],
+  "sources": [
+   "https://thesurfatlas.com/surfing-in-canary-islands/la-gomera-surf/"
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "es-playa-de-la-sepultura",
+  "name": "Playa de la Sepultura",
+  "aliases": [],
+  "lat": 28.2021,
+  "lon": -17.2446,
+  "country": "ES",
+  "zone": "es-la-gomera",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 12,
+  "window": [
+   315,
+   90
+  ],
+  "bestTide": [
+   "mid"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   315,
+   60
+  ],
+  "bestWind": [
+   147,
+   237
+  ],
+  "kiteWind": null,
+  "level": "advanced",
+  "hazards": [
+   "currents",
+   "shorebreak"
+  ],
+  "sources": [
+   "https://thesurfatlas.com/surfing-in-canary-islands/la-gomera-surf/"
+  ],
+  "confidence": "low"
+ }
+]
