@@ -26,6 +26,7 @@ import time
 import numpy as np
 
 from . import config
+from .sources.base import IO_LOCK
 from .sources.ibi import _cli
 
 log = logging.getLogger("wavespot")
@@ -167,7 +168,8 @@ def collect(work: str, now: dt.datetime) -> list[dict]:
         if not os.path.exists(p):
             continue
         try:
-            b = read_buoy(p, {**meta, "platform": plat}, now)
+            with IO_LOCK:  # HDF5 is not thread-safe; the build reads other NetCDF in parallel
+                b = read_buoy(p, {**meta, "platform": plat}, now)
         except Exception as e:  # one bad file must not drop the others
             log.warning("buoy %s unreadable: %s", plat, e)
             continue
