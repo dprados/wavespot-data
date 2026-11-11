@@ -1,0 +1,3824 @@
+[
+ {
+  "id": "ma-tangier-city-beach",
+  "name": "Tangier City Beach",
+  "aliases": [
+   "Plage Municipale de Tanger"
+  ],
+  "lat": 35.779,
+  "lon": -5.7944,
+  "country": "MA",
+  "zone": "ma-tanger-asilah",
+  "break": "beach",
+  "sports": [
+   "kite"
+  ],
+  "facing": 12,
+  "window": [
+   350,
+   35
+  ],
+  "bestTide": [],
+  "dangerTide": [],
+  "bestSwell": [
+   350,
+   0
+  ],
+  "bestWind": [
+   147,
+   237
+  ],
+  "kiteWind": [
+   45,
+   120
+  ],
+  "level": "intermediate",
+  "hazards": [
+   "crowds"
+  ],
+  "notes": "Urban bay east of the port; used for kiting in easterly (Levante-type) wind outside the summer crowds.",
+  "sources": [
+   "https://vvanat.fr/blog/sejour-kitesurf-maroc/",
+   "https://celebritycruises.com/blog/best-beaches-in-morocco"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "ma-plage-merkala",
+  "name": "Merkala",
+  "aliases": [
+   "Plage Merkala"
+  ],
+  "lat": 35.7955,
+  "lon": -5.8346,
+  "country": "MA",
+  "zone": "ma-tanger-asilah",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 7,
+  "window": [
+   295,
+   70
+  ],
+  "bestTide": [],
+  "dangerTide": [],
+  "bestSwell": [
+   300,
+   350
+  ],
+  "bestWind": [
+   142,
+   232
+  ],
+  "kiteWind": null,
+  "level": "intermediate",
+  "hazards": [
+   "rocks"
+  ],
+  "notes": "Small city beach next to the old harbour; short, fast waves only when a west swell wraps into the Strait in winter.",
+  "sources": [
+   "https://esim.holafly.com/es/blog/consejos-viaje/surf-tanger/",
+   "https://celebritycruises.com/blog/best-beaches-in-morocco"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "ma-plage-achkar",
+  "name": "Achakar",
+  "aliases": [
+   "Achkar",
+   "Plage Achakkar"
+  ],
+  "lat": 35.7661,
+  "lon": -5.9379,
+  "country": "MA",
+  "zone": "ma-tanger-asilah",
+  "break": "beach",
+  "sports": [
+   "surf",
+   "kite"
+  ],
+  "facing": 285,
+  "window": [
+   195,
+   15
+  ],
+  "bestTide": [
+   "mid"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   280,
+   330
+  ],
+  "bestWind": [
+   60,
+   150
+  ],
+  "kiteWind": [
+   300,
+   30
+  ],
+  "level": "all",
+  "hazards": [
+   "rips"
+  ],
+  "notes": "Wide Atlantic sand beach south of Cap Spartel; the most consistent surf beach near Tangier and a kite spot in N–W wind.",
+  "sources": [
+   "https://esim.holafly.com/es/blog/consejos-viaje/surf-tanger/",
+   "https://vvanat.fr/blog/sejour-kitesurf-maroc/"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "ma-plage-sidi-kacem",
+  "name": "Sidi Kacem",
+  "aliases": [
+   "Plage Sidi Kacem"
+  ],
+  "lat": 35.744,
+  "lon": -5.9444,
+  "country": "MA",
+  "zone": "ma-tanger-asilah",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 286,
+  "window": [
+   200,
+   10
+  ],
+  "bestTide": [],
+  "dangerTide": [],
+  "bestSwell": [
+   280,
+   330
+  ],
+  "bestWind": [
+   61,
+   151
+  ],
+  "kiteWind": null,
+  "level": "beginner",
+  "hazards": [
+   "rips"
+  ],
+  "notes": "Open sandy beach among dunes next to Achakar; gentle waves on medium NW swell with light easterly wind.",
+  "sources": [
+   "https://esim.holafly.com/es/blog/consejos-viaje/surf-tanger/"
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "ma-plage-de-sidi-mghait",
+  "name": "Sidi Mghait",
+  "aliases": [
+   "Plage de Sidi Mghait"
+  ],
+  "lat": 35.3811,
+  "lon": -6.0865,
+  "country": "MA",
+  "zone": "ma-tanger-asilah",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 288,
+  "window": [
+   200,
+   15
+  ],
+  "bestTide": [],
+  "dangerTide": [],
+  "bestSwell": [
+   280,
+   330
+  ],
+  "bestWind": [
+   63,
+   153
+  ],
+  "kiteWind": null,
+  "level": "all",
+  "hazards": [
+   "rips"
+  ],
+  "notes": "Quiet beach south of Asilah with beach-break peaks.",
+  "sources": [
+   "https://onlybeaches.com/best-beaches-for/surf/morocco"
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "ma-plage-ras-rmel",
+  "name": "Ras Rmel",
+  "aliases": [
+   "Rass Rmel",
+   "Playa Peligrosa",
+   "Larache"
+  ],
+  "lat": 35.2118,
+  "lon": -6.1492,
+  "country": "MA",
+  "zone": "ma-larache-kenitra",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 294,
+  "window": [
+   220,
+   15
+  ],
+  "bestTide": [],
+  "dangerTide": [],
+  "bestSwell": [
+   280,
+   330
+  ],
+  "bestWind": [
+   69,
+   159
+  ],
+  "kiteWind": null,
+  "level": "intermediate",
+  "hazards": [
+   "rips",
+   "pollution"
+  ],
+  "notes": "Larache's ocean beach north of the Loukkos mouth; has hosted national championship qualifying heats.",
+  "sources": [
+   "https://www.surf-report.com/news/surf/championnat-maroc-surf-bodyboard-maroc-513186284.html",
+   "https://initiativesoceanes.org/en/collect/tous-pour-sauver-la-plage-de-larache"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "ma-moulay-bousselham",
+  "name": "Moulay Bousselham",
+  "aliases": [],
+  "lat": 34.8834,
+  "lon": -6.2979,
+  "country": "MA",
+  "zone": "ma-larache-kenitra",
+  "break": "beach",
+  "sports": [
+   "surf",
+   "kite"
+  ],
+  "facing": 290,
+  "window": [
+   205,
+   20
+  ],
+  "bestTide": [],
+  "dangerTide": [],
+  "bestSwell": [
+   280,
+   330
+  ],
+  "bestWind": [
+   65,
+   155
+  ],
+  "kiteWind": [
+   330,
+   60
+  ],
+  "level": "intermediate",
+  "hazards": [
+   "rips"
+  ],
+  "notes": "Exposed beach in front of the village with shifting sandbar peaks; smaller waves in the south corner.",
+  "sources": [
+   "https://en.hertz.ma/en/morocco/destinations/moulay-bousselham-surfing",
+   "https://vvanat.fr/blog/sejour-kitesurf-maroc/"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "ma-moulay-bousselham-lagoon",
+  "name": "Merja Zerga Lagoon Mouth",
+  "aliases": [
+   "Moulay Bousselham lagoon"
+  ],
+  "lat": 34.869,
+  "lon": -6.3018,
+  "country": "MA",
+  "zone": "ma-larache-kenitra",
+  "break": "rivermouth",
+  "sports": [
+   "surf",
+   "kite"
+  ],
+  "facing": 293,
+  "window": [
+   205,
+   20
+  ],
+  "bestTide": [
+   "low"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   280,
+   330
+  ],
+  "bestWind": [
+   68,
+   158
+  ],
+  "kiteWind": [
+   330,
+   60
+  ],
+  "level": "intermediate",
+  "hazards": [
+   "currents"
+  ],
+  "notes": "Inlet of the Merja Zerga lagoon; sandbanks work at low tide and the shallow lagoon offers flat water for kiting.",
+  "sources": [
+   "https://en.hertz.ma/en/morocco/destinations/moulay-bousselham-surfing",
+   "https://vvanat.fr/blog/sejour-kitesurf-maroc/"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "ma-plage-chlihat",
+  "name": "Chlihat",
+  "aliases": [
+   "Chlihate"
+  ],
+  "lat": 34.2758,
+  "lon": -6.6701,
+  "country": "MA",
+  "zone": "ma-rabat-casablanca",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 304,
+  "window": [
+   230,
+   30
+  ],
+  "bestTide": [],
+  "dangerTide": [],
+  "bestSwell": [
+   280,
+   330
+  ],
+  "bestWind": [
+   79,
+   169
+  ],
+  "kiteWind": null,
+  "level": "advanced",
+  "hazards": [
+   "currents"
+  ],
+  "notes": "Beach north of the Sebou river jetties near Mehdia, reached by paddling or boat; fast lefts.",
+  "sources": [
+   "https://infostourismemaroc.com/en/news-about-your-holiday/10-beautiful-spots-for-surfing-in-morocco"
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "ma-mehdia-jetty",
+  "name": "Mehdia Jetty",
+  "aliases": [
+   "La Jetée de Mehdia",
+   "Mehdya"
+  ],
+  "lat": 34.262,
+  "lon": -6.6813,
+  "country": "MA",
+  "zone": "ma-rabat-casablanca",
+  "break": "point",
+  "sports": [
+   "surf"
+  ],
+  "facing": 271,
+  "window": [
+   210,
+   330
+  ],
+  "bestTide": [
+   "high"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   290,
+   330
+  ],
+  "bestWind": [
+   46,
+   136
+  ],
+  "kiteWind": null,
+  "level": "intermediate",
+  "hazards": [
+   "rocks",
+   "crowds"
+  ],
+  "notes": "Right-hander along the southern Sebou jetty that needs a big NW swell; long walls when it works.",
+  "sources": [
+   "https://thesurfatlas.com/surfing-morocco/surfing-in-rabat/",
+   "https://www.surf-report.com/news/voyages/guide-free-surf-maroc-rabat-casablanca-zineb-tebbai-bodyboard-dar-bouazza-jack-beach-oued-cherrat-629235736.html"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "ma-plage-mehdia",
+  "name": "Mehdia",
+  "aliases": [
+   "Mehdia Plage",
+   "Mehdya Plage",
+   "Kenitra"
+  ],
+  "lat": 34.2537,
+  "lon": -6.6826,
+  "country": "MA",
+  "zone": "ma-rabat-casablanca",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 284,
+  "window": [
+   210,
+   350
+  ],
+  "bestTide": [],
+  "dangerTide": [],
+  "bestSwell": [
+   280,
+   330
+  ],
+  "bestWind": [
+   59,
+   149
+  ],
+  "kiteWind": null,
+  "level": "all",
+  "hazards": [
+   "rips",
+   "crowds",
+   "pollution"
+  ],
+  "notes": "Long sand beach south of the Sebou mouth with many beach-break peaks and several surf schools.",
+  "sources": [
+   "https://www.visitrabat.com/?p=3151",
+   "https://thesurfatlas.com/surfing-morocco/surfing-in-rabat/",
+   "https://vvanat.fr/blog/aourir-maroc-surf/",
+   "https://www.weroad.fr/blog/surf-maroc"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "ma-plage-des-nations",
+  "name": "Plage des Nations",
+  "aliases": [
+   "Sidi Bouknadel"
+  ],
+  "lat": 34.1525,
+  "lon": -6.7368,
+  "country": "MA",
+  "zone": "ma-rabat-casablanca",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 301,
+  "window": [
+   220,
+   20
+  ],
+  "bestTide": [
+   "mid",
+   "high"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   280,
+   330
+  ],
+  "bestWind": [
+   76,
+   166
+  ],
+  "kiteWind": null,
+  "level": "intermediate",
+  "hazards": [
+   "rips",
+   "currents"
+  ],
+  "notes": "Exposed sandbar beach north of Salé, powerful and uncrowded; summer wind often spoils it.",
+  "sources": [
+   "https://thesurfatlas.com/surfing-morocco/surfing-in-rabat/",
+   "https://www.surf-report.com/news/voyages/guide-free-surf-maroc-rabat-casablanca-zineb-tebbai-bodyboard-dar-bouazza-jack-beach-oued-cherrat-629235736.html",
+   "https://vvanat.fr/blog/surf-maroc-casablanca/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "ma-plage-de-rabat",
+  "name": "Rabat Beach (Oudayas)",
+  "aliases": [
+   "Doura",
+   "Plage des Oudayas",
+   "Plage de Rabat"
+  ],
+  "lat": 34.0354,
+  "lon": -6.8378,
+  "country": "MA",
+  "zone": "ma-rabat-casablanca",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 321,
+  "window": [
+   225,
+   15
+  ],
+  "bestTide": [],
+  "dangerTide": [],
+  "bestSwell": [
+   280,
+   330
+  ],
+  "bestWind": [
+   96,
+   186
+  ],
+  "kiteWind": null,
+  "level": "beginner",
+  "hazards": [
+   "pollution",
+   "crowds"
+  ],
+  "notes": "Beach between the Bou Regreg jetties below the Oudayas kasbah; jetty-shaped peaks, the city's learner spot.",
+  "sources": [
+   "https://thesurfatlas.com/surfing-morocco/surfing-in-rabat/",
+   "https://www.surf-report.com/news/voyages/guide-free-surf-maroc-rabat-casablanca-zineb-tebbai-bodyboard-dar-bouazza-jack-beach-oued-cherrat-629235736.html",
+   "https://vvanat.fr/blog/surf-maroc-casablanca/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "ma-harhoura",
+  "name": "Harhoura",
+  "aliases": [
+   "Plage de Harhoura"
+  ],
+  "lat": 33.9547,
+  "lon": -6.9294,
+  "country": "MA",
+  "zone": "ma-rabat-casablanca",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 317,
+  "window": [
+   235,
+   40
+  ],
+  "bestTide": [],
+  "dangerTide": [],
+  "bestSwell": [
+   280,
+   330
+  ],
+  "bestWind": [
+   92,
+   182
+  ],
+  "kiteWind": null,
+  "level": "all",
+  "hazards": [
+   "rips"
+  ],
+  "notes": "Beach between Rabat and Temara known locally for its waves.",
+  "sources": [
+   "https://onlybeaches.com/best-beaches-for/surf/morocco"
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "ma-plage-de-skhirat",
+  "name": "Skhirat",
+  "aliases": [
+   "Plage de Skhirat"
+  ],
+  "lat": 33.871,
+  "lon": -7.0566,
+  "country": "MA",
+  "zone": "ma-rabat-casablanca",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 342,
+  "window": [
+   245,
+   50
+  ],
+  "bestTide": [
+   "low"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   280,
+   330
+  ],
+  "bestWind": [
+   117,
+   207
+  ],
+  "kiteWind": null,
+  "level": "intermediate",
+  "hazards": [
+   "rocks"
+  ],
+  "notes": "Small left off a jetty near Skhirat that works better at low tide.",
+  "sources": [
+   "https://www.surf-report.com/news/voyages/guide-free-surf-maroc-rabat-casablanca-zineb-tebbai-bodyboard-dar-bouazza-jack-beach-oued-cherrat-629235736.html"
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "ma-oued-cherrat",
+  "name": "Oued Cherrat",
+  "aliases": [],
+  "lat": 33.83,
+  "lon": -7.1279,
+  "country": "MA",
+  "zone": "ma-rabat-casablanca",
+  "break": "rivermouth",
+  "sports": [
+   "surf"
+  ],
+  "facing": 334,
+  "window": [
+   260,
+   50
+  ],
+  "bestTide": [],
+  "dangerTide": [],
+  "bestSwell": [
+   280,
+   330
+  ],
+  "bestWind": [
+   109,
+   199
+  ],
+  "kiteWind": null,
+  "level": "intermediate",
+  "hazards": [
+   "rocks",
+   "pollution"
+  ],
+  "notes": "Rivermouth and beach break with reef rights to the west; one of the most consistent spots of the Rabat–Casablanca coast.",
+  "sources": [
+   "https://thesurfatlas.com/surfing-morocco/bouznika/",
+   "https://www.surf-report.com/news/voyages/guide-free-surf-maroc-rabat-casablanca-zineb-tebbai-bodyboard-dar-bouazza-jack-beach-oued-cherrat-629235736.html",
+   "https://vvanat.fr/blog/surf-maroc-casablanca/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "ma-plage-bouznika",
+  "name": "Bouznika Beach",
+  "aliases": [
+   "Bouznika Plage"
+  ],
+  "lat": 33.8254,
+  "lon": -7.1392,
+  "country": "MA",
+  "zone": "ma-rabat-casablanca",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 337,
+  "window": [
+   270,
+   50
+  ],
+  "bestTide": [],
+  "dangerTide": [],
+  "bestSwell": [
+   280,
+   330
+  ],
+  "bestWind": [
+   112,
+   202
+  ],
+  "kiteWind": null,
+  "level": "beginner",
+  "hazards": [
+   "crowds"
+  ],
+  "notes": "Main bay of Bouznika with soft shifting peaks; a learner and longboard beach, busy in summer.",
+  "sources": [
+   "https://thesurfatlas.com/surfing-morocco/bouznika/",
+   "https://celebritycruises.com/blog/best-beaches-in-morocco",
+   "https://thesurfatlas.com/surfing-morocco/surfing-in-rabat/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "ma-bouznika-point",
+  "name": "Bouznika Point",
+  "aliases": [
+   "La Crique",
+   "La Cirque"
+  ],
+  "lat": 33.8205,
+  "lon": -7.1572,
+  "country": "MA",
+  "zone": "ma-rabat-casablanca",
+  "break": "point",
+  "sports": [
+   "surf"
+  ],
+  "facing": 333,
+  "window": [
+   260,
+   35
+  ],
+  "bestTide": [
+   "low"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   285,
+   330
+  ],
+  "bestWind": [
+   108,
+   198
+  ],
+  "kiteWind": null,
+  "level": "intermediate",
+  "hazards": [
+   "rocks",
+   "reef"
+  ],
+  "notes": "Long right peeling into the sheltered south end of the bay; rock shelf with urchins.",
+  "sources": [
+   "https://www.surf-report.com/news/voyages/guide-free-surf-maroc-rabat-casablanca-zineb-tebbai-bodyboard-dar-bouazza-jack-beach-oued-cherrat-629235736.html",
+   "https://vvanat.fr/blog/surf-maroc-casablanca/",
+   "https://thesurfatlas.com/surfing-morocco/bouznika/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "ma-dahomey",
+  "name": "Dahomey",
+  "aliases": [],
+  "lat": 33.8068,
+  "lon": -7.1886,
+  "country": "MA",
+  "zone": "ma-rabat-casablanca",
+  "break": "beach",
+  "sports": [
+   "surf",
+   "kite"
+  ],
+  "facing": 331,
+  "window": [
+   260,
+   55
+  ],
+  "bestTide": [],
+  "dangerTide": [],
+  "bestSwell": [
+   280,
+   330
+  ],
+  "bestWind": [
+   106,
+   196
+  ],
+  "kiteWind": [
+   330,
+   60
+  ],
+  "level": "all",
+  "hazards": [
+   "rips"
+  ],
+  "notes": "Consistent beach between Bouznika and Mohammedia where many Moroccan surfers learned; summer conditions suit kiters.",
+  "sources": [
+   "https://celebritycruises.com/blog/best-beaches-in-morocco"
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "ma-plage-des-sablettes",
+  "name": "Les Sablettes",
+  "aliases": [
+   "Plage des Sablettes",
+   "Mohammedia"
+  ],
+  "lat": 33.7203,
+  "lon": -7.3444,
+  "country": "MA",
+  "zone": "ma-rabat-casablanca",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 343,
+  "window": [
+   295,
+   40
+  ],
+  "bestTide": [],
+  "dangerTide": [],
+  "bestSwell": [
+   295,
+   330
+  ],
+  "bestWind": [
+   118,
+   208
+  ],
+  "kiteWind": null,
+  "level": "beginner",
+  "hazards": [
+   "pollution"
+  ],
+  "notes": "Mohammedia beach with regular, mellow lefts; best in winter.",
+  "sources": [
+   "https://www.surf-report.com/news/voyages/guide-free-surf-maroc-rabat-casablanca-zineb-tebbai-bodyboard-dar-bouazza-jack-beach-oued-cherrat-629235736.html",
+   "https://vvanat.fr/blog/surf-maroc-casablanca/",
+   "https://celebritycruises.com/blog/best-beaches-in-morocco"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "ma-plage-ain-diab",
+  "name": "Ain Diab",
+  "aliases": [
+   "Aïn Diab",
+   "Plage N°23"
+  ],
+  "lat": 33.5863,
+  "lon": -7.6925,
+  "country": "MA",
+  "zone": "ma-rabat-casablanca",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 334,
+  "window": [
+   255,
+   45
+  ],
+  "bestTide": [],
+  "dangerTide": [],
+  "bestSwell": [
+   280,
+   330
+  ],
+  "bestWind": [
+   109,
+   199
+  ],
+  "kiteWind": null,
+  "level": "all",
+  "hazards": [
+   "crowds",
+   "rocks",
+   "pollution"
+  ],
+  "notes": "Casablanca's city beach on the corniche with several peaks and many surf schools; has hosted bodyboard contests.",
+  "sources": [
+   "https://vvanat.fr/blog/surf-maroc-casablanca/",
+   "https://www.surf-report.com/news/voyages/guide-free-surf-maroc-rabat-casablanca-zineb-tebbai-bodyboard-dar-bouazza-jack-beach-oued-cherrat-629235736.html",
+   "https://celebritycruises.com/blog/best-beaches-in-morocco"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "ma-dar-bouazza",
+  "name": "Dar Bouazza",
+  "aliases": [],
+  "lat": 33.5301,
+  "lon": -7.8163,
+  "country": "MA",
+  "zone": "ma-rabat-casablanca",
+  "break": "point",
+  "sports": [
+   "surf"
+  ],
+  "facing": 340,
+  "window": [
+   260,
+   40
+  ],
+  "bestTide": [],
+  "dangerTide": [],
+  "bestSwell": [
+   290,
+   330
+  ],
+  "bestWind": [
+   115,
+   205
+  ],
+  "kiteWind": null,
+  "level": "advanced",
+  "hazards": [
+   "reef",
+   "crowds"
+  ],
+  "notes": "Long left point over urchin-covered reef south of Casablanca; the region's best left and often crowded.",
+  "sources": [
+   "https://www.surf-report.com/news/voyages/guide-free-surf-maroc-rabat-casablanca-zineb-tebbai-bodyboard-dar-bouazza-jack-beach-oued-cherrat-629235736.html",
+   "https://vvanat.fr/blog/surf-maroc-casablanca/",
+   "https://infostourismemaroc.com/en/news-about-your-holiday/10-beautiful-spots-for-surfing-in-morocco"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "ma-jack-beach",
+  "name": "Jack Beach",
+  "aliases": [],
+  "lat": 33.5286,
+  "lon": -7.8368,
+  "country": "MA",
+  "zone": "ma-rabat-casablanca",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 328,
+  "window": [
+   250,
+   50
+  ],
+  "bestTide": [],
+  "dangerTide": [],
+  "bestSwell": [
+   280,
+   330
+  ],
+  "bestWind": [
+   103,
+   193
+  ],
+  "kiteWind": null,
+  "level": "intermediate",
+  "hazards": [
+   "rips"
+  ],
+  "notes": "Punchy beach break next to Dar Bouazza; a fallback when other spots are small, with rips in winter.",
+  "sources": [
+   "https://www.surf-report.com/news/voyages/guide-free-surf-maroc-rabat-casablanca-zineb-tebbai-bodyboard-dar-bouazza-jack-beach-oued-cherrat-629235736.html",
+   "https://vvanat.fr/blog/surf-maroc-casablanca/"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "ma-oued-merzeg",
+  "name": "Oued Merzeg",
+  "aliases": [],
+  "lat": 33.5204,
+  "lon": -7.852,
+  "country": "MA",
+  "zone": "ma-rabat-casablanca",
+  "break": "rivermouth",
+  "sports": [
+   "kite"
+  ],
+  "facing": 329,
+  "window": [
+   250,
+   55
+  ],
+  "bestTide": [
+   "high"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   280,
+   330
+  ],
+  "bestWind": [
+   104,
+   194
+  ],
+  "kiteWind": [
+   340,
+   60
+  ],
+  "level": "intermediate",
+  "hazards": [
+   "rocks"
+  ],
+  "notes": "Wide sandy beach at a small river mouth south of Casablanca used by kiters in N–NE wind; rocks at low tide.",
+  "sources": [
+   "https://vvanat.fr/blog/sejour-kitesurf-maroc/"
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "ma-azemmour-oum-rbia",
+  "name": "Azemmour Oum Er-Rbia",
+  "aliases": [
+   "Lalla Aïcha El Bahria"
+  ],
+  "lat": 33.324,
+  "lon": -8.3364,
+  "country": "MA",
+  "zone": "ma-el-jadida-oualidia",
+  "break": "rivermouth",
+  "sports": [
+   "kite"
+  ],
+  "facing": 314,
+  "window": [
+   250,
+   30
+  ],
+  "bestTide": [],
+  "dangerTide": [],
+  "bestSwell": [
+   280,
+   330
+  ],
+  "bestWind": [
+   89,
+   179
+  ],
+  "kiteWind": [
+   340,
+   40
+  ],
+  "level": "intermediate",
+  "hazards": [
+   "rocks",
+   "currents"
+  ],
+  "notes": "Calm water and small waves at the Oum Er-Rbia mouth in strong north wind; long beach downwind to El Jadida.",
+  "sources": [
+   "https://vvanat.fr/blog/sejour-kitesurf-maroc/"
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "ma-plage-haouzia",
+  "name": "Haouzia",
+  "aliases": [
+   "Plage Haouzia",
+   "Haouzia Beach"
+  ],
+  "lat": 33.2763,
+  "lon": -8.4015,
+  "country": "MA",
+  "zone": "ma-el-jadida-oualidia",
+  "break": "beach",
+  "sports": [
+   "surf",
+   "kite"
+  ],
+  "facing": 328,
+  "window": [
+   265,
+   40
+  ],
+  "bestTide": [],
+  "dangerTide": [],
+  "bestSwell": [
+   280,
+   330
+  ],
+  "bestWind": [
+   103,
+   193
+  ],
+  "kiteWind": [
+   330,
+   60
+  ],
+  "level": "all",
+  "hazards": [
+   "rips"
+  ],
+  "notes": "Twelve-kilometre beach north of El Jadida with many peaks; the alternative when Deauville is flat or busy.",
+  "sources": [
+   "https://vvanat.fr/blog/aourir-maroc-surf/",
+   "https://infostourismemaroc.com/en/news-about-your-holiday/10-beautiful-spots-for-surfing-in-morocco",
+   "https://vvanat.fr/blog/sejour-kitesurf-maroc/",
+   "https://onlybeaches.com/best-beaches-for/surf/morocco"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "ma-plage-deauville",
+  "name": "Deauville",
+  "aliases": [
+   "Plage Deauville",
+   "El Jadida"
+  ],
+  "lat": 33.2499,
+  "lon": -8.4936,
+  "country": "MA",
+  "zone": "ma-el-jadida-oualidia",
+  "break": "beach",
+  "sports": [
+   "surf",
+   "kite"
+  ],
+  "facing": 22,
+  "window": [
+   300,
+   55
+  ],
+  "bestTide": [],
+  "dangerTide": [],
+  "bestSwell": [
+   310,
+   350
+  ],
+  "bestWind": [
+   157,
+   247
+  ],
+  "kiteWind": [
+   0,
+   70
+  ],
+  "level": "all",
+  "hazards": [
+   "crowds"
+  ],
+  "notes": "Main El Jadida town beach sheltered by the breakwater; needs NW swell and gets crowded.",
+  "sources": [
+   "https://vvanat.fr/blog/aourir-maroc-surf/",
+   "https://infostourismemaroc.com/en/news-about-your-holiday/10-beautiful-spots-for-surfing-in-morocco",
+   "https://vvanat.fr/blog/sejour-kitesurf-maroc/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "ma-sidi-bouzid-el-jadida",
+  "name": "Sidi Bouzid (El Jadida)",
+  "aliases": [
+   "Sidi Bouzid"
+  ],
+  "lat": 33.233,
+  "lon": -8.5567,
+  "country": "MA",
+  "zone": "ma-el-jadida-oualidia",
+  "break": "point",
+  "sports": [
+   "surf"
+  ],
+  "facing": 303,
+  "window": [
+   225,
+   40
+  ],
+  "bestTide": [],
+  "dangerTide": [],
+  "bestSwell": [
+   280,
+   330
+  ],
+  "bestWind": [
+   78,
+   168
+  ],
+  "kiteWind": null,
+  "level": "intermediate",
+  "hazards": [
+   "rocks",
+   "shorebreak"
+  ],
+  "notes": "Beach south-west of El Jadida with a fast shorebreak and a point/reef that works with more swell.",
+  "sources": [
+   "https://visitmorocco.com/en/viagem/el-jadida/praia",
+   "https://infostourismemaroc.com/en/news-about-your-holiday/10-beautiful-spots-for-surfing-in-morocco"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "ma-oualidia-lagoon",
+  "name": "Oualidia Lagoon",
+  "aliases": [],
+  "lat": 32.74,
+  "lon": -9.038,
+  "country": "MA",
+  "zone": "ma-el-jadida-oualidia",
+  "break": "beach",
+  "sports": [
+   "surf",
+   "kite",
+   "windsurf"
+  ],
+  "facing": 320,
+  "window": [
+   280,
+   350
+  ],
+  "bestTide": [
+   "mid",
+   "high"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   290,
+   340
+  ],
+  "bestWind": [
+   95,
+   185
+  ],
+  "kiteWind": [
+   330,
+   40
+  ],
+  "level": "beginner",
+  "hazards": [
+   "currents"
+  ],
+  "notes": "Sheltered lagoon behind the inlet; soft reforming waves for first-timers and flat water for kiting in north wind.",
+  "sources": [
+   "https://thesurfatlas.com/surfing-morocco/oualidia-surf/",
+   "https://thesurfatlas.com/surfing-morocco/morocco-surf-towns/",
+   "https://vvanat.fr/blog/sejour-kitesurf-maroc/",
+   "https://visitmorocco.com/en/reise/safi/sport"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "ma-oualidia-la-passe",
+  "name": "La Passe (Oualidia)",
+  "aliases": [],
+  "lat": 32.7428,
+  "lon": -9.0415,
+  "country": "MA",
+  "zone": "ma-el-jadida-oualidia",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 313,
+  "window": [
+   225,
+   45
+  ],
+  "bestTide": [],
+  "dangerTide": [],
+  "bestSwell": [
+   280,
+   330
+  ],
+  "bestWind": [
+   88,
+   178
+  ],
+  "kiteWind": null,
+  "level": "intermediate",
+  "hazards": [
+   "currents",
+   "rips"
+  ],
+  "notes": "Beach break just outside the lagoon mouth with wedging peaks on mid-size NW swell.",
+  "sources": [
+   "https://thesurfatlas.com/surfing-morocco/oualidia-surf/",
+   "https://thesurfatlas.com/surfing-morocco/morocco-surf-towns/"
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "ma-oualidia-la-grande",
+  "name": "La Grande Plage (Oualidia)",
+  "aliases": [
+   "Oualidia Beach"
+  ],
+  "lat": 32.7497,
+  "lon": -9.0311,
+  "country": "MA",
+  "zone": "ma-el-jadida-oualidia",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 311,
+  "window": [
+   225,
+   45
+  ],
+  "bestTide": [],
+  "dangerTide": [],
+  "bestSwell": [
+   280,
+   330
+  ],
+  "bestWind": [
+   86,
+   176
+  ],
+  "kiteWind": null,
+  "level": "intermediate",
+  "hazards": [
+   "rocks",
+   "rips"
+  ],
+  "notes": "Long beach along the lagoon with A-frames and wedges off rock stacks.",
+  "sources": [
+   "https://thesurfatlas.com/surfing-morocco/oualidia-surf/",
+   "https://infostourismemaroc.com/en/news-about-your-holiday/10-beautiful-spots-for-surfing-in-morocco"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "ma-plage-lalla-fatna",
+  "name": "Lalla Fatna",
+  "aliases": [],
+  "lat": 32.4012,
+  "lon": -9.2618,
+  "country": "MA",
+  "zone": "ma-safi",
+  "break": "beach",
+  "sports": [
+   "surf",
+   "kite",
+   "windsurf"
+  ],
+  "facing": 297,
+  "window": [
+   220,
+   350
+  ],
+  "bestTide": [],
+  "dangerTide": [],
+  "bestSwell": [
+   280,
+   330
+  ],
+  "bestWind": [
+   72,
+   162
+  ],
+  "kiteWind": [
+   340,
+   40
+  ],
+  "level": "intermediate",
+  "hazards": [
+   "rips"
+  ],
+  "notes": "Cliff-backed beach north of Safi with lefts and rights; hosted national championship qualifiers.",
+  "sources": [
+   "https://visitmorocco.com/en/viaje/safi/playa",
+   "https://visitmorocco.com/en/reise/safi/sport",
+   "https://www.surf-report.com/news/contest/champiuonnat-maroc-surf-bodyboard-safi-taghazout-428186298.html"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "ma-sidi-bouzid-safi",
+  "name": "Sidi Bouzid (Safi)",
+  "aliases": [],
+  "lat": 32.3399,
+  "lon": -9.2835,
+  "country": "MA",
+  "zone": "ma-safi",
+  "break": "beach",
+  "sports": [
+   "kite",
+   "windsurf"
+  ],
+  "facing": 264,
+  "window": [
+   180,
+   345
+  ],
+  "bestTide": [],
+  "dangerTide": [],
+  "bestSwell": [
+   280,
+   330
+  ],
+  "bestWind": [
+   39,
+   129
+  ],
+  "kiteWind": [
+   340,
+   40
+  ],
+  "level": "intermediate",
+  "hazards": [
+   "rocks"
+  ],
+  "notes": "Beach north of Safi listed for kitesurfing and windsurfing.",
+  "sources": [
+   "https://visitmorocco.com/en/reise/safi/sport",
+   "https://onlybeaches.com/best-beaches-for/surf/morocco"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "ma-safi-garden",
+  "name": "Safi Garden",
+  "aliases": [
+   "Le Jardin",
+   "Ras Lafaa",
+   "Safi Point"
+  ],
+  "lat": 32.3195,
+  "lon": -9.2566,
+  "country": "MA",
+  "zone": "ma-safi",
+  "break": "point",
+  "sports": [
+   "surf"
+  ],
+  "facing": 232,
+  "window": [
+   220,
+   340
+  ],
+  "bestTide": [
+   "low"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   290,
+   330
+  ],
+  "bestWind": [
+   0,
+   90
+  ],
+  "kiteWind": null,
+  "level": "advanced",
+  "hazards": [
+   "rocks",
+   "crowds",
+   "currents"
+  ],
+  "notes": "World-class right point north of Safi port: long, fast barrels on big NW winter swell.",
+  "sources": [
+   "https://visitmorocco.com/en/reise/safi/sport",
+   "https://africa.com/travel-africa/the-surfers-guide-to-morocco-the-best-waves-in-the-western-kingdom",
+   "https://www.weroad.fr/blog/surf-maroc",
+   "https://thesurfatlas.com/surfing-morocco/morocco-surf-towns/",
+   "https://www.moroccoworldnews.com/2024/09/14893/moroccos-secret-surf-hideaways/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "ma-souiria-kedima",
+  "name": "Souiria Kedima",
+  "aliases": [
+   "Souiria Lakdima"
+  ],
+  "lat": 32.0402,
+  "lon": -9.3449,
+  "country": "MA",
+  "zone": "ma-safi",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 292,
+  "window": [
+   220,
+   15
+  ],
+  "bestTide": [],
+  "dangerTide": [],
+  "bestSwell": [
+   280,
+   330
+  ],
+  "bestWind": [
+   67,
+   157
+  ],
+  "kiteWind": null,
+  "level": "beginner",
+  "hazards": [
+   "rips"
+  ],
+  "notes": "Active beach 36 km south of Safi with water sports; a gentler option than Safi's point.",
+  "sources": [
+   "https://visitmorocco.com/en/viaje/safi/playa"
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "ma-moulay-bouzerktoun",
+  "name": "Moulay Bouzerktoun",
+  "aliases": [
+   "Moulay",
+   "Moulay Bouzarktoune"
+  ],
+  "lat": 31.6452,
+  "lon": -9.679,
+  "country": "MA",
+  "zone": "ma-essaouira",
+  "break": "reef",
+  "sports": [
+   "surf",
+   "kite",
+   "windsurf"
+  ],
+  "facing": 278,
+  "window": [
+   215,
+   0
+  ],
+  "bestTide": [
+   "high"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   280,
+   330
+  ],
+  "bestWind": [
+   53,
+   143
+  ],
+  "kiteWind": [
+   330,
+   30
+  ],
+  "level": "advanced",
+  "hazards": [
+   "reef",
+   "rocks",
+   "currents"
+  ],
+  "notes": "Windsurf and kite wave spot 25 km north of Essaouira: strong summer north wind and reef waves; World Cup windsurf venue.",
+  "sources": [
+   "https://lepetitjournal.com/maroc/comprendre-maroc/essaouira-immersion-culture-surf-ville-vents-indomptables-416843",
+   "https://boards.co.uk/travel/world-travel/moulay-bouzerktoun-morocco.html",
+   "https://alexpastorkiteclub.com/blog/kitesurf/kitesurfing-in-essaouira-morocco-a-complete-guide",
+   "https://vvanat.fr/blog/sejour-kitesurf-maroc/",
+   "https://vvanat.fr/blog/aourir-maroc-surf/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "ma-plage-dessaouira",
+  "name": "Essaouira Bay",
+  "aliases": [
+   "Essaouira",
+   "Plage de Tagharte"
+  ],
+  "lat": 31.5011,
+  "lon": -9.7665,
+  "country": "MA",
+  "zone": "ma-essaouira",
+  "break": "beach",
+  "sports": [
+   "surf",
+   "kite",
+   "windsurf"
+  ],
+  "facing": 292,
+  "window": [
+   275,
+   310
+  ],
+  "bestTide": [],
+  "dangerTide": [],
+  "bestSwell": [
+   280,
+   310
+  ],
+  "bestWind": [
+   67,
+   157
+  ],
+  "kiteWind": [
+   320,
+   30
+  ],
+  "level": "beginner",
+  "hazards": [
+   "crowds"
+  ],
+  "notes": "Town beach sheltered by Mogador island: small waves for learners and the main kite/windsurf school beach in the trade winds.",
+  "sources": [
+   "https://lepetitjournal.com/maroc/comprendre-maroc/essaouira-immersion-culture-surf-ville-vents-indomptables-416843",
+   "https://alexpastorkiteclub.com/blog/kitesurf/kitesurfing-in-essaouira-morocco-a-complete-guide",
+   "https://thesurfatlas.com/surfing-morocco/essaouira-surf/",
+   "https://africa.com/travel-africa/the-surfers-guide-to-morocco-the-best-waves-in-the-western-kingdom",
+   "https://boards.co.uk/travel/world-travel/moulay-bouzerktoun-morocco.html"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "ma-cap-sim",
+  "name": "Cap Sim",
+  "aliases": [],
+  "lat": 31.396,
+  "lon": -9.8418,
+  "country": "MA",
+  "zone": "ma-essaouira",
+  "break": "point",
+  "sports": [
+   "surf"
+  ],
+  "facing": 274,
+  "window": [
+   175,
+   20
+  ],
+  "bestTide": [],
+  "dangerTide": [],
+  "bestSwell": [
+   280,
+   330
+  ],
+  "bestWind": [
+   49,
+   139
+  ],
+  "kiteWind": null,
+  "level": "advanced",
+  "hazards": [
+   "rocks"
+  ],
+  "notes": "Fickle right point between Essaouira and Sidi Kaouki, reached by track; for experienced surfers.",
+  "sources": [
+   "https://lepetitjournal.com/maroc/comprendre-maroc/essaouira-immersion-culture-surf-ville-vents-indomptables-416843",
+   "https://thesurfatlas.com/surfing-morocco/essaouira-surf/",
+   "https://thesurfatlas.com/surfing-morocco/morocco-surf-towns/"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "ma-sidi-kaouki",
+  "name": "Sidi Kaouki",
+  "aliases": [],
+  "lat": 31.354,
+  "lon": -9.8005,
+  "country": "MA",
+  "zone": "ma-essaouira",
+  "break": "beach",
+  "sports": [
+   "surf",
+   "kite",
+   "windsurf"
+  ],
+  "facing": 255,
+  "window": [
+   190,
+   315
+  ],
+  "bestTide": [
+   "mid",
+   "high"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   280,
+   315
+  ],
+  "bestWind": [
+   30,
+   120
+  ],
+  "kiteWind": [
+   330,
+   30
+  ],
+  "level": "all",
+  "hazards": [
+   "rips",
+   "shorebreak"
+  ],
+  "notes": "Long beach with many sandbar peaks and a reef at the marabout; strong summer wind makes it a wave-kite spot.",
+  "sources": [
+   "https://thesurfatlas.com/surfing-morocco/sidi-kaouki-surf/",
+   "https://africa.com/travel-africa/the-surfers-guide-to-morocco-the-best-waves-in-the-western-kingdom",
+   "https://infostourismemaroc.com/en/news-about-your-holiday/10-beautiful-spots-for-surfing-in-morocco",
+   "https://alexpastorkiteclub.com/blog/kitesurf/kitesurfing-in-essaouira-morocco-a-complete-guide",
+   "https://lepetitjournal.com/maroc/comprendre-maroc/essaouira-immersion-culture-surf-ville-vents-indomptables-416843",
+   "https://vvanat.fr/blog/sejour-kitesurf-maroc/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "ma-tafedna-point",
+  "name": "Tafedna Point",
+  "aliases": [],
+  "lat": 31.0979,
+  "lon": -9.8288,
+  "country": "MA",
+  "zone": "ma-essaouira",
+  "break": "point",
+  "sports": [
+   "surf"
+  ],
+  "facing": 222,
+  "window": [
+   190,
+   330
+  ],
+  "bestTide": [],
+  "dangerTide": [],
+  "bestSwell": [
+   280,
+   320
+  ],
+  "bestWind": [
+   357,
+   87
+  ],
+  "kiteWind": null,
+  "level": "intermediate",
+  "hazards": [
+   "rocks",
+   "reef"
+  ],
+  "notes": "Long right wrapping the cliffs at the north end of Tafedna bay, sheltered from the north wind.",
+  "sources": [
+   "https://thesurfatlas.com/surfing-morocco/tafedna/",
+   "https://thesurfatlas.com/surfing-morocco/morocco-surf-towns/"
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "ma-plage-tafedna",
+  "name": "Tafedna",
+  "aliases": [
+   "Plage Tafedna"
+  ],
+  "lat": 31.0899,
+  "lon": -9.82,
+  "country": "MA",
+  "zone": "ma-essaouira",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 257,
+  "window": [
+   195,
+   310
+  ],
+  "bestTide": [],
+  "dangerTide": [],
+  "bestSwell": [
+   280,
+   310
+  ],
+  "bestWind": [
+   32,
+   122
+  ],
+  "kiteWind": null,
+  "level": "all",
+  "hazards": [
+   "rips"
+  ],
+  "notes": "Uncrowded village bay with several beach-break peaks.",
+  "sources": [
+   "https://thesurfatlas.com/surfing-morocco/tafedna/",
+   "https://thesurfatlas.com/surfing-morocco/essaouira-surf/"
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "ma-cathedral-point",
+  "name": "Cathedral",
+  "aliases": [
+   "Cathedral Point",
+   "La Cathédrale"
+  ],
+  "lat": 30.844,
+  "lon": -9.8254,
+  "country": "MA",
+  "zone": "ma-imsouane",
+  "break": "point",
+  "sports": [
+   "surf"
+  ],
+  "facing": 265,
+  "window": [
+   200,
+   0
+  ],
+  "bestTide": [],
+  "dangerTide": [],
+  "bestSwell": [
+   280,
+   330
+  ],
+  "bestWind": [
+   40,
+   130
+  ],
+  "kiteWind": null,
+  "level": "intermediate",
+  "hazards": [
+   "rocks",
+   "reef"
+  ],
+  "notes": "Exposed north side of Imsouane: faster, hollower rights over rock and sand.",
+  "sources": [
+   "https://thesurfatlas.com/surfing-morocco/imsouane-surf/",
+   "https://africa.com/travel-africa/the-surfers-guide-to-morocco-the-best-waves-in-the-western-kingdom",
+   "https://infostourismemaroc.com/en/news-about-your-holiday/10-beautiful-spots-for-surfing-in-morocco",
+   "https://www.journalofnomads.com/surfing-in-morocco/",
+   "https://www.weroad.fr/blog/surf-maroc"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "ma-imsouane-the-bay",
+  "name": "Imsouane The Bay",
+  "aliases": [
+   "Magic Bay",
+   "La Baie"
+  ],
+  "lat": 30.8364,
+  "lon": -9.8212,
+  "country": "MA",
+  "zone": "ma-imsouane",
+  "break": "point",
+  "sports": [
+   "surf"
+  ],
+  "facing": 220,
+  "window": [
+   230,
+   330
+  ],
+  "bestTide": [
+   "mid",
+   "high"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   285,
+   330
+  ],
+  "bestWind": [
+   355,
+   85
+  ],
+  "kiteWind": null,
+  "level": "beginner",
+  "hazards": [
+   "crowds",
+   "rocks"
+  ],
+  "notes": "Very long, mellow right point in the sheltered bay south of the village; a classic longboard wave.",
+  "sources": [
+   "https://thesurfatlas.com/surfing-morocco/imsouane-surf/",
+   "https://africa.com/travel-africa/the-surfers-guide-to-morocco-the-best-waves-in-the-western-kingdom",
+   "https://infostourismemaroc.com/en/news-about-your-holiday/10-beautiful-spots-for-surfing-in-morocco",
+   "https://www.journalofnomads.com/surfing-in-morocco/",
+   "https://www.moroccoworldnews.com/2024/09/14893/moroccos-secret-surf-hideaways/",
+   "https://hashpointsurfcamp.squarespace.com/surf-spots"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "ma-tamri",
+  "name": "Tamri",
+  "aliases": [],
+  "lat": 30.7168,
+  "lon": -9.8546,
+  "country": "MA",
+  "zone": "ma-taghazout-agadir",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 302,
+  "window": [
+   225,
+   10
+  ],
+  "bestTide": [],
+  "dangerTide": [],
+  "bestSwell": [
+   280,
+   330
+  ],
+  "bestWind": [
+   77,
+   167
+  ],
+  "kiteWind": null,
+  "level": "intermediate",
+  "hazards": [
+   "rips"
+  ],
+  "notes": "Exposed beach with many A-frame peaks north of Cap Ghir; picks up swell when Taghazout is small.",
+  "sources": [
+   "https://hashpointsurfcamp.squarespace.com/surf-spots",
+   "https://site2024.surfmaroc.com/?p=45",
+   "https://www.moroccoworldnews.com/2024/09/14893/moroccos-secret-surf-hideaways/",
+   "https://africa.com/travel-africa/the-surfers-guide-to-morocco-the-best-waves-in-the-western-kingdom"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "ma-draculas",
+  "name": "Draculas",
+  "aliases": [],
+  "lat": 30.6255,
+  "lon": -9.8859,
+  "country": "MA",
+  "zone": "ma-taghazout-agadir",
+  "break": "reef",
+  "sports": [
+   "surf"
+  ],
+  "facing": 239,
+  "window": [
+   180,
+   330
+  ],
+  "bestTide": [
+   "low"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   285,
+   320
+  ],
+  "bestWind": [
+   14,
+   104
+  ],
+  "kiteWind": null,
+  "level": "advanced",
+  "hazards": [
+   "reef",
+   "rocks",
+   "currents"
+  ],
+  "notes": "Fast, hollow right reef near Cap Ghir; experts only.",
+  "sources": [
+   "https://hashpointsurfcamp.squarespace.com/surf-spots",
+   "https://africa.com/travel-africa/the-surfers-guide-to-morocco-the-best-waves-in-the-western-kingdom"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "ma-boilers",
+  "name": "Boilers",
+  "aliases": [],
+  "lat": 30.6238,
+  "lon": -9.8756,
+  "country": "MA",
+  "zone": "ma-taghazout-agadir",
+  "break": "reef",
+  "sports": [
+   "surf"
+  ],
+  "facing": 202,
+  "window": [
+   180,
+   330
+  ],
+  "bestTide": [
+   "mid",
+   "high"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   285,
+   320
+  ],
+  "bestWind": [
+   337,
+   67
+  ],
+  "kiteWind": null,
+  "level": "advanced",
+  "hazards": [
+   "reef",
+   "rocks",
+   "currents"
+  ],
+  "notes": "Powerful right reef by an old ship's boiler south of Cap Ghir; tricky entry, holds big swell.",
+  "sources": [
+   "https://thesurfatlas.com/surfing-morocco/taghazout-surf/",
+   "https://hashpointsurfcamp.squarespace.com/surf-spots",
+   "https://site2024.surfmaroc.com/?p=45",
+   "https://www.stokedfortravel.com/?p=7362",
+   "https://africa.com/travel-africa/the-surfers-guide-to-morocco-the-best-waves-in-the-western-kingdom"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "ma-imi-ouaddar",
+  "name": "Imi Ouaddar",
+  "aliases": [],
+  "lat": 30.5857,
+  "lon": -9.7623,
+  "country": "MA",
+  "zone": "ma-taghazout-agadir",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 223,
+  "window": [
+   150,
+   290
+  ],
+  "bestTide": [],
+  "dangerTide": [],
+  "bestSwell": [
+   280,
+   290
+  ],
+  "bestWind": [
+   358,
+   88
+  ],
+  "kiteWind": null,
+  "level": "beginner",
+  "hazards": [
+   "rips"
+  ],
+  "notes": "Open sandy bay north of Taghazout, best in winter mornings before the wind.",
+  "sources": [
+   "https://thesurfatlas.com/surfing-morocco/imi-ouaddar/"
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "ma-killer-point",
+  "name": "Killer Point",
+  "aliases": [
+   "Killers"
+  ],
+  "lat": 30.5525,
+  "lon": -9.7411,
+  "country": "MA",
+  "zone": "ma-taghazout-agadir",
+  "break": "point",
+  "sports": [
+   "surf"
+  ],
+  "facing": 229,
+  "window": [
+   180,
+   330
+  ],
+  "bestTide": [],
+  "dangerTide": [],
+  "bestSwell": [
+   285,
+   320
+  ],
+  "bestWind": [
+   4,
+   94
+  ],
+  "kiteWind": null,
+  "level": "advanced",
+  "hazards": [
+   "rocks",
+   "currents"
+  ],
+  "notes": "Long right point north of Anchor Point that handles big swell; long paddle or a jump off the rocks.",
+  "sources": [
+   "https://thesurfatlas.com/surfing-morocco/taghazout-surf/",
+   "https://hashpointsurfcamp.squarespace.com/surf-spots",
+   "https://www.stokedfortravel.com/?p=7362",
+   "https://site2024.surfmaroc.com/?p=45",
+   "https://africa.com/travel-africa/the-surfers-guide-to-morocco-the-best-waves-in-the-western-kingdom"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "ma-la-source",
+  "name": "La Source",
+  "aliases": [],
+  "lat": 30.5486,
+  "lon": -9.7333,
+  "country": "MA",
+  "zone": "ma-taghazout-agadir",
+  "break": "reef",
+  "sports": [
+   "surf"
+  ],
+  "facing": 218,
+  "window": [
+   180,
+   330
+  ],
+  "bestTide": [
+   "mid"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   280,
+   320
+  ],
+  "bestWind": [
+   353,
+   83
+  ],
+  "kiteWind": null,
+  "level": "intermediate",
+  "hazards": [
+   "reef",
+   "rocks"
+  ],
+  "notes": "Rock-reef A-frame north of Anchor Point named after a spring on the inside rocks.",
+  "sources": [
+   "https://thesurfatlas.com/surfing-morocco/taghazout-surf/",
+   "https://hashpointsurfcamp.squarespace.com/surf-spots",
+   "https://site2024.surfmaroc.com/?p=45",
+   "https://africa.com/travel-africa/the-surfers-guide-to-morocco-the-best-waves-in-the-western-kingdom"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "ma-mysteries",
+  "name": "Mysteries",
+  "aliases": [],
+  "lat": 30.5468,
+  "lon": -9.7294,
+  "country": "MA",
+  "zone": "ma-taghazout-agadir",
+  "break": "reef",
+  "sports": [
+   "surf"
+  ],
+  "facing": 212,
+  "window": [
+   180,
+   330
+  ],
+  "bestTide": [],
+  "dangerTide": [],
+  "bestSwell": [
+   285,
+   320
+  ],
+  "bestWind": [
+   347,
+   77
+  ],
+  "kiteWind": null,
+  "level": "advanced",
+  "hazards": [
+   "reef",
+   "rocks",
+   "rips"
+  ],
+  "notes": "Short, critical right over rocks just north of Anchor Point.",
+  "sources": [
+   "https://thesurfatlas.com/surfing-morocco/taghazout-surf/",
+   "https://hashpointsurfcamp.squarespace.com/surf-spots",
+   "https://site2024.surfmaroc.com/?p=45",
+   "https://www.stokedfortravel.com/?p=7362"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "ma-anchor-point",
+  "name": "Anchor Point",
+  "aliases": [
+   "Taghazout Point"
+  ],
+  "lat": 30.5442,
+  "lon": -9.7272,
+  "country": "MA",
+  "zone": "ma-taghazout-agadir",
+  "break": "point",
+  "sports": [
+   "surf"
+  ],
+  "facing": 211,
+  "window": [
+   180,
+   330
+  ],
+  "bestTide": [
+   "low",
+   "mid"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   285,
+   320
+  ],
+  "bestWind": [
+   346,
+   76
+  ],
+  "kiteWind": null,
+  "level": "advanced",
+  "hazards": [
+   "rocks",
+   "crowds",
+   "localism",
+   "rips"
+  ],
+  "notes": "Morocco's best-known right point at Taghazout, long walls on NW winter swell; WSL Pro Taghazout Bay venue.",
+  "sources": [
+   "https://thesurfatlas.com/surfing-morocco/taghazout-surf/",
+   "https://hashpointsurfcamp.squarespace.com/surf-spots",
+   "https://www.stokedfortravel.com/?p=7362",
+   "https://site2024.surfmaroc.com/?p=45",
+   "https://africa.com/travel-africa/the-surfers-guide-to-morocco-the-best-waves-in-the-western-kingdom",
+   "https://vvanat.fr/blog/aourir-maroc-surf/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "ma-hash-point",
+  "name": "Hash Point",
+  "aliases": [],
+  "lat": 30.5439,
+  "lon": -9.7128,
+  "country": "MA",
+  "zone": "ma-taghazout-agadir",
+  "break": "point",
+  "sports": [
+   "surf"
+  ],
+  "facing": 212,
+  "window": [
+   180,
+   320
+  ],
+  "bestTide": [],
+  "dangerTide": [],
+  "bestSwell": [
+   285,
+   320
+  ],
+  "bestWind": [
+   347,
+   77
+  ],
+  "kiteWind": null,
+  "level": "intermediate",
+  "hazards": [
+   "rocks"
+  ],
+  "notes": "Mellow right point in front of Taghazout village that needs a decent swell.",
+  "sources": [
+   "https://thesurfatlas.com/surfing-morocco/taghazout-surf/",
+   "https://hashpointsurfcamp.squarespace.com/surf-spots",
+   "https://www.stokedfortravel.com/?p=7362",
+   "https://site2024.surfmaroc.com/?p=45",
+   "https://africa.com/travel-africa/the-surfers-guide-to-morocco-the-best-waves-in-the-western-kingdom"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "ma-panorama",
+  "name": "Panorama",
+  "aliases": [
+   "Panoramas"
+  ],
+  "lat": 30.5417,
+  "lon": -9.7069,
+  "country": "MA",
+  "zone": "ma-taghazout-agadir",
+  "break": "point",
+  "sports": [
+   "surf"
+  ],
+  "facing": 226,
+  "window": [
+   180,
+   320
+  ],
+  "bestTide": [
+   "low",
+   "mid"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   280,
+   320
+  ],
+  "bestWind": [
+   1,
+   91
+  ],
+  "kiteWind": null,
+  "level": "all",
+  "hazards": [
+   "rocks",
+   "rips"
+  ],
+  "notes": "Right point at the south edge of Taghazout, sheltered from wind; beach break at high tide.",
+  "sources": [
+   "https://thesurfatlas.com/surfing-morocco/taghazout-surf/",
+   "https://hashpointsurfcamp.squarespace.com/surf-spots",
+   "https://www.stokedfortravel.com/?p=7362",
+   "https://site2024.surfmaroc.com/?p=45",
+   "https://africa.com/travel-africa/the-surfers-guide-to-morocco-the-best-waves-in-the-western-kingdom"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "ma-plage-de-taghazout",
+  "name": "Taghazout Beach",
+  "aliases": [
+   "Plage de Taghazout"
+  ],
+  "lat": 30.5333,
+  "lon": -9.6996,
+  "country": "MA",
+  "zone": "ma-taghazout-agadir",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 234,
+  "window": [
+   160,
+   295
+  ],
+  "bestTide": [],
+  "dangerTide": [],
+  "bestSwell": [
+   280,
+   295
+  ],
+  "bestWind": [
+   9,
+   99
+  ],
+  "kiteWind": null,
+  "level": "beginner",
+  "hazards": [
+   "crowds"
+  ],
+  "notes": "Beaches south of Taghazout used by surf schools for beginners.",
+  "sources": [
+   "https://thesurfatlas.com/surfing-morocco/taghazout-surf/",
+   "https://thesurfatlas.com/surfing-morocco/tamraght-surf/",
+   "https://onlybeaches.com/best-beaches-for/surf/morocco"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "ma-k17",
+  "name": "K17",
+  "aliases": [],
+  "lat": 30.5227,
+  "lon": -9.6927,
+  "country": "MA",
+  "zone": "ma-taghazout-agadir",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 244,
+  "window": [
+   170,
+   305
+  ],
+  "bestTide": [],
+  "dangerTide": [],
+  "bestSwell": [
+   280,
+   305
+  ],
+  "bestWind": [
+   19,
+   109
+  ],
+  "kiteWind": null,
+  "level": "beginner",
+  "hazards": [
+   "crowds"
+  ],
+  "notes": "Beach break between Taghazout and Tamraght used by surf schools.",
+  "sources": [
+   "https://thesurfatlas.com/surfing-morocco/taghazout-surf/",
+   "https://www.stokedfortravel.com/?p=7362"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "ma-devils-rock",
+  "name": "Devil's Rock",
+  "aliases": [
+   "Roche du Diable",
+   "K14",
+   "Plage Imourane"
+  ],
+  "lat": 30.513,
+  "lon": -9.6893,
+  "country": "MA",
+  "zone": "ma-taghazout-agadir",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 248,
+  "window": [
+   175,
+   310
+  ],
+  "bestTide": [],
+  "dangerTide": [],
+  "bestSwell": [
+   280,
+   310
+  ],
+  "bestWind": [
+   23,
+   113
+  ],
+  "kiteWind": null,
+  "level": "beginner",
+  "hazards": [
+   "crowds",
+   "rocks"
+  ],
+  "notes": "Sandy beach break with A-frames running north from the Tamraght headland; a busy learner spot.",
+  "sources": [
+   "https://thesurfatlas.com/surfing-morocco/taghazout-surf/",
+   "https://thesurfatlas.com/surfing-morocco/tamraght-surf/",
+   "https://www.stokedfortravel.com/?p=7362",
+   "https://africa.com/travel-africa/the-surfers-guide-to-morocco-the-best-waves-in-the-western-kingdom",
+   "https://vvanat.fr/blog/aourir-maroc-surf/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "ma-crocodile-beach",
+  "name": "Crocodile Beach",
+  "aliases": [
+   "Crocs",
+   "Crocro"
+  ],
+  "lat": 30.5041,
+  "lon": -9.6868,
+  "country": "MA",
+  "zone": "ma-taghazout-agadir",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 234,
+  "window": [
+   160,
+   310
+  ],
+  "bestTide": [],
+  "dangerTide": [],
+  "bestSwell": [
+   280,
+   310
+  ],
+  "bestWind": [
+   9,
+   99
+  ],
+  "kiteWind": null,
+  "level": "intermediate",
+  "hazards": [
+   "rips",
+   "crowds"
+  ],
+  "notes": "Exposed beach next to Devil's Rock with chest-to-head-high A-frames in winter.",
+  "sources": [
+   "https://thesurfatlas.com/surfing-morocco/tamraght-surf/",
+   "https://www.stokedfortravel.com/?p=7362",
+   "https://www.journalofnomads.com/surfing-in-morocco/",
+   "https://site2024.surfmaroc.com/?p=45"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "ma-banana-point",
+  "name": "Banana Point",
+  "aliases": [],
+  "lat": 30.5013,
+  "lon": -9.6842,
+  "country": "MA",
+  "zone": "ma-taghazout-agadir",
+  "break": "point",
+  "sports": [
+   "surf"
+  ],
+  "facing": 228,
+  "window": [
+   160,
+   310
+  ],
+  "bestTide": [
+   "low",
+   "mid"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   280,
+   310
+  ],
+  "bestWind": [
+   3,
+   93
+  ],
+  "kiteWind": null,
+  "level": "intermediate",
+  "hazards": [
+   "rocks",
+   "rips",
+   "crowds"
+  ],
+  "notes": "Right point under the Aourir headland, sheltered from north wind; softer at high tide.",
+  "sources": [
+   "https://thesurfatlas.com/surfing-morocco/taghazout-surf/",
+   "https://thesurfatlas.com/surfing-morocco/tamraght-surf/",
+   "https://vvanat.fr/blog/aourir-maroc-surf/",
+   "https://www.journalofnomads.com/surfing-in-morocco/",
+   "https://www.stokedfortravel.com/?p=7362"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "ma-banana-beach",
+  "name": "Banana Beach",
+  "aliases": [],
+  "lat": 30.5009,
+  "lon": -9.6812,
+  "country": "MA",
+  "zone": "ma-taghazout-agadir",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 230,
+  "window": [
+   160,
+   310
+  ],
+  "bestTide": [],
+  "dangerTide": [],
+  "bestSwell": [
+   280,
+   310
+  ],
+  "bestWind": [
+   5,
+   95
+  ],
+  "kiteWind": null,
+  "level": "beginner",
+  "hazards": [
+   "crowds"
+  ],
+  "notes": "Sheltered beach in front of Banana Village with mushy waves popular with surf camps.",
+  "sources": [
+   "https://thesurfatlas.com/surfing-morocco/tamraght-surf/",
+   "https://africa.com/travel-africa/the-surfers-guide-to-morocco-the-best-waves-in-the-western-kingdom",
+   "https://www.journalofnomads.com/surfing-in-morocco/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "ma-k12",
+  "name": "K12",
+  "aliases": [
+   "Km12",
+   "Douze"
+  ],
+  "lat": 30.4951,
+  "lon": -9.6787,
+  "country": "MA",
+  "zone": "ma-taghazout-agadir",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 248,
+  "window": [
+   170,
+   315
+  ],
+  "bestTide": [
+   "high"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   280,
+   315
+  ],
+  "bestWind": [
+   23,
+   113
+  ],
+  "kiteWind": null,
+  "level": "intermediate",
+  "hazards": [
+   "rocks"
+  ],
+  "notes": "Peaks over a rock patch in front of Aourir that behave like a beach break; best on the push.",
+  "sources": [
+   "https://thesurfatlas.com/surfing-morocco/tamraght-surf/",
+   "https://thesurfatlas.com/surfing-morocco/agadir-surf/",
+   "https://www.journalofnomads.com/surfing-in-morocco/"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "ma-anza",
+  "name": "Anza",
+  "aliases": [
+   "Anza Plage"
+  ],
+  "lat": 30.4438,
+  "lon": -9.6603,
+  "country": "MA",
+  "zone": "ma-taghazout-agadir",
+  "break": "reef",
+  "sports": [
+   "surf"
+  ],
+  "facing": 244,
+  "window": [
+   170,
+   325
+  ],
+  "bestTide": [],
+  "dangerTide": [],
+  "bestSwell": [
+   280,
+   325
+  ],
+  "bestWind": [
+   19,
+   109
+  ],
+  "kiteWind": null,
+  "level": "intermediate",
+  "hazards": [
+   "rocks",
+   "pollution"
+  ],
+  "notes": "Beach and reef at Anza north of Agadir port: a right out back and easier inside peaks.",
+  "sources": [
+   "https://thesurfatlas.com/surfing-morocco/agadir-surf/",
+   "https://thesurfatlas.com/surfing-morocco/tamraght-surf/",
+   "https://site2024.surfmaroc.com/?p=45",
+   "https://www.journalofnomads.com/surfing-in-morocco/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "ma-plage-dagadir",
+  "name": "Agadir Beach",
+  "aliases": [
+   "Plage d'Agadir"
+  ],
+  "lat": 30.4043,
+  "lon": -9.6029,
+  "country": "MA",
+  "zone": "ma-taghazout-agadir",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 248,
+  "window": [
+   190,
+   290
+  ],
+  "bestTide": [],
+  "dangerTide": [],
+  "bestSwell": [
+   280,
+   290
+  ],
+  "bestWind": [
+   23,
+   113
+  ],
+  "kiteWind": null,
+  "level": "beginner",
+  "hazards": [
+   "crowds"
+  ],
+  "notes": "City beach deep in Agadir bay; needs a big swell and stays small and crumbly.",
+  "sources": [
+   "https://thesurfatlas.com/surfing-morocco/agadir-surf/"
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "ma-la-plage-de-tifnit",
+  "name": "Tifnit",
+  "aliases": [
+   "Plage de Tifnit"
+  ],
+  "lat": 30.1978,
+  "lon": -9.6402,
+  "country": "MA",
+  "zone": "ma-souss-tiznit",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 271,
+  "window": [
+   200,
+   10
+  ],
+  "bestTide": [
+   "low"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   280,
+   330
+  ],
+  "bestWind": [
+   46,
+   136
+  ],
+  "kiteWind": null,
+  "level": "all",
+  "hazards": [
+   "reef"
+  ],
+  "notes": "Village bay with soft lefts and right reefs to the north at low tide; hosted national championship heats.",
+  "sources": [
+   "https://thesurfatlas.com/surfing-morocco/tifnit/",
+   "https://vvanat.fr/blog/aourir-maroc-surf/",
+   "https://www.surf-report.com/news/contest/champiuonnat-maroc-surf-bodyboard-safi-taghazout-428186298.html"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "ma-plage-sidi-rbat",
+  "name": "Sidi Rbat",
+  "aliases": [
+   "Sidi R'bat"
+  ],
+  "lat": 30.0948,
+  "lon": -9.6672,
+  "country": "MA",
+  "zone": "ma-souss-tiznit",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 287,
+  "window": [
+   210,
+   10
+  ],
+  "bestTide": [],
+  "dangerTide": [],
+  "bestSwell": [
+   280,
+   330
+  ],
+  "bestWind": [
+   62,
+   152
+  ],
+  "kiteWind": null,
+  "level": "all",
+  "hazards": [
+   "rips"
+  ],
+  "notes": "Beach with multiple peaks at the Massa estuary, best with light easterly wind in winter.",
+  "sources": [
+   "https://thesurfatlas.com/surfing-morocco/tifnit/"
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "ma-aglou-plage",
+  "name": "Aglou",
+  "aliases": [
+   "Sidi Moussa d'Aglou",
+   "Aglou Plage"
+  ],
+  "lat": 29.807,
+  "lon": -9.8341,
+  "country": "MA",
+  "zone": "ma-souss-tiznit",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 309,
+  "window": [
+   230,
+   25
+  ],
+  "bestTide": [],
+  "dangerTide": [],
+  "bestSwell": [
+   280,
+   330
+  ],
+  "bestWind": [
+   84,
+   174
+  ],
+  "kiteWind": null,
+  "level": "intermediate",
+  "hazards": [
+   "rocks",
+   "rips"
+  ],
+  "notes": "Beach of Tiznit; a reef right breaks north of the main beach at Sidi Moussa d'Aglou.",
+  "sources": [
+   "https://maroc.ma/fr/actualites/la-plage-sidi-moussa-aglou-une-destination-prisee-pour-sa-beaute-naturelle-et-sa-tranquillite"
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "ma-plage-imi-ntarga",
+  "name": "Imin Turga",
+  "aliases": [
+   "Imin Tourga",
+   "Grande Plage de Mirleft",
+   "Plage Imi Ntarga"
+  ],
+  "lat": 29.5931,
+  "lon": -10.0387,
+  "country": "MA",
+  "zone": "ma-souss-tiznit",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 317,
+  "window": [
+   225,
+   30
+  ],
+  "bestTide": [],
+  "dangerTide": [],
+  "bestSwell": [
+   280,
+   330
+  ],
+  "bestWind": [
+   92,
+   182
+  ],
+  "kiteWind": null,
+  "level": "intermediate",
+  "hazards": [
+   "shorebreak",
+   "rips"
+  ],
+  "notes": "Mirleft's main north-west facing beach with punchy peaks, best on smaller swells.",
+  "sources": [
+   "https://thesurfatlas.com/surfing-morocco/mirleft-surfing/",
+   "https://thesurfatlas.com/surfing-morocco/morocco-surf-towns/",
+   "https://www.journeybeyondtravel.com/blog/beaches-mirleft-morocco.html"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "ma-rasta-point",
+  "name": "Rasta Point",
+  "aliases": [],
+  "lat": 29.5909,
+  "lon": -10.043,
+  "country": "MA",
+  "zone": "ma-souss-tiznit",
+  "break": "point",
+  "sports": [
+   "surf"
+  ],
+  "facing": 305,
+  "window": [
+   210,
+   30
+  ],
+  "bestTide": [
+   "mid",
+   "high"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   280,
+   330
+  ],
+  "bestWind": [
+   80,
+   170
+  ],
+  "kiteWind": null,
+  "level": "intermediate",
+  "hazards": [
+   "rocks"
+  ],
+  "notes": "Right point off the cliff in the middle of Mirleft's main beach, best on the rising tide.",
+  "sources": [
+   "https://thesurfatlas.com/surfing-morocco/mirleft-surfing/",
+   "https://thesurfatlas.com/surfing-morocco/tifnit/"
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "ma-aftas-beach",
+  "name": "Aftas",
+  "aliases": [
+   "Aftas Beach"
+  ],
+  "lat": 29.5783,
+  "lon": -10.0496,
+  "country": "MA",
+  "zone": "ma-souss-tiznit",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 289,
+  "window": [
+   210,
+   30
+  ],
+  "bestTide": [],
+  "dangerTide": [],
+  "bestSwell": [
+   280,
+   330
+  ],
+  "bestWind": [
+   64,
+   154
+  ],
+  "kiteWind": null,
+  "level": "all",
+  "hazards": [
+   "rocks"
+  ],
+  "notes": "Small cove below Mirleft village.",
+  "sources": [
+   "https://www.journeybeyondtravel.com/blog/beaches-mirleft-morocco.html"
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "ma-marabout-beach",
+  "name": "Marabout Beach",
+  "aliases": [
+   "Sidi Mohamed Ben Abdellah"
+  ],
+  "lat": 29.5692,
+  "lon": -10.0545,
+  "country": "MA",
+  "zone": "ma-souss-tiznit",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 294,
+  "window": [
+   210,
+   25
+  ],
+  "bestTide": [],
+  "dangerTide": [],
+  "bestSwell": [
+   280,
+   330
+  ],
+  "bestWind": [
+   69,
+   159
+  ],
+  "kiteWind": null,
+  "level": "intermediate",
+  "hazards": [
+   "rocks",
+   "shorebreak"
+  ],
+  "notes": "Beach below the Sidi Mohamed Ben Abdellah shrine with pounding beach breaks between rocks.",
+  "sources": [
+   "https://afktravel.com/95219/surfing-the-sahara-from-taghazout-to-tarfaya/",
+   "https://www.journeybeyondtravel.com/blog/beaches-mirleft-morocco.html",
+   "https://infostourismemaroc.com/en/news-about-your-holiday/10-beautiful-spots-for-surfing-in-morocco"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "ma-plage-de-tamehrocht",
+  "name": "Tamhrouchte",
+  "aliases": [
+   "Plage de Tamehrocht",
+   "Tamahroucht"
+  ],
+  "lat": 29.5549,
+  "lon": -10.0583,
+  "country": "MA",
+  "zone": "ma-souss-tiznit",
+  "break": "point",
+  "sports": [
+   "surf"
+  ],
+  "facing": 305,
+  "window": [
+   230,
+   10
+  ],
+  "bestTide": [
+   "mid",
+   "high"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   290,
+   330
+  ],
+  "bestWind": [
+   80,
+   170
+  ],
+  "kiteWind": null,
+  "level": "intermediate",
+  "hazards": [
+   "crowds",
+   "rocks"
+  ],
+  "notes": "Long rights wrapping off the northern headland south of Mirleft; the area's best wave but fickle.",
+  "sources": [
+   "https://thesurfatlas.com/surfing-morocco/mirleft-surfing/",
+   "https://thesurfatlas.com/surfing-morocco/morocco-surf-towns/",
+   "https://infostourismemaroc.com/en/news-about-your-holiday/10-beautiful-spots-for-surfing-in-morocco"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "ma-plage-de-sidi-lwafi",
+  "name": "Sidi El Ouafi",
+  "aliases": [
+   "El Wafi",
+   "Plage de Sidi Lwafi"
+  ],
+  "lat": 29.5375,
+  "lon": -10.0681,
+  "country": "MA",
+  "zone": "ma-souss-tiznit",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 294,
+  "window": [
+   215,
+   20
+  ],
+  "bestTide": [],
+  "dangerTide": [],
+  "bestSwell": [
+   280,
+   330
+  ],
+  "bestWind": [
+   69,
+   159
+  ],
+  "kiteWind": null,
+  "level": "beginner",
+  "hazards": [
+   "rocks"
+  ],
+  "notes": "Sheltered beach south of Mirleft with smaller waves and a surf school; rights off the northern rocks.",
+  "sources": [
+   "https://thesurfatlas.com/surfing-morocco/mirleft-surfing/",
+   "https://www.journeybeyondtravel.com/blog/beaches-mirleft-morocco.html",
+   "https://infostourismemaroc.com/en/news-about-your-holiday/10-beautiful-spots-for-surfing-in-morocco"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "ma-plage-legzira",
+  "name": "Legzira",
+  "aliases": [],
+  "lat": 29.4446,
+  "lon": -10.1191,
+  "country": "MA",
+  "zone": "ma-sidi-ifni",
+  "break": "reef",
+  "sports": [
+   "surf"
+  ],
+  "facing": 303,
+  "window": [
+   225,
+   20
+  ],
+  "bestTide": [
+   "low",
+   "mid"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   280,
+   330
+  ],
+  "bestWind": [
+   78,
+   168
+  ],
+  "kiteWind": null,
+  "level": "all",
+  "hazards": [
+   "rocks",
+   "rips"
+  ],
+  "notes": "Reef right near the red rock arch plus easy beach peaks for surf schools.",
+  "sources": [
+   "https://thesurfatlas.com/surfing-morocco/legzira/",
+   "https://thesurfatlas.com/surfing-morocco/mirleft-surfing/",
+   "https://vvanat.fr/blog/aourir-maroc-surf/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "ma-plage-difni",
+  "name": "Sidi Ifni",
+  "aliases": [
+   "Plage de Sidi Ifni"
+  ],
+  "lat": 29.3795,
+  "lon": -10.1815,
+  "country": "MA",
+  "zone": "ma-sidi-ifni",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 307,
+  "window": [
+   230,
+   30
+  ],
+  "bestTide": [],
+  "dangerTide": [],
+  "bestSwell": [
+   280,
+   330
+  ],
+  "bestWind": [
+   82,
+   172
+  ],
+  "kiteWind": null,
+  "level": "all",
+  "hazards": [
+   "shorebreak",
+   "pollution"
+  ],
+  "notes": "Town beach with learner shorebreak and a reef right to the north.",
+  "sources": [
+   "https://thesurfatlas.com/surfing-morocco/sidi-ifni-surf/",
+   "https://thesurfatlas.com/surfing-morocco/legzira/",
+   "https://www.moroccoworldnews.com/2024/09/14893/moroccos-secret-surf-hideaways/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "ma-teleferico",
+  "name": "Teleférico",
+  "aliases": [
+   "Téléphérique"
+  ],
+  "lat": 29.37,
+  "lon": -10.1876,
+  "country": "MA",
+  "zone": "ma-sidi-ifni",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 306,
+  "window": [
+   235,
+   30
+  ],
+  "bestTide": [],
+  "dangerTide": [],
+  "bestSwell": [
+   280,
+   330
+  ],
+  "bestWind": [
+   81,
+   171
+  ],
+  "kiteWind": null,
+  "level": "advanced",
+  "hazards": [
+   "rocks"
+  ],
+  "notes": "Powerful left off the ruins of the old Spanish cable-car station; handles large swell.",
+  "sources": [
+   "https://thesurfatlas.com/surfing-morocco/sidi-ifni-surf/",
+   "https://thesurfatlas.com/surfing-morocco/legzira/"
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "ma-sidi-ifni-port",
+  "name": "Sidi Ifni Harbour",
+  "aliases": [],
+  "lat": 29.3494,
+  "lon": -10.1965,
+  "country": "MA",
+  "zone": "ma-sidi-ifni",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 300,
+  "window": [
+   230,
+   355
+  ],
+  "bestTide": [],
+  "dangerTide": [],
+  "bestSwell": [
+   280,
+   330
+  ],
+  "bestWind": [
+   75,
+   165
+  ],
+  "kiteWind": null,
+  "level": "beginner",
+  "hazards": [
+   "pollution",
+   "rocks"
+  ],
+  "notes": "Beach past the harbour where big NW swell wraps the breakwater into smaller lefts.",
+  "sources": [
+   "https://thesurfatlas.com/surfing-morocco/sidi-ifni-surf/"
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "ma-plage-blanche",
+  "name": "Plage Blanche",
+  "aliases": [],
+  "lat": 28.9957,
+  "lon": -10.5629,
+  "country": "MA",
+  "zone": "ma-sidi-ifni",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 323,
+  "window": [
+   240,
+   40
+  ],
+  "bestTide": [],
+  "dangerTide": [],
+  "bestSwell": [
+   280,
+   330
+  ],
+  "bestWind": [
+   98,
+   188
+  ],
+  "kiteWind": null,
+  "level": "intermediate",
+  "hazards": [
+   "rips",
+   "currents"
+  ],
+  "notes": "Remote white-sand beach reached by 4x4 south-west of Guelmim.",
+  "sources": [
+   "https://afktravel.com/95219/surfing-the-sahara-from-taghazout-to-tarfaya/"
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "ma-tarfaya",
+  "name": "Tarfaya",
+  "aliases": [],
+  "lat": 27.9478,
+  "lon": -12.9249,
+  "country": "MA",
+  "zone": "ma-tan-tan-tarfaya",
+  "break": "beach",
+  "sports": [
+   "surf",
+   "kite"
+  ],
+  "facing": 331,
+  "window": [
+   255,
+   50
+  ],
+  "bestTide": [],
+  "dangerTide": [],
+  "bestSwell": [
+   280,
+   330
+  ],
+  "bestWind": [
+   106,
+   196
+  ],
+  "kiteWind": [
+   0,
+   70
+  ],
+  "level": "intermediate",
+  "hazards": [
+   "rocks",
+   "currents"
+  ],
+  "notes": "Windy Cape Juby coast with north-facing beaches picking up NE wind swell.",
+  "sources": [
+   "https://afktravel.com/95219/surfing-the-sahara-from-taghazout-to-tarfaya/"
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "ma-foum-el-oued",
+  "name": "Foum El Oued",
+  "aliases": [],
+  "lat": 27.1771,
+  "lon": -13.4,
+  "country": "MA",
+  "zone": "ma-laayoune-boujdour",
+  "break": "beach",
+  "sports": [
+   "kite",
+   "surf"
+  ],
+  "facing": 298,
+  "window": [
+   205,
+   25
+  ],
+  "bestTide": [],
+  "dangerTide": [],
+  "bestSwell": [
+   280,
+   330
+  ],
+  "bestWind": [
+   73,
+   163
+  ],
+  "kiteWind": [
+   330,
+   40
+  ],
+  "level": "intermediate",
+  "hazards": [
+   "rips"
+  ],
+  "notes": "Laayoune's beach 25 km from town, known locally as a kitesurf spot in the steady wind.",
+  "sources": [
+   "https://fr.le360.ma/societe/entre-sable-dore-et-voiles-au-vent-lenergie-de-foum-el-oued_YR4MQEPTJZBTTD3BVQWFEER3NY/"
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "ma-pointe-dor",
+  "name": "Pointe d'Or",
+  "aliases": [
+   "Golden Point",
+   "Pointe de l'Or"
+  ],
+  "lat": 23.9224,
+  "lon": -15.8058,
+  "country": "MA",
+  "zone": "ma-dakhla",
+  "break": "point",
+  "sports": [
+   "surf"
+  ],
+  "facing": 307,
+  "window": [
+   225,
+   50
+  ],
+  "bestTide": [],
+  "dangerTide": [],
+  "bestSwell": [
+   280,
+   330
+  ],
+  "bestWind": [
+   82,
+   172
+  ],
+  "kiteWind": null,
+  "level": "all",
+  "hazards": [
+   "rocks"
+  ],
+  "notes": "Ocean-side beach and point near the peninsula kite camps, reached by 4x4.",
+  "sources": [
+   "https://www.boatnews.com/story/47941/dakhla-a-paradise-for-board-sports-between-the-atlantic-and-the-desert",
+   "https://www.oceanvagabond.com/en/dakhla-morocco/surf-dakhla/"
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "ma-oum-labouir",
+  "name": "Foum Labouir",
+  "aliases": [
+   "Oum Labouir",
+   "Oum Lamboiur",
+   "Westpoint"
+  ],
+  "lat": 23.7634,
+  "lon": -15.923,
+  "country": "MA",
+  "zone": "ma-dakhla",
+  "break": "point",
+  "sports": [
+   "surf",
+   "kite"
+  ],
+  "facing": 277,
+  "window": [
+   215,
+   15
+  ],
+  "bestTide": [],
+  "dangerTide": [],
+  "bestSwell": [
+   290,
+   345
+  ],
+  "bestWind": [
+   52,
+   142
+  ],
+  "kiteWind": [
+   330,
+   30
+  ],
+  "level": "advanced",
+  "hazards": [
+   "rocks"
+  ],
+  "notes": "Large ocean-side bay 5 km from Dakhla with long regular waves off a rocky point; wave kiting in gusty side-shore wind.",
+  "sources": [
+   "https://www.boatnews.com/story/47941/dakhla-a-paradise-for-board-sports-between-the-atlantic-and-the-desert",
+   "https://www.oceanvagabond.com/en/dakhla-morocco/surf-dakhla/",
+   "https://www.wearecravingadventure.com/?p=9014",
+   "https://vvanat.fr/blog/sejour-kitesurf-maroc/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "ma-lassarga-beach",
+  "name": "Lassarga",
+  "aliases": [
+   "La Sarga",
+   "Pointe de Lassarga"
+  ],
+  "lat": 23.632,
+  "lon": -15.9951,
+  "country": "MA",
+  "zone": "ma-dakhla",
+  "break": "point",
+  "sports": [
+   "surf",
+   "kite"
+  ],
+  "facing": 229,
+  "window": [
+   170,
+   350
+  ],
+  "bestTide": [],
+  "dangerTide": [],
+  "bestSwell": [
+   290,
+   340
+  ],
+  "bestWind": [
+   4,
+   94
+  ],
+  "kiteWind": [
+   340,
+   40
+  ],
+  "level": "all",
+  "hazards": [
+   "currents"
+  ],
+  "notes": "Sand point at the southern tip of the Dakhla peninsula with a long right; kite and windsurf in the trade winds.",
+  "sources": [
+   "https://www.oceanvagabond.com/en/dakhla-morocco/surf-dakhla/",
+   "https://www.perfectwavetravel.com/surf-trips/morocco/ocean-vagabond-lassarga/",
+   "https://www.boatnews.com/story/47941/dakhla-a-paradise-for-board-sports-between-the-atlantic-and-the-desert",
+   "https://vvanat.fr/blog/sejour-kitesurf-maroc/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "ma-dakhla-pk25",
+  "name": "Dakhla Lagoon (PK25)",
+  "aliases": [
+   "Dakhla Lagoon"
+  ],
+  "lat": 23.8915,
+  "lon": -15.7942,
+  "country": "MA",
+  "zone": "ma-dakhla",
+  "break": "beach",
+  "sports": [
+   "kite",
+   "windsurf"
+  ],
+  "facing": 170,
+  "window": [
+   100,
+   240
+  ],
+  "bestTide": [],
+  "dangerTide": [],
+  "bestSwell": null,
+  "bestWind": [
+   315,
+   45
+  ],
+  "kiteWind": [
+   330,
+   60
+  ],
+  "level": "all",
+  "hazards": [],
+  "notes": "Flat, shallow lagoon water at the PK25 camps; the main beginner and freeride area of Dakhla.",
+  "sources": [
+   "https://www.wearecravingadventure.com/?p=9014",
+   "https://www.kiteworldwide.com/kitespot-guides/kitesurfing-dakhla/",
+   "https://www.boatnews.com/story/47941/dakhla-a-paradise-for-board-sports-between-the-atlantic-and-the-desert",
+   "https://vvanat.fr/blog/sejour-kitesurf-maroc/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "ma-dakhla-speed-spot",
+  "name": "Speed Spot",
+  "aliases": [],
+  "lat": 23.8925,
+  "lon": -15.7722,
+  "country": "MA",
+  "zone": "ma-dakhla",
+  "break": "beach",
+  "sports": [
+   "kite",
+   "windsurf"
+  ],
+  "facing": 200,
+  "window": [
+   130,
+   260
+  ],
+  "bestTide": [],
+  "dangerTide": [],
+  "bestSwell": null,
+  "bestWind": [
+   340,
+   60
+  ],
+  "kiteWind": [
+   330,
+   60
+  ],
+  "level": "advanced",
+  "hazards": [],
+  "notes": "Butter-flat water near Dakhla Attitude with offshore wind; a freestyle and speed spot without on-site rescue.",
+  "sources": [
+   "https://www.wearecravingadventure.com/?p=9014",
+   "https://vvanat.fr/blog/sejour-kitesurf-maroc/",
+   "https://www.kiteworldwide.com/kitespot-guides/kitesurfing-dakhla/"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "ma-dakhla-dune-blanche",
+  "name": "Dune Blanche",
+  "aliases": [
+   "White Dune"
+  ],
+  "lat": 23.82,
+  "lon": -15.752,
+  "country": "MA",
+  "zone": "ma-dakhla",
+  "break": "beach",
+  "sports": [
+   "kite"
+  ],
+  "facing": 250,
+  "window": [
+   200,
+   300
+  ],
+  "bestTide": [],
+  "dangerTide": [],
+  "bestSwell": null,
+  "bestWind": [
+   30,
+   120
+  ],
+  "kiteWind": [
+   330,
+   60
+  ],
+  "level": "advanced",
+  "hazards": [],
+  "notes": "Flat turquoise water at the white dune on the lagoon, a classic downwinder destination from the PK25 camps.",
+  "sources": [
+   "https://www.wearecravingadventure.com/?p=9014",
+   "https://www.kiteworldwide.com/kitespot-guides/kitesurfing-dakhla/",
+   "https://www.oceanvagabond.com/en/dakhla-morocco/surf-dakhla/"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "ma-el-argoub",
+  "name": "El Argoub",
+  "aliases": [],
+  "lat": 23.6293,
+  "lon": -15.8767,
+  "country": "MA",
+  "zone": "ma-dakhla",
+  "break": "beach",
+  "sports": [
+   "kite"
+  ],
+  "facing": 245,
+  "window": [
+   220,
+   270
+  ],
+  "bestTide": [],
+  "dangerTide": [],
+  "bestSwell": null,
+  "bestWind": [
+   20,
+   110
+  ],
+  "kiteWind": [
+   330,
+   60
+  ],
+  "level": "intermediate",
+  "hazards": [],
+  "notes": "Lagoon kite area on the south-east shore opposite Dakhla.",
+  "sources": [
+   "https://vvanat.fr/blog/sejour-kitesurf-maroc/"
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "ma-the-wedge",
+  "name": "The Wedge",
+  "aliases": [],
+  "lat": 30.5427,
+  "lon": -9.7097,
+  "country": "MA",
+  "zone": "ma-taghazout-agadir",
+  "break": "point",
+  "sports": [
+   "surf"
+  ],
+  "facing": 212,
+  "window": [
+   180,
+   320
+  ],
+  "bestTide": [],
+  "dangerTide": [],
+  "bestSwell": [
+   285,
+   320
+  ],
+  "bestWind": [
+   347,
+   77
+  ],
+  "kiteWind": null,
+  "level": "intermediate",
+  "hazards": [
+   "rocks"
+  ],
+  "notes": "Right in Taghazout's other central bay between Hash Point and Panorama; needs a fair amount of swell.",
+  "sources": [
+   "https://site2024.surfmaroc.com/?p=45",
+   "https://www.stokedfortravel.com/?p=7362"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "ma-imsouane-reef",
+  "name": "Imsouane Reef",
+  "aliases": [],
+  "lat": 30.8405,
+  "lon": -9.8241,
+  "country": "MA",
+  "zone": "ma-imsouane",
+  "break": "reef",
+  "sports": [
+   "surf"
+  ],
+  "facing": 251,
+  "window": [
+   200,
+   345
+  ],
+  "bestTide": [],
+  "dangerTide": [],
+  "bestSwell": [
+   280,
+   330
+  ],
+  "bestWind": [
+   26,
+   116
+  ],
+  "kiteWind": null,
+  "level": "advanced",
+  "hazards": [
+   "reef",
+   "rocks"
+  ],
+  "notes": "Hollow rock-bottom wave between The Bay and Cathedral that fires on overhead swell.",
+  "sources": [
+   "https://thesurfatlas.com/surfing-morocco/imsouane-surf/",
+   "https://thesurfatlas.com/surfing-morocco/morocco-surf-towns/"
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "ma-sidi-kaouki-la-bouteille",
+  "name": "La Bouteille",
+  "aliases": [],
+  "lat": 31.3609,
+  "lon": -9.803,
+  "country": "MA",
+  "zone": "ma-essaouira",
+  "break": "reef",
+  "sports": [
+   "surf"
+  ],
+  "facing": 253,
+  "window": [
+   200,
+   340
+  ],
+  "bestTide": [
+   "mid"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   280,
+   330
+  ],
+  "bestWind": [
+   28,
+   118
+  ],
+  "kiteWind": null,
+  "level": "intermediate",
+  "hazards": [
+   "reef",
+   "rocks"
+  ],
+  "notes": "Right reef at the north end of Sidi Kaouki beach beside the marabout.",
+  "sources": [
+   "https://thesurfatlas.com/surfing-morocco/sidi-kaouki-surf/",
+   "https://thesurfatlas.com/surfing-morocco/morocco-surf-towns/"
+  ],
+  "confidence": "low"
+ }
+]
