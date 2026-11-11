@@ -1,0 +1,1524 @@
+{
+ "note": "Seed spots from general public knowledge (approximate coordinates on the water edge, facing/window estimated). verified=false until curated. Not copied from any commercial forecast site.",
+ "layer": 2,
+ "spots": [
+  {
+   "id": "es-mundaka",
+   "name": "Mundaka",
+   "aliases": [
+    "Mundaka left"
+   ],
+   "lat": 43.4085,
+   "lon": -2.6975,
+   "country": "ES",
+   "layer": 2,
+   "verified": false,
+   "info": {
+    "break": "rivermouth",
+    "sports": [
+     "surf"
+    ],
+    "facing": 330,
+    "window": [
+     280,
+     20
+    ],
+    "bestTide": [
+     "low",
+     "mid"
+    ],
+    "dangerTide": [],
+    "bestSwell": null,
+    "bestWind": [
+     105,
+     195
+    ],
+    "kiteWind": null,
+    "level": "advanced",
+    "hazards": [
+     "currents",
+     "rocks",
+     "crowds"
+    ],
+    "sources": []
+   }
+  },
+  {
+   "id": "es-zarautz",
+   "name": "Zarautz",
+   "aliases": [],
+   "lat": 43.2885,
+   "lon": -2.17,
+   "country": "ES",
+   "layer": 2,
+   "verified": false,
+   "info": {
+    "break": "beach",
+    "sports": [
+     "surf"
+    ],
+    "facing": 350,
+    "window": [
+     280,
+     40
+    ],
+    "bestTide": [
+     "mid",
+     "high"
+    ],
+    "dangerTide": [],
+    "bestSwell": null,
+    "bestWind": [
+     125,
+     215
+    ],
+    "kiteWind": null,
+    "level": "all",
+    "hazards": [
+     "rips"
+    ],
+    "sources": []
+   }
+  },
+  {
+   "id": "es-sopelana",
+   "name": "Sopelana",
+   "aliases": [
+    "Sopela"
+   ],
+   "lat": 43.388,
+   "lon": -2.994,
+   "country": "ES",
+   "layer": 2,
+   "verified": false,
+   "info": {
+    "break": "beach",
+    "sports": [
+     "surf"
+    ],
+    "facing": 320,
+    "window": [
+     270,
+     20
+    ],
+    "bestTide": [],
+    "dangerTide": [],
+    "bestSwell": null,
+    "bestWind": [
+     95,
+     185
+    ],
+    "kiteWind": null,
+    "level": "all",
+    "hazards": [
+     "rips"
+    ],
+    "sources": []
+   }
+  },
+  {
+   "id": "es-somo",
+   "name": "Somo",
+   "aliases": [],
+   "lat": 43.466,
+   "lon": -3.73,
+   "country": "ES",
+   "layer": 2,
+   "verified": false,
+   "info": {
+    "break": "beach",
+    "sports": [
+     "surf"
+    ],
+    "facing": 10,
+    "window": [
+     300,
+     50
+    ],
+    "bestTide": [],
+    "dangerTide": [],
+    "bestSwell": null,
+    "bestWind": [
+     145,
+     235
+    ],
+    "kiteWind": null,
+    "level": "all",
+    "hazards": [
+     "rips"
+    ],
+    "sources": []
+   }
+  },
+  {
+   "id": "es-liencres",
+   "name": "Liencres (Valdearenas)",
+   "aliases": [],
+   "lat": 43.4635,
+   "lon": -3.964,
+   "country": "ES",
+   "layer": 2,
+   "verified": false,
+   "info": {
+    "break": "beach",
+    "sports": [
+     "surf"
+    ],
+    "facing": 340,
+    "window": [
+     280,
+     30
+    ],
+    "bestTide": [],
+    "dangerTide": [],
+    "bestSwell": null,
+    "bestWind": [
+     115,
+     205
+    ],
+    "kiteWind": null,
+    "level": "all",
+    "hazards": [
+     "rips",
+     "currents"
+    ],
+    "sources": []
+   }
+  },
+  {
+   "id": "es-rodiles",
+   "name": "Rodiles",
+   "aliases": [],
+   "lat": 43.539,
+   "lon": -5.377,
+   "country": "ES",
+   "layer": 2,
+   "verified": false,
+   "info": {
+    "break": "rivermouth",
+    "sports": [
+     "surf"
+    ],
+    "facing": 0,
+    "window": [
+     300,
+     40
+    ],
+    "bestTide": [],
+    "dangerTide": [],
+    "bestSwell": null,
+    "bestWind": [
+     135,
+     225
+    ],
+    "kiteWind": null,
+    "level": "advanced",
+    "hazards": [
+     "currents",
+     "crowds"
+    ],
+    "sources": []
+   }
+  },
+  {
+   "id": "es-salinas",
+   "name": "Salinas",
+   "aliases": [],
+   "lat": 43.58,
+   "lon": -5.96,
+   "country": "ES",
+   "layer": 2,
+   "verified": false,
+   "info": {
+    "break": "beach",
+    "sports": [
+     "surf"
+    ],
+    "facing": 350,
+    "window": [
+     290,
+     40
+    ],
+    "bestTide": [],
+    "dangerTide": [],
+    "bestSwell": null,
+    "bestWind": [
+     125,
+     215
+    ],
+    "kiteWind": null,
+    "level": "all",
+    "hazards": [
+     "rips"
+    ],
+    "sources": []
+   }
+  },
+  {
+   "id": "es-pantin",
+   "name": "Pantín",
+   "aliases": [],
+   "lat": 43.639,
+   "lon": -8.111,
+   "country": "ES",
+   "layer": 2,
+   "verified": false,
+   "info": {
+    "break": "beach",
+    "sports": [
+     "surf"
+    ],
+    "facing": 310,
+    "window": [
+     250,
+     10
+    ],
+    "bestTide": [],
+    "dangerTide": [],
+    "bestSwell": null,
+    "bestWind": [
+     85,
+     175
+    ],
+    "kiteWind": null,
+    "level": "all",
+    "hazards": [
+     "rips"
+    ],
+    "sources": []
+   }
+  },
+  {
+   "id": "es-razo",
+   "name": "Razo",
+   "aliases": [],
+   "lat": 43.293,
+   "lon": -8.71,
+   "country": "ES",
+   "layer": 2,
+   "verified": false,
+   "info": {
+    "break": "beach",
+    "sports": [
+     "surf",
+     "kite"
+    ],
+    "facing": 320,
+    "window": [
+     260,
+     20
+    ],
+    "bestTide": [],
+    "dangerTide": [],
+    "bestSwell": null,
+    "bestWind": [
+     95,
+     185
+    ],
+    "kiteWind": null,
+    "level": "all",
+    "hazards": [
+     "rips",
+     "currents"
+    ],
+    "sources": []
+   }
+  },
+  {
+   "id": "es-patos",
+   "name": "Patos",
+   "aliases": [],
+   "lat": 42.1555,
+   "lon": -8.8255,
+   "country": "ES",
+   "layer": 2,
+   "verified": false,
+   "info": {
+    "break": "beach",
+    "sports": [
+     "surf"
+    ],
+    "facing": 270,
+    "window": [
+     210,
+     330
+    ],
+    "bestTide": [],
+    "dangerTide": [],
+    "bestSwell": null,
+    "bestWind": [
+     45,
+     135
+    ],
+    "kiteWind": null,
+    "level": "intermediate",
+    "hazards": [
+     "rocks"
+    ],
+    "sources": []
+   }
+  },
+  {
+   "id": "es-el-palmar",
+   "name": "El Palmar",
+   "aliases": [],
+   "lat": 36.233,
+   "lon": -6.078,
+   "country": "ES",
+   "layer": 2,
+   "verified": false,
+   "info": {
+    "break": "beach",
+    "sports": [
+     "surf"
+    ],
+    "facing": 235,
+    "window": [
+     190,
+     290
+    ],
+    "bestTide": [],
+    "dangerTide": [],
+    "bestSwell": null,
+    "bestWind": [
+     10,
+     100
+    ],
+    "kiteWind": null,
+    "level": "all",
+    "hazards": [
+     "rips"
+    ],
+    "sources": []
+   }
+  },
+  {
+   "id": "es-tarifa-los-lances",
+   "name": "Tarifa – Los Lances",
+   "aliases": [],
+   "lat": 36.033,
+   "lon": -5.639,
+   "country": "ES",
+   "layer": 2,
+   "verified": false,
+   "info": {
+    "break": "beach",
+    "sports": [
+     "kite",
+     "windsurf"
+    ],
+    "facing": 215,
+    "window": [
+     180,
+     270
+    ],
+    "bestTide": [],
+    "dangerTide": [],
+    "bestSwell": null,
+    "bestWind": [
+     350,
+     80
+    ],
+    "kiteWind": null,
+    "level": "all",
+    "hazards": [
+     "crowds"
+    ],
+    "sources": []
+   }
+  },
+  {
+   "id": "es-famara",
+   "name": "Famara",
+   "aliases": [],
+   "lat": 29.116,
+   "lon": -13.562,
+   "country": "ES",
+   "layer": 2,
+   "verified": false,
+   "info": {
+    "break": "beach",
+    "sports": [
+     "surf",
+     "kite"
+    ],
+    "facing": 320,
+    "window": [
+     260,
+     20
+    ],
+    "bestTide": [],
+    "dangerTide": [],
+    "bestSwell": null,
+    "bestWind": [
+     95,
+     185
+    ],
+    "kiteWind": null,
+    "level": "all",
+    "hazards": [
+     "rips",
+     "currents"
+    ],
+    "sources": []
+   }
+  },
+  {
+   "id": "es-la-santa-el-quemao",
+   "name": "La Santa – El Quemao",
+   "aliases": [
+    "El Quemao",
+    "La Santa"
+   ],
+   "lat": 29.1135,
+   "lon": -13.664,
+   "country": "ES",
+   "layer": 2,
+   "verified": false,
+   "info": {
+    "break": "reef",
+    "sports": [
+     "surf"
+    ],
+    "facing": 330,
+    "window": [
+     270,
+     20
+    ],
+    "bestTide": [],
+    "dangerTide": [],
+    "bestSwell": null,
+    "bestWind": [
+     105,
+     195
+    ],
+    "kiteWind": null,
+    "level": "advanced",
+    "hazards": [
+     "reef",
+     "rocks",
+     "shorebreak"
+    ],
+    "sources": []
+   }
+  },
+  {
+   "id": "es-el-cotillo",
+   "name": "El Cotillo",
+   "aliases": [],
+   "lat": 28.683,
+   "lon": -14.014,
+   "country": "ES",
+   "layer": 2,
+   "verified": false,
+   "info": {
+    "break": "beach",
+    "sports": [
+     "surf"
+    ],
+    "facing": 280,
+    "window": [
+     220,
+     350
+    ],
+    "bestTide": [],
+    "dangerTide": [],
+    "bestSwell": null,
+    "bestWind": [
+     55,
+     145
+    ],
+    "kiteWind": null,
+    "level": "all",
+    "hazards": [
+     "shorebreak",
+     "rocks"
+    ],
+    "sources": []
+   }
+  },
+  {
+   "id": "es-el-confital",
+   "name": "El Confital",
+   "aliases": [],
+   "lat": 28.159,
+   "lon": -15.444,
+   "country": "ES",
+   "layer": 2,
+   "verified": false,
+   "info": {
+    "break": "reef",
+    "sports": [
+     "surf"
+    ],
+    "facing": 350,
+    "window": [
+     290,
+     40
+    ],
+    "bestTide": [],
+    "dangerTide": [],
+    "bestSwell": null,
+    "bestWind": [
+     125,
+     215
+    ],
+    "kiteWind": null,
+    "level": "advanced",
+    "hazards": [
+     "reef",
+     "rocks"
+    ],
+    "sources": []
+   }
+  },
+  {
+   "id": "es-el-medano",
+   "name": "El Médano",
+   "aliases": [],
+   "lat": 28.044,
+   "lon": -16.534,
+   "country": "ES",
+   "layer": 2,
+   "verified": false,
+   "info": {
+    "break": "beach",
+    "sports": [
+     "kite",
+     "windsurf"
+    ],
+    "facing": 130,
+    "window": [
+     90,
+     200
+    ],
+    "bestTide": [],
+    "dangerTide": [],
+    "bestSwell": null,
+    "bestWind": [
+     265,
+     355
+    ],
+    "kiteWind": null,
+    "level": "all",
+    "hazards": [
+     "crowds"
+    ],
+    "sources": []
+   }
+  },
+  {
+   "id": "es-las-americas-la-izquierda",
+   "name": "Las Américas – La Izquierda",
+   "aliases": [
+    "La Izquierda"
+   ],
+   "lat": 28.057,
+   "lon": -16.736,
+   "country": "ES",
+   "layer": 2,
+   "verified": false,
+   "info": {
+    "break": "reef",
+    "sports": [
+     "surf"
+    ],
+    "facing": 220,
+    "window": [
+     180,
+     300
+    ],
+    "bestTide": [],
+    "dangerTide": [],
+    "bestSwell": null,
+    "bestWind": [
+     355,
+     85
+    ],
+    "kiteWind": null,
+    "level": "advanced",
+    "hazards": [
+     "reef",
+     "rocks",
+     "crowds"
+    ],
+    "sources": []
+   }
+  },
+  {
+   "id": "pt-supertubos",
+   "name": "Supertubos",
+   "aliases": [],
+   "lat": 39.344,
+   "lon": -9.364,
+   "country": "PT",
+   "layer": 2,
+   "verified": false,
+   "info": {
+    "break": "beach",
+    "sports": [
+     "surf"
+    ],
+    "facing": 225,
+    "window": [
+     190,
+     320
+    ],
+    "bestTide": [],
+    "dangerTide": [],
+    "bestSwell": null,
+    "bestWind": [
+     0,
+     90
+    ],
+    "kiteWind": null,
+    "level": "advanced",
+    "hazards": [
+     "shorebreak",
+     "crowds"
+    ],
+    "sources": []
+   }
+  },
+  {
+   "id": "pt-baleal",
+   "name": "Baleal",
+   "aliases": [],
+   "lat": 39.3725,
+   "lon": -9.338,
+   "country": "PT",
+   "layer": 2,
+   "verified": false,
+   "info": {
+    "break": "beach",
+    "sports": [
+     "surf"
+    ],
+    "facing": 15,
+    "window": [
+     300,
+     60
+    ],
+    "bestTide": [],
+    "dangerTide": [],
+    "bestSwell": null,
+    "bestWind": [
+     150,
+     240
+    ],
+    "kiteWind": null,
+    "level": "all",
+    "hazards": [
+     "crowds"
+    ],
+    "sources": []
+   }
+  },
+  {
+   "id": "pt-nazare-praia-do-norte",
+   "name": "Nazaré – Praia do Norte",
+   "aliases": [],
+   "lat": 39.611,
+   "lon": -9.086,
+   "country": "PT",
+   "layer": 2,
+   "verified": false,
+   "info": {
+    "break": "beach",
+    "sports": [
+     "surf"
+    ],
+    "facing": 285,
+    "window": [
+     230,
+     340
+    ],
+    "bestTide": [],
+    "dangerTide": [],
+    "bestSwell": null,
+    "bestWind": [
+     60,
+     150
+    ],
+    "kiteWind": null,
+    "level": "advanced",
+    "hazards": [
+     "shorebreak",
+     "currents"
+    ],
+    "sources": []
+   }
+  },
+  {
+   "id": "pt-ribeira-d-ilhas",
+   "name": "Ribeira d'Ilhas",
+   "aliases": [],
+   "lat": 38.988,
+   "lon": -9.422,
+   "country": "PT",
+   "layer": 2,
+   "verified": false,
+   "info": {
+    "break": "reef",
+    "sports": [
+     "surf"
+    ],
+    "facing": 290,
+    "window": [
+     240,
+     350
+    ],
+    "bestTide": [],
+    "dangerTide": [],
+    "bestSwell": null,
+    "bestWind": [
+     65,
+     155
+    ],
+    "kiteWind": null,
+    "level": "intermediate",
+    "hazards": [
+     "rocks",
+     "crowds"
+    ],
+    "sources": []
+   }
+  },
+  {
+   "id": "pt-coxos",
+   "name": "Coxos",
+   "aliases": [],
+   "lat": 39.004,
+   "lon": -9.428,
+   "country": "PT",
+   "layer": 2,
+   "verified": false,
+   "info": {
+    "break": "reef",
+    "sports": [
+     "surf"
+    ],
+    "facing": 300,
+    "window": [
+     250,
+     360
+    ],
+    "bestTide": [],
+    "dangerTide": [],
+    "bestSwell": null,
+    "bestWind": [
+     75,
+     165
+    ],
+    "kiteWind": null,
+    "level": "advanced",
+    "hazards": [
+     "rocks",
+     "reef",
+     "crowds"
+    ],
+    "sources": []
+   }
+  },
+  {
+   "id": "pt-guincho",
+   "name": "Guincho",
+   "aliases": [],
+   "lat": 38.731,
+   "lon": -9.476,
+   "country": "PT",
+   "layer": 2,
+   "verified": false,
+   "info": {
+    "break": "beach",
+    "sports": [
+     "surf",
+     "kite",
+     "windsurf"
+    ],
+    "facing": 270,
+    "window": [
+     210,
+     330
+    ],
+    "bestTide": [],
+    "dangerTide": [],
+    "bestSwell": null,
+    "bestWind": [
+     45,
+     135
+    ],
+    "kiteWind": null,
+    "level": "intermediate",
+    "hazards": [
+     "currents",
+     "rips"
+    ],
+    "sources": []
+   }
+  },
+  {
+   "id": "pt-carcavelos",
+   "name": "Carcavelos",
+   "aliases": [],
+   "lat": 38.6775,
+   "lon": -9.337,
+   "country": "PT",
+   "layer": 2,
+   "verified": false,
+   "info": {
+    "break": "beach",
+    "sports": [
+     "surf"
+    ],
+    "facing": 190,
+    "window": [
+     180,
+     260
+    ],
+    "bestTide": [],
+    "dangerTide": [],
+    "bestSwell": null,
+    "bestWind": [
+     325,
+     55
+    ],
+    "kiteWind": null,
+    "level": "all",
+    "hazards": [
+     "crowds",
+     "pollution"
+    ],
+    "sources": []
+   }
+  },
+  {
+   "id": "pt-costa-da-caparica",
+   "name": "Costa da Caparica",
+   "aliases": [],
+   "lat": 38.64,
+   "lon": -9.242,
+   "country": "PT",
+   "layer": 2,
+   "verified": false,
+   "info": {
+    "break": "beach",
+    "sports": [
+     "surf"
+    ],
+    "facing": 265,
+    "window": [
+     200,
+     330
+    ],
+    "bestTide": [],
+    "dangerTide": [],
+    "bestSwell": null,
+    "bestWind": [
+     40,
+     130
+    ],
+    "kiteWind": null,
+    "level": "all",
+    "hazards": [
+     "rips"
+    ],
+    "sources": []
+   }
+  },
+  {
+   "id": "pt-matosinhos",
+   "name": "Matosinhos",
+   "aliases": [],
+   "lat": 41.177,
+   "lon": -8.693,
+   "country": "PT",
+   "layer": 2,
+   "verified": false,
+   "info": {
+    "break": "beach",
+    "sports": [
+     "surf"
+    ],
+    "facing": 270,
+    "window": [
+     210,
+     330
+    ],
+    "bestTide": [],
+    "dangerTide": [],
+    "bestSwell": null,
+    "bestWind": [
+     45,
+     135
+    ],
+    "kiteWind": null,
+    "level": "beginner",
+    "hazards": [
+     "pollution"
+    ],
+    "sources": []
+   }
+  },
+  {
+   "id": "pt-arrifana",
+   "name": "Arrifana",
+   "aliases": [],
+   "lat": 37.293,
+   "lon": -8.868,
+   "country": "PT",
+   "layer": 2,
+   "verified": false,
+   "info": {
+    "break": "beach",
+    "sports": [
+     "surf"
+    ],
+    "facing": 285,
+    "window": [
+     230,
+     340
+    ],
+    "bestTide": [],
+    "dangerTide": [],
+    "bestSwell": null,
+    "bestWind": [
+     60,
+     150
+    ],
+    "kiteWind": null,
+    "level": "all",
+    "hazards": [
+     "rocks"
+    ],
+    "sources": []
+   }
+  },
+  {
+   "id": "pt-tonel",
+   "name": "Tonel (Sagres)",
+   "aliases": [],
+   "lat": 36.998,
+   "lon": -8.949,
+   "country": "PT",
+   "layer": 2,
+   "verified": false,
+   "info": {
+    "break": "beach",
+    "sports": [
+     "surf"
+    ],
+    "facing": 250,
+    "window": [
+     200,
+     320
+    ],
+    "bestTide": [],
+    "dangerTide": [],
+    "bestSwell": null,
+    "bestWind": [
+     25,
+     115
+    ],
+    "kiteWind": null,
+    "level": "intermediate",
+    "hazards": [
+     "rocks",
+     "rips"
+    ],
+    "sources": []
+   }
+  },
+  {
+   "id": "pt-jardim-do-mar",
+   "name": "Jardim do Mar",
+   "aliases": [],
+   "lat": 32.736,
+   "lon": -17.212,
+   "country": "PT",
+   "layer": 2,
+   "verified": false,
+   "info": {
+    "break": "point",
+    "sports": [
+     "surf"
+    ],
+    "facing": 215,
+    "window": [
+     180,
+     300
+    ],
+    "bestTide": [],
+    "dangerTide": [],
+    "bestSwell": null,
+    "bestWind": [
+     350,
+     80
+    ],
+    "kiteWind": null,
+    "level": "advanced",
+    "hazards": [
+     "rocks"
+    ],
+    "sources": []
+   }
+  },
+  {
+   "id": "fr-hossegor-la-graviere",
+   "name": "Hossegor – La Gravière",
+   "aliases": [],
+   "lat": 43.672,
+   "lon": -1.445,
+   "country": "FR",
+   "layer": 2,
+   "verified": false,
+   "info": {
+    "break": "beach",
+    "sports": [
+     "surf"
+    ],
+    "facing": 270,
+    "window": [
+     220,
+     330
+    ],
+    "bestTide": [],
+    "dangerTide": [],
+    "bestSwell": null,
+    "bestWind": [
+     45,
+     135
+    ],
+    "kiteWind": null,
+    "level": "advanced",
+    "hazards": [
+     "shorebreak",
+     "rips",
+     "crowds"
+    ],
+    "sources": []
+   }
+  },
+  {
+   "id": "fr-anglet-les-cavaliers",
+   "name": "Anglet – Les Cavaliers",
+   "aliases": [],
+   "lat": 43.524,
+   "lon": -1.533,
+   "country": "FR",
+   "layer": 2,
+   "verified": false,
+   "info": {
+    "break": "beach",
+    "sports": [
+     "surf"
+    ],
+    "facing": 290,
+    "window": [
+     240,
+     350
+    ],
+    "bestTide": [],
+    "dangerTide": [],
+    "bestSwell": null,
+    "bestWind": [
+     65,
+     155
+    ],
+    "kiteWind": null,
+    "level": "intermediate",
+    "hazards": [
+     "rips"
+    ],
+    "sources": []
+   }
+  },
+  {
+   "id": "fr-biarritz-cote-des-basques",
+   "name": "Biarritz – Côte des Basques",
+   "aliases": [],
+   "lat": 43.477,
+   "lon": -1.569,
+   "country": "FR",
+   "layer": 2,
+   "verified": false,
+   "info": {
+    "break": "beach",
+    "sports": [
+     "surf"
+    ],
+    "facing": 280,
+    "window": [
+     230,
+     340
+    ],
+    "bestTide": [
+     "low",
+     "mid"
+    ],
+    "dangerTide": [],
+    "bestSwell": null,
+    "bestWind": [
+     55,
+     145
+    ],
+    "kiteWind": null,
+    "level": "beginner",
+    "hazards": [
+     "rocks"
+    ],
+    "sources": []
+   }
+  },
+  {
+   "id": "fr-lacanau",
+   "name": "Lacanau",
+   "aliases": [],
+   "lat": 45.001,
+   "lon": -1.206,
+   "country": "FR",
+   "layer": 2,
+   "verified": false,
+   "info": {
+    "break": "beach",
+    "sports": [
+     "surf"
+    ],
+    "facing": 275,
+    "window": [
+     220,
+     330
+    ],
+    "bestTide": [],
+    "dangerTide": [],
+    "bestSwell": null,
+    "bestWind": [
+     50,
+     140
+    ],
+    "kiteWind": null,
+    "level": "all",
+    "hazards": [
+     "rips",
+     "shorebreak"
+    ],
+    "sources": []
+   }
+  },
+  {
+   "id": "fr-la-torche",
+   "name": "La Torche",
+   "aliases": [],
+   "lat": 47.838,
+   "lon": -4.352,
+   "country": "FR",
+   "layer": 2,
+   "verified": false,
+   "info": {
+    "break": "beach",
+    "sports": [
+     "surf",
+     "windsurf",
+     "kite"
+    ],
+    "facing": 255,
+    "window": [
+     200,
+     320
+    ],
+    "bestTide": [],
+    "dangerTide": [],
+    "bestSwell": null,
+    "bestWind": [
+     30,
+     120
+    ],
+    "kiteWind": null,
+    "level": "all",
+    "hazards": [
+     "rips",
+     "rocks"
+    ],
+    "sources": []
+   }
+  },
+  {
+   "id": "fr-quiberon-port-blanc",
+   "name": "Quiberon – Port Blanc",
+   "aliases": [],
+   "lat": 47.496,
+   "lon": -3.156,
+   "country": "FR",
+   "layer": 2,
+   "verified": false,
+   "info": {
+    "break": "beach",
+    "sports": [
+     "surf"
+    ],
+    "facing": 245,
+    "window": [
+     200,
+     300
+    ],
+    "bestTide": [],
+    "dangerTide": [],
+    "bestSwell": null,
+    "bestWind": [
+     20,
+     110
+    ],
+    "kiteWind": null,
+    "level": "intermediate",
+    "hazards": [
+     "rocks",
+     "rips"
+    ],
+    "sources": []
+   }
+  },
+  {
+   "id": "ma-anchor-point",
+   "name": "Anchor Point",
+   "aliases": [],
+   "lat": 30.545,
+   "lon": -9.725,
+   "country": "MA",
+   "layer": 2,
+   "verified": false,
+   "info": {
+    "break": "point",
+    "sports": [
+     "surf"
+    ],
+    "facing": 235,
+    "window": [
+     260,
+     340
+    ],
+    "bestTide": [],
+    "dangerTide": [],
+    "bestSwell": [
+     280,
+     330
+    ],
+    "bestWind": [
+     10,
+     100
+    ],
+    "kiteWind": null,
+    "level": "advanced",
+    "hazards": [
+     "rocks",
+     "crowds"
+    ],
+    "sources": []
+   }
+  },
+  {
+   "id": "ma-killer-point",
+   "name": "Killer Point",
+   "aliases": [],
+   "lat": 30.565,
+   "lon": -9.747,
+   "country": "MA",
+   "layer": 2,
+   "verified": false,
+   "info": {
+    "break": "point",
+    "sports": [
+     "surf"
+    ],
+    "facing": 235,
+    "window": [
+     260,
+     340
+    ],
+    "bestTide": [],
+    "dangerTide": [],
+    "bestSwell": null,
+    "bestWind": [
+     10,
+     100
+    ],
+    "kiteWind": null,
+    "level": "advanced",
+    "hazards": [
+     "rocks"
+    ],
+    "sources": []
+   }
+  },
+  {
+   "id": "ma-imsouane-bay",
+   "name": "Imsouane – The Bay",
+   "aliases": [
+    "Imsouane"
+   ],
+   "lat": 30.8395,
+   "lon": -9.824,
+   "country": "MA",
+   "layer": 2,
+   "verified": false,
+   "info": {
+    "break": "point",
+    "sports": [
+     "surf"
+    ],
+    "facing": 200,
+    "window": [
+     250,
+     340
+    ],
+    "bestTide": [],
+    "dangerTide": [],
+    "bestSwell": null,
+    "bestWind": [
+     335,
+     65
+    ],
+    "kiteWind": null,
+    "level": "all",
+    "hazards": [
+     "rocks",
+     "crowds"
+    ],
+    "sources": []
+   }
+  },
+  {
+   "id": "ma-safi",
+   "name": "Safi – Le Jardin",
+   "aliases": [
+    "Safi"
+   ],
+   "lat": 32.333,
+   "lon": -9.265,
+   "country": "MA",
+   "layer": 2,
+   "verified": false,
+   "info": {
+    "break": "reef",
+    "sports": [
+     "surf"
+    ],
+    "facing": 270,
+    "window": [
+     250,
+     340
+    ],
+    "bestTide": [],
+    "dangerTide": [],
+    "bestSwell": null,
+    "bestWind": [
+     45,
+     135
+    ],
+    "kiteWind": null,
+    "level": "advanced",
+    "hazards": [
+     "rocks",
+     "reef"
+    ],
+    "sources": []
+   }
+  },
+  {
+   "id": "ma-mehdia",
+   "name": "Mehdia",
+   "aliases": [],
+   "lat": 34.258,
+   "lon": -6.681,
+   "country": "MA",
+   "layer": 2,
+   "verified": false,
+   "info": {
+    "break": "beach",
+    "sports": [
+     "surf"
+    ],
+    "facing": 300,
+    "window": [
+     250,
+     350
+    ],
+    "bestTide": [],
+    "dangerTide": [],
+    "bestSwell": null,
+    "bestWind": [
+     75,
+     165
+    ],
+    "kiteWind": null,
+    "level": "all",
+    "hazards": [
+     "rips"
+    ],
+    "sources": []
+   }
+  },
+  {
+   "id": "ma-essaouira",
+   "name": "Essaouira",
+   "aliases": [],
+   "lat": 31.505,
+   "lon": -9.772,
+   "country": "MA",
+   "layer": 2,
+   "verified": false,
+   "info": {
+    "break": "beach",
+    "sports": [
+     "kite",
+     "windsurf"
+    ],
+    "facing": 265,
+    "window": [
+     220,
+     320
+    ],
+    "bestTide": [],
+    "dangerTide": [],
+    "bestSwell": null,
+    "bestWind": [
+     40,
+     130
+    ],
+    "kiteWind": null,
+    "level": "all",
+    "hazards": [],
+    "sources": []
+   }
+  },
+  {
+   "id": "ma-dakhla-lagoon",
+   "name": "Dakhla – Lagoon",
+   "aliases": [],
+   "lat": 23.855,
+   "lon": -15.79,
+   "country": "MA",
+   "layer": 2,
+   "verified": false,
+   "info": {
+    "break": "unknown",
+    "sports": [
+     "kite",
+     "windsurf"
+    ],
+    "facing": 95,
+    "window": null,
+    "bestTide": [],
+    "dangerTide": [],
+    "bestSwell": null,
+    "bestWind": [
+     230,
+     320
+    ],
+    "kiteWind": null,
+    "level": "all",
+    "hazards": [],
+    "sources": []
+   }
+  }
+ ]
+}

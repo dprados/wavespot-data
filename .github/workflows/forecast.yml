@@ -1,0 +1,113 @@
+name: Forecast
+
+on:
+  schedule:
+    - cron: "0 10 * * *"   # after ECMWF 00z (0.1° complete ~09:35 UTC), ICON-EU 06z, IBI daily run
+    - cron: "0 22 * * *"   # after ECMWF 12z (~21:35 UTC)
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+  actions: write          # prune old state caches
+
+concurrency:
+  group: forecast
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    outputs:
+      built: ${{ steps.build.outputs.built }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: requirements*.txt
+
+      - name: Install
+        run: python -m pip install --quiet -r requirements-dev.txt
+
+      - name: Test
+        run: python -m pytest -q tests
+
+      - name: Restore state (cell mappings, last-good spots)
+        uses: actions/cache/restore@v4
+        with:
+          path: cache
+          key: state-${{ github.run_id }}
+          restore-keys: state-
+
+      - name: Build
+        id: build
+        env:
+          COPERNICUSMARINE_SERVICE_USERNAME: ${{ secrets.COPERNICUSMARINE_SERVICE_USERNAME }}
+          COPERNICUSMARINE_SERVICE_PASSWORD: ${{ secrets.COPERNICUSMARINE_SERVICE_PASSWORD }}
+        run: |
+          set +e
+          python -m wavespot_pipeline.build --out site/v1 --cache cache --work "$RUNNER_TEMP/work" --report report.json
+          rc=$?
+          set -e
+          if [ "$rc" = "0" ]; then echo "built=true" >> "$GITHUB_OUTPUT"; fi
+          exit $rc
+
+      - name: Validate
+        run: python -m wavespot_pipeline.validate site/v1
+
+      - name: Summary
+        if: always()
+        run: |
+          {
+            echo '### Wavespot build'
+            echo '```json'
+            cat report.json 2>/dev/null || echo '{}'
+            echo '```'
+            echo "Site size: $(du -sh site 2>/dev/null | cut -f1), files: $(find site -type f 2>/dev/null | wc -l)"
+          } >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Save state
+        if: always()
+        continue-on-error: true
+        uses: actions/cache/save@v4
+        with:
+          path: cache
+          key: state-${{ github.run_id }}
+
+      - name: Prune old state caches
+        if: always()
+        continue-on-error: true
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh cache list --repo "$GITHUB_REPOSITORY" --key state- --sort created_at --order desc --limit 100 \
+            --json id -q '.[4:][].id' | xargs -r -n1 gh cache delete --repo "$GITHUB_REPOSITORY"
+
+      - name: Site root
+        run: |
+          cat > site/index.html <<'HTML'
+          <!doctype html><meta charset="utf-8"><title>wavespot-data</title>
+          <p>Wavespot open forecast data. See <a href="v1/index/meta.json">v1/index/meta.json</a>.
+          Sources: Copernicus Marine Service, ECMWF (CC BY 4.0), DWD, NOAA, EOT20 (CC BY 4.0),
+          © OpenStreetMap contributors (ODbL).</p>
+          HTML
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+
+  deploy:
+    needs: build
+    if: needs.build.outputs.built == 'true'
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

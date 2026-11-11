@@ -1,0 +1,75 @@
+name: Tides
+
+# Extract EOT20 tidal constituents for new/moved spots. The 2.3 GB model is kept
+# in actions/cache (key eot20-v1), so it is downloaded from SEANOE only once;
+# the twice-weekly schedule keeps the cache from expiring (7 days unused).
+on:
+  push:
+    branches: [main]
+    paths:
+      - data/seed_spots.json
+      - data/spots/**
+  schedule:
+    - cron: "17 3 * * 1,4"
+  workflow_dispatch:
+    inputs:
+      all:
+        description: "Recompute every spot"
+        type: boolean
+        default: false
+
+permissions:
+  contents: write
+
+concurrency:
+  group: tides
+  cancel-in-progress: false
+
+jobs:
+  extract:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: requirements*.txt
+
+      - name: Install
+        run: python -m pip install --quiet -r requirements-tides.txt
+
+      - name: Restore EOT20 model
+        id: model
+        uses: actions/cache/restore@v4
+        with:
+          path: ~/eot20
+          key: eot20-v1
+
+      - name: Download EOT20 (cache miss only)
+        if: steps.model.outputs.cache-hit != 'true'
+        run: python -c "from wavespot_pipeline.tides_extract import ensure_model; ensure_model('$HOME/eot20')"
+
+      - name: Save EOT20 model
+        if: steps.model.outputs.cache-hit != 'true'
+        uses: actions/cache/save@v4
+        with:
+          path: ~/eot20
+          key: eot20-v1
+
+      - name: Extract constituents
+        run: |
+          python -m wavespot_pipeline.tides_extract --model-dir ~/eot20 \
+            ${{ github.event.inputs.all == 'true' && '--all' || '' }}
+
+      - name: Commit
+        run: |
+          git config user.name "wavespot-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/tides/eot20_constituents.json
+          if git diff --cached --quiet; then echo "no changes"; exit 0; fi
+          git commit -qm "tides: update EOT20 constituents"
+          for i in 1 2 3; do git pull --rebase -q origin main && git push -q origin HEAD:main && exit 0; sleep 5; done
+          exit 1

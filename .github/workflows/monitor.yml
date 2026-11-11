@@ -1,0 +1,37 @@
+name: Monitor
+
+on:
+  schedule:
+    - cron: "40 11 * * *"   # after the 10:00 build
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Check freshness and sources
+        id: check
+        run: |
+          python -m wavespot_pipeline.monitor https://dprados.github.io/wavespot-data/v1/ > report.md \
+            || echo "failed=true" >> "$GITHUB_OUTPUT"
+          cat report.md >> "$GITHUB_STEP_SUMMARY"
+      - name: Open issue
+        if: steps.check.outputs.failed == 'true'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          title="Forecast data problem $(date -u +%F)"
+          if gh issue list --state open --search "in:title \"$title\"" --json number -q '.[0].number' | grep -q .; then
+            echo "issue already open"; exit 0
+          fi
+          gh issue create --title "$title" --body-file report.md --label data \
+            || gh issue create --title "$title" --body-file report.md

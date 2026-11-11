@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+# forecast build scratch (never commit GRIB/NetCDF or generated site)
+/cache/
+/work/
+/site/
+*.grib2
+*.nc
+!tests/fixtures/sources/*.grib2
+!tests/fixtures/sources/*.nc
+report.json
