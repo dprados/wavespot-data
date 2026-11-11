@@ -184,7 +184,8 @@ def main(argv=None) -> int:
                 log.warning("spot %s dropped: no data and no last-good", spot["id"])
                 continue
         today = products.today_index(doc, now)
-        tiles[tile_of(spot["lat"], spot["lon"])].append(products.index_entry(doc, products.index_r(doc, today)))
+        tiles[tile_of(spot["lat"], spot["lon"])].append(
+            products.index_entry(doc, products.index_r(doc, today), products.index_rk(doc, today)))
         z = spot["zone"]
         bb = zone_bbox.setdefault(z, [spot["lat"], spot["lon"], spot["lat"], spot["lon"]])
         bb[0], bb[1] = min(bb[0], spot["lat"]), min(bb[1], spot["lon"])

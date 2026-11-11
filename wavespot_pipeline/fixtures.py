@@ -88,7 +88,8 @@ def surf_cases(rng: random.Random) -> list[dict]:
     # Tide factor combinations.
     for stage in ("low", "mid", "high"):
         for best, danger, layer in (([], [], 2), (["low"], [], 2), (["mid", "high"], ["low"], 2),
-                                    (["high"], [], 1), ([], ["low"], 2)):
+                                    (["high"], [], 1), ([], ["low"], 2), ([], ["high"], 2),
+                                    ([], ["low"], 1)):
             out.append(surf_case(1.0, 12.0, 1.0, 0.0, 0.0, "beginner", stage, layer, best, danger, 1))
     # Light off.
     out.append(surf_case(1.0, 12.0, 1.0, 0.0, 0.0, "beginner", None, 2, [], [], 0))
@@ -143,7 +144,7 @@ def window_cases(rng: random.Random) -> list[dict]:
     fixed = [
         ([1, 2, 3, 3, 3, 2, 1, 3, 3, 0], [True] * 10),
         ([3, 3, 1, 3, 3, 1, 1, 1, 1, 1], [True] * 10),        # tie -> earliest
-        ([4, 1, 4, 1, 4, 1, 1, 1, 1, 1], [True] * 10),        # max never 2 h long -> null
+        ([4, 1, 4, 1, 4, 1, 1, 1, 1, 1], [True] * 10),        # only 1-h blocks -> earliest 1-h window
         ([1, 1, 1, 1, 1, 1, 1, 1, 1, 1], [True] * 10),        # max < 2 -> null
         ([5, 5, 5, 2, 2, 2, 2, 2, 2, 2], [False, True, True] + [True] * 7),
         ([None, 2, 2, None, 2, 2, 2, None, 0, 0], [True] * 10),
@@ -189,6 +190,8 @@ def rating_parity() -> dict:
             "angles": "degrees, directions 'coming from', arcs [from, to] clockwise inclusive",
             "kiteOffshoreDelta": rating.KITE_OFFSHORE_DELTA,
             "kiteDefaultDelta": list(rating.KITE_DEFAULT_ARC),
+            "partitionPeriods": "T' = min(T * (1.25 if wind sea else 1.2), tp) when tp is not null, else T * factor",
+            "bestWindowMinHours": rating.MIN_WINDOW_HOURS,
             "sun": "civil twilight (zenith 96°), minutes after 00:00 UTC of the date; tolerance 1 min",
         },
         "exposure": exposure_cases(rng),

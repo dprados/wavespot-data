@@ -150,4 +150,6 @@ def synthetic_name(cc, place, dist_km, bearing_from_place):
 
 
 def synthetic_id(cc, lat, lon):
-    return f"{cc.lower()}-p-{lat:.4f}-{lon:.4f}"
+    """`{cc}-p-{lat4}-{w|e}{|lon|4}` (data-schema.md §1): no double hyphen."""
+    ew = "w" if lon < 0 else "e"
+    return f"{cc.lower()}-p-{lat:.4f}-{ew}{abs(lon):.4f}"

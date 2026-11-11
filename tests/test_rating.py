@@ -72,8 +72,12 @@ def test_exposure_window():
 
 def test_effective_height_single_component():
     hb, td = rating.effective_height([(1.0, 10.0, 300.0, False)], [280, 40])
-    assert abs(td - 10.0) < 1e-9
-    assert abs(hb - 1.0 * 1.1) < 1e-9                         # g(10) = 1.1
+    assert abs(td - 12.0) < 1e-9                              # Tm01 10 s -> 12 s peak-equivalent
+    assert abs(hb - 1.0 * 1.17) < 1e-9                        # g(12) = 1.17
+    hb, td = rating.effective_height([(1.0, 10.0, 300.0, False)], [280, 40], tp=11.0)
+    assert abs(td - 11.0) < 1e-9                              # capped at tp
+    hb, td = rating.effective_height([(1.0, 4.0, 300.0, True)], [280, 40], tp=9.0)
+    assert abs(td - 5.0) < 1e-9                               # wind sea x1.25
 
 
 def test_round_half_up_epsilon():
@@ -84,7 +88,8 @@ def test_round_half_up_epsilon():
 
 def test_tide_factor_rules():
     assert rating.tide_factor("low", 1, ["mid"], []) == 1.0      # layer 1: ignored
-    assert rating.tide_factor("low", 2, [], ["low"]) == 1.0      # empty bestTide: ignored
+    assert rating.tide_factor("low", 2, [], ["low"]) == 0.3      # danger applies without bestTide
+    assert rating.tide_factor("mid", 2, [], ["low"]) == 1.0
     assert rating.tide_factor("low", 2, ["mid"], ["low"]) == 0.3
     assert rating.tide_factor("mid", 2, ["mid"], []) == 1.0
     assert rating.tide_factor("high", 2, ["mid"], []) == 0.6
@@ -99,7 +104,10 @@ def test_kite_offshore_is_zero():
 def test_best_window():
     assert rating.best_window([1, 3, 3, 2, 3, 3, 3], [True] * 7) == (3, 4, 3)
     assert rating.best_window([1, 1, 1], [True] * 3) is None
-    assert rating.best_window([4, 4, 4], [False, False, True]) is None
+    assert rating.best_window([4, 1, 4, 4, 1], [True] * 5) == (4, 2, 2)
+    assert rating.best_window([4, 1, 3, 3, 1], [True] * 5) == (4, 0, 1)   # 1-h windows allowed
+    assert rating.best_window([4, 4, 4], [False, False, True]) == (4, 2, 1)
+    assert rating.best_window([4, 4], [False, False]) is None
 
 
 def test_sun_peniche_november():

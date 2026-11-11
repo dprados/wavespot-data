@@ -23,9 +23,9 @@ jobs:
     outputs:
       built: ${{ steps.build.outputs.built }}
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
 
-      - uses: actions/setup-python@v5
+      - uses: actions/setup-python@v7
         with:
           python-version: "3.12"
           cache: pip
@@ -38,7 +38,7 @@ jobs:
         run: python -m pytest -q tests
 
       - name: Restore state (cell mappings, last-good spots)
-        uses: actions/cache/restore@v4
+        uses: actions/cache/restore@v6
         with:
           path: cache
           key: state-${{ github.run_id }}
@@ -74,7 +74,7 @@ jobs:
       - name: Save state
         if: always()
         continue-on-error: true
-        uses: actions/cache/save@v4
+        uses: actions/cache/save@v6
         with:
           path: cache
           key: state-${{ github.run_id }}
@@ -97,7 +97,7 @@ jobs:
           © OpenStreetMap contributors (ODbL).</p>
           HTML
 
-      - uses: actions/upload-pages-artifact@v3
+      - uses: actions/upload-pages-artifact@v5
         with:
           path: site
 
@@ -110,4 +110,4 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - id: deployment
-        uses: actions/deploy-pages@v4
+        uses: actions/deploy-pages@v5

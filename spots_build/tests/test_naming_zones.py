@@ -34,7 +34,7 @@ def test_synthetic_names():
     assert naming.synthetic_name("FR", "Anglet", 0.5, 0) == "Côte d'Anglet"
     assert naming.synthetic_name("ES", "El Palmar", 2, 315) == "Costa del Palmar (2 km NO)"
     assert naming.synthetic_name("PT", "A Ver-o-Mar", 4, 0) == "Costa da Ver-o-Mar (4 km N)"
-    assert naming.synthetic_id("MA", 27.71234, -13.04561) == "ma-p-27.7123--13.0456"
+    assert naming.synthetic_id("MA", 27.71234, -13.04561) == "ma-p-27.7123-w13.0456"
 
 
 def test_pick_name_morocco_prefers_latin():

@@ -128,7 +128,10 @@ def test_spot_doc_validates_and_rates():
         today = products.today_index(doc, dt.datetime(2026, 11, 11, 10, tzinfo=dt.timezone.utc))
         r = products.index_r(doc, today)
         assert len(r) == 3 and all(0 <= x <= 5 for x in r)
-        assert validate.validate_tile({"v": 1, "spots": [products.index_entry(doc, r)]}) == []
+        rk = products.index_rk(doc, today)
+        entry = products.index_entry(doc, r, rk)
+        assert ("rk" in entry) == ("kite" in s["info"]["sports"])
+        assert validate.validate_tile({"v": 1, "spots": [entry]}) == []
         z = products.zone_doc(s["zone"], [products.zone_entries(doc)], "2026-11-11T10:00:00Z")
         assert validate.validate_zone(z) == []
 

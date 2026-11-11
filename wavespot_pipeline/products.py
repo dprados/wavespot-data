@@ -100,7 +100,8 @@ def local_days(doc: dict) -> list[tuple[dt.date, list[int]]]:
 def tide_stages_for_day(doc: dict, d: dt.date, idx: list[int]) -> list[str | None]:
     tide = doc.get("tide")
     info = doc["info"]
-    if not tide or not tide.get("cons") or doc["layer"] != 2 or not info.get("bestTide"):
+    if (not tide or not tide.get("cons") or doc["layer"] != 2
+            or not (info.get("bestTide") or info.get("dangerTide"))):
         return [None] * len(idx)   # T = 1 anyway (schema §3.2): skip the harmonic sum
     tz = ZoneInfo(doc["tz"])
     t0 = dt.datetime.combine(d, dt.time(0), tz).timestamp()
@@ -169,18 +170,27 @@ def today_index(doc: dict, now: dt.datetime) -> dict | None:
 
 
 def index_r(doc: dict, today: dict | None) -> list[int]:
+    """Best surf rating today per level [beginner, intermediate, advanced]."""
     if today is None:
         return [0, 0, 0]
-    sports = set(doc["info"].get("sports") or [])
-    if "surf" not in sports and today["kite"] is not None:
-        k = max([r for r in today["kite"] if r is not None], default=0)
-        return [k, k, k]
     return [max([r for r in today["surf"][lv] if r is not None], default=0) for lv in rating.LEVELS]
 
 
-def index_entry(doc: dict, r: list[int]) -> dict:
-    return {"id": doc["id"], "n": doc["name"], "lat": doc["lat"], "lon": doc["lon"], "l": doc["layer"],
-            "s": doc["info"].get("sports") or [], "z": doc["zone"], "r": r}
+def index_rk(doc: dict, today: dict | None) -> int | None:
+    """Best kite/windsurf rating today; None for spots without kite or windsurf."""
+    if not {"kite", "windsurf"} & set(doc["info"].get("sports") or []):
+        return None
+    if today is None or today["kite"] is None:
+        return 0
+    return max([r for r in today["kite"] if r is not None], default=0)
+
+
+def index_entry(doc: dict, r: list[int], rk: int | None = None) -> dict:
+    e = {"id": doc["id"], "n": doc["name"], "lat": doc["lat"], "lon": doc["lon"], "l": doc["layer"],
+         "s": doc["info"].get("sports") or [], "z": doc["zone"], "r": r}
+    if rk is not None:
+        e["rk"] = rk
+    return e
 
 
 def zone_entries(doc: dict) -> dict[str, dict]:

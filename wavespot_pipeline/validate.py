@@ -113,6 +113,9 @@ def validate_tile(doc: dict) -> list[str]:
         r = e.get("r")
         if not (isinstance(r, list) and len(r) == 3 and all(isinstance(x, int) and 0 <= x <= 5 for x in r)):
             errs.append(f"bad r for {e.get('id')}")
+        rk = e.get("rk")
+        if rk is not None and not (isinstance(rk, int) and 0 <= rk <= 5):
+            errs.append(f"bad rk for {e.get('id')}")
     return errs
 
 

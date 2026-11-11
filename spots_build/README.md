@@ -53,7 +53,7 @@ report.py        layer1_stats.md, preview/*.png, reference accuracy
    "Côte de" (French is the usual Latin-script language of Moroccan toponyms); compass letters
    N/NE/E/SE/S/SO/O/NO are the same in es/pt/fr.
 6. **Ids**: `{cc}-{slug(name)}` (`-2`, `-3`… on collision, ordered by source priority then
-   latitude), synthetic `{cc}-p-{lat:.4f}-{lon:.4f}` (e.g. `ma-p-27.7123--13.0456`).
+   latitude), synthetic `{cc}-p-{lat:.4f}-{w|e}{abs(lon):.4f}` (e.g. `ma-p-27.7123-w13.0456`).
 7. **Zones**: 60 human zones in `zones.py` (names in es, pt, fr, en, de, ca, eu, gl); a point gets
    the smallest bbox of its country that contains it, else the nearest one.
    `data/spots/zones.json` has the bboxes tightened to the points.

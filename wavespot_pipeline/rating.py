@@ -82,12 +82,24 @@ def g_period(t: float) -> float:
     return clamp(0.75 + 0.035 * t, 0.85, 1.35)
 
 
+SWELL_PERIOD_FACTOR = 1.2
+WIND_SEA_PERIOD_FACTOR = 1.25
+
+
+def peak_period(t: float, wind_sea: bool, tp: Optional[float]) -> float:
+    """Partition mean period (Tm01) -> peak-equivalent period, capped at the hour's tp (§3.1)."""
+    x = t * (WIND_SEA_PERIOD_FACTOR if wind_sea else SWELL_PERIOD_FACTOR)
+    return min(x, tp) if tp is not None else x
+
+
 def effective_height(components: Iterable[tuple], window: Optional[Sequence[float]],
                      tp: Optional[float] = None) -> tuple[Optional[float], Optional[float]]:
     """Return (hb, td) from components [(H, T, D, is_wind_sea), ...].
 
-    Components with any missing value are skipped. If no component is usable
-    the result is (None, None). If the exposed energy is 0, td = tp and hb = 0.
+    Each component period is first converted with peak_period() (swell x1.2,
+    wind sea x1.25, capped at tp). Components with any missing value are
+    skipped. If no component is usable the result is (None, None). If the
+    exposed energy is 0, td = tp and hb = 0.
     """
     num = 0.0   # Σ e·H²·T
     den = 0.0   # Σ e·H²
@@ -96,6 +108,7 @@ def effective_height(components: Iterable[tuple], window: Optional[Sequence[floa
         if h is None or t is None or d is None:
             continue
         used += 1
+        t = peak_period(t, ww, tp)
         e = exposure(d, window, ww)
         w = e * h * h
         den += w
@@ -112,7 +125,8 @@ def effective_height(components: Iterable[tuple], window: Optional[Sequence[floa
 
 def spot_components(s1, s2, ww, hs, tp, dr) -> list[tuple]:
     """Build the component list: partitions if any partition height exists,
-    otherwise the total sea (hs, tp, dir) as a single non-wind-sea component.
+    otherwise the total sea (hs, tp, dir) as a single non-wind-sea component
+    (its period is tp, so the x1.2 capped at tp leaves it unchanged).
 
     s1/s2/ww are (H, T, D) tuples (values may be None).
     """
@@ -169,11 +183,13 @@ def tide_stage(normalized: float) -> str:
 
 def tide_factor(stage: Optional[str], layer: int, best_tide: Sequence[str],
                 danger_tide: Sequence[str]) -> float:
-    if layer != 2 or not best_tide or stage is None:
+    """Layer 2 only: 0.3 in dangerTide (even with empty bestTide), else 1.0 in
+    bestTide or when bestTide is empty, else 0.6. Layer 1 / unknown stage: 1.0."""
+    if layer != 2 or stage is None:
         return 1.0
     if stage in (danger_tide or ()):
         return 0.3
-    if stage in best_tide:
+    if not best_tide or stage in best_tide:
         return 1.0
     return 0.6
 
@@ -243,13 +259,15 @@ def kite_rating(ws, wg, wd, facing, kite_wind, light=1) -> Optional[int]:
 
 
 # ------------------------------------------------------- §3.3 best window
+MIN_WINDOW_HOURS = 1
+
 def best_window(ratings: Sequence[Optional[int]], lit: Sequence[bool]) -> Optional[tuple[int, int, int]]:
     """Find the best window in a day of hourly ratings.
 
     Returns (max_rating, first_index, length_hours) or None.
     Only lit hours count. A block is a run of consecutive lit hours whose
-    rating equals the day maximum; it must be >= 2 hours. Longest wins,
-    ties -> earliest. Max < 2 -> None ("Día flojo").
+    rating equals the day maximum; it must be >= MIN_WINDOW_HOURS (1 h since
+    2026-11-11). Longest wins, ties -> earliest. Max < 2 -> None ("Día flojo").
     """
     vals = [r for r, l in zip(ratings, lit) if l and r is not None]
     if not vals:
@@ -265,7 +283,7 @@ def best_window(ratings: Sequence[Optional[int]], lit: Sequence[bool]) -> Option
             while j + 1 < n and lit[j + 1] and ratings[j + 1] == best:
                 j += 1
             length = j - i + 1
-            if length >= 2 and (found is None or length > found[2]):
+            if length >= MIN_WINDOW_HOURS and (found is None or length > found[2]):
                 found = (best, i, length)
             i = j + 1
         else:

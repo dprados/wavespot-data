@@ -130,7 +130,13 @@ def main(argv=None) -> int:
                 missing += 1
             known[s["id"]] = {"lat": s["lat"], "lon": s["lon"], "z0": 0.0, "cons": cons}
         log.info("extracted; %d spots without model data", missing)
-    if todo:
+    current = {s["id"] for s in spots}
+    stale = [k for k in known if k not in current]
+    for k in stale:          # renamed or removed spots
+        del known[k]
+    if stale:
+        log.info("pruned %d spots no longer in the catalogue", len(stale))
+    if todo or stale:
         store["updated"] = dt.datetime.now(dt.timezone.utc).strftime("%Y-%m-%dT%H:%M:%SZ")
     store["spots"] = dict(sorted(known.items()))
     os.makedirs(os.path.dirname(args.out), exist_ok=True)
