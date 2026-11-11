@@ -1,0 +1,1205 @@
+{
+ "v": 1,
+ "zones": [
+  {
+   "id": "es-costa-vasca",
+   "country": "ES",
+   "name": {
+    "es": "Costa vasca",
+    "pt": "Costa basca",
+    "fr": "Côte basque espagnole",
+    "en": "Basque coast",
+    "de": "Baskische Küste",
+    "ca": "Costa basca",
+    "eu": "Euskal kostaldea",
+    "gl": "Costa vasca"
+   },
+   "bbox": [
+    43.264,
+    -3.174,
+    43.477,
+    -1.771
+   ]
+  },
+  {
+   "id": "es-cantabria",
+   "country": "ES",
+   "name": {
+    "es": "Cantabria",
+    "pt": "Cantábria",
+    "fr": "Cantabrie",
+    "en": "Cantabria",
+    "de": "Kantabrien",
+    "ca": "Cantàbria",
+    "eu": "Kantabria",
+    "gl": "Cantabria"
+   },
+   "bbox": [
+    43.335,
+    -4.534,
+    43.533,
+    -3.153
+   ]
+  },
+  {
+   "id": "es-asturias-oriente",
+   "country": "ES",
+   "name": {
+    "es": "Asturias oriental",
+    "pt": "Astúrias oriental",
+    "fr": "Asturies orientales",
+    "en": "Eastern Asturias",
+    "de": "Ost-Asturien",
+    "ca": "Astúries oriental",
+    "eu": "Asturias ekialdea",
+    "gl": "Asturias oriental"
+   },
+   "bbox": [
+    43.372,
+    -5.769,
+    43.605,
+    -4.511
+   ]
+  },
+  {
+   "id": "es-asturias-centro",
+   "country": "ES",
+   "name": {
+    "es": "Asturias central",
+    "pt": "Astúrias central",
+    "fr": "Asturies centrales",
+    "en": "Central Asturias",
+    "de": "Zentral-Asturien",
+    "ca": "Astúries central",
+    "eu": "Asturias erdialdea",
+    "gl": "Asturias central"
+   },
+   "bbox": [
+    43.532,
+    -6.316,
+    43.682,
+    -5.732
+   ]
+  },
+  {
+   "id": "es-asturias-occidente",
+   "country": "ES",
+   "name": {
+    "es": "Asturias occidental",
+    "pt": "Astúrias ocidental",
+    "fr": "Asturies occidentales",
+    "en": "Western Asturias",
+    "de": "West-Asturien",
+    "ca": "Astúries occidental",
+    "eu": "Asturias mendebaldea",
+    "gl": "Asturias occidental"
+   },
+   "bbox": [
+    43.522,
+    -7.07,
+    43.595,
+    -6.28
+   ]
+  },
+  {
+   "id": "es-a-marina",
+   "country": "ES",
+   "name": {
+    "es": "A Mariña lucense",
+    "pt": "A Mariña lucense",
+    "fr": "A Mariña (Lugo)",
+    "en": "A Mariña (Lugo coast)",
+    "de": "A Mariña (Lugo)",
+    "ca": "A Mariña lucense",
+    "eu": "A Mariña",
+    "gl": "A Mariña lucense"
+   },
+   "bbox": [
+    43.53,
+    -7.718,
+    43.81,
+    -7.039
+   ]
+  },
+  {
+   "id": "es-galicia-rias-altas",
+   "country": "ES",
+   "name": {
+    "es": "Rías Altas (Ferrol–A Coruña)",
+    "pt": "Rias Altas (Ferrol–Corunha)",
+    "fr": "Rías Altas (Ferrol–La Corogne)",
+    "en": "Rías Altas (Ferrol–A Coruña)",
+    "de": "Rías Altas (Ferrol–A Coruña)",
+    "ca": "Rías Altas (Ferrol–la Corunya)",
+    "eu": "Rías Altas (Ferrol–A Coruña)",
+    "gl": "Rías Altas (Ferrol–A Coruña)"
+   },
+   "bbox": [
+    43.291,
+    -8.588,
+    43.794,
+    -7.697
+   ]
+  },
+  {
+   "id": "es-costa-da-morte",
+   "country": "ES",
+   "name": {
+    "es": "Costa da Morte",
+    "pt": "Costa da Morte",
+    "fr": "Costa da Morte",
+    "en": "Costa da Morte",
+    "de": "Costa da Morte",
+    "ca": "Costa da Morte",
+    "eu": "Costa da Morte",
+    "gl": "Costa da Morte"
+   },
+   "bbox": [
+    42.731,
+    -9.321,
+    43.383,
+    -8.571
+   ]
+  },
+  {
+   "id": "es-rias-baixas",
+   "country": "ES",
+   "name": {
+    "es": "Rías Baixas",
+    "pt": "Rias Baixas",
+    "fr": "Rías Baixas",
+    "en": "Rías Baixas",
+    "de": "Rías Baixas",
+    "ca": "Rías Baixas",
+    "eu": "Rías Baixas",
+    "gl": "Rías Baixas"
+   },
+   "bbox": [
+    41.846,
+    -9.111,
+    42.766,
+    -8.693
+   ]
+  },
+  {
+   "id": "es-huelva",
+   "country": "ES",
+   "name": {
+    "es": "Costa de Huelva",
+    "pt": "Costa de Huelva",
+    "fr": "Côte de Huelva",
+    "en": "Huelva coast",
+    "de": "Küste von Huelva",
+    "ca": "Costa de Huelva",
+    "eu": "Huelvako kostaldea",
+    "gl": "Costa de Huelva"
+   },
+   "bbox": [
+    36.851,
+    -7.417,
+    37.237,
+    -6.409
+   ]
+  },
+  {
+   "id": "es-cadiz-norte",
+   "country": "ES",
+   "name": {
+    "es": "Cádiz norte (Chipiona–Cádiz)",
+    "pt": "Cádis norte (Chipiona–Cádis)",
+    "fr": "Cadix nord (Chipiona–Cadix)",
+    "en": "North Cádiz (Chipiona–Cádiz)",
+    "de": "Nord-Cádiz (Chipiona–Cádiz)",
+    "ca": "Cadis nord (Chipiona–Cadis)",
+    "eu": "Cadiz iparraldea",
+    "gl": "Cádiz norte (Chipiona–Cádiz)"
+   },
+   "bbox": [
+    36.36,
+    -6.463,
+    36.847,
+    -6.182
+   ]
+  },
+  {
+   "id": "es-la-janda",
+   "country": "ES",
+   "name": {
+    "es": "Costa de La Janda (Conil–Bolonia)",
+    "pt": "Costa de La Janda (Conil–Bolonia)",
+    "fr": "Côte de La Janda (Conil–Bolonia)",
+    "en": "La Janda coast (Conil–Bolonia)",
+    "de": "Küste von La Janda (Conil–Bolonia)",
+    "ca": "Costa de La Janda (Conil–Bolonia)",
+    "eu": "La Janda kostaldea (Conil–Bolonia)",
+    "gl": "Costa da Janda (Conil–Bolonia)"
+   },
+   "bbox": [
+    36.067,
+    -6.21,
+    36.395,
+    -5.784
+   ]
+  },
+  {
+   "id": "es-tarifa",
+   "country": "ES",
+   "name": {
+    "es": "Tarifa",
+    "pt": "Tarifa",
+    "fr": "Tarifa",
+    "en": "Tarifa",
+    "de": "Tarifa",
+    "ca": "Tarifa",
+    "eu": "Tarifa",
+    "gl": "Tarifa"
+   },
+   "bbox": [
+    35.985,
+    -5.816,
+    36.107,
+    -5.587
+   ]
+  },
+  {
+   "id": "es-lanzarote",
+   "country": "ES",
+   "name": {
+    "es": "Lanzarote y La Graciosa",
+    "pt": "Lanzarote e La Graciosa",
+    "fr": "Lanzarote et La Graciosa",
+    "en": "Lanzarote & La Graciosa",
+    "de": "Lanzarote und La Graciosa",
+    "ca": "Lanzarote i La Graciosa",
+    "eu": "Lanzarote eta La Graciosa",
+    "gl": "Lanzarote e A Graciosa"
+   },
+   "bbox": [
+    28.822,
+    -13.894,
+    29.436,
+    -13.4
+   ]
+  },
+  {
+   "id": "es-fuerteventura",
+   "country": "ES",
+   "name": {
+    "es": "Fuerteventura",
+    "pt": "Fuerteventura",
+    "fr": "Fuerteventura",
+    "en": "Fuerteventura",
+    "de": "Fuerteventura",
+    "ca": "Fuerteventura",
+    "eu": "Fuerteventura",
+    "gl": "Fuerteventura"
+   },
+   "bbox": [
+    28.024,
+    -14.527,
+    28.785,
+    -13.792
+   ]
+  },
+  {
+   "id": "es-gran-canaria",
+   "country": "ES",
+   "name": {
+    "es": "Gran Canaria",
+    "pt": "Gran Canária",
+    "fr": "Grande Canarie",
+    "en": "Gran Canaria",
+    "de": "Gran Canaria",
+    "ca": "Gran Canària",
+    "eu": "Kanaria Handia",
+    "gl": "Gran Canaria"
+   },
+   "bbox": [
+    27.715,
+    -15.85,
+    28.2,
+    -15.342
+   ]
+  },
+  {
+   "id": "es-tenerife",
+   "country": "ES",
+   "name": {
+    "es": "Tenerife",
+    "pt": "Tenerife",
+    "fr": "Tenerife",
+    "en": "Tenerife",
+    "de": "Teneriffa",
+    "ca": "Tenerife",
+    "eu": "Tenerife",
+    "gl": "Tenerife"
+   },
+   "bbox": [
+    27.98,
+    -16.942,
+    28.608,
+    -16.1
+   ]
+  },
+  {
+   "id": "es-la-gomera",
+   "country": "ES",
+   "name": {
+    "es": "La Gomera",
+    "pt": "La Gomera",
+    "fr": "La Gomera",
+    "en": "La Gomera",
+    "de": "La Gomera",
+    "ca": "La Gomera",
+    "eu": "La Gomera",
+    "gl": "A Gomera"
+   },
+   "bbox": [
+    28.0,
+    -17.368,
+    28.237,
+    -17.079
+   ]
+  },
+  {
+   "id": "es-la-palma",
+   "country": "ES",
+   "name": {
+    "es": "La Palma",
+    "pt": "La Palma",
+    "fr": "La Palma",
+    "en": "La Palma",
+    "de": "La Palma",
+    "ca": "La Palma",
+    "eu": "La Palma",
+    "gl": "A Palma"
+   },
+   "bbox": [
+    28.437,
+    -18.026,
+    28.877,
+    -17.711
+   ]
+  },
+  {
+   "id": "es-el-hierro",
+   "country": "ES",
+   "name": {
+    "es": "El Hierro",
+    "pt": "El Hierro",
+    "fr": "El Hierro",
+    "en": "El Hierro",
+    "de": "El Hierro",
+    "ca": "El Hierro",
+    "eu": "El Hierro",
+    "gl": "O Hierro"
+   },
+   "bbox": [
+    27.618,
+    -18.18,
+    27.869,
+    -17.863
+   ]
+  },
+  {
+   "id": "pt-minho",
+   "country": "PT",
+   "name": {
+    "es": "Minho (Caminha–Póvoa de Varzim)",
+    "pt": "Minho (Caminha–Póvoa de Varzim)",
+    "fr": "Minho (Caminha–Póvoa de Varzim)",
+    "en": "Minho (Caminha–Póvoa de Varzim)",
+    "de": "Minho (Caminha–Póvoa de Varzim)",
+    "ca": "Minho (Caminha–Póvoa de Varzim)",
+    "eu": "Minho (Caminha–Póvoa de Varzim)",
+    "gl": "Miño (Caminha–Póvoa de Varzim)"
+   },
+   "bbox": [
+    41.381,
+    -8.898,
+    41.868,
+    -8.755
+   ]
+  },
+  {
+   "id": "pt-porto",
+   "country": "PT",
+   "name": {
+    "es": "Oporto y Espinho",
+    "pt": "Porto e Espinho",
+    "fr": "Porto et Espinho",
+    "en": "Porto & Espinho",
+    "de": "Porto und Espinho",
+    "ca": "Porto i Espinho",
+    "eu": "Porto eta Espinho",
+    "gl": "Porto e Espinho"
+   },
+   "bbox": [
+    40.9,
+    -8.799,
+    41.418,
+    -8.625
+   ]
+  },
+  {
+   "id": "pt-aveiro",
+   "country": "PT",
+   "name": {
+    "es": "Costa de Aveiro",
+    "pt": "Costa de Aveiro",
+    "fr": "Côte d'Aveiro",
+    "en": "Aveiro coast",
+    "de": "Küste von Aveiro",
+    "ca": "Costa d'Aveiro",
+    "eu": "Aveiroko kostaldea",
+    "gl": "Costa de Aveiro"
+   },
+   "bbox": [
+    40.285,
+    -8.875,
+    40.904,
+    -8.653
+   ]
+  },
+  {
+   "id": "pt-figueira-leiria",
+   "country": "PT",
+   "name": {
+    "es": "Figueira da Foz y Leiria",
+    "pt": "Figueira da Foz e Leiria",
+    "fr": "Figueira da Foz et Leiria",
+    "en": "Figueira da Foz & Leiria",
+    "de": "Figueira da Foz und Leiria",
+    "ca": "Figueira da Foz i Leiria",
+    "eu": "Figueira da Foz eta Leiria",
+    "gl": "Figueira da Foz e Leiria"
+   },
+   "bbox": [
+    39.666,
+    -9.078,
+    40.302,
+    -8.843
+   ]
+  },
+  {
+   "id": "pt-nazare",
+   "country": "PT",
+   "name": {
+    "es": "Nazaré",
+    "pt": "Nazaré",
+    "fr": "Nazaré",
+    "en": "Nazaré",
+    "de": "Nazaré",
+    "ca": "Nazaré",
+    "eu": "Nazaré",
+    "gl": "Nazaré"
+   },
+   "bbox": [
+    39.472,
+    -9.199,
+    39.679,
+    -9.047
+   ]
+  },
+  {
+   "id": "pt-peniche",
+   "country": "PT",
+   "name": {
+    "es": "Peniche",
+    "pt": "Peniche",
+    "fr": "Peniche",
+    "en": "Peniche",
+    "de": "Peniche",
+    "ca": "Peniche",
+    "eu": "Peniche",
+    "gl": "Peniche"
+   },
+   "bbox": [
+    39.237,
+    -9.536,
+    39.494,
+    -9.183
+   ]
+  },
+  {
+   "id": "pt-ericeira",
+   "country": "PT",
+   "name": {
+    "es": "Ericeira y Oeste",
+    "pt": "Ericeira e Oeste",
+    "fr": "Ericeira et Oeste",
+    "en": "Ericeira & Oeste",
+    "de": "Ericeira und Oeste",
+    "ca": "Ericeira i Oeste",
+    "eu": "Ericeira eta Oeste",
+    "gl": "Ericeira e Oeste"
+   },
+   "bbox": [
+    38.831,
+    -9.476,
+    39.266,
+    -9.32
+   ]
+  },
+  {
+   "id": "pt-lisboa",
+   "country": "PT",
+   "name": {
+    "es": "Lisboa (Sintra–Cascais–Caparica)",
+    "pt": "Lisboa (Sintra–Cascais–Caparica)",
+    "fr": "Lisbonne (Sintra–Cascais–Caparica)",
+    "en": "Lisbon (Sintra–Cascais–Caparica)",
+    "de": "Lissabon (Sintra–Cascais–Caparica)",
+    "ca": "Lisboa (Sintra–Cascais–Caparica)",
+    "eu": "Lisboa (Sintra–Cascais–Caparica)",
+    "gl": "Lisboa (Sintra–Cascais–Caparica)"
+   },
+   "bbox": [
+    38.552,
+    -9.519,
+    38.881,
+    -8.926
+   ]
+  },
+  {
+   "id": "pt-setubal",
+   "country": "PT",
+   "name": {
+    "es": "Sesimbra, Arrábida y Troia",
+    "pt": "Sesimbra, Arrábida e Troia",
+    "fr": "Sesimbra, Arrábida et Troia",
+    "en": "Sesimbra, Arrábida & Troia",
+    "de": "Sesimbra, Arrábida und Troia",
+    "ca": "Sesimbra, Arrábida i Troia",
+    "eu": "Sesimbra, Arrábida eta Troia",
+    "gl": "Sesimbra, Arrábida e Troia"
+   },
+   "bbox": [
+    38.343,
+    -9.242,
+    38.578,
+    -8.776
+   ]
+  },
+  {
+   "id": "pt-alentejo",
+   "country": "PT",
+   "name": {
+    "es": "Costa alentejana",
+    "pt": "Costa Alentejana",
+    "fr": "Côte de l'Alentejo",
+    "en": "Alentejo coast",
+    "de": "Alentejo-Küste",
+    "ca": "Costa de l'Alentejo",
+    "eu": "Alentejoko kostaldea",
+    "gl": "Costa alentexana"
+   },
+   "bbox": [
+    37.388,
+    -8.89,
+    38.369,
+    -8.756
+   ]
+  },
+  {
+   "id": "pt-costa-vicentina",
+   "country": "PT",
+   "name": {
+    "es": "Costa Vicentina y Sagres",
+    "pt": "Costa Vicentina e Sagres",
+    "fr": "Costa Vicentina et Sagres",
+    "en": "Costa Vicentina & Sagres",
+    "de": "Costa Vicentina und Sagres",
+    "ca": "Costa Vicentina i Sagres",
+    "eu": "Costa Vicentina eta Sagres",
+    "gl": "Costa Vicentina e Sagres"
+   },
+   "bbox": [
+    36.974,
+    -9.017,
+    37.418,
+    -8.735
+   ]
+  },
+  {
+   "id": "pt-algarve",
+   "country": "PT",
+   "name": {
+    "es": "Algarve sur",
+    "pt": "Algarve sul",
+    "fr": "Algarve sud",
+    "en": "South Algarve",
+    "de": "Süd-Algarve",
+    "ca": "Algarve sud",
+    "eu": "Algarve hegoaldea",
+    "gl": "Algarve sur"
+   },
+   "bbox": [
+    36.94,
+    -8.763,
+    37.197,
+    -7.395
+   ]
+  },
+  {
+   "id": "pt-madeira",
+   "country": "PT",
+   "name": {
+    "es": "Madeira y Porto Santo",
+    "pt": "Madeira e Porto Santo",
+    "fr": "Madère et Porto Santo",
+    "en": "Madeira & Porto Santo",
+    "de": "Madeira und Porto Santo",
+    "ca": "Madeira i Porto Santo",
+    "eu": "Madeira eta Porto Santo",
+    "gl": "Madeira e Porto Santo"
+   },
+   "bbox": [
+    32.384,
+    -17.285,
+    33.127,
+    -16.274
+   ]
+  },
+  {
+   "id": "fr-pays-basque",
+   "country": "FR",
+   "name": {
+    "es": "País Vasco francés",
+    "pt": "País Basco francês",
+    "fr": "Pays basque",
+    "en": "French Basque Country",
+    "de": "Französisches Baskenland",
+    "ca": "País Basc francès",
+    "eu": "Lapurdi",
+    "gl": "País Vasco francés"
+   },
+   "bbox": [
+    43.349,
+    -1.801,
+    43.548,
+    -1.503
+   ]
+  },
+  {
+   "id": "fr-landes-sud",
+   "country": "FR",
+   "name": {
+    "es": "Landas sur (Hossegor–Capbreton)",
+    "pt": "Landes sul (Hossegor–Capbreton)",
+    "fr": "Sud Landes (Hossegor–Capbreton)",
+    "en": "South Landes (Hossegor–Capbreton)",
+    "de": "Süd-Landes (Hossegor–Capbreton)",
+    "ca": "Landes sud (Hossegor–Capbreton)",
+    "eu": "Landak hegoaldea (Hossegor–Capbreton)",
+    "gl": "Landas sur (Hossegor–Capbreton)"
+   },
+   "bbox": [
+    43.512,
+    -1.54,
+    43.82,
+    -1.382
+   ]
+  },
+  {
+   "id": "fr-landes-nord",
+   "country": "FR",
+   "name": {
+    "es": "Landas norte",
+    "pt": "Landes norte",
+    "fr": "Nord Landes",
+    "en": "North Landes",
+    "de": "Nord-Landes",
+    "ca": "Landes nord",
+    "eu": "Landak iparraldea",
+    "gl": "Landas norte"
+   },
+   "bbox": [
+    43.797,
+    -1.426,
+    44.549,
+    -1.23
+   ]
+  },
+  {
+   "id": "fr-gironde",
+   "country": "FR",
+   "name": {
+    "es": "Gironda (Lacanau–Cap Ferret)",
+    "pt": "Gironda (Lacanau–Cap Ferret)",
+    "fr": "Gironde (Lacanau–Cap Ferret)",
+    "en": "Gironde (Lacanau–Cap Ferret)",
+    "de": "Gironde (Lacanau–Cap Ferret)",
+    "ca": "Gironda (Lacanau–Cap Ferret)",
+    "eu": "Gironda (Lacanau–Cap Ferret)",
+    "gl": "Xironda (Lacanau–Cap Ferret)"
+   },
+   "bbox": [
+    44.511,
+    -1.285,
+    45.62,
+    -0.833
+   ]
+  },
+  {
+   "id": "fr-charente",
+   "country": "FR",
+   "name": {
+    "es": "Charente Marítimo (Oléron–Ré)",
+    "pt": "Charente-Maritime (Oléron–Ré)",
+    "fr": "Charente-Maritime (Oléron–Ré)",
+    "en": "Charente-Maritime (Oléron–Ré)",
+    "de": "Charente-Maritime (Oléron–Ré)",
+    "ca": "Charente Marítim (Oléron–Ré)",
+    "eu": "Itsas Charente (Oléron–Ré)",
+    "gl": "Charente Marítimo (Oléron–Ré)"
+   },
+   "bbox": [
+    45.58,
+    -1.581,
+    46.347,
+    -0.977
+   ]
+  },
+  {
+   "id": "fr-vendee",
+   "country": "FR",
+   "name": {
+    "es": "Vendée",
+    "pt": "Vendeia",
+    "fr": "Vendée",
+    "en": "Vendée",
+    "de": "Vendée",
+    "ca": "Vendée",
+    "eu": "Vendée",
+    "gl": "Vendée"
+   },
+   "bbox": [
+    46.31,
+    -2.417,
+    47.009,
+    -1.313
+   ]
+  },
+  {
+   "id": "fr-loire-atlantique",
+   "country": "FR",
+   "name": {
+    "es": "Loira Atlántico (La Baule–Pornic)",
+    "pt": "Loire-Atlantique (La Baule–Pornic)",
+    "fr": "Loire-Atlantique (La Baule–Pornic)",
+    "en": "Loire-Atlantique (La Baule–Pornic)",
+    "de": "Loire-Atlantique (La Baule–Pornic)",
+    "ca": "Loira Atlàntic (La Baule–Pornic)",
+    "eu": "Loira Atlantikoa (La Baule–Pornic)",
+    "gl": "Loira Atlántico (La Baule–Pornic)"
+   },
+   "bbox": [
+    46.981,
+    -2.58,
+    47.469,
+    -1.973
+   ]
+  },
+  {
+   "id": "fr-morbihan",
+   "country": "FR",
+   "name": {
+    "es": "Morbihan (Quiberon–Lorient)",
+    "pt": "Morbihan (Quiberon–Lorient)",
+    "fr": "Morbihan (Quiberon–Lorient)",
+    "en": "Morbihan (Quiberon–Lorient)",
+    "de": "Morbihan (Quiberon–Lorient)",
+    "ca": "Morbihan (Quiberon–Lorient)",
+    "eu": "Morbihan (Quiberon–Lorient)",
+    "gl": "Morbihan (Quiberon–Lorient)"
+   },
+   "bbox": [
+    47.258,
+    -3.533,
+    47.743,
+    -2.447
+   ]
+  },
+  {
+   "id": "fr-finistere-sud",
+   "country": "FR",
+   "name": {
+    "es": "Finisterre sur (La Torche–Douarnenez)",
+    "pt": "Finistère sul (La Torche–Douarnenez)",
+    "fr": "Sud Finistère (La Torche–Douarnenez)",
+    "en": "South Finistère (La Torche–Douarnenez)",
+    "de": "Süd-Finistère (La Torche–Douarnenez)",
+    "ca": "Finisterre sud (La Torche–Douarnenez)",
+    "eu": "Finisterre hegoaldea (La Torche–Douarnenez)",
+    "gl": "Finisterre sur (La Torche–Douarnenez)"
+   },
+   "bbox": [
+    47.689,
+    -4.886,
+    48.199,
+    -3.483
+   ]
+  },
+  {
+   "id": "fr-finistere-ouest",
+   "country": "FR",
+   "name": {
+    "es": "Iroise y Crozon",
+    "pt": "Iroise e Crozon",
+    "fr": "Iroise et presqu'île de Crozon",
+    "en": "Iroise & Crozon",
+    "de": "Iroise und Crozon",
+    "ca": "Iroise i Crozon",
+    "eu": "Iroise eta Crozon",
+    "gl": "Iroise e Crozon"
+   },
+   "bbox": [
+    48.162,
+    -5.16,
+    48.54,
+    -4.279
+   ]
+  },
+  {
+   "id": "fr-finistere-nord",
+   "country": "FR",
+   "name": {
+    "es": "Finisterre norte (Léon)",
+    "pt": "Finistère norte (Léon)",
+    "fr": "Nord Finistère (Léon)",
+    "en": "North Finistère (Léon)",
+    "de": "Nord-Finistère (Léon)",
+    "ca": "Finisterre nord (Léon)",
+    "eu": "Finisterre iparraldea (Léon)",
+    "gl": "Finisterre norte (Léon)"
+   },
+   "bbox": [
+    48.506,
+    -4.784,
+    48.773,
+    -3.83
+   ]
+  },
+  {
+   "id": "fr-cotes-darmor",
+   "country": "FR",
+   "name": {
+    "es": "Costas de Armor",
+    "pt": "Côtes-d'Armor",
+    "fr": "Côtes-d'Armor",
+    "en": "Côtes-d'Armor",
+    "de": "Côtes-d'Armor",
+    "ca": "Costes d'Armor",
+    "eu": "Armorreko kostaldeak",
+    "gl": "Costas de Armor"
+   },
+   "bbox": [
+    48.485,
+    -3.87,
+    48.9,
+    -2.13
+   ]
+  },
+  {
+   "id": "fr-cote-emeraude",
+   "country": "FR",
+   "name": {
+    "es": "Costa Esmeralda (Saint-Malo)",
+    "pt": "Costa Esmeralda (Saint-Malo)",
+    "fr": "Côte d'Émeraude (Saint-Malo)",
+    "en": "Emerald Coast (Saint-Malo)",
+    "de": "Smaragdküste (Saint-Malo)",
+    "ca": "Costa Maragda (Saint-Malo)",
+    "eu": "Esmeralda kostaldea (Saint-Malo)",
+    "gl": "Costa Esmeralda (Saint-Malo)"
+   },
+   "bbox": [
+    48.585,
+    -2.17,
+    48.73,
+    -1.492
+   ]
+  },
+  {
+   "id": "ma-tanger-asilah",
+   "country": "MA",
+   "name": {
+    "es": "Tánger y Asilah",
+    "pt": "Tânger e Asilah",
+    "fr": "Tanger et Asilah",
+    "en": "Tangier & Asilah",
+    "de": "Tanger und Asilah",
+    "ca": "Tànger i Asilah",
+    "eu": "Tanger eta Asilah",
+    "gl": "Tánxer e Asilah"
+   },
+   "bbox": [
+    35.287,
+    -6.13,
+    35.839,
+    -5.724
+   ]
+  },
+  {
+   "id": "ma-larache-kenitra",
+   "country": "MA",
+   "name": {
+    "es": "Larache y Moulay Bousselham",
+    "pt": "Larache e Moulay Bousselham",
+    "fr": "Larache et Moulay Bousselham",
+    "en": "Larache & Moulay Bousselham",
+    "de": "Larache und Moulay Bousselham",
+    "ca": "Larache i Moulay Bousselham",
+    "eu": "Larache eta Moulay Bousselham",
+    "gl": "Larache e Moulay Bousselham"
+   },
+   "bbox": [
+    34.404,
+    -6.578,
+    35.301,
+    -6.1
+   ]
+  },
+  {
+   "id": "ma-rabat-casablanca",
+   "country": "MA",
+   "name": {
+    "es": "Rabat y Casablanca",
+    "pt": "Rabat e Casablanca",
+    "fr": "Rabat et Casablanca",
+    "en": "Rabat & Casablanca",
+    "de": "Rabat und Casablanca",
+    "ca": "Rabat i Casablanca",
+    "eu": "Rabat eta Casablanca",
+    "gl": "Rabat e Casablanca"
+   },
+   "bbox": [
+    33.445,
+    -8.016,
+    34.424,
+    -6.554
+   ]
+  },
+  {
+   "id": "ma-el-jadida-oualidia",
+   "country": "MA",
+   "name": {
+    "es": "El Jadida y Oualidia",
+    "pt": "El Jadida e Oualidia",
+    "fr": "El Jadida et Oualidia",
+    "en": "El Jadida & Oualidia",
+    "de": "El Jadida und Oualidia",
+    "ca": "El Jadida i Oualidia",
+    "eu": "El Jadida eta Oualidia",
+    "gl": "El Jadida e Oualidia"
+   },
+   "bbox": [
+    32.59,
+    -9.209,
+    33.471,
+    -8.01
+   ]
+  },
+  {
+   "id": "ma-safi",
+   "country": "MA",
+   "name": {
+    "es": "Safi",
+    "pt": "Safi",
+    "fr": "Safi",
+    "en": "Safi",
+    "de": "Safi",
+    "ca": "Safi",
+    "eu": "Safi",
+    "gl": "Safi"
+   },
+   "bbox": [
+    31.93,
+    -9.45,
+    32.614,
+    -9.193
+   ]
+  },
+  {
+   "id": "ma-essaouira",
+   "country": "MA",
+   "name": {
+    "es": "Essaouira",
+    "pt": "Essaouira",
+    "fr": "Essaouira",
+    "en": "Essaouira",
+    "de": "Essaouira",
+    "ca": "Essaouira",
+    "eu": "Essaouira",
+    "gl": "Essaouira"
+   },
+   "bbox": [
+    31.004,
+    -9.861,
+    31.95,
+    -9.43
+   ]
+  },
+  {
+   "id": "ma-imsouane",
+   "country": "MA",
+   "name": {
+    "es": "Imsouane",
+    "pt": "Imsouane",
+    "fr": "Imsouane",
+    "en": "Imsouane",
+    "de": "Imsouane",
+    "ca": "Imsouane",
+    "eu": "Imsouane",
+    "gl": "Imsouane"
+   },
+   "bbox": [
+    30.744,
+    -9.85,
+    31.015,
+    -9.785
+   ]
+  },
+  {
+   "id": "ma-taghazout-agadir",
+   "country": "MA",
+   "name": {
+    "es": "Taghazout y Agadir",
+    "pt": "Taghazout e Agadir",
+    "fr": "Taghazout et Agadir",
+    "en": "Taghazout & Agadir",
+    "de": "Taghazout und Agadir",
+    "ca": "Taghazout i Agadir",
+    "eu": "Taghazout eta Agadir",
+    "gl": "Taghazout e Agadir"
+   },
+   "bbox": [
+    30.308,
+    -9.908,
+    30.758,
+    -9.584
+   ]
+  },
+  {
+   "id": "ma-souss-tiznit",
+   "country": "MA",
+   "name": {
+    "es": "Souss y Tiznit (Aglou–Mirleft)",
+    "pt": "Souss e Tiznit (Aglou–Mirleft)",
+    "fr": "Souss et Tiznit (Aglou–Mirleft)",
+    "en": "Souss & Tiznit (Aglou–Mirleft)",
+    "de": "Souss und Tiznit (Aglou–Mirleft)",
+    "ca": "Souss i Tiznit (Aglou–Mirleft)",
+    "eu": "Souss eta Tiznit (Aglou–Mirleft)",
+    "gl": "Souss e Tiznit (Aglou–Mirleft)"
+   },
+   "bbox": [
+    29.48,
+    -10.098,
+    30.319,
+    -9.599
+   ]
+  },
+  {
+   "id": "ma-sidi-ifni",
+   "country": "MA",
+   "name": {
+    "es": "Sidi Ifni y Guelmim",
+    "pt": "Sidi Ifni e Guelmim",
+    "fr": "Sidi Ifni et Guelmim",
+    "en": "Sidi Ifni & Guelmim",
+    "de": "Sidi Ifni und Guelmim",
+    "ca": "Sidi Ifni i Guelmim",
+    "eu": "Sidi Ifni eta Guelmim",
+    "gl": "Sidi Ifni e Guelmim"
+   },
+   "bbox": [
+    28.513,
+    -11.321,
+    29.502,
+    -10.077
+   ]
+  },
+  {
+   "id": "ma-tan-tan-tarfaya",
+   "country": "MA",
+   "name": {
+    "es": "Tan-Tan y Tarfaya",
+    "pt": "Tan-Tan e Tarfaya",
+    "fr": "Tan-Tan et Tarfaya",
+    "en": "Tan-Tan & Tarfaya",
+    "de": "Tan-Tan und Tarfaya",
+    "ca": "Tan-Tan i Tarfaya",
+    "eu": "Tan-Tan eta Tarfaya",
+    "gl": "Tan-Tan e Tarfaya"
+   },
+   "bbox": [
+    27.522,
+    -13.24,
+    28.534,
+    -11.304
+   ]
+  },
+  {
+   "id": "ma-laayoune-boujdour",
+   "country": "MA",
+   "name": {
+    "es": "El Aaiún y Bojador",
+    "pt": "El Aaiún e Bojador",
+    "fr": "Laâyoune et Boujdour",
+    "en": "Laayoune & Boujdour",
+    "de": "Laâyoune und Boujdour",
+    "ca": "El Aaiún i Bojador",
+    "eu": "El Aaiún eta Bojador",
+    "gl": "El Aaiún e Bojador"
+   },
+   "bbox": [
+    25.482,
+    -14.741,
+    27.536,
+    -13.207
+   ]
+  },
+  {
+   "id": "ma-dakhla",
+   "country": "MA",
+   "name": {
+    "es": "Dajla",
+    "pt": "Dakhla",
+    "fr": "Dakhla",
+    "en": "Dakhla",
+    "de": "Dakhla",
+    "ca": "Dakhla",
+    "eu": "Dakhla",
+    "gl": "Dakhla"
+   },
+   "bbox": [
+    22.789,
+    -16.323,
+    25.499,
+    -14.719
+   ]
+  },
+  {
+   "id": "ma-lagouira",
+   "country": "MA",
+   "name": {
+    "es": "Costa sur (Lagüera)",
+    "pt": "Costa sul (Lagouira)",
+    "fr": "Côte sud (Lagouira)",
+    "en": "Southern coast (Lagouira)",
+    "de": "Südküste (Lagouira)",
+    "ca": "Costa sud (Lagouira)",
+    "eu": "Hegoaldeko kostaldea (Lagouira)",
+    "gl": "Costa sur (Lagouira)"
+   },
+   "bbox": [
+    20.75,
+    -17.11,
+    22.809,
+    -16.297
+   ]
+  }
+ ]
+}
