@@ -144,7 +144,8 @@ def test_build_end_to_end_with_stubbed_sources(tmp_path, monkeypatch):
     spots_file.write_text(json.dumps({"layer": 2, "spots": spots2()}))
     out = tmp_path / "site" / "v1"
     rc = build.main(["--out", str(out), "--spots", str(spots_file), "--cache", str(tmp_path / "c"),
-                     "--work", str(tmp_path / "w"), "--base-url", "", "--tides", "none"])
+                     "--work", str(tmp_path / "w"), "--base-url", "", "--tides", "none",
+                     "--published", str(tmp_path / "pub.txt"), "--aliases", str(tmp_path / "al.json")])
     assert rc == 0
     assert validate.validate_site(str(out)) == []
     meta = json.loads((out / "index" / "meta.json").read_text())
@@ -156,7 +157,8 @@ def test_last_good_reused_when_sources_fail(tmp_path, monkeypatch):
     spots_file = tmp_path / "s.json"
     spots_file.write_text(json.dumps({"layer": 2, "spots": spots2()}))
     args = ["--spots", str(spots_file), "--cache", str(tmp_path / "c"), "--work", str(tmp_path / "w"),
-            "--base-url", "", "--tides", "none"]
+            "--base-url", "", "--tides", "none", "--published", str(tmp_path / "pub.txt"),
+            "--aliases", str(tmp_path / "al.json")]
     monkeypatch.setattr(build, "fetch_all", lambda *a: (make_sources(), []))
     assert build.main(["--out", str(tmp_path / "a")] + args) == 0
     first = json.loads((tmp_path / "a" / "spots" / "es-zarautz.json").read_text())

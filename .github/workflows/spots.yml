@@ -1,6 +1,7 @@
 name: Spots
 
-# Catalogue checks whenever spot files change: unique ids, merge rules, and no
+# Catalogue checks whenever spot files change: unique ids, no published id lost
+# without alias (data/published_ids.txt), merge rules, and no
 # layer-2 point (curated + seed) on land, using OSM land polygons (ODbL) kept in
 # actions/cache (key osm-land-v1; refreshed manually by bumping the key).
 on:
@@ -9,6 +10,8 @@ on:
     paths:
       - data/seed_spots.json
       - data/spots/**
+      - data/published_ids.txt
+      - data/aliases.json
   pull_request:
     paths:
       - data/seed_spots.json
@@ -60,5 +63,5 @@ jobs:
         env:
           WAVESPOT_LAND: /home/runner/osm-land/land-polygons-split-4326/land_polygons.shp
         run: |
-          python -m pytest -q tests/test_catalog.py
+          python -m pytest -q tests/test_catalog.py tests/test_ids.py
           python -m wavespot_pipeline.landcheck "$WAVESPOT_LAND"

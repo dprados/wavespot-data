@@ -18,6 +18,7 @@ Published at `https://dprados.github.io/wavespot-data/v1/` (contract: `apps/wave
 | `data/spots/curated/*.json` | Curated layer 2 (format: `docs/curated-brief.md`); wins over seed and layer 1 |
 | `data/seed_spots.json` | ~40 hand-picked spots (layer 2, `verified:false`), kept until a curated equivalent exists |
 | `data/spots/` | Automatic layer 1 + zones (built by `spots_build/`) |
+| `data/published_ids.txt`, `data/aliases.json` | Ids are permanent: every id ever published, and retired id → current id (served as `index/aliases.json` + `spots/{old}.json` copies). The forecast run appends new ids; a published id that vanishes without alias fails `spots.yml` and blocks the deploy (exit 3) |
 | `data/tides/eot20_constituents.json` | EOT20 amplitude/phase per spot (built by `tides.yml`) |
 
 ## Workflows

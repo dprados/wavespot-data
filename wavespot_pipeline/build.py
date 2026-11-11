@@ -13,13 +13,14 @@ import datetime as dt
 import json
 import logging
 import os
+import shutil
 import sys
 import time
 from collections import defaultdict
 from concurrent.futures import ThreadPoolExecutor
 
 from . import buoys as buoys_mod
-from . import config, products
+from . import config, ids, products
 from .blend import Sources, blend, model_arrays
 from .sources import arome, ecmwf, gfswave, ibi, icon_eu, oisst
 from .sources.base import SourceStatus, http_get
@@ -139,6 +140,10 @@ def main(argv=None) -> int:
     ap.add_argument("--limit", type=int, default=0, help="only the first N spots (debug)")
     ap.add_argument("--base-url", default=config.BASE_URL, help="published site, for last-good fallback")
     ap.add_argument("--report", default="", help="write a JSON run report here")
+    ap.add_argument("--published", default=ids.PUBLISHED)
+    ap.add_argument("--aliases", default=ids.ALIASES)
+    ap.add_argument("--update-ids", action="store_true",
+                    help="append newly published ids to --published and rewrite --aliases")
     args = ap.parse_args(argv)
     logging.basicConfig(level=logging.INFO, format="%(asctime)s %(levelname)s %(message)s")
     logging.getLogger("urllib3").setLevel(logging.WARNING)
@@ -150,7 +155,8 @@ def main(argv=None) -> int:
     h_start = now.replace(hour=0, minute=0, second=0)
 
     registry = load_zone_registry(args.zones)
-    spots = load_spots(args.spots, registry)
+    merges: dict[str, str] = {}
+    spots = load_spots(args.spots, registry, merges)
     if args.limit:
         spots = spots[: args.limit]
     if not spots:
@@ -235,6 +241,20 @@ def main(argv=None) -> int:
             zones[z].append(products.zone_entries(doc))
     timings["spots"] = time.time() - t
 
+    # Permanent ids: alias every retired id and serve its old spot URL as a copy.
+    published_now = {s["id"] for s in spots if os.path.exists(os.path.join(out, "spots", f"{s['id']}.json"))}
+    known = ids.load_published(args.published)
+    aliases, orphans = ids.resolve(known, published_now, merges, ids.load_aliases(args.aliases))
+    for old, new in aliases.items():
+        src_p = os.path.join(out, "spots", f"{new}.json")
+        if os.path.exists(src_p):
+            shutil.copyfile(src_p, os.path.join(out, "spots", f"{old}.json"))
+    write(os.path.join(out, "index", "aliases.json"), {"v": config.SCHEMA_VERSION, "aliases": aliases})
+    if orphans:
+        log.error("%d published ids vanished without alias: %s", len(orphans), orphans[:20])
+    if args.update_ids:
+        ids.save(known | published_now, aliases, args.published, args.aliases)
+
     t = time.time()
     for tile, entries in tiles.items():
         entries.sort(key=lambda e: e["id"])
@@ -250,6 +270,7 @@ def main(argv=None) -> int:
         "sources": {st.name: st.as_json() for st in statuses},
         "spots": {"total": len(spots), "fresh": fresh, "stale": stale, "dropped": dropped},
         "stale": stale_ids[:50],
+        "ids": {"aliases": len(aliases), "orphans": orphans[:50]},
     }
     meta = {"v": config.SCHEMA_VERSION, "generated": generated, "tiles": sorted(tiles), "zones": zone_list,
             "attribution": config.ATTRIBUTION, "status": status}
@@ -262,7 +283,9 @@ def main(argv=None) -> int:
         os.makedirs(os.path.dirname(os.path.abspath(args.report)), exist_ok=True)
         with open(args.report, "w") as f:
             json.dump({"generated": generated, "timings": timings, **status}, f, indent=1)
-    return 0 if fresh > 0 else 2
+    if fresh == 0:
+        return 2
+    return 3 if orphans else 0
 
 
 if __name__ == "__main__":

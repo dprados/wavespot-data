@@ -7,7 +7,7 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: read
+  contents: write         # append newly published ids (data/published_ids.txt, data/aliases.json)
   pages: write
   id-token: write
   actions: write          # prune old state caches
@@ -51,7 +51,7 @@ jobs:
           COPERNICUSMARINE_SERVICE_PASSWORD: ${{ secrets.COPERNICUSMARINE_SERVICE_PASSWORD }}
         run: |
           set +e
-          python -m wavespot_pipeline.build --out site/v1 --cache cache --work "$RUNNER_TEMP/work" --report report.json
+          python -m wavespot_pipeline.build --out site/v1 --cache cache --work "$RUNNER_TEMP/work" --report report.json --update-ids
           rc=$?
           set -e
           if [ "$rc" = "0" ]; then echo "built=true" >> "$GITHUB_OUTPUT"; fi
@@ -59,6 +59,16 @@ jobs:
 
       - name: Validate
         run: python -m wavespot_pipeline.validate site/v1
+
+      - name: Record published ids
+        run: |
+          git config user.name "wavespot-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/published_ids.txt data/aliases.json
+          if git diff --cached --quiet; then echo "no new ids"; exit 0; fi
+          git commit -qm "ids: record published spot ids and aliases"
+          for i in 1 2 3; do git pull --rebase -q origin main && git push -q origin HEAD:main && exit 0; sleep 5; done
+          exit 1
 
       - name: Summary
         if: always()

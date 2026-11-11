@@ -54,6 +54,20 @@ def _tokens(name: str) -> set[str]:
     return {t for t in slug(name).split("-") if t and t not in STOPWORDS}
 
 
+def name_score(a: dict, b: dict) -> float:
+    """Best similarity (0..1) between the names/aliases of two spots."""
+    from difflib import SequenceMatcher
+
+    best = 0.0
+    for x in [a.get("name") or ""] + list(a.get("aliases") or []):
+        for y in [b.get("name") or ""] + list(b.get("aliases") or []):
+            cx = "".join(t for t in slug(x).split("-") if t not in STOPWORDS)
+            cy = "".join(t for t in slug(y).split("-") if t not in STOPWORDS)
+            if cx and cy:
+                best = max(best, SequenceMatcher(None, cx, cy).ratio())
+    return best
+
+
 def similar_names(a: dict, b: dict) -> bool:
     """Loose name match between two spots (names + aliases)."""
     from difflib import SequenceMatcher
@@ -264,25 +278,32 @@ def _read(path: str) -> tuple[list[dict], int]:
     return items, layer
 
 
-def load_spots(paths: Iterable[str], registry: dict[str, dict] | None = None) -> list[dict]:
+def load_spots(paths: Iterable[str], registry: dict[str, dict] | None = None,
+               merges: dict[str, str] | None = None) -> list[dict]:
     """Load spot files in priority order (first file wins on id clash).
 
     Order used by the build: curated layer (data/spots/curated/*.json) >
     seed > automatic layer 1. A later spot is dropped when an earlier one has
     the same id, or lies ≤300 m away with a similar name ("equivalent" spot).
+    Ids are permanent: when a seed spot is replaced by an equivalent curated
+    spot, the curated spot takes the (more readable) seed id and its own id
+    becomes an alias. Every dropped id is recorded in `merges` as
+    {old_id: kept_id} so the build can publish aliases.
     Missing files are skipped; globs are expanded.
     Spots without a zone take the zone of the nearest spot (same country,
     ≤ 50 km) whose file provided one — i.e. the zone layer built with the
     spots — else the built-in assign_zone() rules.
     """
     out: list[dict] = []
-    ids: set[str] = set()
+    by_id: dict[str, dict] = {}
     cells: dict[tuple[int, int], list[dict]] = {}
+    merged: dict[str, str] = {}
     for path in expand_paths(paths):
         if not path or not os.path.exists(path):
             log.info("spots file %s not present, skipped", path)
             continue
         items, layer = _read(path)
+        src = "curated" if is_curated_path(path) else ("seed" if "seed" in os.path.basename(path) else "auto")
         added = 0
         for raw in items:
             try:
@@ -290,22 +311,60 @@ def load_spots(paths: Iterable[str], registry: dict[str, dict] | None = None) ->
             except (KeyError, TypeError, ValueError) as e:
                 log.warning("bad spot in %s: %s (%s)", path, raw.get("id"), e)
                 continue
-            if s["id"] in ids:
+            s["_src"] = src
+            if s["id"] in by_id:
                 continue
             key = (int(s["lat"] * 100), int(s["lon"] * 100))
             near = [o for di in (-1, 0, 1) for dj in (-1, 0, 1)
                     for o in cells.get((key[0] + di, key[1] + dj), [])]
-            if any(_km(s, o) < SAME_POINT_KM or (_km(s, o) < DEDUPE_KM and similar_names(s, o)) for o in near):
+            twin = _twin(s, near)
+            if twin is not None:
+                if src == "seed" and twin["_src"] == "curated" and not twin.get("_renamed"):
+                    # Keep the seed id on the curated spot; the curated id becomes an alias.
+                    merged[twin["id"]] = s["id"]
+                    del by_id[twin["id"]]
+                    twin["id"] = s["id"]
+                    twin["_renamed"] = True
+                    by_id[s["id"]] = twin
+                else:
+                    merged[s["id"]] = twin["id"]
                 continue
-            ids.add(s["id"])
+            by_id[s["id"]] = s
             cells.setdefault(key, []).append(s)
             out.append(s)
             added += 1
         log.info("loaded %d spots from %s", added, path)
     _fill_zones(out)
     for s in out:
-        s.pop("_zone_given", None)
+        for k in ("_zone_given", "_src", "_renamed"):
+            s.pop(k, None)
+    if merges is not None:
+        current = {s["id"] for s in out}
+        for old, new in merged.items():
+            seen = set()
+            while new not in current and new in merged and new not in seen:
+                seen.add(new)
+                new = merged[new]
+            if old not in current and new in current:
+                merges[old] = new
     return out
+
+
+SAME_NAME_KM = 1.0       # identical names (score >= 0.9) still match up to 1 km apart
+
+
+def _twin(s: dict, near: list[dict]) -> dict | None:
+    """Best equivalent among nearby spots: same point, or ≤300 m with a similar
+    name, or ≤1 km with (almost) the same name. Best name match wins, then distance."""
+    cands = []
+    for o in near:
+        d = _km(s, o)
+        sc = name_score(s, o)
+        if d < SAME_POINT_KM or (d < DEDUPE_KM and similar_names(s, o)) or (d < SAME_NAME_KM and sc >= 0.9):
+            cands.append((sc, -d, o))
+    if not cands:
+        return None
+    return max(cands, key=lambda c: (c[0], c[1]))[2]
 
 
 def _fill_zones(spots: list[dict]) -> None:

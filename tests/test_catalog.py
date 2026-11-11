@@ -61,8 +61,11 @@ def test_seed_kept_until_curated_equivalent(tmp_path):
     files = write(tmp_path / "a", [curated()], seed, [])
     assert "es-sopelana" in {s["id"] for s in load_spots(files)}
     files2 = write(tmp_path / "b", [curated(id="es-sopela", name="Sopela", lat=43.3895, lon=-2.9957)], seed, [])
-    ids = {s["id"] for s in load_spots(files2)}
-    assert "es-sopela" in ids and "es-sopelana" not in ids
+    merges = {}
+    spots = {s["id"]: s for s in load_spots(files2, None, merges)}
+    # Curated equivalent replaces the seed but keeps the seed id; its own id becomes an alias.
+    assert "es-sopelana" in spots and "es-sopela" not in spots and spots["es-sopelana"]["name"] == "Sopela"
+    assert merges == {"es-sopela": "es-sopelana"}
 
 
 def test_similar_names():
