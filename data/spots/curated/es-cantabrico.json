@@ -1,0 +1,5666 @@
+[
+ {
+  "id": "es-pobena",
+  "name": "Pobeña",
+  "aliases": [
+   "La Arena - Pobeña"
+  ],
+  "lat": 43.3525,
+  "lon": -3.1235,
+  "country": "ES",
+  "zone": "es-costa-vasca",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 6,
+  "window": [
+   300,
+   50
+  ],
+  "bestTide": [
+   "low"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   300,
+   345
+  ],
+  "bestWind": [
+   141,
+   231
+  ],
+  "kiteWind": null,
+  "level": "intermediate",
+  "hazards": [
+   "rips"
+  ],
+  "notes": "Long left at the western end of La Arena beach, next to the Barbadun river mouth.",
+  "sources": [
+   "https://tourism.euskadi.eus/webtur00-pagcont/en/contenidos/informacion/playas_euskadi/en_playas/playas-olas-zona-sopelana.html",
+   "https://turismo.euskadi.eus/es/surfing-euskadi/",
+   "https://www.singlequiver.com/enelpico/playas-bizkaia-surf/",
+   "https://es.wikipedia.org/wiki/Playa_de_La_Arena_(Vizcaya)"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "es-playa-de-la-arena-2",
+  "name": "La Arena",
+  "aliases": [
+   "El Vivero",
+   "Playa de La Arena"
+  ],
+  "lat": 43.35,
+  "lon": -3.117,
+  "country": "ES",
+  "zone": "es-costa-vasca",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 358,
+  "window": [
+   305,
+   35
+  ],
+  "bestTide": [],
+  "dangerTide": [],
+  "bestSwell": [
+   305,
+   345
+  ],
+  "bestWind": [
+   133,
+   223
+  ],
+  "kiteWind": null,
+  "level": "all",
+  "hazards": [
+   "rips"
+  ],
+  "sources": [
+   "https://tourism.euskadi.eus/webtur00-pagcont/en/contenidos/informacion/playas_euskadi/en_playas/playas-olas-zona-sopelana.html",
+   "https://turismo.euskadi.eus/es/surfing-euskadi/",
+   "https://www.visitbiscay.eus/es/-/mejores-playas-para-surfear-en-bilbao-bizkaia",
+   "https://es.wikipedia.org/wiki/Playa_de_La_Arena_(Vizcaya)"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "es-ereaga",
+  "name": "Ereaga",
+  "aliases": [
+   "Los Bloques"
+  ],
+  "lat": 43.3445,
+  "lon": -3.015,
+  "country": "ES",
+  "zone": "es-costa-vasca",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 315,
+  "window": [
+   305,
+   325
+  ],
+  "bestTide": [
+   "mid",
+   "high"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   305,
+   325
+  ],
+  "bestWind": [
+   90,
+   180
+  ],
+  "kiteWind": null,
+  "level": "intermediate",
+  "hazards": [
+   "crowds"
+  ],
+  "notes": "Sheltered inner-bay beach that only breaks with a big swell; left off the jetty at the south end.",
+  "sources": [
+   "https://tourism.euskadi.eus/webtur00-pagcont/en/contenidos/informacion/playas_euskadi/en_playas/playas-olas-zona-sopelana.html",
+   "https://www.singlequiver.com/enelpico/playas-bizkaia-surf/",
+   "https://es.wikipedia.org/wiki/Ereaga"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "es-arrigunaga",
+  "name": "Arrigunaga",
+  "aliases": [],
+  "lat": 43.356,
+  "lon": -3.0218,
+  "country": "ES",
+  "zone": "es-costa-vasca",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 312,
+  "window": [
+   300,
+   325
+  ],
+  "bestTide": [
+   "mid",
+   "high"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   300,
+   325
+  ],
+  "bestWind": [
+   87,
+   177
+  ],
+  "kiteWind": null,
+  "level": "intermediate",
+  "hazards": [],
+  "sources": [
+   "https://tourism.euskadi.eus/webtur00-pagcont/en/contenidos/informacion/playas_euskadi/en_playas/playas-olas-zona-sopelana.html",
+   "https://es.wikipedia.org/wiki/Arrigunaga"
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "es-punta-galea",
+  "name": "Punta Galea",
+  "aliases": [
+   "La Galea"
+  ],
+  "lat": 43.3765,
+  "lon": -3.0372,
+  "country": "ES",
+  "zone": "es-costa-vasca",
+  "break": "reef",
+  "sports": [
+   "surf"
+  ],
+  "facing": 326,
+  "window": [
+   280,
+   45
+  ],
+  "bestTide": [
+   "mid",
+   "high"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   280,
+   345
+  ],
+  "bestWind": [
+   101,
+   191
+  ],
+  "kiteWind": null,
+  "level": "advanced",
+  "hazards": [
+   "rocks",
+   "reef",
+   "currents"
+  ],
+  "notes": "Big-wave right over rock below the Galea cliffs; holds very large swell.",
+  "sources": [
+   "https://tourism.euskadi.eus/webtur00-pagcont/en/contenidos/informacion/playas_euskadi/en_playas/playas-olas-zona-sopelana.html",
+   "https://turismo.euskadi.eus/es/surfing-euskadi/",
+   "https://www.visitbiscay.eus/es/-/mejores-playas-para-surfear-en-bilbao-bizkaia",
+   "https://www.singlequiver.com/enelpico/playas-bizkaia-surf/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "es-gorrondatxe-azkorri",
+  "name": "Azkorri",
+  "aliases": [
+   "Gorrondatxe"
+  ],
+  "lat": 43.3812,
+  "lon": -3.0178,
+  "country": "ES",
+  "zone": "es-costa-vasca",
+  "break": "reef",
+  "sports": [
+   "surf"
+  ],
+  "facing": 340,
+  "window": [
+   280,
+   40
+  ],
+  "bestTide": [
+   "low",
+   "mid"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   280,
+   345
+  ],
+  "bestWind": [
+   115,
+   205
+  ],
+  "kiteWind": null,
+  "level": "intermediate",
+  "hazards": [
+   "rocks"
+  ],
+  "sources": [
+   "https://tourism.euskadi.eus/webtur00-pagcont/en/contenidos/informacion/playas_euskadi/en_playas/playas-olas-zona-sopelana.html",
+   "https://www.visitbiscay.eus/es/-/mejores-playas-para-surfear-en-bilbao-bizkaia",
+   "https://es.wikipedia.org/wiki/Azkorri"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "es-barinatxe",
+  "name": "Barinatxe",
+  "aliases": [
+   "La Salvaje"
+  ],
+  "lat": 43.3842,
+  "lon": -3.0072,
+  "country": "ES",
+  "zone": "es-costa-vasca",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 330,
+  "window": [
+   275,
+   40
+  ],
+  "bestTide": [
+   "mid"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   280,
+   345
+  ],
+  "bestWind": [
+   105,
+   195
+  ],
+  "kiteWind": null,
+  "level": "all",
+  "hazards": [
+   "rips",
+   "crowds"
+  ],
+  "sources": [
+   "https://tourism.euskadi.eus/webtur00-pagcont/en/contenidos/informacion/playas_euskadi/en_playas/playas-olas-zona-sopelana.html",
+   "https://turismo.euskadi.eus/es/surfing-euskadi/",
+   "https://www.singlequiver.com/enelpico/playas-bizkaia-surf/",
+   "https://es.wikipedia.org/wiki/Barinatxe"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "es-la-triangular",
+  "name": "La Triangular",
+  "aliases": [],
+  "lat": 43.387,
+  "lon": -3.0035,
+  "country": "ES",
+  "zone": "es-costa-vasca",
+  "break": "reef",
+  "sports": [
+   "surf"
+  ],
+  "facing": 331,
+  "window": [
+   275,
+   40
+  ],
+  "bestTide": [
+   "low",
+   "mid"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   280,
+   345
+  ],
+  "bestWind": [
+   106,
+   196
+  ],
+  "kiteWind": null,
+  "level": "intermediate",
+  "hazards": [
+   "rocks",
+   "crowds"
+  ],
+  "notes": "Long left and right over sand and rock at the north end of Barinatxe; handles bigger surf.",
+  "sources": [
+   "https://tourism.euskadi.eus/webtur00-pagcont/en/contenidos/informacion/playas_euskadi/en_playas/playas-olas-zona-sopelana.html",
+   "https://turismo.euskadi.eus/es/surfing-euskadi/",
+   "https://www.singlequiver.com/enelpico/playas-bizkaia-surf/"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "es-arrietara",
+  "name": "Larrabasterra",
+  "aliases": [
+   "Arrietara",
+   "Sopelana"
+  ],
+  "lat": 43.3883,
+  "lon": -2.9975,
+  "country": "ES",
+  "zone": "es-costa-vasca",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 330,
+  "window": [
+   275,
+   40
+  ],
+  "bestTide": [],
+  "dangerTide": [],
+  "bestSwell": [
+   280,
+   345
+  ],
+  "bestWind": [
+   105,
+   195
+  ],
+  "kiteWind": null,
+  "level": "all",
+  "hazards": [
+   "rips",
+   "crowds"
+  ],
+  "sources": [
+   "https://tourism.euskadi.eus/webtur00-pagcont/en/contenidos/informacion/playas_euskadi/en_playas/playas-olas-zona-sopelana.html",
+   "https://turismo.euskadi.eus/es/surfing-euskadi/",
+   "https://www.visitbiscay.eus/es/-/mejores-playas-para-surfear-en-bilbao-bizkaia"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "es-atxabiribil",
+  "name": "Atxabiribil",
+  "aliases": [
+   "Sopelana"
+  ],
+  "lat": 43.3915,
+  "lon": -2.9935,
+  "country": "ES",
+  "zone": "es-costa-vasca",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 320,
+  "window": [
+   275,
+   35
+  ],
+  "bestTide": [],
+  "dangerTide": [],
+  "bestSwell": [
+   280,
+   345
+  ],
+  "bestWind": [
+   95,
+   185
+  ],
+  "kiteWind": null,
+  "level": "all",
+  "hazards": [
+   "rips",
+   "crowds"
+  ],
+  "sources": [
+   "https://tourism.euskadi.eus/webtur00-pagcont/en/contenidos/informacion/playas_euskadi/en_playas/playas-olas-zona-sopelana.html",
+   "https://turismo.euskadi.eus/es/surfing-euskadi/",
+   "https://www.singlequiver.com/enelpico/playas-bizkaia-surf/",
+   "https://es.wikipedia.org/wiki/Arrietara"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "es-menakoz",
+  "name": "Meñakoz",
+  "aliases": [],
+  "lat": 43.397,
+  "lon": -2.9875,
+  "country": "ES",
+  "zone": "es-costa-vasca",
+  "break": "reef",
+  "sports": [
+   "surf"
+  ],
+  "facing": 321,
+  "window": [
+   270,
+   35
+  ],
+  "bestTide": [
+   "high"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   280,
+   345
+  ],
+  "bestWind": [
+   96,
+   186
+  ],
+  "kiteWind": null,
+  "level": "advanced",
+  "hazards": [
+   "rocks",
+   "reef",
+   "currents"
+  ],
+  "notes": "Heavy big-wave right over boulders in a cliff-backed cove between Sopela and Barrika.",
+  "sources": [
+   "https://tourism.euskadi.eus/webtur00-pagcont/en/contenidos/informacion/playas_euskadi/en_playas/playas-olas-zona-sopelana.html",
+   "https://turismo.euskadi.eus/es/surfing-euskadi/",
+   "https://www.visitbiscay.eus/es/-/mejores-playas-para-surfear-en-bilbao-bizkaia",
+   "https://www.singlequiver.com/enelpico/playas-bizkaia-surf/",
+   "https://www.wikidata.org/wiki/Q28120559"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "es-barrikako-hondartza",
+  "name": "Barrika",
+  "aliases": [],
+  "lat": 43.4048,
+  "lon": -2.9752,
+  "country": "ES",
+  "zone": "es-costa-vasca",
+  "break": "reef",
+  "sports": [
+   "surf"
+  ],
+  "facing": 324,
+  "window": [
+   265,
+   30
+  ],
+  "bestTide": [
+   "mid",
+   "high"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   280,
+   345
+  ],
+  "bestWind": [
+   99,
+   189
+  ],
+  "kiteWind": null,
+  "level": "intermediate",
+  "hazards": [
+   "rocks"
+  ],
+  "sources": [
+   "https://tourism.euskadi.eus/webtur00-pagcont/en/contenidos/informacion/playas_euskadi/en_playas/playas-olas-zona-sopelana.html",
+   "https://www.wikidata.org/wiki/Q28120561"
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "es-plentzia",
+  "name": "Plentzia",
+  "aliases": [],
+  "lat": 43.4122,
+  "lon": -2.9493,
+  "country": "ES",
+  "zone": "es-costa-vasca",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 318,
+  "window": [
+   295,
+   340
+  ],
+  "bestTide": [],
+  "dangerTide": [],
+  "bestSwell": [
+   295,
+   340
+  ],
+  "bestWind": [
+   93,
+   183
+  ],
+  "kiteWind": null,
+  "level": "beginner",
+  "hazards": [],
+  "notes": "Sheltered bay used as a fallback on very big days.",
+  "sources": [
+   "https://tourism.euskadi.eus/webtur00-pagcont/en/contenidos/informacion/playas_euskadi/en_playas/playas-olas-zona-sopelana.html",
+   "https://turismo.euskadi.eus/es/surfing-euskadi/",
+   "https://es.wikipedia.org/wiki/Playa_de_Plencia"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "es-gorliz",
+  "name": "Gorliz",
+  "aliases": [],
+  "lat": 43.4155,
+  "lon": -2.9455,
+  "country": "ES",
+  "zone": "es-costa-vasca",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 294,
+  "window": [
+   260,
+   335
+  ],
+  "bestTide": [
+   "mid",
+   "high"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   280,
+   335
+  ],
+  "bestWind": [
+   69,
+   159
+  ],
+  "kiteWind": null,
+  "level": "beginner",
+  "hazards": [],
+  "sources": [
+   "https://turismo.euskadi.eus/es/surfing-euskadi/",
+   "https://www.visitbiscay.eus/es/-/mejores-playas-para-surfear-en-bilbao-bizkaia",
+   "https://www.wikidata.org/wiki/Q24024677"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "es-armintzako-hondartza",
+  "name": "Armintza",
+  "aliases": [],
+  "lat": 43.4342,
+  "lon": -2.894,
+  "country": "ES",
+  "zone": "es-costa-vasca",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 357,
+  "window": [
+   280,
+   75
+  ],
+  "bestTide": [
+   "high"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   280,
+   345
+  ],
+  "bestWind": [
+   132,
+   222
+  ],
+  "kiteWind": null,
+  "level": "beginner",
+  "hazards": [
+   "rocks"
+  ],
+  "sources": [
+   "https://tourism.euskadi.eus/webtur00-pagcont/en/contenidos/informacion/playas_euskadi/en_playas/playas-olas-zona-sopelana.html",
+   "https://www.wikidata.org/wiki/Q136708870"
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "es-la-central-lemoiz",
+  "name": "La Central",
+  "aliases": [
+   "Zentrala"
+  ],
+  "lat": 43.4372,
+  "lon": -2.88,
+  "country": "ES",
+  "zone": "es-costa-vasca",
+  "break": "reef",
+  "sports": [
+   "surf"
+  ],
+  "facing": 359,
+  "window": [
+   275,
+   75
+  ],
+  "bestTide": [
+   "high"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   280,
+   345
+  ],
+  "bestWind": [
+   134,
+   224
+  ],
+  "kiteWind": null,
+  "level": "advanced",
+  "hazards": [
+   "rocks",
+   "reef"
+  ],
+  "notes": "Hollow left over rock in front of the unfinished Lemoiz power plant; bodyboard favourite.",
+  "sources": [
+   "https://tourism.euskadi.eus/webtur00-pagcont/en/contenidos/informacion/playas_euskadi/en_playas/playas-olas-zona-sopelana.html",
+   "https://turismo.euskadi.eus/es/surfing-euskadi/"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "es-portume",
+  "name": "Portume",
+  "aliases": [],
+  "lat": 43.431,
+  "lon": -2.8502,
+  "country": "ES",
+  "zone": "es-costa-vasca",
+  "break": "reef",
+  "sports": [
+   "surf"
+  ],
+  "facing": 352,
+  "window": [
+   280,
+   70
+  ],
+  "bestTide": [
+   "low"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   280,
+   345
+  ],
+  "bestWind": [
+   127,
+   217
+  ],
+  "kiteWind": null,
+  "level": "advanced",
+  "hazards": [
+   "rocks",
+   "reef"
+  ],
+  "sources": [
+   "https://tourism.euskadi.eus/webtur00-pagcont/en/contenidos/informacion/playas_euskadi/en_playas/playas-olas-zona-mundaka.html"
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "es-playa-de-bakio",
+  "name": "Bakio",
+  "aliases": [],
+  "lat": 43.433,
+  "lon": -2.806,
+  "country": "ES",
+  "zone": "es-costa-vasca",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 0,
+  "window": [
+   280,
+   50
+  ],
+  "bestTide": [
+   "mid"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   280,
+   345
+  ],
+  "bestWind": [
+   135,
+   225
+  ],
+  "kiteWind": null,
+  "level": "all",
+  "hazards": [
+   "rips"
+  ],
+  "sources": [
+   "https://tourism.euskadi.eus/webtur00-pagcont/en/contenidos/informacion/playas_euskadi/en_playas/playas-olas-zona-mundaka.html",
+   "https://turismo.euskadi.eus/es/surfing-euskadi/",
+   "https://www.singlequiver.com/enelpico/playas-bizkaia-surf/",
+   "https://www.visitbiscay.eus/es/-/mejores-playas-para-surfear-en-bilbao-bizkaia",
+   "https://es.wikipedia.org/wiki/Playa_de_Baquio"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "es-izaro",
+  "name": "Izaro",
+  "aliases": [],
+  "lat": 43.4267,
+  "lon": -2.6832,
+  "country": "ES",
+  "zone": "es-costa-vasca",
+  "break": "reef",
+  "sports": [
+   "surf"
+  ],
+  "facing": 28,
+  "window": [
+   305,
+   110
+  ],
+  "bestTide": [
+   "mid"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   305,
+   345
+  ],
+  "bestWind": [
+   163,
+   253
+  ],
+  "kiteWind": null,
+  "level": "advanced",
+  "hazards": [
+   "rocks",
+   "reef",
+   "currents"
+  ],
+  "notes": "Big-wave right breaking off Izaro island, reached by boat.",
+  "sources": [
+   "https://tourism.euskadi.eus/webtur00-pagcont/en/contenidos/informacion/playas_euskadi/en_playas/playas-olas-zona-mundaka.html",
+   "https://turismo.euskadi.eus/es/surfing-euskadi/"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "es-mundaka",
+  "name": "Mundaka",
+  "aliases": [],
+  "lat": 43.4102,
+  "lon": -2.695,
+  "country": "ES",
+  "zone": "es-costa-vasca",
+  "break": "rivermouth",
+  "sports": [
+   "surf"
+  ],
+  "facing": 340,
+  "window": [
+   295,
+   20
+  ],
+  "bestTide": [
+   "low"
+  ],
+  "dangerTide": [
+   "high"
+  ],
+  "bestSwell": [
+   300,
+   340
+  ],
+  "bestWind": [
+   135,
+   225
+  ],
+  "kiteWind": null,
+  "level": "advanced",
+  "hazards": [
+   "crowds",
+   "currents",
+   "localism"
+  ],
+  "notes": "World-class long hollow left over the sandbar at the mouth of the Urdaibai estuary.",
+  "sources": [
+   "https://tourism.euskadi.eus/webtur00-pagcont/en/contenidos/informacion/playas_euskadi/en_playas/playas-olas-zona-mundaka.html",
+   "https://turismo.euskadi.eus/es/surfing-euskadi/",
+   "https://www.visitbiscay.eus/es/-/mejores-playas-para-surfear-en-bilbao-bizkaia",
+   "https://www.singlequiver.com/enelpico/playas-bizkaia-surf/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "es-laida",
+  "name": "Laida",
+  "aliases": [],
+  "lat": 43.4034,
+  "lon": -2.6855,
+  "country": "ES",
+  "zone": "es-costa-vasca",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 338,
+  "window": [
+   320,
+   355
+  ],
+  "bestTide": [
+   "low",
+   "mid"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   320,
+   345
+  ],
+  "bestWind": [
+   113,
+   203
+  ],
+  "kiteWind": null,
+  "level": "beginner",
+  "hazards": [
+   "currents"
+  ],
+  "sources": [
+   "https://tourism.euskadi.eus/webtur00-pagcont/en/contenidos/informacion/playas_euskadi/en_playas/playas-olas-zona-mundaka.html",
+   "https://www.singlequiver.com/enelpico/playas-bizkaia-surf/",
+   "https://www.wikidata.org/wiki/Q24024598"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "es-laga",
+  "name": "Laga",
+  "aliases": [],
+  "lat": 43.4105,
+  "lon": -2.656,
+  "country": "ES",
+  "zone": "es-costa-vasca",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 345,
+  "window": [
+   305,
+   45
+  ],
+  "bestTide": [],
+  "dangerTide": [],
+  "bestSwell": [
+   305,
+   345
+  ],
+  "bestWind": [
+   120,
+   210
+  ],
+  "kiteWind": null,
+  "level": "all",
+  "hazards": [
+   "rips"
+  ],
+  "sources": [
+   "https://tourism.euskadi.eus/webtur00-pagcont/en/contenidos/informacion/playas_euskadi/en_playas/playas-olas-zona-mundaka.html",
+   "https://turismo.euskadi.eus/es/surfing-euskadi/",
+   "https://www.singlequiver.com/enelpico/playas-bizkaia-surf/",
+   "https://www.wikidata.org/wiki/Q23996018"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "es-ogella-hondartza",
+  "name": "Ogeia",
+  "aliases": [
+   "Ogella"
+  ],
+  "lat": 43.374,
+  "lon": -2.5448,
+  "country": "ES",
+  "zone": "es-costa-vasca",
+  "break": "reef",
+  "sports": [
+   "surf"
+  ],
+  "facing": 358,
+  "window": [
+   315,
+   70
+  ],
+  "bestTide": [
+   "mid",
+   "high"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   315,
+   345
+  ],
+  "bestWind": [
+   133,
+   223
+  ],
+  "kiteWind": null,
+  "level": "advanced",
+  "hazards": [
+   "rocks",
+   "reef"
+  ],
+  "sources": [
+   "https://tourism.euskadi.eus/webtur00-pagcont/en/contenidos/informacion/playas_euskadi/en_playas/playas-olas-zona-mundaka.html",
+   "https://es.wikipedia.org/wiki/Ogella"
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "es-isuntza-hondartza",
+  "name": "La Isla (Lekeitio)",
+  "aliases": [
+   "Isuntza"
+  ],
+  "lat": 43.365,
+  "lon": -2.499,
+  "country": "ES",
+  "zone": "es-costa-vasca",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 16,
+  "window": [
+   310,
+   110
+  ],
+  "bestTide": [],
+  "dangerTide": [],
+  "bestSwell": [
+   310,
+   345
+  ],
+  "bestWind": [
+   151,
+   241
+  ],
+  "kiteWind": null,
+  "level": "intermediate",
+  "hazards": [
+   "currents"
+  ],
+  "notes": "Left over sand by San Nikolas island at the mouth of the Lea river.",
+  "sources": [
+   "https://tourism.euskadi.eus/webtur00-pagcont/en/contenidos/informacion/playas_euskadi/en_playas/playas-olas-zona-mundaka.html",
+   "https://es.wikipedia.org/wiki/Isuntza"
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "es-karraspio-hondartza",
+  "name": "Karraspio",
+  "aliases": [],
+  "lat": 43.3638,
+  "lon": -2.493,
+  "country": "ES",
+  "zone": "es-costa-vasca",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 16,
+  "window": [
+   310,
+   110
+  ],
+  "bestTide": [],
+  "dangerTide": [],
+  "bestSwell": [
+   310,
+   345
+  ],
+  "bestWind": [
+   151,
+   241
+  ],
+  "kiteWind": null,
+  "level": "all",
+  "hazards": [
+   "rips"
+  ],
+  "sources": [
+   "https://tourism.euskadi.eus/webtur00-pagcont/en/contenidos/informacion/playas_euskadi/en_playas/playas-olas-zona-mundaka.html"
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "es-saturraran",
+  "name": "Saturraran",
+  "aliases": [],
+  "lat": 43.3233,
+  "lon": -2.4085,
+  "country": "ES",
+  "zone": "es-costa-vasca",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 19,
+  "window": [
+   305,
+   90
+  ],
+  "bestTide": [
+   "low",
+   "mid"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   305,
+   345
+  ],
+  "bestWind": [
+   154,
+   244
+  ],
+  "kiteWind": null,
+  "level": "all",
+  "hazards": [
+   "rocks"
+  ],
+  "sources": [
+   "https://tourism.euskadi.eus/webtur00-pagcont/en/contenidos/informacion/playas_euskadi/en_playas/playas-olas-zona-zarautz.html",
+   "https://es.wikipedia.org/wiki/Saturrarán"
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "es-alkolea",
+  "name": "Alkolea",
+  "aliases": [
+   "Arbe"
+  ],
+  "lat": 43.3102,
+  "lon": -2.3718,
+  "country": "ES",
+  "zone": "es-costa-vasca",
+  "break": "reef",
+  "sports": [
+   "surf"
+  ],
+  "facing": 20,
+  "window": [
+   305,
+   90
+  ],
+  "bestTide": [
+   "low",
+   "mid"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   305,
+   345
+  ],
+  "bestWind": [
+   155,
+   245
+  ],
+  "kiteWind": null,
+  "level": "advanced",
+  "hazards": [
+   "rocks",
+   "reef"
+  ],
+  "sources": [
+   "https://tourism.euskadi.eus/webtur00-pagcont/en/contenidos/informacion/playas_euskadi/en_playas/playas-olas-zona-zarautz.html",
+   "https://es.wikipedia.org/wiki/Playa_de_Alcolea"
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "es-debako-santiago-hondartza",
+  "name": "Deba",
+  "aliases": [
+   "Santiago (Deba)"
+  ],
+  "lat": 43.2995,
+  "lon": -2.352,
+  "country": "ES",
+  "zone": "es-costa-vasca",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 32,
+  "window": [
+   305,
+   85
+  ],
+  "bestTide": [],
+  "dangerTide": [],
+  "bestSwell": [
+   305,
+   345
+  ],
+  "bestWind": [
+   167,
+   257
+  ],
+  "kiteWind": null,
+  "level": "all",
+  "hazards": [
+   "rips"
+  ],
+  "sources": [
+   "https://tourism.euskadi.eus/webtur00-pagcont/en/contenidos/informacion/playas_euskadi/en_playas/playas-olas-zona-zarautz.html",
+   "https://turismo.euskadi.eus/es/surfing-euskadi/",
+   "https://www.singlequiver.com/enelpico/surf-pais-vasco-gipuzkoa/",
+   "https://northshorezarautz.com/explorando-las-olas-de-gipuzkoa-el-encanto-del-surf-en-la-costa-vasca/",
+   "https://es.wikipedia.org/wiki/Deva_(Playa)"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "es-sorginetxe",
+  "name": "Sorginetxe",
+  "aliases": [],
+  "lat": 43.305,
+  "lon": -2.3445,
+  "country": "ES",
+  "zone": "es-costa-vasca",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 359,
+  "window": [
+   305,
+   85
+  ],
+  "bestTide": [],
+  "dangerTide": [],
+  "bestSwell": [
+   305,
+   345
+  ],
+  "bestWind": [
+   134,
+   224
+  ],
+  "kiteWind": null,
+  "level": "intermediate",
+  "hazards": [
+   "rocks"
+  ],
+  "notes": "Sand-bottom peaks near Deba that also turn into a big-wave break watched from the Deba seafront.",
+  "sources": [
+   "https://tourism.euskadi.eus/webtur00-pagcont/en/contenidos/informacion/playas_euskadi/en_playas/playas-olas-zona-zarautz.html",
+   "https://turismo.euskadi.eus/es/surfing-euskadi/"
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "es-itzurun-hondartza",
+  "name": "Itzurun",
+  "aliases": [
+   "Zumaia"
+  ],
+  "lat": 43.3008,
+  "lon": -2.2615,
+  "country": "ES",
+  "zone": "es-costa-vasca",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 344,
+  "window": [
+   290,
+   70
+  ],
+  "bestTide": [
+   "high"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   290,
+   345
+  ],
+  "bestWind": [
+   119,
+   209
+  ],
+  "kiteWind": null,
+  "level": "all",
+  "hazards": [
+   "rocks",
+   "shorebreak"
+  ],
+  "sources": [
+   "https://tourism.euskadi.eus/webtur00-pagcont/en/contenidos/informacion/playas_euskadi/en_playas/playas-olas-zona-zarautz.html",
+   "https://turismo.euskadi.eus/es/surfing-euskadi/",
+   "https://www.singlequiver.com/enelpico/surf-pais-vasco-gipuzkoa/",
+   "https://northshorezarautz.com/explorando-las-olas-de-gipuzkoa-el-encanto-del-surf-en-la-costa-vasca/",
+   "https://es.wikipedia.org/wiki/Itzurun"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "es-orrua",
+  "name": "Orrua",
+  "aliases": [],
+  "lat": 43.3093,
+  "lon": -2.2374,
+  "country": "ES",
+  "zone": "es-costa-vasca",
+  "break": "reef",
+  "sports": [
+   "surf"
+  ],
+  "facing": 339,
+  "window": [
+   285,
+   80
+  ],
+  "bestTide": [
+   "mid"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   285,
+   345
+  ],
+  "bestWind": [
+   114,
+   204
+  ],
+  "kiteWind": null,
+  "level": "advanced",
+  "hazards": [
+   "rocks",
+   "reef"
+  ],
+  "notes": "Powerful right over a rock slab in the cove between Zumaia and Getaria.",
+  "sources": [
+   "https://tourism.euskadi.eus/webtur00-pagcont/en/contenidos/informacion/playas_euskadi/en_playas/playas-olas-zona-zarautz.html",
+   "https://turismo.euskadi.eus/es/surfing-euskadi/",
+   "https://www.singlequiver.com/enelpico/surf-pais-vasco-gipuzkoa/",
+   "https://northshorezarautz.com/explorando-las-olas-de-gipuzkoa-el-encanto-del-surf-en-la-costa-vasca/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "es-izustarri",
+  "name": "Roka Puta",
+  "aliases": [
+   "Izustarri"
+  ],
+  "lat": 43.3113,
+  "lon": -2.235,
+  "country": "ES",
+  "zone": "es-costa-vasca",
+  "break": "reef",
+  "sports": [
+   "surf"
+  ],
+  "facing": 349,
+  "window": [
+   285,
+   80
+  ],
+  "bestTide": [
+   "mid",
+   "high"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   285,
+   345
+  ],
+  "bestWind": [
+   124,
+   214
+  ],
+  "kiteWind": null,
+  "level": "advanced",
+  "hazards": [
+   "rocks",
+   "reef",
+   "currents"
+  ],
+  "notes": "Big-wave right next to Orrua that starts working when Orrua maxes out.",
+  "sources": [
+   "https://tourism.euskadi.eus/webtur00-pagcont/en/contenidos/informacion/playas_euskadi/en_playas/playas-olas-zona-zarautz.html",
+   "https://turismo.euskadi.eus/es/surfing-euskadi/",
+   "https://www.singlequiver.com/enelpico/surf-pais-vasco-gipuzkoa/",
+   "https://northshorezarautz.com/explorando-las-olas-de-gipuzkoa-el-encanto-del-surf-en-la-costa-vasca/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "es-gaztetape-hondartza",
+  "name": "Gaztetape",
+  "aliases": [],
+  "lat": 43.3045,
+  "lon": -2.2066,
+  "country": "ES",
+  "zone": "es-costa-vasca",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 12,
+  "window": [
+   290,
+   65
+  ],
+  "bestTide": [],
+  "dangerTide": [],
+  "bestSwell": [
+   290,
+   345
+  ],
+  "bestWind": [
+   147,
+   237
+  ],
+  "kiteWind": null,
+  "level": "all",
+  "hazards": [
+   "rocks"
+  ],
+  "sources": [
+   "https://tourism.euskadi.eus/webtur00-pagcont/en/contenidos/informacion/playas_euskadi/en_playas/playas-olas-zona-zarautz.html",
+   "https://www.singlequiver.com/enelpico/surf-pais-vasco-gipuzkoa/",
+   "https://northshorezarautz.com/explorando-las-olas-de-gipuzkoa-el-encanto-del-surf-en-la-costa-vasca/",
+   "https://es.wikipedia.org/wiki/Gastetape"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "es-karramarro",
+  "name": "Karramarro",
+  "aliases": [],
+  "lat": 43.2937,
+  "lon": -2.1895,
+  "country": "ES",
+  "zone": "es-costa-vasca",
+  "break": "reef",
+  "sports": [
+   "surf"
+  ],
+  "facing": 17,
+  "window": [
+   325,
+   75
+  ],
+  "bestTide": [
+   "low"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   325,
+   345
+  ],
+  "bestWind": [
+   152,
+   242
+  ],
+  "kiteWind": null,
+  "level": "intermediate",
+  "hazards": [
+   "rocks"
+  ],
+  "sources": [
+   "https://www.singlequiver.com/enelpico/surf-pais-vasco-gipuzkoa/"
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "es-zarauzko-hondartza",
+  "name": "Zarautz",
+  "aliases": [],
+  "lat": 43.2895,
+  "lon": -2.169,
+  "country": "ES",
+  "zone": "es-costa-vasca",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 2,
+  "window": [
+   315,
+   70
+  ],
+  "bestTide": [],
+  "dangerTide": [],
+  "bestSwell": [
+   315,
+   345
+  ],
+  "bestWind": [
+   137,
+   227
+  ],
+  "kiteWind": null,
+  "level": "all",
+  "hazards": [
+   "rips",
+   "crowds"
+  ],
+  "notes": "Long consistent beach break and home of a long-running pro contest.",
+  "sources": [
+   "https://tourism.euskadi.eus/webtur00-pagcont/en/contenidos/informacion/playas_euskadi/en_playas/playas-olas-zona-zarautz.html",
+   "https://turismo.euskadi.eus/es/surfing-euskadi/",
+   "https://www.singlequiver.com/enelpico/surf-pais-vasco-gipuzkoa/",
+   "https://northshorezarautz.com/explorando-las-olas-de-gipuzkoa-el-encanto-del-surf-en-la-costa-vasca/",
+   "https://es.wikipedia.org/wiki/Playa_de_Zarauz"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "es-orioko-hondartza",
+  "name": "Orio (La Antilla)",
+  "aliases": [
+   "Antilla"
+  ],
+  "lat": 43.2898,
+  "lon": -2.1282,
+  "country": "ES",
+  "zone": "es-costa-vasca",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 338,
+  "window": [
+   290,
+   60
+  ],
+  "bestTide": [],
+  "dangerTide": [],
+  "bestSwell": [
+   290,
+   345
+  ],
+  "bestWind": [
+   113,
+   203
+  ],
+  "kiteWind": null,
+  "level": "all",
+  "hazards": [
+   "rips"
+  ],
+  "notes": "Left off the Oria river breakwater on big days, more consistent right mid-beach.",
+  "sources": [
+   "https://tourism.euskadi.eus/webtur00-pagcont/en/contenidos/informacion/playas_euskadi/en_playas/playas-olas-zona-donostia.html",
+   "https://www.singlequiver.com/enelpico/surf-pais-vasco-gipuzkoa/",
+   "https://northshorezarautz.com/explorando-las-olas-de-gipuzkoa-el-encanto-del-surf-en-la-costa-vasca/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "es-agitiko-hondartza",
+  "name": "Agiti",
+  "aliases": [],
+  "lat": 43.3098,
+  "lon": -2.0722,
+  "country": "ES",
+  "zone": "es-costa-vasca",
+  "break": "reef",
+  "sports": [
+   "surf"
+  ],
+  "facing": 342,
+  "window": [
+   270,
+   65
+  ],
+  "bestTide": [],
+  "dangerTide": [],
+  "bestSwell": [
+   280,
+   345
+  ],
+  "bestWind": [
+   117,
+   207
+  ],
+  "kiteWind": null,
+  "level": "advanced",
+  "hazards": [
+   "rocks",
+   "reef"
+  ],
+  "sources": [
+   "https://turismo.euskadi.eus/es/surfing-euskadi/",
+   "https://www.wikidata.org/wiki/Q28120272"
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "es-ondarreta",
+  "name": "Ondarreta (El Tenis)",
+  "aliases": [
+   "El Tenis",
+   "Santiago"
+  ],
+  "lat": 43.318,
+  "lon": -2.002,
+  "country": "ES",
+  "zone": "es-costa-vasca",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 8,
+  "window": [
+   285,
+   55
+  ],
+  "bestTide": [],
+  "dangerTide": [],
+  "bestSwell": [
+   285,
+   345
+  ],
+  "bestWind": [
+   143,
+   233
+  ],
+  "kiteWind": null,
+  "level": "intermediate",
+  "hazards": [
+   "rocks"
+  ],
+  "sources": [
+   "https://tourism.euskadi.eus/webtur00-pagcont/en/contenidos/informacion/playas_euskadi/en_playas/playas-olas-zona-donostia.html",
+   "https://es.wikipedia.org/wiki/Playa_de_Ondarreta"
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "es-playa-de-la-concha-2",
+  "name": "La Concha",
+  "aliases": [],
+  "lat": 43.3185,
+  "lon": -1.989,
+  "country": "ES",
+  "zone": "es-costa-vasca",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 310,
+  "window": [
+   285,
+   335
+  ],
+  "bestTide": [],
+  "dangerTide": [],
+  "bestSwell": [
+   285,
+   335
+  ],
+  "bestWind": [
+   85,
+   175
+  ],
+  "kiteWind": null,
+  "level": "beginner",
+  "hazards": [
+   "crowds"
+  ],
+  "sources": [
+   "https://tourism.euskadi.eus/webtur00-pagcont/en/contenidos/informacion/playas_euskadi/en_playas/playas-olas-zona-donostia.html",
+   "https://es.wikipedia.org/wiki/Playa_de_La_Concha_(San_Sebastián)"
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "es-zurriola",
+  "name": "Zurriola",
+  "aliases": [],
+  "lat": 43.3275,
+  "lon": -1.9752,
+  "country": "ES",
+  "zone": "es-costa-vasca",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 349,
+  "window": [
+   265,
+   40
+  ],
+  "bestTide": [],
+  "dangerTide": [],
+  "bestSwell": [
+   280,
+   345
+  ],
+  "bestWind": [
+   124,
+   214
+  ],
+  "kiteWind": null,
+  "level": "all",
+  "hazards": [
+   "crowds",
+   "rips"
+  ],
+  "sources": [
+   "https://tourism.euskadi.eus/webtur00-pagcont/en/contenidos/informacion/playas_euskadi/en_playas/playas-olas-zona-donostia.html",
+   "https://turismo.euskadi.eus/es/surfing-euskadi/",
+   "https://www.singlequiver.com/enelpico/surf-pais-vasco-gipuzkoa/",
+   "https://northshorezarautz.com/explorando-las-olas-de-gipuzkoa-el-encanto-del-surf-en-la-costa-vasca/",
+   "https://es.wikipedia.org/wiki/Playa_de_La_Zurriola"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "es-hondarribia-espigon",
+  "name": "Hondarribia (El Espigón)",
+  "aliases": [],
+  "lat": 43.3868,
+  "lon": -1.7905,
+  "country": "ES",
+  "zone": "es-costa-vasca",
+  "break": "rivermouth",
+  "sports": [
+   "surf"
+  ],
+  "facing": 29,
+  "window": [
+   340,
+   60
+  ],
+  "bestTide": [],
+  "dangerTide": [],
+  "bestSwell": [
+   345,
+   20
+  ],
+  "bestWind": [
+   164,
+   254
+  ],
+  "kiteWind": null,
+  "level": "intermediate",
+  "hazards": [
+   "currents"
+  ],
+  "notes": "Long right along the Bidasoa breakwater; a big-swell option.",
+  "sources": [
+   "https://tourism.euskadi.eus/webtur00-pagcont/en/contenidos/informacion/playas_euskadi/en_playas/playas-olas-zona-donostia.html",
+   "https://www.singlequiver.com/enelpico/surf-pais-vasco-gipuzkoa/",
+   "https://northshorezarautz.com/explorando-las-olas-de-gipuzkoa-el-encanto-del-surf-en-la-costa-vasca/",
+   "https://es.wikipedia.org/wiki/Playa_de_Fuenterrabía"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "es-playa-de-dicido",
+  "name": "Dícido",
+  "aliases": [
+   "Mioño"
+  ],
+  "lat": 43.3657,
+  "lon": -3.193,
+  "country": "ES",
+  "zone": "es-cantabria",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 32,
+  "window": [
+   320,
+   75
+  ],
+  "bestTide": [
+   "low"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   320,
+   345
+  ],
+  "bestWind": [
+   167,
+   257
+  ],
+  "kiteWind": null,
+  "level": "intermediate",
+  "hazards": [
+   "rocks"
+  ],
+  "sources": [
+   "https://guiasurfespana.es/surf-cantabria/castro-urdiales/",
+   "https://www.espanafascinante.com/articulo/reportajes/guia-surf-cantabria/20220919130056274658.html",
+   "https://es.wikipedia.org/wiki/Dícido"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "es-brazomar",
+  "name": "Brazomar",
+  "aliases": [],
+  "lat": 43.381,
+  "lon": -3.215,
+  "country": "ES",
+  "zone": "es-cantabria",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 36,
+  "window": [
+   325,
+   80
+  ],
+  "bestTide": [
+   "low"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   325,
+   345
+  ],
+  "bestWind": [
+   171,
+   261
+  ],
+  "kiteWind": null,
+  "level": "intermediate",
+  "hazards": [],
+  "sources": [
+   "https://guiasurfespana.es/surf-cantabria/castro-urdiales/",
+   "https://www.espanafascinante.com/articulo/reportajes/guia-surf-cantabria/20220919130056274658.html"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "es-playa-puerto-refugio-de-islares",
+  "name": "Islares (Arenillas)",
+  "aliases": [
+   "Arenillas"
+  ],
+  "lat": 43.4067,
+  "lon": -3.3115,
+  "country": "ES",
+  "zone": "es-cantabria",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 2,
+  "window": [
+   310,
+   100
+  ],
+  "bestTide": [
+   "low",
+   "mid"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   310,
+   345
+  ],
+  "bestWind": [
+   137,
+   227
+  ],
+  "kiteWind": null,
+  "level": "all",
+  "hazards": [
+   "rocks"
+  ],
+  "sources": [
+   "https://www.bmsurf.com/spots.html",
+   "https://www.espanafascinante.com/articulo/reportajes/guia-surf-cantabria/20220919130056274658.html",
+   "https://es.wikipedia.org/wiki/Playa_de_Arenillas"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "es-playa-de-orinon",
+  "name": "Oriñón",
+  "aliases": [],
+  "lat": 43.401,
+  "lon": -3.3205,
+  "country": "ES",
+  "zone": "es-cantabria",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 30,
+  "window": [
+   330,
+   60
+  ],
+  "bestTide": [
+   "low",
+   "mid"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   335,
+   10
+  ],
+  "bestWind": [
+   165,
+   255
+  ],
+  "kiteWind": null,
+  "level": "intermediate",
+  "hazards": [],
+  "notes": "Left at the end of the beach needs a strong swell.",
+  "sources": [
+   "https://guiasurfespana.es/surf-cantabria/castro-urdiales/",
+   "https://www.espanafascinante.com/articulo/reportajes/guia-surf-cantabria/20220919130056274658.html",
+   "https://es.wikipedia.org/wiki/Playa_de_Oriñón"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "es-playa-de-sonabia",
+  "name": "Sonabia",
+  "aliases": [],
+  "lat": 43.4131,
+  "lon": -3.3364,
+  "country": "ES",
+  "zone": "es-cantabria",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 5,
+  "window": [
+   305,
+   75
+  ],
+  "bestTide": [
+   "low"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   305,
+   345
+  ],
+  "bestWind": [
+   140,
+   230
+  ],
+  "kiteWind": null,
+  "level": "intermediate",
+  "hazards": [
+   "currents"
+  ],
+  "sources": [
+   "https://guiasurfespana.es/surf-cantabria/castro-urdiales/",
+   "https://www.espanafascinante.com/articulo/reportajes/guia-surf-cantabria/20220919130056274658.html",
+   "https://es.wikipedia.org/wiki/Arenal_de_Sonabia"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "es-playa-de-san-julian",
+  "name": "San Julián",
+  "aliases": [],
+  "lat": 43.4142,
+  "lon": -3.3698,
+  "country": "ES",
+  "zone": "es-cantabria",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 24,
+  "window": [
+   320,
+   85
+  ],
+  "bestTide": [],
+  "dangerTide": [],
+  "bestSwell": [
+   320,
+   345
+  ],
+  "bestWind": [
+   159,
+   249
+  ],
+  "kiteWind": null,
+  "level": "advanced",
+  "hazards": [
+   "rocks"
+  ],
+  "sources": [
+   "https://visitacantabria.es/guia-de-playas-para-hacer-surf-en-cantabria/",
+   "https://es.wikipedia.org/wiki/Playa_de_San_Julián_(Liendo)"
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "es-playa-de-la-salve",
+  "name": "Laredo (La Salvé)",
+  "aliases": [
+   "Los Pinos",
+   "El Espigón"
+  ],
+  "lat": 43.4252,
+  "lon": -3.4438,
+  "country": "ES",
+  "zone": "es-cantabria",
+  "break": "beach",
+  "sports": [
+   "surf",
+   "kite"
+  ],
+  "facing": 57,
+  "window": [
+   340,
+   90
+  ],
+  "bestTide": [
+   "low",
+   "mid"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   340,
+   20
+  ],
+  "bestWind": [
+   192,
+   282
+  ],
+  "kiteWind": [
+   30,
+   100
+  ],
+  "level": "intermediate",
+  "hazards": [
+   "currents"
+  ],
+  "notes": "Only breaks in winter with a big NW swell; peaks at La Playa, Los Pinos and the jetty.",
+  "sources": [
+   "https://guiasurfespana.es/surf-cantabria/laredo/",
+   "https://www.singlequiver.com/enelpico/mejores-playas-cantabria-surf/",
+   "https://www.bmsurf.com/spots.html",
+   "https://www.latassurf.com/en/blog/las-mejores-playas-para-surfear-en-cantabria",
+   "https://northwindcompany.com/kitesurf-spots-cantabria/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "es-la-fortaleza",
+  "name": "La Fortaleza",
+  "aliases": [],
+  "lat": 43.438,
+  "lon": -3.447,
+  "country": "ES",
+  "zone": "es-cantabria",
+  "break": "point",
+  "sports": [
+   "surf"
+  ],
+  "facing": 20,
+  "window": [
+   310,
+   60
+  ],
+  "bestTide": [
+   "low",
+   "mid"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   315,
+   10
+  ],
+  "bestWind": [
+   160,
+   250
+  ],
+  "kiteWind": null,
+  "level": "advanced",
+  "hazards": [
+   "currents",
+   "crowds",
+   "localism"
+  ],
+  "notes": "Long sand-bottom left near the Santoña fort at the mouth of the bay; needs a big NW swell and a long paddle.",
+  "sources": [
+   "https://guiasurfespana.es/surf-cantabria/santona/",
+   "https://www.singlequiver.com/enelpico/mejores-playas-cantabria-surf/",
+   "https://www.bmsurf.com/spots.html"
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "es-playa-de-berria",
+  "name": "Berria",
+  "aliases": [],
+  "lat": 43.4665,
+  "lon": -3.4655,
+  "country": "ES",
+  "zone": "es-cantabria",
+  "break": "beach",
+  "sports": [
+   "surf",
+   "kite"
+  ],
+  "facing": 14,
+  "window": [
+   310,
+   90
+  ],
+  "bestTide": [],
+  "dangerTide": [],
+  "bestSwell": [
+   310,
+   345
+  ],
+  "bestWind": [
+   149,
+   239
+  ],
+  "kiteWind": [
+   20,
+   80
+  ],
+  "level": "all",
+  "hazards": [
+   "rips",
+   "currents"
+  ],
+  "sources": [
+   "https://guiasurfespana.es/surf-cantabria/santona/",
+   "https://visitacantabria.es/guia-de-playas-para-hacer-surf-en-cantabria/",
+   "https://www.singlequiver.com/enelpico/mejores-playas-cantabria-surf/",
+   "https://www.bmsurf.com/spots.html",
+   "https://www.latassurf.com/en/blog/las-mejores-playas-para-surfear-en-cantabria",
+   "https://elpajaroamarillo.com/mejores-playas-cantabria-surf/",
+   "https://northwindcompany.com/kitesurf-spots-cantabria/",
+   "https://es.wikipedia.org/wiki/Playa_de_Berria"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "es-playa-de-el-brusco",
+  "name": "El Brusco",
+  "aliases": [
+   "Tregandín",
+   "Trengandín"
+  ],
+  "lat": 43.4728,
+  "lon": -3.4952,
+  "country": "ES",
+  "zone": "es-cantabria",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 18,
+  "window": [
+   320,
+   95
+  ],
+  "bestTide": [
+   "mid",
+   "high"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   320,
+   345
+  ],
+  "bestWind": [
+   153,
+   243
+  ],
+  "kiteWind": null,
+  "level": "advanced",
+  "hazards": [
+   "rocks",
+   "localism",
+   "currents"
+  ],
+  "notes": "Powerful hollow peaks at the far end of the beach, a long walk from Noja.",
+  "sources": [
+   "https://guiasurfespana.es/surf-cantabria/noja/",
+   "https://visitacantabria.es/guia-de-playas-para-hacer-surf-en-cantabria/",
+   "https://www.singlequiver.com/enelpico/mejores-playas-cantabria-surf/",
+   "https://www.bmsurf.com/spots.html",
+   "https://www.wikidata.org/wiki/Q23994055"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "es-playa-de-ris",
+  "name": "Ris",
+  "aliases": [
+   "Regollera",
+   "San Pedruco"
+  ],
+  "lat": 43.4955,
+  "lon": -3.5243,
+  "country": "ES",
+  "zone": "es-cantabria",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 28,
+  "window": [
+   300,
+   115
+  ],
+  "bestTide": [
+   "mid",
+   "high"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   300,
+   345
+  ],
+  "bestWind": [
+   163,
+   253
+  ],
+  "kiteWind": null,
+  "level": "intermediate",
+  "hazards": [
+   "rocks"
+  ],
+  "sources": [
+   "https://guiasurfespana.es/surf-cantabria/noja/",
+   "https://visitacantabria.es/guia-de-playas-para-hacer-surf-en-cantabria/",
+   "https://www.espanafascinante.com/articulo/reportajes/guia-surf-cantabria/20220919130056274658.html",
+   "https://thefeathervanexperience.com/ruta-de-surf-por-cantabria/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "es-playa-de-cuberris",
+  "name": "Cuberris",
+  "aliases": [
+   "La Cala",
+   "Ajo"
+  ],
+  "lat": 43.4985,
+  "lon": -3.613,
+  "country": "ES",
+  "zone": "es-cantabria",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 342,
+  "window": [
+   270,
+   50
+  ],
+  "bestTide": [
+   "low",
+   "mid"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   280,
+   345
+  ],
+  "bestWind": [
+   117,
+   207
+  ],
+  "kiteWind": null,
+  "level": "intermediate",
+  "hazards": [],
+  "sources": [
+   "https://guiasurfespana.es/surf-cantabria/ajo/",
+   "https://www.singlequiver.com/enelpico/mejores-playas-cantabria-surf/",
+   "https://www.bmsurf.com/spots.html",
+   "https://es.wikipedia.org/wiki/Cuberris"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "es-playa-de-antuerta",
+  "name": "Antuerta",
+  "aliases": [],
+  "lat": 43.4984,
+  "lon": -3.6205,
+  "country": "ES",
+  "zone": "es-cantabria",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 345,
+  "window": [
+   270,
+   55
+  ],
+  "bestTide": [
+   "low",
+   "mid"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   280,
+   345
+  ],
+  "bestWind": [
+   120,
+   210
+  ],
+  "kiteWind": null,
+  "level": "intermediate",
+  "hazards": [],
+  "sources": [
+   "https://guiasurfespana.es/surf-cantabria/ajo/",
+   "https://www.bmsurf.com/spots.html",
+   "https://es.wikipedia.org/wiki/Antuerta"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "es-playa-de-galizano",
+  "name": "Galizano",
+  "aliases": [],
+  "lat": 43.481,
+  "lon": -3.6762,
+  "country": "ES",
+  "zone": "es-cantabria",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 333,
+  "window": [
+   280,
+   55
+  ],
+  "bestTide": [
+   "low"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   280,
+   345
+  ],
+  "bestWind": [
+   108,
+   198
+  ],
+  "kiteWind": null,
+  "level": "all",
+  "hazards": [
+   "rocks"
+  ],
+  "sources": [
+   "https://guiasurfespana.es/surf-cantabria/galizano/",
+   "https://es.wikipedia.org/wiki/Playa_de_Galizano"
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "es-playa-de-langre",
+  "name": "Langre",
+  "aliases": [],
+  "lat": 43.4772,
+  "lon": -3.6885,
+  "country": "ES",
+  "zone": "es-cantabria",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 336,
+  "window": [
+   280,
+   50
+  ],
+  "bestTide": [
+   "low"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   280,
+   345
+  ],
+  "bestWind": [
+   111,
+   201
+  ],
+  "kiteWind": null,
+  "level": "intermediate",
+  "hazards": [
+   "currents",
+   "rocks"
+  ],
+  "sources": [
+   "https://guiasurfespana.es/surf-cantabria/galizano/",
+   "https://visitacantabria.es/guia-de-playas-para-hacer-surf-en-cantabria/",
+   "https://www.singlequiver.com/enelpico/mejores-playas-cantabria-surf/",
+   "https://www.espanafascinante.com/articulo/reportajes/guia-surf-cantabria/20220919130056274658.html",
+   "https://elpajaroamarillo.com/mejores-playas-cantabria-surf/",
+   "https://es.wikipedia.org/wiki/Playa_de_Langre"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "es-santa-marina-cantabria",
+  "name": "Santa Marina (Isla)",
+  "aliases": [
+   "Isla de Santa Marina"
+  ],
+  "lat": 43.474,
+  "lon": -3.7335,
+  "country": "ES",
+  "zone": "es-cantabria",
+  "break": "reef",
+  "sports": [
+   "surf"
+  ],
+  "facing": 6,
+  "window": [
+   290,
+   70
+  ],
+  "bestTide": [
+   "mid",
+   "high"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   290,
+   345
+  ],
+  "bestWind": [
+   141,
+   231
+  ],
+  "kiteWind": null,
+  "level": "advanced",
+  "hazards": [
+   "rocks",
+   "reef",
+   "currents"
+  ],
+  "notes": "Long powerful right over rock on the island off Loredo; holds big NW swell.",
+  "sources": [
+   "https://guiasurfespana.es/surf-cantabria/somo/",
+   "https://visitacantabria.es/guia-de-playas-para-hacer-surf-en-cantabria/",
+   "https://www.singlequiver.com/enelpico/mejores-playas-cantabria-surf/",
+   "https://elpajaroamarillo.com/mejores-playas-cantabria-surf/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "es-playa-de-loredo",
+  "name": "Loredo",
+  "aliases": [],
+  "lat": 43.466,
+  "lon": -3.729,
+  "country": "ES",
+  "zone": "es-cantabria",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 24,
+  "window": [
+   340,
+   60
+  ],
+  "bestTide": [],
+  "dangerTide": [],
+  "bestSwell": [
+   340,
+   10
+  ],
+  "bestWind": [
+   159,
+   249
+  ],
+  "kiteWind": null,
+  "level": "all",
+  "hazards": [
+   "crowds"
+  ],
+  "sources": [
+   "https://www.latassurf.com/en/blog/las-mejores-playas-para-surfear-en-cantabria",
+   "https://www.espanafascinante.com/articulo/reportajes/guia-surf-cantabria/20220919130056274658.html",
+   "https://www.wikidata.org/wiki/Q123076252"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "es-somo-el-camping",
+  "name": "Somo (El Camping)",
+  "aliases": [
+   "El Barco"
+  ],
+  "lat": 43.4625,
+  "lon": -3.7285,
+  "country": "ES",
+  "zone": "es-cantabria",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 335,
+  "window": [
+   310,
+   0
+  ],
+  "bestTide": [],
+  "dangerTide": [],
+  "bestSwell": [
+   310,
+   345
+  ],
+  "bestWind": [
+   110,
+   200
+  ],
+  "kiteWind": null,
+  "level": "all",
+  "hazards": [
+   "crowds"
+  ],
+  "sources": [
+   "https://guiasurfespana.es/surf-cantabria/somo/",
+   "https://www.singlequiver.com/enelpico/mejores-playas-cantabria-surf/",
+   "https://www.bmsurf.com/spots.html"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "es-playa-de-somo",
+  "name": "Somo",
+  "aliases": [
+   "Las Quebrantas",
+   "La Curva"
+  ],
+  "lat": 43.46,
+  "lon": -3.736,
+  "country": "ES",
+  "zone": "es-cantabria",
+  "break": "beach",
+  "sports": [
+   "surf",
+   "kite",
+   "windsurf"
+  ],
+  "facing": 347,
+  "window": [
+   315,
+   20
+  ],
+  "bestTide": [],
+  "dangerTide": [],
+  "bestSwell": [
+   315,
+   345
+  ],
+  "bestWind": [
+   122,
+   212
+  ],
+  "kiteWind": [
+   30,
+   110
+  ],
+  "level": "all",
+  "hazards": [
+   "crowds",
+   "localism"
+  ],
+  "notes": "Long sandy beach and Spain's first surf reserve; kiting off the beach and in La Poza.",
+  "sources": [
+   "https://guiasurfespana.es/surf-cantabria/somo/",
+   "https://visitacantabria.es/guia-de-playas-para-hacer-surf-en-cantabria/",
+   "https://www.singlequiver.com/enelpico/mejores-playas-cantabria-surf/",
+   "https://www.bmsurf.com/spots.html",
+   "https://www.latassurf.com/en/blog/las-mejores-playas-para-surfear-en-cantabria",
+   "https://elpajaroamarillo.com/mejores-playas-cantabria-surf/",
+   "https://northwindcompany.com/kitesurf-spots-cantabria/",
+   "https://alexpastorkiteclub.com/es/blog/kitesurf/mejores-spots-de-kitesurf-en-espana/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "es-sardinero-primera",
+  "name": "El Sardinero (Primera)",
+  "aliases": [
+   "La Concha (Sardinero)"
+  ],
+  "lat": 43.4731,
+  "lon": -3.7802,
+  "country": "ES",
+  "zone": "es-cantabria",
+  "break": "beach",
+  "sports": [
+   "surf",
+   "kite"
+  ],
+  "facing": 35,
+  "window": [
+   330,
+   70
+  ],
+  "bestTide": [
+   "mid"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   335,
+   10
+  ],
+  "bestWind": [
+   170,
+   260
+  ],
+  "kiteWind": [
+   45,
+   100
+  ],
+  "level": "all",
+  "hazards": [
+   "crowds",
+   "pollution"
+  ],
+  "sources": [
+   "https://guiasurfespana.es/surf-cantabria/santander/",
+   "https://visitacantabria.es/guia-de-playas-para-hacer-surf-en-cantabria/",
+   "https://www.singlequiver.com/enelpico/mejores-playas-cantabria-surf/",
+   "https://www.espanafascinante.com/articulo/reportajes/guia-surf-cantabria/20220919130056274658.html",
+   "https://elpajaroamarillo.com/mejores-playas-cantabria-surf/",
+   "https://northwindcompany.com/kitesurf-spots-cantabria/",
+   "https://es.wikipedia.org/wiki/Playa_de_la_Concha_(Santander)"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "es-el-piquio",
+  "name": "El Piquío",
+  "aliases": [
+   "El Azucarillo"
+  ],
+  "lat": 43.4754,
+  "lon": -3.7835,
+  "country": "ES",
+  "zone": "es-cantabria",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 39,
+  "window": [
+   340,
+   70
+  ],
+  "bestTide": [
+   "mid"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   345,
+   15
+  ],
+  "bestWind": [
+   174,
+   264
+  ],
+  "kiteWind": null,
+  "level": "intermediate",
+  "hazards": [
+   "rocks",
+   "crowds"
+  ],
+  "sources": [
+   "https://www.singlequiver.com/enelpico/mejores-playas-cantabria-surf/",
+   "https://visitacantabria.es/guia-de-playas-para-hacer-surf-en-cantabria/"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "es-segunda-playa-de-el-sardinero",
+  "name": "El Muro (Segunda del Sardinero)",
+  "aliases": [],
+  "lat": 43.4786,
+  "lon": -3.7863,
+  "country": "ES",
+  "zone": "es-cantabria",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 42,
+  "window": [
+   340,
+   70
+  ],
+  "bestTide": [
+   "low"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   345,
+   15
+  ],
+  "bestWind": [
+   177,
+   267
+  ],
+  "kiteWind": null,
+  "level": "intermediate",
+  "hazards": [
+   "currents",
+   "crowds"
+  ],
+  "sources": [
+   "https://visitacantabria.es/guia-de-playas-para-hacer-surf-en-cantabria/",
+   "https://guiasurfespana.es/surf-cantabria/santander/",
+   "https://es.wikipedia.org/wiki/Playas_del_Sardinero"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "es-playa-de-los-peligros",
+  "name": "Los Peligros",
+  "aliases": [],
+  "lat": 43.4663,
+  "lon": -3.7756,
+  "country": "ES",
+  "zone": "es-cantabria",
+  "break": "beach",
+  "sports": [
+   "kite",
+   "windsurf"
+  ],
+  "facing": 34,
+  "window": [
+   350,
+   70
+  ],
+  "bestTide": [],
+  "dangerTide": [],
+  "bestSwell": [
+   350,
+   30
+  ],
+  "bestWind": [
+   169,
+   259
+  ],
+  "kiteWind": [
+   200,
+   250
+  ],
+  "level": "intermediate",
+  "hazards": [
+   "crowds"
+  ],
+  "notes": "Bay-side kite spot for gusty SW winds; closed to kites in summer.",
+  "sources": [
+   "https://northwindcompany.com/kitesurf-spots-cantabria/",
+   "https://alexpastorkiteclub.com/es/blog/kitesurf/mejores-spots-de-kitesurf-en-espana/",
+   "https://es.wikipedia.org/wiki/Playa_de_los_Peligros"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "es-playa-del-madero",
+  "name": "El Madero",
+  "aliases": [],
+  "lat": 43.4645,
+  "lon": -3.9515,
+  "country": "ES",
+  "zone": "es-cantabria",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 328,
+  "window": [
+   255,
+   50
+  ],
+  "bestTide": [
+   "low",
+   "mid"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   280,
+   345
+  ],
+  "bestWind": [
+   103,
+   193
+  ],
+  "kiteWind": null,
+  "level": "intermediate",
+  "hazards": [
+   "rocks"
+  ],
+  "sources": [
+   "https://www.singlequiver.com/enelpico/mejores-playas-cantabria-surf/",
+   "https://guiasurfespana.es/surf-cantabria/surf-liencres/",
+   "https://www.latassurf.com/en/blog/las-mejores-playas-para-surfear-en-cantabria"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "es-playa-de-canallave",
+  "name": "Canallave",
+  "aliases": [
+   "Liencres",
+   "Playa Pequeña"
+  ],
+  "lat": 43.4535,
+  "lon": -3.963,
+  "country": "ES",
+  "zone": "es-cantabria",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 326,
+  "window": [
+   265,
+   35
+  ],
+  "bestTide": [
+   "low",
+   "mid"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   280,
+   345
+  ],
+  "bestWind": [
+   101,
+   191
+  ],
+  "kiteWind": null,
+  "level": "intermediate",
+  "hazards": [
+   "rips",
+   "rocks",
+   "crowds"
+  ],
+  "sources": [
+   "https://guiasurfespana.es/surf-cantabria/surf-liencres/",
+   "https://visitacantabria.es/guia-de-playas-para-hacer-surf-en-cantabria/",
+   "https://www.singlequiver.com/enelpico/mejores-playas-cantabria-surf/",
+   "https://www.latassurf.com/en/blog/las-mejores-playas-para-surfear-en-cantabria",
+   "https://elpajaroamarillo.com/mejores-playas-cantabria-surf/",
+   "https://www.espanafascinante.com/articulo/reportajes/guia-surf-cantabria/20220919130056274658.html",
+   "https://thefeathervanexperience.com/ruta-de-surf-por-cantabria/",
+   "https://es.wikipedia.org/wiki/Playa_de_Canallave"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "es-playa-de-valdearenas",
+  "name": "Valdearenas",
+  "aliases": [
+   "Liencres",
+   "Playa Grande"
+  ],
+  "lat": 43.4466,
+  "lon": -3.9745,
+  "country": "ES",
+  "zone": "es-cantabria",
+  "break": "beach",
+  "sports": [
+   "surf",
+   "kite"
+  ],
+  "facing": 329,
+  "window": [
+   275,
+   40
+  ],
+  "bestTide": [
+   "low",
+   "mid"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   280,
+   345
+  ],
+  "bestWind": [
+   104,
+   194
+  ],
+  "kiteWind": [
+   45,
+   110
+  ],
+  "level": "intermediate",
+  "hazards": [
+   "rips",
+   "currents"
+  ],
+  "sources": [
+   "https://visitacantabria.es/guia-de-playas-para-hacer-surf-en-cantabria/",
+   "https://www.singlequiver.com/enelpico/mejores-playas-cantabria-surf/",
+   "https://www.latassurf.com/en/blog/las-mejores-playas-para-surfear-en-cantabria",
+   "https://elpajaroamarillo.com/mejores-playas-cantabria-surf/",
+   "https://northwindcompany.com/kitesurf-spots-cantabria/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "es-playa-de-robayera",
+  "name": "Robayera",
+  "aliases": [],
+  "lat": 43.444,
+  "lon": -3.9815,
+  "country": "ES",
+  "zone": "es-cantabria",
+  "break": "rivermouth",
+  "sports": [
+   "surf"
+  ],
+  "facing": 352,
+  "window": [
+   275,
+   45
+  ],
+  "bestTide": [
+   "low"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   280,
+   345
+  ],
+  "bestWind": [
+   127,
+   217
+  ],
+  "kiteWind": null,
+  "level": "intermediate",
+  "hazards": [
+   "currents"
+  ],
+  "notes": "Long fast left on the sandbar at the mouth of the Pas river.",
+  "sources": [
+   "https://guiasurfespana.es/surf-cantabria/surf-miengo/",
+   "https://es.wikipedia.org/wiki/Robayera"
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "es-playa-de-usgo",
+  "name": "Usgo",
+  "aliases": [],
+  "lat": 43.4405,
+  "lon": -4.0005,
+  "country": "ES",
+  "zone": "es-cantabria",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 342,
+  "window": [
+   290,
+   50
+  ],
+  "bestTide": [
+   "low",
+   "mid"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   290,
+   345
+  ],
+  "bestWind": [
+   117,
+   207
+  ],
+  "kiteWind": null,
+  "level": "intermediate",
+  "hazards": [
+   "currents",
+   "rocks"
+  ],
+  "sources": [
+   "https://guiasurfespana.es/surf-cantabria/surf-miengo/",
+   "https://es.wikipedia.org/wiki/Playa_de_Usgo"
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "es-playa-de-los-caballos",
+  "name": "Los Caballos",
+  "aliases": [],
+  "lat": 43.4428,
+  "lon": -4.024,
+  "country": "ES",
+  "zone": "es-cantabria",
+  "break": "reef",
+  "sports": [
+   "surf"
+  ],
+  "facing": 324,
+  "window": [
+   270,
+   30
+  ],
+  "bestTide": [
+   "low",
+   "mid"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   280,
+   345
+  ],
+  "bestWind": [
+   99,
+   189
+  ],
+  "kiteWind": null,
+  "level": "intermediate",
+  "hazards": [
+   "rocks",
+   "reef"
+  ],
+  "sources": [
+   "https://guiasurfespana.es/surf-cantabria/surf-miengo/",
+   "https://es.wikipedia.org/wiki/Playa_de_los_Caballos"
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "es-playa-de-la-concha",
+  "name": "La Concha (Suances)",
+  "aliases": [],
+  "lat": 43.4362,
+  "lon": -4.042,
+  "country": "ES",
+  "zone": "es-cantabria",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 18,
+  "window": [
+   330,
+   55
+  ],
+  "bestTide": [
+   "low",
+   "mid"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   330,
+   345
+  ],
+  "bestWind": [
+   153,
+   243
+  ],
+  "kiteWind": null,
+  "level": "intermediate",
+  "hazards": [],
+  "sources": [
+   "https://guiasurfespana.es/surf-cantabria/surf-suances/",
+   "https://www.latassurf.com/en/blog/las-mejores-playas-para-surfear-en-cantabria",
+   "https://www.espanafascinante.com/articulo/reportajes/guia-surf-cantabria/20220919130056274658.html",
+   "https://es.wikipedia.org/wiki/Playa_de_La_Concha_(Suances)"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "es-playa-de-los-locos",
+  "name": "Los Locos",
+  "aliases": [],
+  "lat": 43.4394,
+  "lon": -4.0472,
+  "country": "ES",
+  "zone": "es-cantabria",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 339,
+  "window": [
+   255,
+   70
+  ],
+  "bestTide": [],
+  "dangerTide": [],
+  "bestSwell": [
+   280,
+   345
+  ],
+  "bestWind": [
+   114,
+   204
+  ],
+  "kiteWind": null,
+  "level": "advanced",
+  "hazards": [
+   "rips",
+   "crowds",
+   "currents"
+  ],
+  "notes": "Cliff-backed beach break with powerful lefts and rights; works on most swells.",
+  "sources": [
+   "https://guiasurfespana.es/surf-cantabria/surf-suances/",
+   "https://visitacantabria.es/guia-de-playas-para-hacer-surf-en-cantabria/",
+   "https://www.singlequiver.com/enelpico/mejores-playas-cantabria-surf/",
+   "https://www.latassurf.com/en/blog/las-mejores-playas-para-surfear-en-cantabria",
+   "https://elpajaroamarillo.com/mejores-playas-cantabria-surf/",
+   "https://thefeathervanexperience.com/ruta-de-surf-por-cantabria/",
+   "https://www.espanafascinante.com/articulo/reportajes/guia-surf-cantabria/20220919130056274658.html",
+   "https://es.wikipedia.org/wiki/Playa_de_los_Locos"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "es-playa-de-la-tablia",
+  "name": "La Tablía",
+  "aliases": [],
+  "lat": 43.4354,
+  "lon": -4.0554,
+  "country": "ES",
+  "zone": "es-cantabria",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 338,
+  "window": [
+   280,
+   35
+  ],
+  "bestTide": [
+   "low",
+   "mid"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   280,
+   345
+  ],
+  "bestWind": [
+   113,
+   203
+  ],
+  "kiteWind": null,
+  "level": "intermediate",
+  "hazards": [
+   "rocks"
+  ],
+  "sources": [
+   "https://guiasurfespana.es/surf-cantabria/surf-suances/"
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "es-playa-el-sable",
+  "name": "Tagle (El Sable)",
+  "aliases": [
+   "El Sable"
+  ],
+  "lat": 43.4281,
+  "lon": -4.0945,
+  "country": "ES",
+  "zone": "es-cantabria",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 323,
+  "window": [
+   265,
+   60
+  ],
+  "bestTide": [
+   "low"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   280,
+   345
+  ],
+  "bestWind": [
+   98,
+   188
+  ],
+  "kiteWind": null,
+  "level": "advanced",
+  "hazards": [
+   "rocks"
+  ],
+  "sources": [
+   "https://www.latassurf.com/en/blog/las-mejores-playas-para-surfear-en-cantabria",
+   "https://es.wikipedia.org/wiki/Playa_de_Santa_Justa"
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "es-playa-de-santa-justa",
+  "name": "Santa Justa",
+  "aliases": [
+   "Ubiarco"
+  ],
+  "lat": 43.426,
+  "lon": -4.099,
+  "country": "ES",
+  "zone": "es-cantabria",
+  "break": "reef",
+  "sports": [
+   "surf"
+  ],
+  "facing": 330,
+  "window": [
+   265,
+   45
+  ],
+  "bestTide": [],
+  "dangerTide": [],
+  "bestSwell": [
+   280,
+   345
+  ],
+  "bestWind": [
+   105,
+   195
+  ],
+  "kiteWind": null,
+  "level": "advanced",
+  "hazards": [
+   "rocks"
+  ],
+  "sources": [
+   "https://visitacantabria.es/guia-de-playas-para-hacer-surf-en-cantabria/"
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "es-playa-de-luana",
+  "name": "Luaña",
+  "aliases": [],
+  "lat": 43.3957,
+  "lon": -4.2215,
+  "country": "ES",
+  "zone": "es-cantabria",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 12,
+  "window": [
+   275,
+   70
+  ],
+  "bestTide": [
+   "mid",
+   "high"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   280,
+   345
+  ],
+  "bestWind": [
+   147,
+   237
+  ],
+  "kiteWind": null,
+  "level": "all",
+  "hazards": [
+   "rocks"
+  ],
+  "sources": [
+   "https://www.espanafascinante.com/articulo/reportajes/guia-surf-cantabria/20220919130056274658.html",
+   "https://es.wikipedia.org/wiki/Playa_de_Luaña"
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "es-playa-de-oyambre",
+  "name": "Oyambre",
+  "aliases": [
+   "El Pájaro Amarillo",
+   "El Golf"
+  ],
+  "lat": 43.394,
+  "lon": -4.3305,
+  "country": "ES",
+  "zone": "es-cantabria",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 15,
+  "window": [
+   325,
+   75
+  ],
+  "bestTide": [],
+  "dangerTide": [],
+  "bestSwell": [
+   325,
+   345
+  ],
+  "bestWind": [
+   150,
+   240
+  ],
+  "kiteWind": null,
+  "level": "all",
+  "hazards": [],
+  "sources": [
+   "https://guiasurfespana.es/surf-cantabria/san-vicente-de-la-barquera/",
+   "https://visitacantabria.es/guia-de-playas-para-hacer-surf-en-cantabria/",
+   "https://www.singlequiver.com/enelpico/mejores-playas-cantabria-surf/",
+   "https://elpajaroamarillo.com/mejores-playas-cantabria-surf/",
+   "https://es.wikipedia.org/wiki/Playa_de_Oyambre"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "es-playa-de-gerra",
+  "name": "Gerra",
+  "aliases": [],
+  "lat": 43.4018,
+  "lon": -4.3565,
+  "country": "ES",
+  "zone": "es-cantabria",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 340,
+  "window": [
+   270,
+   80
+  ],
+  "bestTide": [],
+  "dangerTide": [],
+  "bestSwell": [
+   280,
+   345
+  ],
+  "bestWind": [
+   115,
+   205
+  ],
+  "kiteWind": null,
+  "level": "intermediate",
+  "hazards": [],
+  "sources": [
+   "https://guiasurfespana.es/surf-cantabria/san-vicente-de-la-barquera/",
+   "https://www.latassurf.com/en/blog/las-mejores-playas-para-surfear-en-cantabria",
+   "https://elpajaroamarillo.com/mejores-playas-cantabria-surf/"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "es-playa-de-meron-2",
+  "name": "Merón",
+  "aliases": [],
+  "lat": 43.396,
+  "lon": -4.3675,
+  "country": "ES",
+  "zone": "es-cantabria",
+  "break": "beach",
+  "sports": [
+   "surf",
+   "kite"
+  ],
+  "facing": 333,
+  "window": [
+   275,
+   45
+  ],
+  "bestTide": [
+   "low",
+   "mid"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   280,
+   345
+  ],
+  "bestWind": [
+   108,
+   198
+  ],
+  "kiteWind": [
+   20,
+   80
+  ],
+  "level": "all",
+  "hazards": [
+   "rips"
+  ],
+  "sources": [
+   "https://guiasurfespana.es/surf-cantabria/san-vicente-de-la-barquera/",
+   "https://visitacantabria.es/guia-de-playas-para-hacer-surf-en-cantabria/",
+   "https://www.espanafascinante.com/articulo/reportajes/guia-surf-cantabria/20220919130056274658.html",
+   "https://thefeathervanexperience.com/ruta-de-surf-por-cantabria/",
+   "https://northwindcompany.com/kitesurf-spots-cantabria/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "es-el-farolillo",
+  "name": "El Farolillo",
+  "aliases": [],
+  "lat": 43.3935,
+  "lon": -4.383,
+  "country": "ES",
+  "zone": "es-cantabria",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 2,
+  "window": [
+   280,
+   65
+  ],
+  "bestTide": [
+   "low",
+   "mid"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   280,
+   345
+  ],
+  "bestWind": [
+   137,
+   227
+  ],
+  "kiteWind": null,
+  "level": "intermediate",
+  "hazards": [
+   "currents"
+  ],
+  "notes": "Long fast right at the western end of Merón near the San Vicente estuary.",
+  "sources": [
+   "https://guiasurfespana.es/surf-cantabria/san-vicente-de-la-barquera/",
+   "https://www.singlequiver.com/enelpico/mejores-playas-cantabria-surf/"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "es-playa-de-vidiago",
+  "name": "Vidiago",
+  "aliases": [],
+  "lat": 43.402,
+  "lon": -4.6527,
+  "country": "ES",
+  "zone": "es-asturias-oriente",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 0,
+  "window": [
+   290,
+   90
+  ],
+  "bestTide": [
+   "mid",
+   "high"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   290,
+   345
+  ],
+  "bestWind": [
+   135,
+   225
+  ],
+  "kiteWind": null,
+  "level": "intermediate",
+  "hazards": [
+   "currents",
+   "rips"
+  ],
+  "sources": [
+   "https://guiasurfespana.es/surf-asturias/llanes/",
+   "https://surfllanes.com/playas-de-llanes/"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "es-playa-de-andrin",
+  "name": "Andrín",
+  "aliases": [],
+  "lat": 43.4115,
+  "lon": -4.7085,
+  "country": "ES",
+  "zone": "es-asturias-oriente",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 17,
+  "window": [
+   290,
+   95
+  ],
+  "bestTide": [],
+  "dangerTide": [],
+  "bestSwell": [
+   290,
+   345
+  ],
+  "bestWind": [
+   152,
+   242
+  ],
+  "kiteWind": null,
+  "level": "advanced",
+  "hazards": [
+   "rips",
+   "currents",
+   "shorebreak"
+  ],
+  "sources": [
+   "https://surfllanes.com/playas-de-llanes/",
+   "https://llanes.eu/surf-en-llanes/",
+   "https://www.watsaysurfschool.com/hacer-surf-en-asturias/",
+   "https://www.singlequiver.com/enelpico/mejores-playas-asturias-surf/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "es-playa-de-la-ballota",
+  "name": "Ballota",
+  "aliases": [],
+  "lat": 43.4135,
+  "lon": -4.7135,
+  "country": "ES",
+  "zone": "es-asturias-oriente",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 21,
+  "window": [
+   290,
+   95
+  ],
+  "bestTide": [],
+  "dangerTide": [],
+  "bestSwell": [
+   290,
+   345
+  ],
+  "bestWind": [
+   156,
+   246
+  ],
+  "kiteWind": null,
+  "level": "intermediate",
+  "hazards": [
+   "currents"
+  ],
+  "sources": [
+   "https://surfllanes.com/playas-de-llanes/",
+   "https://es.wikipedia.org/wiki/Playa_de_Ballota_(Llanes)"
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "es-playa-de-san-martin-2",
+  "name": "San Martín (Llanes)",
+  "aliases": [],
+  "lat": 43.4331,
+  "lon": -4.792,
+  "country": "ES",
+  "zone": "es-asturias-oriente",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 13,
+  "window": [
+   285,
+   100
+  ],
+  "bestTide": [
+   "low",
+   "mid"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   285,
+   345
+  ],
+  "bestWind": [
+   148,
+   238
+  ],
+  "kiteWind": null,
+  "level": "all",
+  "hazards": [
+   "currents"
+  ],
+  "sources": [
+   "https://surfllanes.com/playas-de-llanes/",
+   "https://www.turismoasturias.es/organiza-tu-viaje/deporte-y-aventura/surf",
+   "https://es.wikipedia.org/wiki/Playa_de_San_Martín"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "es-playa-de-las-camaras",
+  "name": "Palombina",
+  "aliases": [
+   "Las Cámaras",
+   "Celorio"
+  ],
+  "lat": 43.433,
+  "lon": -4.807,
+  "country": "ES",
+  "zone": "es-asturias-oriente",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 31,
+  "window": [
+   290,
+   100
+  ],
+  "bestTide": [],
+  "dangerTide": [],
+  "bestSwell": [
+   290,
+   345
+  ],
+  "bestWind": [
+   166,
+   256
+  ],
+  "kiteWind": null,
+  "level": "beginner",
+  "hazards": [],
+  "sources": [
+   "https://surfllanes.com/playas-de-llanes/",
+   "https://llanes.eu/surf-en-llanes/",
+   "https://www.watsaysurfschool.com/hacer-surf-en-asturias/",
+   "https://es.wikipedia.org/wiki/Playas_de_Las_Cámaras_y_Los_Curas"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "es-playa-de-barro",
+  "name": "Barro",
+  "aliases": [],
+  "lat": 43.4376,
+  "lon": -4.8253,
+  "country": "ES",
+  "zone": "es-asturias-oriente",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 24,
+  "window": [
+   295,
+   100
+  ],
+  "bestTide": [
+   "high"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   295,
+   345
+  ],
+  "bestWind": [
+   159,
+   249
+  ],
+  "kiteWind": null,
+  "level": "beginner",
+  "hazards": [
+   "currents"
+  ],
+  "sources": [
+   "https://surfllanes.com/playas-de-llanes/",
+   "https://es.wikipedia.org/wiki/Playas_de_Barro,_Xiglu_y_Sorraos"
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "es-torimbia",
+  "name": "Torimbia",
+  "aliases": [],
+  "lat": 43.444,
+  "lon": -4.851,
+  "country": "ES",
+  "zone": "es-asturias-oriente",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 5,
+  "window": [
+   285,
+   90
+  ],
+  "bestTide": [
+   "high"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   285,
+   345
+  ],
+  "bestWind": [
+   140,
+   230
+  ],
+  "kiteWind": null,
+  "level": "intermediate",
+  "hazards": [
+   "currents",
+   "rocks"
+  ],
+  "sources": [
+   "https://surfllanes.com/playas-de-llanes/",
+   "https://www.watsaysurfschool.com/hacer-surf-en-asturias/"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "es-playa-de-san-antolin-de-bedon",
+  "name": "San Antolín",
+  "aliases": [
+   "El Furacu",
+   "Punta Pestaña"
+  ],
+  "lat": 43.443,
+  "lon": -4.87,
+  "country": "ES",
+  "zone": "es-asturias-oriente",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 19,
+  "window": [
+   310,
+   80
+  ],
+  "bestTide": [],
+  "dangerTide": [],
+  "bestSwell": [
+   310,
+   345
+  ],
+  "bestWind": [
+   154,
+   244
+  ],
+  "kiteWind": null,
+  "level": "all",
+  "hazards": [
+   "currents",
+   "rocks"
+  ],
+  "sources": [
+   "https://guiasurfespana.es/surf-asturias/llanes/",
+   "https://surfllanes.com/playas-de-llanes/",
+   "https://llanes.eu/surf-en-llanes/",
+   "https://asturias.com/surf-en-asturias/",
+   "https://www.idealista.com/news/vacacional/destinos-turisticos/2026/06/15/901901-donde-hacer-surf-en-asturias-las-mejores-playas-del-principado-para",
+   "https://asturiasdiario.es/playas-para-hacer-surf-en-asturias/",
+   "https://vacacionesenasturias.es/donde-hacer-surf-en-asturias/",
+   "https://www.watsaysurfschool.com/hacer-surf-en-asturias/",
+   "https://es.wikipedia.org/wiki/Playa_de_San_Antolín"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "es-playa-de-santa-marina",
+  "name": "Santa Marina (Ribadesella)",
+  "aliases": [],
+  "lat": 43.4675,
+  "lon": -5.0685,
+  "country": "ES",
+  "zone": "es-asturias-oriente",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 357,
+  "window": [
+   295,
+   90
+  ],
+  "bestTide": [
+   "low",
+   "mid"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   295,
+   345
+  ],
+  "bestWind": [
+   132,
+   222
+  ],
+  "kiteWind": null,
+  "level": "all",
+  "hazards": [
+   "crowds"
+  ],
+  "sources": [
+   "https://guiasurfespana.es/surf-asturias/ribadesella/",
+   "https://asturias.com/surf-en-asturias/",
+   "https://www.watsaysurfschool.com/hacer-surf-en-asturias/",
+   "https://vacacionesenasturias.es/donde-hacer-surf-en-asturias/",
+   "https://es.wikipedia.org/wiki/Playa_de_Santa_Marina"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "es-playa-de-vega",
+  "name": "Vega",
+  "aliases": [],
+  "lat": 43.4815,
+  "lon": -5.143,
+  "country": "ES",
+  "zone": "es-asturias-oriente",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 355,
+  "window": [
+   295,
+   75
+  ],
+  "bestTide": [],
+  "dangerTide": [],
+  "bestSwell": [
+   295,
+   345
+  ],
+  "bestWind": [
+   130,
+   220
+  ],
+  "kiteWind": null,
+  "level": "intermediate",
+  "hazards": [],
+  "sources": [
+   "https://guiasurfespana.es/surf-asturias/ribadesella/",
+   "https://www.singlequiver.com/enelpico/mejores-playas-asturias-surf/",
+   "https://asturias.com/surf-en-asturias/",
+   "https://www.watsaysurfschool.com/hacer-surf-en-asturias/",
+   "https://www.turismoasturias.es/organiza-tu-viaje/deporte-y-aventura/surf"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "es-playa-arenal-de-moris",
+  "name": "Arenal de Morís",
+  "aliases": [],
+  "lat": 43.477,
+  "lon": -5.176,
+  "country": "ES",
+  "zone": "es-asturias-oriente",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 11,
+  "window": [
+   305,
+   80
+  ],
+  "bestTide": [],
+  "dangerTide": [],
+  "bestSwell": [
+   305,
+   345
+  ],
+  "bestWind": [
+   146,
+   236
+  ],
+  "kiteWind": null,
+  "level": "all",
+  "hazards": [],
+  "sources": [
+   "https://www.turismoasturias.es/organiza-tu-viaje/deporte-y-aventura/surf",
+   "https://es.wikipedia.org/wiki/Playa_Arenal_de_Morís"
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "es-playa-espasa",
+  "name": "La Espasa",
+  "aliases": [],
+  "lat": 43.4766,
+  "lon": -5.2157,
+  "country": "ES",
+  "zone": "es-asturias-oriente",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 22,
+  "window": [
+   325,
+   80
+  ],
+  "bestTide": [],
+  "dangerTide": [],
+  "bestSwell": [
+   325,
+   345
+  ],
+  "bestWind": [
+   157,
+   247
+  ],
+  "kiteWind": null,
+  "level": "intermediate",
+  "hazards": [],
+  "sources": [
+   "https://www.turismoasturias.es/organiza-tu-viaje/deporte-y-aventura/surf",
+   "https://es.wikipedia.org/wiki/Playa_de_El_Pozo_de_las_Pipas"
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "es-playa-de-la-isla",
+  "name": "La Isla (Colunga)",
+  "aliases": [],
+  "lat": 43.4815,
+  "lon": -5.2233,
+  "country": "ES",
+  "zone": "es-asturias-oriente",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 41,
+  "window": [
+   320,
+   90
+  ],
+  "bestTide": [],
+  "dangerTide": [],
+  "bestSwell": [
+   320,
+   345
+  ],
+  "bestWind": [
+   176,
+   266
+  ],
+  "kiteWind": null,
+  "level": "intermediate",
+  "hazards": [
+   "rocks"
+  ],
+  "sources": [
+   "https://www.turismoasturias.es/organiza-tu-viaje/deporte-y-aventura/surf",
+   "https://es.wikipedia.org/wiki/Playa_de_La_Isla"
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "es-playa-de-llastres",
+  "name": "Lastres",
+  "aliases": [
+   "La Griega"
+  ],
+  "lat": 43.5098,
+  "lon": -5.2685,
+  "country": "ES",
+  "zone": "es-asturias-oriente",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 56,
+  "window": [
+   345,
+   100
+  ],
+  "bestTide": [
+   "mid"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   350,
+   30
+  ],
+  "bestWind": [
+   191,
+   281
+  ],
+  "kiteWind": null,
+  "level": "advanced",
+  "hazards": [
+   "rocks"
+  ],
+  "sources": [
+   "https://guiasurfespana.es/surf-asturias/lastres/",
+   "https://www.watsaysurfschool.com/hacer-surf-en-asturias/",
+   "https://es.wikipedia.org/wiki/Playa_de_Lastres"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "es-playa-conejera",
+  "name": "La Conejera",
+  "aliases": [],
+  "lat": 43.5345,
+  "lon": -5.365,
+  "country": "ES",
+  "zone": "es-asturias-oriente",
+  "break": "point",
+  "sports": [
+   "surf"
+  ],
+  "facing": 16,
+  "window": [
+   300,
+   90
+  ],
+  "bestTide": [
+   "low",
+   "mid"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   300,
+   345
+  ],
+  "bestWind": [
+   151,
+   241
+  ],
+  "kiteWind": null,
+  "level": "advanced",
+  "hazards": [
+   "rocks"
+  ],
+  "sources": [
+   "https://guiasurfespana.es/surf-asturias/villaviciosa/",
+   "https://es.wikipedia.org/wiki/Playa_de_Conejera"
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "es-playa-de-rodiles",
+  "name": "Rodiles",
+  "aliases": [],
+  "lat": 43.5355,
+  "lon": -5.377,
+  "country": "ES",
+  "zone": "es-asturias-oriente",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 2,
+  "window": [
+   305,
+   95
+  ],
+  "bestTide": [],
+  "dangerTide": [],
+  "bestSwell": [
+   305,
+   345
+  ],
+  "bestWind": [
+   137,
+   227
+  ],
+  "kiteWind": null,
+  "level": "all",
+  "hazards": [
+   "crowds",
+   "currents"
+  ],
+  "sources": [
+   "https://asturias.com/surf-en-asturias/",
+   "https://www.singlequiver.com/enelpico/mejores-playas-asturias-surf/",
+   "https://www.horizonescueladesurf.com/playas-para-hacer-surf-en-asturias/",
+   "https://www.watsaysurfschool.com/hacer-surf-en-asturias/",
+   "https://www.idealista.com/news/vacacional/destinos-turisticos/2026/06/15/901901-donde-hacer-surf-en-asturias-las-mejores-playas-del-principado-para",
+   "https://asturiasdiario.es/playas-para-hacer-surf-en-asturias/",
+   "https://www.palaciodeaviles.com/blog/mejores-playas-de-surf-asturias/",
+   "https://www.turismoasturias.es/organiza-tu-viaje/deporte-y-aventura/surf",
+   "https://es.wikipedia.org/wiki/Playa_de_Rodiles"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "es-ria-de-rodiles",
+  "name": "Rodiles (La Ría)",
+  "aliases": [],
+  "lat": 43.5368,
+  "lon": -5.3858,
+  "country": "ES",
+  "zone": "es-asturias-oriente",
+  "break": "rivermouth",
+  "sports": [
+   "surf"
+  ],
+  "facing": 39,
+  "window": [
+   310,
+   95
+  ],
+  "bestTide": [
+   "low"
+  ],
+  "dangerTide": [
+   "high"
+  ],
+  "bestSwell": [
+   315,
+   350
+  ],
+  "bestWind": [
+   174,
+   264
+  ],
+  "kiteWind": null,
+  "level": "advanced",
+  "hazards": [
+   "crowds",
+   "currents",
+   "localism"
+  ],
+  "notes": "Long fast left on the sandbar at the mouth of the Villaviciosa estuary, best at low tide.",
+  "sources": [
+   "https://guiasurfespana.es/surf-asturias/villaviciosa/",
+   "https://asturias.com/surf-en-asturias/",
+   "https://www.singlequiver.com/enelpico/mejores-playas-asturias-surf/",
+   "https://www.horizonescueladesurf.com/playas-para-hacer-surf-en-asturias/",
+   "https://www.palaciodeaviles.com/blog/mejores-playas-de-surf-asturias/",
+   "https://www.idealista.com/news/vacacional/destinos-turisticos/2026/06/15/901901-donde-hacer-surf-en-asturias-las-mejores-playas-del-principado-para"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "es-playa-de-meron",
+  "name": "Merón (Villaviciosa)",
+  "aliases": [],
+  "lat": 43.545,
+  "lon": -5.4945,
+  "country": "ES",
+  "zone": "es-asturias-oriente",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 21,
+  "window": [
+   290,
+   80
+  ],
+  "bestTide": [],
+  "dangerTide": [],
+  "bestSwell": [
+   290,
+   345
+  ],
+  "bestWind": [
+   156,
+   246
+  ],
+  "kiteWind": null,
+  "level": "advanced",
+  "hazards": [
+   "rocks"
+  ],
+  "sources": [
+   "https://www.watsaysurfschool.com/hacer-surf-en-asturias/",
+   "https://es.wikipedia.org/wiki/Playa_de_Merón_(Villaviciosa)"
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "es-playa-espana",
+  "name": "Playa España",
+  "aliases": [],
+  "lat": 43.5462,
+  "lon": -5.5285,
+  "country": "ES",
+  "zone": "es-asturias-oriente",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 341,
+  "window": [
+   290,
+   75
+  ],
+  "bestTide": [
+   "low",
+   "mid"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   290,
+   345
+  ],
+  "bestWind": [
+   116,
+   206
+  ],
+  "kiteWind": null,
+  "level": "all",
+  "hazards": [
+   "rocks"
+  ],
+  "sources": [
+   "https://guiasurfespana.es/surf-asturias/villaviciosa/",
+   "https://asturias.com/surf-en-asturias/",
+   "https://www.palaciodeaviles.com/blog/mejores-playas-de-surf-asturias/",
+   "https://www.watsaysurfschool.com/hacer-surf-en-asturias/",
+   "https://es.wikipedia.org/wiki/Playa_de_España"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "es-playa-de-la-nora",
+  "name": "La Ñora",
+  "aliases": [],
+  "lat": 43.5485,
+  "lon": -5.5898,
+  "country": "ES",
+  "zone": "es-asturias-oriente",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 4,
+  "window": [
+   300,
+   85
+  ],
+  "bestTide": [],
+  "dangerTide": [],
+  "bestSwell": [
+   300,
+   345
+  ],
+  "bestWind": [
+   139,
+   229
+  ],
+  "kiteWind": null,
+  "level": "all",
+  "hazards": [],
+  "sources": [
+   "https://www.watsaysurfschool.com/hacer-surf-en-asturias/",
+   "https://es.wikipedia.org/wiki/Playa_de_la_Ñora"
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "es-playa-de-penarrubia",
+  "name": "Peñarrubia",
+  "aliases": [],
+  "lat": 43.553,
+  "lon": -5.6235,
+  "country": "ES",
+  "zone": "es-asturias-oriente",
+  "break": "reef",
+  "sports": [
+   "surf"
+  ],
+  "facing": 7,
+  "window": [
+   305,
+   90
+  ],
+  "bestTide": [
+   "mid"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   305,
+   345
+  ],
+  "bestWind": [
+   142,
+   232
+  ],
+  "kiteWind": null,
+  "level": "intermediate",
+  "hazards": [
+   "rocks"
+  ],
+  "sources": [
+   "https://guiasurfespana.es/surf-asturias/gijon/",
+   "https://asturias.com/surf-en-asturias/",
+   "https://www.watsaysurfschool.com/hacer-surf-en-asturias/",
+   "https://es.wikipedia.org/wiki/Playa_de_Peñarrubia"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "es-playa-del-cervigon",
+  "name": "El Cervigón",
+  "aliases": [
+   "El Rinconín",
+   "Pico del Carmen"
+  ],
+  "lat": 43.5495,
+  "lon": -5.639,
+  "country": "ES",
+  "zone": "es-asturias-oriente",
+  "break": "reef",
+  "sports": [
+   "surf"
+  ],
+  "facing": 7,
+  "window": [
+   325,
+   70
+  ],
+  "bestTide": [
+   "mid"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   325,
+   345
+  ],
+  "bestWind": [
+   142,
+   232
+  ],
+  "kiteWind": null,
+  "level": "intermediate",
+  "hazards": [
+   "rocks",
+   "crowds"
+  ],
+  "sources": [
+   "https://guiasurfespana.es/surf-asturias/gijon/",
+   "https://www.watsaysurfschool.com/hacer-surf-en-asturias/",
+   "https://www.wikidata.org/wiki/Q24002030"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "es-el-mongol",
+  "name": "El Mongol",
+  "aliases": [
+   "El Mogol"
+  ],
+  "lat": 43.5472,
+  "lon": -5.6455,
+  "country": "ES",
+  "zone": "es-asturias-oriente",
+  "break": "reef",
+  "sports": [
+   "surf"
+  ],
+  "facing": 8,
+  "window": [
+   335,
+   45
+  ],
+  "bestTide": [
+   "high"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   335,
+   15
+  ],
+  "bestWind": [
+   143,
+   233
+  ],
+  "kiteWind": null,
+  "level": "advanced",
+  "hazards": [
+   "rocks",
+   "reef"
+  ],
+  "notes": "Right over rock that only works with a big swell, at the eastern end of Gijón's seafront.",
+  "sources": [
+   "https://asturias.com/surf-en-asturias/",
+   "https://www.watsaysurfschool.com/hacer-surf-en-asturias/",
+   "https://www.idealista.com/news/vacacional/destinos-turisticos/2026/06/15/901901-donde-hacer-surf-en-asturias-las-mejores-playas-del-principado-para"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "es-playa-de-san-lorenzo",
+  "name": "San Lorenzo",
+  "aliases": [
+   "La Escalerona"
+  ],
+  "lat": 43.5435,
+  "lon": -5.654,
+  "country": "ES",
+  "zone": "es-asturias-oriente",
+  "break": "beach",
+  "sports": [
+   "surf",
+   "kite"
+  ],
+  "facing": 30,
+  "window": [
+   325,
+   65
+  ],
+  "bestTide": [
+   "mid"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   330,
+   10
+  ],
+  "bestWind": [
+   165,
+   255
+  ],
+  "kiteWind": [
+   300,
+   60
+  ],
+  "level": "all",
+  "hazards": [
+   "crowds",
+   "rips"
+  ],
+  "notes": "Urban beach; surfers gather around stairs 9 and 10.",
+  "sources": [
+   "https://guiasurfespana.es/surf-asturias/gijon/",
+   "https://asturias.com/surf-en-asturias/",
+   "https://www.singlequiver.com/enelpico/mejores-playas-asturias-surf/",
+   "https://www.horizonescueladesurf.com/playas-para-hacer-surf-en-asturias/",
+   "https://www.watsaysurfschool.com/hacer-surf-en-asturias/",
+   "https://vacacionesenasturias.es/donde-hacer-surf-en-asturias/",
+   "https://www.idealista.com/news/vacacional/destinos-turisticos/2026/06/15/901901-donde-hacer-surf-en-asturias-las-mejores-playas-del-principado-para",
+   "https://asturiasdiario.es/playas-para-hacer-surf-en-asturias/",
+   "https://www.turismoasturias.es/organiza-tu-viaje/deporte-y-aventura/surf",
+   "https://alexpastorkiteclub.com/es/blog/kitesurf/mejores-spots-de-kitesurf-en-espana/",
+   "https://es.wikipedia.org/wiki/Playa_de_San_Lorenzo"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "es-xibares",
+  "name": "Xivares",
+  "aliases": [],
+  "lat": 43.5705,
+  "lon": -5.7205,
+  "country": "ES",
+  "zone": "es-asturias-centro",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 18,
+  "window": [
+   325,
+   70
+  ],
+  "bestTide": [],
+  "dangerTide": [],
+  "bestSwell": [
+   325,
+   345
+  ],
+  "bestWind": [
+   153,
+   243
+  ],
+  "kiteWind": null,
+  "level": "advanced",
+  "hazards": [
+   "rips"
+  ],
+  "sources": [
+   "https://guiasurfespana.es/surf-asturias/candas/",
+   "https://guiasurfespana.es/surf-asturias/lastres/",
+   "https://www.watsaysurfschool.com/hacer-surf-en-asturias/",
+   "https://www.wikidata.org/wiki/Q23990569"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "es-sablera-palmera",
+  "name": "Candás",
+  "aliases": [],
+  "lat": 43.589,
+  "lon": -5.7612,
+  "country": "ES",
+  "zone": "es-asturias-centro",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 49,
+  "window": [
+   330,
+   90
+  ],
+  "bestTide": [
+   "low"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   335,
+   10
+  ],
+  "bestWind": [
+   184,
+   274
+  ],
+  "kiteWind": null,
+  "level": "intermediate",
+  "hazards": [],
+  "sources": [
+   "https://guiasurfespana.es/surf-asturias/candas/",
+   "https://www.watsaysurfschool.com/hacer-surf-en-asturias/",
+   "https://es.wikipedia.org/wiki/Playa_de_La_Palmera"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "es-sablera-de-san-pedro-dantromero",
+  "name": "San Pedro (Antromero)",
+  "aliases": [],
+  "lat": 43.6025,
+  "lon": -5.7705,
+  "country": "ES",
+  "zone": "es-asturias-centro",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 53,
+  "window": [
+   335,
+   105
+  ],
+  "bestTide": [
+   "low"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   335,
+   15
+  ],
+  "bestWind": [
+   188,
+   278
+  ],
+  "kiteWind": null,
+  "level": "intermediate",
+  "hazards": [],
+  "sources": [
+   "https://guiasurfespana.es/surf-asturias/luanco/",
+   "https://es.wikipedia.org/wiki/Playa_de_San_Pedro_de_Antromero"
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "es-playa-de-luanco",
+  "name": "Luanco",
+  "aliases": [],
+  "lat": 43.619,
+  "lon": -5.7845,
+  "country": "ES",
+  "zone": "es-asturias-centro",
+  "break": "beach",
+  "sports": [
+   "surf",
+   "kite"
+  ],
+  "facing": 66,
+  "window": [
+   335,
+   110
+  ],
+  "bestTide": [
+   "low"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   340,
+   20
+  ],
+  "bestWind": [
+   201,
+   291
+  ],
+  "kiteWind": [
+   290,
+   100
+  ],
+  "level": "intermediate",
+  "hazards": [
+   "rocks"
+  ],
+  "notes": "Short hollow right at the church peak; kite riders use the sheltered bay.",
+  "sources": [
+   "https://guiasurfespana.es/surf-asturias/luanco/",
+   "https://www.watsaysurfschool.com/hacer-surf-en-asturias/",
+   "https://www.baluverxa.com/",
+   "https://alexpastorkiteclub.com/es/blog/kitesurf/mejores-spots-de-kitesurf-en-espana/",
+   "https://es.wikipedia.org/wiki/Playa_de_Luanco"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "es-playa-de-banugues",
+  "name": "Bañugues",
+  "aliases": [],
+  "lat": 43.6325,
+  "lon": -5.8098,
+  "country": "ES",
+  "zone": "es-asturias-centro",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 11,
+  "window": [
+   325,
+   80
+  ],
+  "bestTide": [],
+  "dangerTide": [],
+  "bestSwell": [
+   325,
+   345
+  ],
+  "bestWind": [
+   146,
+   236
+  ],
+  "kiteWind": null,
+  "level": "all",
+  "hazards": [],
+  "sources": [
+   "https://www.baluverxa.com/",
+   "https://es.wikipedia.org/wiki/Playa_de_Bañugues"
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "es-playa-de-llumeres",
+  "name": "Llumeres",
+  "aliases": [],
+  "lat": 43.641,
+  "lon": -5.8275,
+  "country": "ES",
+  "zone": "es-asturias-centro",
+  "break": "beach",
+  "sports": [
+   "surf",
+   "kite",
+   "windsurf"
+  ],
+  "facing": 8,
+  "window": [
+   320,
+   90
+  ],
+  "bestTide": [],
+  "dangerTide": [],
+  "bestSwell": [
+   320,
+   345
+  ],
+  "bestWind": [
+   143,
+   233
+  ],
+  "kiteWind": [
+   290,
+   30
+  ],
+  "level": "intermediate",
+  "hazards": [
+   "rocks"
+  ],
+  "sources": [
+   "https://www.watsaysurfschool.com/hacer-surf-en-asturias/",
+   "https://es.wikipedia.org/wiki/Playa_de_Llumeres"
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "es-playa-de-verdicio",
+  "name": "Verdicio",
+  "aliases": [],
+  "lat": 43.6265,
+  "lon": -5.877,
+  "country": "ES",
+  "zone": "es-asturias-centro",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 319,
+  "window": [
+   255,
+   35
+  ],
+  "bestTide": [],
+  "dangerTide": [],
+  "bestSwell": [
+   280,
+   345
+  ],
+  "bestWind": [
+   94,
+   184
+  ],
+  "kiteWind": null,
+  "level": "intermediate",
+  "hazards": [
+   "rips"
+  ],
+  "sources": [
+   "https://asturias.com/surf-en-asturias/",
+   "https://www.idealista.com/news/vacacional/destinos-turisticos/2026/06/15/901901-donde-hacer-surf-en-asturias-las-mejores-playas-del-principado-para",
+   "https://www.baluverxa.com/",
+   "https://es.wikipedia.org/wiki/Playa_de_Verdicio"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "es-playa-de-xago",
+  "name": "Xagó",
+  "aliases": [],
+  "lat": 43.6045,
+  "lon": -5.9205,
+  "country": "ES",
+  "zone": "es-asturias-centro",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 319,
+  "window": [
+   265,
+   15
+  ],
+  "bestTide": [
+   "low",
+   "mid"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   280,
+   345
+  ],
+  "bestWind": [
+   94,
+   184
+  ],
+  "kiteWind": null,
+  "level": "all",
+  "hazards": [
+   "rips",
+   "crowds"
+  ],
+  "sources": [
+   "https://asturias.com/surf-en-asturias/",
+   "https://www.singlequiver.com/enelpico/mejores-playas-asturias-surf/",
+   "https://www.horizonescueladesurf.com/playas-para-hacer-surf-en-asturias/",
+   "https://www.watsaysurfschool.com/hacer-surf-en-asturias/",
+   "https://www.idealista.com/news/vacacional/destinos-turisticos/2026/06/15/901901-donde-hacer-surf-en-asturias-las-mejores-playas-del-principado-para",
+   "https://www.palaciodeaviles.com/blog/mejores-playas-de-surf-asturias/",
+   "https://guiasurfespana.es/surf-asturias/aviles/",
+   "https://www.turismoasturias.es/descubre/costa/playas/playa-de-xago",
+   "https://www.baluverxa.com/",
+   "https://www.wikidata.org/wiki/Q24024576"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "es-playa-de-san-juan-de-nieva",
+  "name": "El Espartal (San Juan de Nieva)",
+  "aliases": [
+   "San Juan de Nieva"
+  ],
+  "lat": 43.5862,
+  "lon": -5.9445,
+  "country": "ES",
+  "zone": "es-asturias-centro",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 323,
+  "window": [
+   280,
+   5
+  ],
+  "bestTide": [
+   "low"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   280,
+   345
+  ],
+  "bestWind": [
+   98,
+   188
+  ],
+  "kiteWind": null,
+  "level": "all",
+  "hazards": [
+   "crowds"
+  ],
+  "notes": "Fast right on the bar at the eastern end of the Salinas arc.",
+  "sources": [
+   "https://asturias.com/surf-en-asturias/",
+   "https://www.singlequiver.com/enelpico/mejores-playas-asturias-surf/",
+   "https://www.wikidata.org/wiki/Q24003904"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "es-salinas-castrillon",
+  "name": "Salinas",
+  "aliases": [
+   "El Balneario"
+  ],
+  "lat": 43.581,
+  "lon": -5.9532,
+  "country": "ES",
+  "zone": "es-asturias-centro",
+  "break": "beach",
+  "sports": [
+   "surf",
+   "windsurf"
+  ],
+  "facing": 335,
+  "window": [
+   285,
+   20
+  ],
+  "bestTide": [],
+  "dangerTide": [],
+  "bestSwell": [
+   285,
+   345
+  ],
+  "bestWind": [
+   110,
+   200
+  ],
+  "kiteWind": [
+   20,
+   90
+  ],
+  "level": "all",
+  "hazards": [
+   "crowds",
+   "rips"
+  ],
+  "notes": "Long multi-peak beach; hosts an international longboard festival.",
+  "sources": [
+   "https://asturias.com/surf-en-asturias/",
+   "https://www.singlequiver.com/enelpico/mejores-playas-asturias-surf/",
+   "https://www.horizonescueladesurf.com/playas-para-hacer-surf-en-asturias/",
+   "https://www.watsaysurfschool.com/hacer-surf-en-asturias/",
+   "https://vacacionesenasturias.es/donde-hacer-surf-en-asturias/",
+   "https://www.idealista.com/news/vacacional/destinos-turisticos/2026/06/15/901901-donde-hacer-surf-en-asturias-las-mejores-playas-del-principado-para",
+   "https://asturiasdiario.es/playas-para-hacer-surf-en-asturias/",
+   "https://www.palaciodeaviles.com/blog/mejores-playas-de-surf-asturias/",
+   "https://www.turismoasturias.es/organiza-tu-viaje/deporte-y-aventura/surf",
+   "https://guiasurfespana.es/surf-asturias/aviles/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "es-playa-de-arnao",
+  "name": "Arnao",
+  "aliases": [],
+  "lat": 43.5788,
+  "lon": -5.9815,
+  "country": "ES",
+  "zone": "es-asturias-centro",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 358,
+  "window": [
+   290,
+   50
+  ],
+  "bestTide": [],
+  "dangerTide": [],
+  "bestSwell": [
+   290,
+   345
+  ],
+  "bestWind": [
+   133,
+   223
+  ],
+  "kiteWind": null,
+  "level": "intermediate",
+  "hazards": [
+   "rocks"
+  ],
+  "sources": [
+   "https://www.watsaysurfschool.com/hacer-surf-en-asturias/",
+   "https://es.wikipedia.org/wiki/Playa_de_Arnao"
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "es-playa-de-santa-maria-del-mar",
+  "name": "Santa María del Mar",
+  "aliases": [],
+  "lat": 43.5748,
+  "lon": -5.9978,
+  "country": "ES",
+  "zone": "es-asturias-centro",
+  "break": "beach",
+  "sports": [
+   "surf",
+   "kite",
+   "windsurf"
+  ],
+  "facing": 4,
+  "window": [
+   305,
+   50
+  ],
+  "bestTide": [
+   "low"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   305,
+   345
+  ],
+  "bestWind": [
+   139,
+   229
+  ],
+  "kiteWind": [
+   330,
+   60
+  ],
+  "level": "beginner",
+  "hazards": [],
+  "sources": [
+   "https://www.watsaysurfschool.com/hacer-surf-en-asturias/",
+   "https://es.wikipedia.org/wiki/Playa_de_Santa_María_del_Mar_(Castrillón)"
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "es-playa-bahinas",
+  "name": "Bahínas",
+  "aliases": [],
+  "lat": 43.5785,
+  "lon": -6.0055,
+  "country": "ES",
+  "zone": "es-asturias-centro",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 9,
+  "window": [
+   305,
+   50
+  ],
+  "bestTide": [
+   "low"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   305,
+   345
+  ],
+  "bestWind": [
+   144,
+   234
+  ],
+  "kiteWind": null,
+  "level": "all",
+  "hazards": [
+   "rocks"
+  ],
+  "sources": [
+   "https://www.watsaysurfschool.com/hacer-surf-en-asturias/",
+   "https://es.wikipedia.org/wiki/Playa_de_Bahínas"
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "es-playon-de-bayas",
+  "name": "Playón de Bayas",
+  "aliases": [
+   "El Sablón",
+   "Bayas"
+  ],
+  "lat": 43.5748,
+  "lon": -6.0455,
+  "country": "ES",
+  "zone": "es-asturias-centro",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 334,
+  "window": [
+   280,
+   35
+  ],
+  "bestTide": [],
+  "dangerTide": [],
+  "bestSwell": [
+   280,
+   345
+  ],
+  "bestWind": [
+   109,
+   199
+  ],
+  "kiteWind": null,
+  "level": "advanced",
+  "hazards": [
+   "currents",
+   "rips"
+  ],
+  "notes": "One of the longest beaches in Asturias; strong currents on big days.",
+  "sources": [
+   "https://www.horizonescueladesurf.com/playas-para-hacer-surf-en-asturias/",
+   "https://www.watsaysurfschool.com/hacer-surf-en-asturias/",
+   "https://www.idealista.com/news/vacacional/destinos-turisticos/2026/06/15/901901-donde-hacer-surf-en-asturias-las-mejores-playas-del-principado-para"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "es-playa-de-los-quebrantos",
+  "name": "Los Quebrantos",
+  "aliases": [
+   "La Arena",
+   "San Juan de la Arena"
+  ],
+  "lat": 43.5655,
+  "lon": -6.068,
+  "country": "ES",
+  "zone": "es-asturias-centro",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 338,
+  "window": [
+   285,
+   40
+  ],
+  "bestTide": [],
+  "dangerTide": [],
+  "bestSwell": [
+   285,
+   345
+  ],
+  "bestWind": [
+   113,
+   203
+  ],
+  "kiteWind": null,
+  "level": "intermediate",
+  "hazards": [
+   "currents"
+  ],
+  "sources": [
+   "https://guiasurfespana.es/surf-asturias/aviles/",
+   "https://www.watsaysurfschool.com/hacer-surf-en-asturias/"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "es-concha-de-artedo",
+  "name": "Concha de Artedo",
+  "aliases": [],
+  "lat": 43.5672,
+  "lon": -6.1885,
+  "country": "ES",
+  "zone": "es-asturias-centro",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 42,
+  "window": [
+   345,
+   75
+  ],
+  "bestTide": [],
+  "dangerTide": [],
+  "bestSwell": [
+   350,
+   30
+  ],
+  "bestWind": [
+   177,
+   267
+  ],
+  "kiteWind": null,
+  "level": "beginner",
+  "hazards": [
+   "rocks"
+  ],
+  "sources": [
+   "https://www.watsaysurfschool.com/hacer-surf-en-asturias/",
+   "https://vacacionesenasturias.es/donde-hacer-surf-en-asturias/"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "es-playa-de-oleiros",
+  "name": "Oleiros",
+  "aliases": [],
+  "lat": 43.5738,
+  "lon": -6.2015,
+  "country": "ES",
+  "zone": "es-asturias-centro",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 30,
+  "window": [
+   345,
+   65
+  ],
+  "bestTide": [],
+  "dangerTide": [],
+  "bestSwell": [
+   345,
+   15
+  ],
+  "bestWind": [
+   165,
+   255
+  ],
+  "kiteWind": null,
+  "level": "all",
+  "hazards": [],
+  "sources": [
+   "https://www.watsaysurfschool.com/hacer-surf-en-asturias/",
+   "https://es.wikipedia.org/wiki/Playas_de_Oleiros_y_Los_Botes"
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "es-playa-de-cadaveu",
+  "name": "Cadavedo",
+  "aliases": [
+   "Cadavéu"
+  ],
+  "lat": 43.553,
+  "lon": -6.3712,
+  "country": "ES",
+  "zone": "es-asturias-occidente",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 13,
+  "window": [
+   280,
+   65
+  ],
+  "bestTide": [],
+  "dangerTide": [],
+  "bestSwell": [
+   280,
+   345
+  ],
+  "bestWind": [
+   148,
+   238
+  ],
+  "kiteWind": null,
+  "level": "intermediate",
+  "hazards": [
+   "rocks"
+  ],
+  "sources": [
+   "https://www.watsaysurfschool.com/hacer-surf-en-asturias/",
+   "https://es.wikipedia.org/wiki/Playa_de_Cadavedo"
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "es-playa-de-cueva-3",
+  "name": "Cueva (Valdés)",
+  "aliases": [
+   "Playa de Cueva"
+  ],
+  "lat": 43.5524,
+  "lon": -6.4727,
+  "country": "ES",
+  "zone": "es-asturias-occidente",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 316,
+  "window": [
+   280,
+   5
+  ],
+  "bestTide": [
+   "low",
+   "mid"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   280,
+   345
+  ],
+  "bestWind": [
+   91,
+   181
+  ],
+  "kiteWind": null,
+  "level": "intermediate",
+  "hazards": [
+   "rocks"
+  ],
+  "sources": [
+   "https://asturias.com/surf-en-asturias/",
+   "https://www.watsaysurfschool.com/hacer-surf-en-asturias/",
+   "https://es.wikipedia.org/wiki/Playa_de_Cueva"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "es-playa-doutur",
+  "name": "Otur",
+  "aliases": [],
+  "lat": 43.555,
+  "lon": -6.597,
+  "country": "ES",
+  "zone": "es-asturias-occidente",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 7,
+  "window": [
+   325,
+   70
+  ],
+  "bestTide": [
+   "low"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   325,
+   345
+  ],
+  "bestWind": [
+   142,
+   232
+  ],
+  "kiteWind": null,
+  "level": "intermediate",
+  "hazards": [
+   "currents"
+  ],
+  "sources": [
+   "https://asturias.com/surf-en-asturias/",
+   "https://www.watsaysurfschool.com/hacer-surf-en-asturias/",
+   "https://www.idealista.com/news/vacacional/destinos-turisticos/2026/06/15/901901-donde-hacer-surf-en-asturias-las-mejores-playas-del-principado-para",
+   "https://es.wikipedia.org/wiki/Playa_de_Otur"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "es-playa-de-barayu",
+  "name": "Barayo",
+  "aliases": [],
+  "lat": 43.5625,
+  "lon": -6.615,
+  "country": "ES",
+  "zone": "es-asturias-occidente",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 34,
+  "window": [
+   310,
+   85
+  ],
+  "bestTide": [],
+  "dangerTide": [],
+  "bestSwell": [
+   310,
+   345
+  ],
+  "bestWind": [
+   169,
+   259
+  ],
+  "kiteWind": null,
+  "level": "intermediate",
+  "hazards": [],
+  "sources": [
+   "https://guiasurfespana.es/surf-asturias/puerto-de-vega/",
+   "https://www.watsaysurfschool.com/hacer-surf-en-asturias/",
+   "https://es.wikipedia.org/wiki/Playa_de_Barayo"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "es-playa-de-frexulfe",
+  "name": "Frexulfe",
+  "aliases": [
+   "Frejulfe"
+  ],
+  "lat": 43.5615,
+  "lon": -6.6755,
+  "country": "ES",
+  "zone": "es-asturias-occidente",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 338,
+  "window": [
+   275,
+   65
+  ],
+  "bestTide": [
+   "mid",
+   "high"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   280,
+   345
+  ],
+  "bestWind": [
+   113,
+   203
+  ],
+  "kiteWind": null,
+  "level": "intermediate",
+  "hazards": [],
+  "sources": [
+   "https://guiasurfespana.es/surf-asturias/puerto-de-vega/",
+   "https://asturias.com/surf-en-asturias/",
+   "https://www.watsaysurfschool.com/hacer-surf-en-asturias/",
+   "https://vacacionesenasturias.es/donde-hacer-surf-en-asturias/",
+   "https://es.wikipedia.org/wiki/Playa_de_Frejulfe"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "es-playa-del-moro",
+  "name": "El Moro (Navia)",
+  "aliases": [
+   "Peñafurada"
+  ],
+  "lat": 43.5598,
+  "lon": -6.7165,
+  "country": "ES",
+  "zone": "es-asturias-occidente",
+  "break": "point",
+  "sports": [
+   "surf"
+  ],
+  "facing": 347,
+  "window": [
+   280,
+   80
+  ],
+  "bestTide": [],
+  "dangerTide": [],
+  "bestSwell": [
+   280,
+   345
+  ],
+  "bestWind": [
+   122,
+   212
+  ],
+  "kiteWind": null,
+  "level": "intermediate",
+  "hazards": [
+   "rocks"
+  ],
+  "sources": [
+   "https://asturias.com/surf-en-asturias/",
+   "https://www.watsaysurfschool.com/hacer-surf-en-asturias/",
+   "https://es.wikipedia.org/wiki/Playa_del_Moro"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "es-playa-de-navia",
+  "name": "Navia",
+  "aliases": [],
+  "lat": 43.557,
+  "lon": -6.722,
+  "country": "ES",
+  "zone": "es-asturias-occidente",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 344,
+  "window": [
+   300,
+   55
+  ],
+  "bestTide": [],
+  "dangerTide": [],
+  "bestSwell": [
+   300,
+   345
+  ],
+  "bestWind": [
+   119,
+   209
+  ],
+  "kiteWind": null,
+  "level": "all",
+  "hazards": [],
+  "sources": [
+   "https://asturias.com/surf-en-asturias/",
+   "https://www.watsaysurfschool.com/hacer-surf-en-asturias/",
+   "https://es.wikipedia.org/wiki/Playa_de_Navia"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "es-playa-de-porcia",
+  "name": "Porcía",
+  "aliases": [],
+  "lat": 43.5632,
+  "lon": -6.8761,
+  "country": "ES",
+  "zone": "es-asturias-occidente",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 342,
+  "window": [
+   285,
+   55
+  ],
+  "bestTide": [],
+  "dangerTide": [],
+  "bestSwell": [
+   285,
+   345
+  ],
+  "bestWind": [
+   117,
+   207
+  ],
+  "kiteWind": null,
+  "level": "advanced",
+  "hazards": [],
+  "sources": [
+   "https://www.apartamentosnavalin.es/surf-tapia-de-casariego",
+   "https://es.wikipedia.org/wiki/Playa_de_Porcía"
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "es-tapia-anguileiro",
+  "name": "Tapia (La Grande)",
+  "aliases": [
+   "Anguileiro",
+   "La Grande"
+  ],
+  "lat": 43.571,
+  "lon": -6.9358,
+  "country": "ES",
+  "zone": "es-asturias-occidente",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 2,
+  "window": [
+   295,
+   65
+  ],
+  "bestTide": [
+   "low",
+   "mid"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   295,
+   345
+  ],
+  "bestWind": [
+   137,
+   227
+  ],
+  "kiteWind": null,
+  "level": "all",
+  "hazards": [
+   "crowds",
+   "rocks"
+  ],
+  "notes": "Historic Asturian surf hub with sand peaks and a left over rock; hosts international contests.",
+  "sources": [
+   "https://guiasurfespana.es/surf-asturias/tapia-de-casariego/",
+   "https://asturias.com/surf-en-asturias/",
+   "https://www.singlequiver.com/enelpico/mejores-playas-asturias-surf/",
+   "https://www.watsaysurfschool.com/hacer-surf-en-asturias/",
+   "https://asturiasdiario.es/playas-para-hacer-surf-en-asturias/",
+   "https://www.palaciodeaviles.com/blog/mejores-playas-de-surf-asturias/",
+   "https://www.turismoasturias.es/organiza-tu-viaje/deporte-y-aventura/surf",
+   "https://www.apartamentosnavalin.es/surf-tapia-de-casariego"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "es-playa-de-la-paloma-2",
+  "name": "La Paloma (Tapia)",
+  "aliases": [
+   "Esteiro"
+  ],
+  "lat": 43.564,
+  "lon": -6.9568,
+  "country": "ES",
+  "zone": "es-asturias-occidente",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 333,
+  "window": [
+   270,
+   50
+  ],
+  "bestTide": [
+   "low"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   280,
+   345
+  ],
+  "bestWind": [
+   108,
+   198
+  ],
+  "kiteWind": null,
+  "level": "intermediate",
+  "hazards": [],
+  "sources": [
+   "https://guiasurfespana.es/surf-asturias/tapia-de-casariego/",
+   "https://www.watsaysurfschool.com/hacer-surf-en-asturias/",
+   "https://es.wikipedia.org/wiki/Playa_de_la_Paloma"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "es-playa-de-serantes",
+  "name": "Serantes",
+  "aliases": [],
+  "lat": 43.5575,
+  "lon": -6.9755,
+  "country": "ES",
+  "zone": "es-asturias-occidente",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 357,
+  "window": [
+   275,
+   60
+  ],
+  "bestTide": [],
+  "dangerTide": [],
+  "bestSwell": [
+   280,
+   345
+  ],
+  "bestWind": [
+   132,
+   222
+  ],
+  "kiteWind": null,
+  "level": "beginner",
+  "hazards": [],
+  "sources": [
+   "https://www.apartamentosnavalin.es/surf-tapia-de-casariego",
+   "https://es.wikipedia.org/wiki/Playa_de_Serantes"
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "es-playa-de-penarronda",
+  "name": "Peñarronda",
+  "aliases": [
+   "Penarronda"
+  ],
+  "lat": 43.555,
+  "lon": -6.9972,
+  "country": "ES",
+  "zone": "es-asturias-occidente",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 6,
+  "window": [
+   280,
+   65
+  ],
+  "bestTide": [
+   "mid"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   280,
+   345
+  ],
+  "bestWind": [
+   141,
+   231
+  ],
+  "kiteWind": null,
+  "level": "all",
+  "hazards": [],
+  "sources": [
+   "https://guiasurfespana.es/surf-asturias/castropol/",
+   "https://asturias.com/surf-en-asturias/",
+   "https://vacacionesenasturias.es/donde-hacer-surf-en-asturias/",
+   "https://www.apartamentosnavalin.es/surf-tapia-de-casariego",
+   "https://www.turismoasturias.es/organiza-tu-viaje/deporte-y-aventura/surf",
+   "https://es.wikipedia.org/wiki/Playa_de_Penarronda"
+  ],
+  "confidence": "high"
+ }
+]
