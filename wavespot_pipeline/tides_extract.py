@@ -14,6 +14,7 @@ import datetime as dt
 import json
 import logging
 import os
+import shutil
 import sys
 import zipfile
 
@@ -49,16 +50,27 @@ def ensure_model(model_dir: str, url: str = config.EOT20_URL) -> None:
         with open(zpath, "wb") as f:
             for chunk in r.iter_content(1 << 22):
                 f.write(chunk)
+    unpack(zpath, model_dir)
+
+
+def unpack(zpath: str, model_dir: str) -> None:
+    target = os.path.join(model_dir, "EOT20", "ocean_tides")
+    # The SEANOE archive nests two zips: ocean_tides.zip (needed) and load_tides.zip.
+    os.makedirs(target, exist_ok=True)
+    inner = os.path.join(model_dir, "ocean_tides.zip")
     with zipfile.ZipFile(zpath) as z:
-        members = [m for m in z.namelist() if "ocean_tides/" in m and m.endswith(".nc") and "__MACOSX" not in m]
-        os.makedirs(target, exist_ok=True)
+        name = next(m for m in z.namelist() if m.endswith("ocean_tides.zip"))
+        with z.open(name) as src, open(inner, "wb") as dst:
+            shutil.copyfileobj(src, dst, 1 << 22)
+    os.remove(zpath)
+    zpath = inner
+    with zipfile.ZipFile(zpath) as z:
+        members = [m for m in z.namelist() if m.endswith(".nc") and "__MACOSX" not in m]
         for m in members:
             with z.open(m) as src, open(os.path.join(target, os.path.basename(m)), "wb") as dst:
-                while True:
-                    b = src.read(1 << 22)
-                    if not b:
-                        break
-                    dst.write(b)
+                shutil.copyfileobj(src, dst, 1 << 22)
+    if len([f for f in os.listdir(target) if f.endswith(".nc")]) < 17:
+        raise RuntimeError(f"EOT20 archive layout unexpected: {members[:5]}")
     os.remove(zpath)
 
 

@@ -49,3 +49,23 @@ def test_ranges_are_plausible():
 def test_day_stages():
     h = np.array([0.0, 0.2, 0.5, 0.9, 1.0])
     assert tides.day_stages(h) == ["low", "low", "mid", "high", "high"]
+
+
+def test_eot20_nested_zip_unpack(tmp_path):
+    import zipfile
+
+    from wavespot_pipeline.tides_extract import unpack
+
+    inner = tmp_path / "ocean_tides.zip"
+    with zipfile.ZipFile(inner, "w") as z:
+        for c in ["2N2", "J1", "K1", "K2", "M2", "M4", "MF", "MM", "N2", "O1", "P1", "Q1", "S1", "S2", "SA",
+                  "SSA", "T2"]:
+            z.writestr(f"ocean_tides/{c}_ocean_eot20.nc", b"x")
+        z.writestr("__MACOSX/ocean_tides/._M2_ocean_eot20.nc", b"x")
+    outer = tmp_path / "eot20.zip"
+    with zipfile.ZipFile(outer, "w") as z:
+        z.write(inner, "ocean_tides.zip")
+        z.writestr("load_tides.zip", b"")
+    unpack(str(outer), str(tmp_path / "model"))
+    files = os.listdir(tmp_path / "model" / "EOT20" / "ocean_tides")
+    assert len(files) == 17 and "M2_ocean_eot20.nc" in files

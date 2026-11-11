@@ -1,7 +1,7 @@
 name: Tides
 
 # Extract EOT20 tidal constituents for new/moved spots. The 2.3 GB model is kept
-# in actions/cache (key eot20-v1), so it is downloaded from SEANOE only once;
+# in actions/cache (key eot20-v2), so it is downloaded from SEANOE only once;
 # the twice-weekly schedule keeps the cache from expiring (7 days unused).
 on:
   push:
@@ -46,10 +46,9 @@ jobs:
         uses: actions/cache/restore@v4
         with:
           path: ~/eot20
-          key: eot20-v1
+          key: eot20-v2
 
-      - name: Download EOT20 (cache miss only)
-        if: steps.model.outputs.cache-hit != 'true'
+      - name: Download EOT20 (no-op when the cached copy is complete)
         run: python -c "from wavespot_pipeline.tides_extract import ensure_model; ensure_model('$HOME/eot20')"
 
       - name: Save EOT20 model
@@ -57,7 +56,7 @@ jobs:
         uses: actions/cache/save@v4
         with:
           path: ~/eot20
-          key: eot20-v1
+          key: eot20-v2
 
       - name: Extract constituents
         run: |
