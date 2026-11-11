@@ -90,8 +90,16 @@ def test_blend_priorities():
 def test_ramp_from_ibi_into_ecmwf():
     bl = B.blend(make_sources(), 2, H0)
     hs3 = bl.h3["hs"][0]
-    assert abs(hs3[0] - 1.6 * (1 + (2.0 / 1.6 - 1) * (1 - 3 / 24))) < 1e-4
-    assert abs(hs3[-1] - 1.6) < 1e-4
+    # IBI is 25 % above ECMWF over the whole overlap: the tail keeps that coastal factor.
+    assert abs(hs3[0] - 2.0) < 1e-4 and abs(hs3[-1] - 2.0) < 1e-4
+    # Different end-of-h ratio: ramps from it to the persistent one in 24 h.
+    src = make_sources()
+    src.ibi.fields["hs"][0, 204:] = 1.6
+    bl = B.blend(src, 2, H0)
+    k_all = (2.0 * 204 + 1.6 * 12) / (1.6 * 216)
+    hs3 = bl.h3["hs"][0]
+    assert abs(hs3[0] - 1.6 * (1.0 * (1 - 3 / 24) + k_all * 3 / 24)) < 1e-4
+    assert abs(hs3[-1] - 1.6 * k_all) < 1e-4
 
 
 def test_ibi_gap_falls_back_per_hour():

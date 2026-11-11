@@ -14,7 +14,6 @@ import numpy as np
 
 from .. import config
 from ..cells import map_cells
-from ..grids import erode_valid
 from .base import SourceData, SourceStatus, decode_grib, extract, http_exists, http_get, log, stack_times
 
 
@@ -91,8 +90,8 @@ def fetch(spots: list[dict], now: dt.datetime, cache_dir: str | None, workers: i
     lsm0, n2 = get_field("oper", 0, "lsm") or (None, 0)
     nbytes += n1 + n2
     wave_valid = np.isfinite(swh0.values)
-    wave_cells, wave_km = map_cells("ecmwf_wave", swh0.grid, lambda: [erode_valid(wave_valid), wave_valid],
-                                    spots, 40.0, cache_dir)
+    # Global 0.1° grid: nearest wet cell (no erosion, it would push cells ~20 km offshore).
+    wave_cells, wave_km = map_cells("ecmwf_wave_v2", swh0.grid, [wave_valid], spots, 40.0, cache_dir)
     if lsm0 is not None:
         sea = lsm0.values < 0.5
         wind_grid = lsm0.grid

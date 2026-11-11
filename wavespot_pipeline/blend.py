@@ -122,17 +122,33 @@ def _waves(src: Sources, target: np.ndarray, nspots: int, use_ibi: bool):
     return out, model, ec
 
 
+def _hs_ratio(a: np.ndarray, b: np.ndarray, cols: slice) -> np.ndarray:
+    """Ratio of means a/b per spot over `cols` where both are present (NaN if none)."""
+    both = np.isfinite(a[:, cols]) & np.isfinite(b[:, cols])
+    sa = np.where(both, a[:, cols], 0.0).sum(axis=1)
+    sb = np.where(both, b[:, cols], 0.0).sum(axis=1)
+    with np.errstate(invalid="ignore", divide="ignore"):
+        return np.where((both.sum(axis=1) >= 6) & (sb > 0.05), sa / sb, np.nan)
+
+
 def _ramp(h: dict, h3: dict, ec_on_h: np.ndarray, model_h, model_h3):
-    """Carry the IBI/ECMWF Hs ratio of the last 12 h of `h` into the first 24 h of `h3`."""
-    last = slice(config.H_HOURS - 12, config.H_HOURS)
-    with np.errstate(invalid="ignore", divide="ignore"), warnings.catch_warnings():
-        warnings.simplefilter("ignore", RuntimeWarning)
-        ratio = np.nanmean(h["hs"][:, last], axis=1) / np.nanmean(ec_on_h[:, last], axis=1)
-    ratio = np.clip(np.nan_to_num(ratio, nan=1.0), 0.6, 1.6)
+    """Coastal correction of the ECMWF tail.
+
+    ECMWF wet cells can sit far offshore (0.1° grid), so its Hs is biased against
+    the coastal IBI cell. k_all = IBI/ECMWF Hs over the whole `h` overlap is kept
+    as a persistent factor in `h3`; the first 24 h of `h3` ramp from the ratio of
+    the last 12 h of `h` (no jump at the hand-over) to k_all. Both clamped to
+    [0.3, 1.5]. Applied to Hs and partition heights.
+    """
+    k_all = _hs_ratio(h["hs"], ec_on_h, slice(0, config.H_HOURS))
+    k_end = _hs_ratio(h["hs"], ec_on_h, slice(config.H_HOURS - 12, config.H_HOURS))
+    k_end = np.where(np.isfinite(k_end), k_end, k_all)
+    k_all = np.clip(np.nan_to_num(k_all, nan=1.0), 0.3, 1.5)
+    k_end = np.clip(np.nan_to_num(k_end, nan=1.0), 0.3, 1.5)
     hours_into = config.H3_STEP * (np.arange(config.H3_N) + 1)
     w = np.clip(1.0 - hours_into / 24.0, 0.0, 1.0)
     apply = np.array([mh == "ibi" and m3 == "ecmwf" for mh, m3 in zip(model_h, model_h3)])
-    factor = 1.0 + (ratio[:, None] - 1.0) * w[None, :]
+    factor = k_end[:, None] * w[None, :] + k_all[:, None] * (1.0 - w[None, :])
     factor[~apply] = 1.0
     for f in ["hs"] + PART_H:
         h3[f] = h3[f] * factor

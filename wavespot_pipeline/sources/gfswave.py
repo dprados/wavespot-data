@@ -15,7 +15,6 @@ import numpy as np
 
 from .. import config
 from ..cells import map_cells
-from ..grids import erode_valid
 from .base import SourceData, SourceStatus, decode_grib, extract, http_exists, http_get, log, split_grib
 
 # (shortName, level) -> internal name
@@ -130,8 +129,8 @@ def fetch(spots: list[dict], now: dt.datetime, h_start: dt.datetime, cache_dir: 
         key = fld.grid.signature
         if key not in cache:
             valid = np.isfinite(fld.values)   # HTSGW: defined at every sea cell
-            cache[key], _ = map_cells("gfswave_" + hashlib.md5(key.encode()).hexdigest()[:8], fld.grid,
-                                      lambda: [erode_valid(valid), valid], spots, 40.0, cache_dir)
+            cache[key], _ = map_cells("gfswave2_" + hashlib.md5(key.encode()).hexdigest()[:8], fld.grid,
+                                      [valid], spots, 40.0, cache_dir)
         return cache[key]
 
     per_t: dict[int, dict[str, np.ndarray]] = {}
