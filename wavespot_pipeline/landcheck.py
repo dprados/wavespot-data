@@ -16,6 +16,16 @@ import sys
 import numpy as np
 
 TOLERANCE_M = 25.0
+# Coastal lagoons are water, but OSM land polygons stop at the coastline and
+# count them as land. Spots named as lagoons are exempt from the check.
+LAGOON_WORDS = ("lagoa", "laguna", "lagune", "lagoon", "etang", "étang", "albufera", "mar menor")
+
+
+def is_lagoon(spot: dict) -> bool:
+    names = " ".join([spot.get("name") or ""] + list(spot.get("aliases") or []) + [spot.get("id", "")]).lower()
+    return any(w in names for w in LAGOON_WORDS)
+
+
 OSM_LAND_URL = "https://osmdata.openstreetmap.de/download/land-polygons-split-4326.zip"
 
 
@@ -50,7 +60,7 @@ def main(argv=None) -> int:
 
     args = argv or sys.argv[1:]
     shp, files = args[0], args[1:] or ["data/spots/curated/*.json", "data/seed_spots.json"]
-    spots = [s for s in load_spots(files) if s["layer"] == 2]
+    spots = [s for s in load_spots(files) if s["layer"] == 2 and not is_lagoon(s)]
     bad = inland_points(shp, [(s["id"], s["lat"], s["lon"]) for s in spots])
     for sid, m in bad:
         print(f"{sid}: {m} m inland")

@@ -94,8 +94,8 @@ def test_zone_membership_rules():
 
 @pytest.mark.skipif(not os.environ.get("WAVESPOT_LAND"), reason="needs OSM land polygons (WAVESPOT_LAND=…/land_polygons.shp)")
 def test_layer2_points_not_on_land():
-    from wavespot_pipeline.landcheck import inland_points
+    from wavespot_pipeline.landcheck import inland_points, is_lagoon
 
-    spots = [s for s in load_spots(FILES) if s["layer"] == 2]
+    spots = [s for s in load_spots(FILES) if s["layer"] == 2 and not is_lagoon(s)]
     bad = inland_points(os.environ["WAVESPOT_LAND"], [(s["id"], s["lat"], s["lon"]) for s in spots])
     assert not bad, f"layer-2 points on land: {bad[:20]}"
