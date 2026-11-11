@@ -1,0 +1,6208 @@
+[
+ {
+  "id": "pt-praia-de-moledo",
+  "name": "Moledo",
+  "aliases": [
+   "Praia de Moledo"
+  ],
+  "lat": 41.8484,
+  "lon": -8.8684,
+  "country": "PT",
+  "zone": "pt-minho",
+  "break": "beach",
+  "sports": [
+   "surf",
+   "kite",
+   "windsurf"
+  ],
+  "facing": 274,
+  "window": [
+   210,
+   340
+  ],
+  "bestTide": [
+   "mid",
+   "high"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   244,
+   304
+  ],
+  "bestWind": [
+   49,
+   139
+  ],
+  "kiteWind": [
+   300,
+   20
+  ],
+  "level": "all",
+  "hazards": [
+   "rips"
+  ],
+  "sources": [
+   "https://flysurfbrand.com/en/blogs/surf/surf-norte-de-portugal",
+   "https://www.openstreetmap.org/way/1474542134"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "pt-praia-de-vila-praia-de-ancora",
+  "name": "Vila Praia de Âncora",
+  "aliases": [],
+  "lat": 41.8124,
+  "lon": -8.8666,
+  "country": "PT",
+  "zone": "pt-minho",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 248,
+  "window": [
+   190,
+   340
+  ],
+  "bestTide": [
+   "mid"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   218,
+   278
+  ],
+  "bestWind": [
+   23,
+   113
+  ],
+  "kiteWind": null,
+  "level": "all",
+  "hazards": [
+   "rocks"
+  ],
+  "sources": [
+   "https://flysurfbrand.com/en/blogs/surf/surf-norte-de-portugal",
+   "https://www.travelextra.ie/surf-holidays-in-portugals-porto-e-norte-region/",
+   "https://www.openstreetmap.org/relation/4830178"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "pt-praia-de-afife",
+  "name": "Afife",
+  "aliases": [
+   "Praia de Afife"
+  ],
+  "lat": 41.7863,
+  "lon": -8.8727,
+  "country": "PT",
+  "zone": "pt-minho",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 268,
+  "window": [
+   190,
+   350
+  ],
+  "bestTide": [
+   "mid",
+   "high"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   238,
+   298
+  ],
+  "bestWind": [
+   43,
+   133
+  ],
+  "kiteWind": null,
+  "level": "all",
+  "hazards": [
+   "rips",
+   "rocks"
+  ],
+  "sources": [
+   "https://www.boundlessroads.com/surfing-in-portugal/",
+   "https://www.travelextra.ie/surf-holidays-in-portugals-porto-e-norte-region/",
+   "https://ap-hotelsresorts.com/the-best-beaches-of-viana-do-castelo-a-paradise-on-the-northern-coast/",
+   "https://pt.wikipedia.org/wiki/Afife",
+   "https://www.openstreetmap.org/node/3859586890"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "pt-praia-da-arda",
+  "name": "Praia da Arda",
+  "aliases": [
+   "Arda"
+  ],
+  "lat": 41.7734,
+  "lon": -8.8746,
+  "country": "PT",
+  "zone": "pt-minho",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 282,
+  "window": [
+   195,
+   355
+  ],
+  "bestTide": [
+   "low",
+   "mid"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   252,
+   312
+  ],
+  "bestWind": [
+   57,
+   147
+  ],
+  "kiteWind": null,
+  "level": "intermediate",
+  "hazards": [
+   "currents",
+   "rocks"
+  ],
+  "sources": [
+   "https://www.boundlessroads.com/surfing-in-portugal/",
+   "https://flysurfbrand.com/en/blogs/surf/surf-norte-de-portugal",
+   "https://ap-hotelsresorts.com/the-best-beaches-of-viana-do-castelo-a-paradise-on-the-northern-coast/",
+   "https://www.openstreetmap.org/relation/4830174"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "pt-cabedelo",
+  "name": "Cabedelo (Viana do Castelo)",
+  "aliases": [],
+  "lat": 41.6787,
+  "lon": -8.8357,
+  "country": "PT",
+  "zone": "pt-minho",
+  "break": "beach",
+  "sports": [
+   "surf",
+   "kite",
+   "windsurf"
+  ],
+  "facing": 250,
+  "window": [
+   180,
+   330
+  ],
+  "bestTide": [
+   "low",
+   "mid"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   250,
+   310
+  ],
+  "bestWind": [
+   25,
+   115
+  ],
+  "kiteWind": [
+   280,
+   30
+  ],
+  "level": "all",
+  "hazards": [
+   "currents"
+  ],
+  "notes": "Long dune-backed beach on the south bank of the Lima mouth, best by the breakwater; a reference kite and windsurf spot when the summer north wind blows.",
+  "sources": [
+   "https://www.boundlessroads.com/surfing-in-portugal/",
+   "https://flysurfbrand.com/en/blogs/surf/surf-norte-de-portugal",
+   "https://www.portugalexpert.de/en/porto-beach-guide2/",
+   "https://ap-hotelsresorts.com/the-best-beaches-of-viana-do-castelo-a-paradise-on-the-northern-coast/",
+   "https://www.waterwind.it/new/en/windsurfing/spots/spots-reviews/265-world-other-countries/980-viana-do-castelo-praia-do-cabedelo-portugal.html"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "pt-praia-de-ofir",
+  "name": "Ofir",
+  "aliases": [
+   "Praia de Ofir"
+  ],
+  "lat": 41.5177,
+  "lon": -8.7894,
+  "country": "PT",
+  "zone": "pt-minho",
+  "break": "beach",
+  "sports": [
+   "surf",
+   "kite"
+  ],
+  "facing": 263,
+  "window": [
+   185,
+   340
+  ],
+  "bestTide": [
+   "mid"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   233,
+   293
+  ],
+  "bestWind": [
+   38,
+   128
+  ],
+  "kiteWind": [
+   300,
+   20
+  ],
+  "level": "all",
+  "hazards": [
+   "rips"
+  ],
+  "sources": [
+   "https://www.waterwind.it/new/en/windsurfing/spots/spots-reviews/265-world-other-countries/980-viana-do-castelo-praia-do-cabedelo-portugal.html",
+   "https://www.openstreetmap.org/way/340980132"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "pt-praia-da-apulia",
+  "name": "Apúlia",
+  "aliases": [
+   "Praia da Apúlia"
+  ],
+  "lat": 41.4819,
+  "lon": -8.7795,
+  "country": "PT",
+  "zone": "pt-minho",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 251,
+  "window": [
+   185,
+   335
+  ],
+  "bestTide": [
+   "mid"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   221,
+   281
+  ],
+  "bestWind": [
+   26,
+   116
+  ],
+  "kiteWind": null,
+  "level": "all",
+  "hazards": [
+   "rocks"
+  ],
+  "sources": [
+   "https://www.boundlessroads.com/surfing-in-portugal/",
+   "https://www.travelextra.ie/surf-holidays-in-portugals-porto-e-norte-region/",
+   "https://www.openstreetmap.org/way/1289718115"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "pt-praia-da-estela",
+  "name": "Estela",
+  "aliases": [
+   "Praia da Estela"
+  ],
+  "lat": 41.4538,
+  "lon": -8.7795,
+  "country": "PT",
+  "zone": "pt-minho",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 272,
+  "window": [
+   190,
+   345
+  ],
+  "bestTide": [
+   "mid"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   242,
+   302
+  ],
+  "bestWind": [
+   47,
+   137
+  ],
+  "kiteWind": null,
+  "level": "intermediate",
+  "hazards": [
+   "rips"
+  ],
+  "sources": [
+   "https://www.travelextra.ie/surf-holidays-in-portugals-porto-e-norte-region/",
+   "https://www.openstreetmap.org/node/11066687473"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "pt-agucadoura",
+  "name": "Aguçadoura",
+  "aliases": [
+   "Praia da Aguçadoura"
+  ],
+  "lat": 41.4294,
+  "lon": -8.7849,
+  "country": "PT",
+  "zone": "pt-minho",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 272,
+  "window": [
+   190,
+   350
+  ],
+  "bestTide": [
+   "low",
+   "mid",
+   "high"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   242,
+   302
+  ],
+  "bestWind": [
+   47,
+   137
+  ],
+  "kiteWind": null,
+  "level": "all",
+  "hazards": [
+   "rips"
+  ],
+  "notes": "Exposed, consistent beach break that is usually uncrowded and works through the tide in offshore easterlies.",
+  "sources": [
+   "https://flysurfbrand.com/en/blogs/surf/surf-norte-de-portugal",
+   "https://en.wikipedia.org/wiki/Agu%C3%A7adoura",
+   "https://www.openstreetmap.org/node/5793891495"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "pt-povoa-de-varzim",
+  "name": "Póvoa de Varzim",
+  "aliases": [
+   "Praia da Lagoa"
+  ],
+  "lat": 41.3907,
+  "lon": -8.7762,
+  "country": "PT",
+  "zone": "pt-minho",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 253,
+  "window": [
+   170,
+   340
+  ],
+  "bestTide": [
+   "mid"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   223,
+   283
+  ],
+  "bestWind": [
+   28,
+   118
+  ],
+  "kiteWind": null,
+  "level": "all",
+  "hazards": [
+   "rocks",
+   "crowds"
+  ],
+  "sources": [
+   "https://www.portugalexpert.de/en/porto-beach-guide2/",
+   "https://pt.wikipedia.org/wiki/Praia_da_Lagoa",
+   "https://www.openstreetmap.org/way/953322272"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "pt-vila-do-conde",
+  "name": "Vila do Conde",
+  "aliases": [],
+  "lat": 41.3472,
+  "lon": -8.7553,
+  "country": "PT",
+  "zone": "pt-porto",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 254,
+  "window": [
+   170,
+   335
+  ],
+  "bestTide": [
+   "mid"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   224,
+   284
+  ],
+  "bestWind": [
+   29,
+   119
+  ],
+  "kiteWind": null,
+  "level": "all",
+  "hazards": [
+   "rocks"
+  ],
+  "sources": [
+   "https://flysurfbrand.com/en/blogs/surf/surf-norte-de-portugal",
+   "https://www.travelextra.ie/surf-holidays-in-portugals-porto-e-norte-region/",
+   "https://www.siestacampers.com/blog/best-beaches-in-porto",
+   "https://oportosurfguide.blogspot.com/p/portohomem-do-leme.html"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "pt-azurara",
+  "name": "Azurara",
+  "aliases": [
+   "Praia de Azurara"
+  ],
+  "lat": 41.337,
+  "lon": -8.7427,
+  "country": "PT",
+  "zone": "pt-porto",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 228,
+  "window": [
+   175,
+   330
+  ],
+  "bestTide": [
+   "mid",
+   "high"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   198,
+   258
+  ],
+  "bestWind": [
+   3,
+   93
+  ],
+  "kiteWind": null,
+  "level": "intermediate",
+  "hazards": [
+   "rocks"
+  ],
+  "notes": "Long sandy beach split by old groynes that shape the peaks, sheltered from north wind by the Vila do Conde jetty.",
+  "sources": [
+   "https://flysurfbrand.com/en/blogs/surf/surf-norte-de-portugal",
+   "https://www.travelextra.ie/surf-holidays-in-portugals-porto-e-norte-region/",
+   "https://www.portugalexpert.de/en/porto-beach-guide2/",
+   "https://www.siestacampers.com/blog/surfing-in-porto",
+   "https://www.openstreetmap.org/node/5793891498"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "pt-mindelo",
+  "name": "Mindelo",
+  "aliases": [
+   "Praia de Mindelo"
+  ],
+  "lat": 41.3072,
+  "lon": -8.7402,
+  "country": "PT",
+  "zone": "pt-porto",
+  "break": "reef",
+  "sports": [
+   "surf"
+  ],
+  "facing": 257,
+  "window": [
+   175,
+   340
+  ],
+  "bestTide": [
+   "low",
+   "mid"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   227,
+   287
+  ],
+  "bestWind": [
+   32,
+   122
+  ],
+  "kiteWind": null,
+  "level": "intermediate",
+  "hazards": [
+   "rocks",
+   "reef"
+  ],
+  "sources": [
+   "https://oportosurfguide.blogspot.com/p/portohomem-do-leme.html",
+   "https://www.openstreetmap.org/node/5793579397"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "pt-angeiras",
+  "name": "Angeiras",
+  "aliases": [],
+  "lat": 41.2682,
+  "lon": -8.7287,
+  "country": "PT",
+  "zone": "pt-porto",
+  "break": "reef",
+  "sports": [
+   "surf"
+  ],
+  "facing": 262,
+  "window": [
+   180,
+   340
+  ],
+  "bestTide": [
+   "mid"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   232,
+   292
+  ],
+  "bestWind": [
+   37,
+   127
+  ],
+  "kiteWind": null,
+  "level": "intermediate",
+  "hazards": [
+   "rocks"
+  ],
+  "sources": [
+   "https://www.siestacampers.com/blog/surfing-in-porto",
+   "https://www.openstreetmap.org/node/12634507702"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "pt-praia-de-leca",
+  "name": "Leça da Palmeira",
+  "aliases": [
+   "Praia de Leça"
+  ],
+  "lat": 41.1902,
+  "lon": -8.7083,
+  "country": "PT",
+  "zone": "pt-porto",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 255,
+  "window": [
+   190,
+   330
+  ],
+  "bestTide": [
+   "low",
+   "mid"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   225,
+   285
+  ],
+  "bestWind": [
+   30,
+   120
+  ],
+  "kiteWind": null,
+  "level": "intermediate",
+  "hazards": [
+   "rocks",
+   "crowds"
+  ],
+  "sources": [
+   "https://www.boundlessroads.com/surfing-in-portugal/",
+   "https://www.travelextra.ie/surf-holidays-in-portugals-porto-e-norte-region/",
+   "https://www.portugalexpert.de/en/porto-beach-guide2/",
+   "https://www.siestacampers.com/blog/surfing-in-porto",
+   "https://oportosurfguide.blogspot.com/p/portohomem-do-leme.html",
+   "https://www.openstreetmap.org/way/446746773"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "pt-praia-de-matosinhos",
+  "name": "Matosinhos",
+  "aliases": [
+   "Praia de Matosinhos"
+  ],
+  "lat": 41.1755,
+  "lon": -8.6952,
+  "country": "PT",
+  "zone": "pt-porto",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 212,
+  "window": [
+   170,
+   300
+  ],
+  "bestTide": [
+   "mid",
+   "high"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   220,
+   290
+  ],
+  "bestWind": [
+   347,
+   77
+  ],
+  "kiteWind": null,
+  "level": "beginner",
+  "hazards": [
+   "crowds",
+   "pollution"
+  ],
+  "notes": "Wide city beach sheltered by the Leixões harbour wall, with gentle waves that make it the main learning spot near Porto.",
+  "sources": [
+   "https://www.boundlessroads.com/surfing-in-portugal/",
+   "https://flysurfbrand.com/en/blogs/surf/surf-norte-de-portugal",
+   "https://www.travelextra.ie/surf-holidays-in-portugals-porto-e-norte-region/",
+   "https://www.siestacampers.com/blog/best-beaches-in-porto",
+   "https://www.portugalexpert.de/en/porto-beach-guide2/",
+   "https://www.openstreetmap.org/way/338635402"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "pt-praia-de-miramar",
+  "name": "Miramar",
+  "aliases": [
+   "Praia de Miramar"
+  ],
+  "lat": 41.0659,
+  "lon": -8.6584,
+  "country": "PT",
+  "zone": "pt-porto",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 263,
+  "window": [
+   185,
+   340
+  ],
+  "bestTide": [
+   "mid"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   233,
+   293
+  ],
+  "bestWind": [
+   38,
+   128
+  ],
+  "kiteWind": null,
+  "level": "intermediate",
+  "hazards": [
+   "rocks"
+  ],
+  "sources": [
+   "https://www.travelextra.ie/surf-holidays-in-portugals-porto-e-norte-region/",
+   "https://www.siestacampers.com/blog/best-beaches-in-porto",
+   "https://www.portugal.com/activities-experiences/9-best-beaches-near-porto/",
+   "https://porto.travel/beaches/",
+   "https://www.openstreetmap.org/way/691735987"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "pt-praia-da-aguda",
+  "name": "Aguda",
+  "aliases": [
+   "Praia da Aguda"
+  ],
+  "lat": 41.0468,
+  "lon": -8.6547,
+  "country": "PT",
+  "zone": "pt-porto",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 258,
+  "window": [
+   190,
+   340
+  ],
+  "bestTide": [
+   "mid"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   228,
+   288
+  ],
+  "bestWind": [
+   33,
+   123
+  ],
+  "kiteWind": null,
+  "level": "all",
+  "hazards": [
+   "rocks"
+  ],
+  "sources": [
+   "https://www.siestacampers.com/blog/surfing-in-porto",
+   "https://www.portugal.com/activities-experiences/9-best-beaches-near-porto/",
+   "https://www.openstreetmap.org/way/349169235"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "pt-praia-da-granja",
+  "name": "Granja",
+  "aliases": [
+   "Praia da Granja"
+  ],
+  "lat": 41.04,
+  "lon": -8.6517,
+  "country": "PT",
+  "zone": "pt-porto",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 255,
+  "window": [
+   190,
+   335
+  ],
+  "bestTide": [
+   "mid"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   225,
+   285
+  ],
+  "bestWind": [
+   30,
+   120
+  ],
+  "kiteWind": null,
+  "level": "all",
+  "hazards": [
+   "rips"
+  ],
+  "sources": [
+   "https://porto.travel/beaches/",
+   "https://www.openstreetmap.org/way/691310725"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "pt-praia-da-baia",
+  "name": "Espinho",
+  "aliases": [
+   "Praia da Baía",
+   "Casino"
+  ],
+  "lat": 41.0075,
+  "lon": -8.6477,
+  "country": "PT",
+  "zone": "pt-porto",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 267,
+  "window": [
+   190,
+   340
+  ],
+  "bestTide": [
+   "low",
+   "mid"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   237,
+   297
+  ],
+  "bestWind": [
+   42,
+   132
+  ],
+  "kiteWind": null,
+  "level": "intermediate",
+  "hazards": [
+   "crowds",
+   "shorebreak"
+  ],
+  "notes": "Groyne-divided town beach whose Baía peak hosts national and WSL junior events; powerful and hollow when the banks are good.",
+  "sources": [
+   "https://www.boundlessroads.com/surfing-in-portugal/",
+   "https://flysurfbrand.com/en/blogs/surf/surf-norte-de-portugal",
+   "https://www.travelextra.ie/surf-holidays-in-portugals-porto-e-norte-region/",
+   "https://www.siestacampers.com/blog/best-beaches-in-porto",
+   "https://www.portugalexpert.de/en/porto-beach-guide2/",
+   "https://www.openstreetmap.org/way/62075883"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "pt-praia-de-paramos",
+  "name": "Paramos",
+  "aliases": [],
+  "lat": 40.9804,
+  "lon": -8.6504,
+  "country": "PT",
+  "zone": "pt-porto",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 276,
+  "window": [
+   195,
+   350
+  ],
+  "bestTide": [
+   "mid"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   246,
+   306
+  ],
+  "bestWind": [
+   51,
+   141
+  ],
+  "kiteWind": null,
+  "level": "intermediate",
+  "hazards": [
+   "rips"
+  ],
+  "sources": [
+   "https://www.siestacampers.com/blog/surfing-in-porto",
+   "https://www.openstreetmap.org/way/430526467"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "pt-praia-da-barrinha",
+  "name": "Esmoriz",
+  "aliases": [
+   "Praia de Esmoriz",
+   "Barrinha"
+  ],
+  "lat": 40.9658,
+  "lon": -8.6546,
+  "country": "PT",
+  "zone": "pt-porto",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 279,
+  "window": [
+   195,
+   355
+  ],
+  "bestTide": [
+   "mid"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   249,
+   309
+  ],
+  "bestWind": [
+   54,
+   144
+  ],
+  "kiteWind": null,
+  "level": "intermediate",
+  "hazards": [
+   "rips"
+  ],
+  "sources": [
+   "https://observador.pt/2020/05/25/em-busca-da-onda-perfeita-no-centro-de-portugal/",
+   "https://lifecooler.com/artigo/atividades/praia-de-esmoriz/353256/",
+   "https://www.beportugal.com/surfing-in-portugal/",
+   "https://www.siestacampers.com/blog/surfing-in-porto",
+   "https://www.openstreetmap.org/way/353632228"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "pt-praia-de-cortegaca",
+  "name": "Cortegaça",
+  "aliases": [],
+  "lat": 40.9449,
+  "lon": -8.6592,
+  "country": "PT",
+  "zone": "pt-porto",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 277,
+  "window": [
+   195,
+   355
+  ],
+  "bestTide": [
+   "mid"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   247,
+   307
+  ],
+  "bestWind": [
+   52,
+   142
+  ],
+  "kiteWind": null,
+  "level": "intermediate",
+  "hazards": [
+   "rips"
+  ],
+  "sources": [
+   "https://www.centerofportugal.com/article/beaches-of-aveiro",
+   "https://observador.pt/2020/05/25/em-busca-da-onda-perfeita-no-centro-de-portugal/",
+   "https://lifecooler.com/artigo/dormir/praia-da-cortegaa/353257",
+   "https://www.siestacampers.com/blog/surfing-in-porto",
+   "https://www.openstreetmap.org/way/377934351"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "pt-praia-do-furadouro",
+  "name": "Furadouro",
+  "aliases": [],
+  "lat": 40.8762,
+  "lon": -8.678,
+  "country": "PT",
+  "zone": "pt-aveiro",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 284,
+  "window": [
+   195,
+   5
+  ],
+  "bestTide": [
+   "mid"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   254,
+   314
+  ],
+  "bestWind": [
+   59,
+   149
+  ],
+  "kiteWind": null,
+  "level": "intermediate",
+  "hazards": [
+   "rips"
+  ],
+  "sources": [
+   "https://www.centerofportugal.com/article/beaches-of-aveiro",
+   "https://observador.pt/2020/05/25/em-busca-da-onda-perfeita-no-centro-de-portugal/",
+   "https://www.openstreetmap.org/way/440122681"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "pt-praia-da-torreira",
+  "name": "Torreira",
+  "aliases": [],
+  "lat": 40.7474,
+  "lon": -8.7206,
+  "country": "PT",
+  "zone": "pt-aveiro",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 285,
+  "window": [
+   200,
+   10
+  ],
+  "bestTide": [
+   "mid"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   255,
+   315
+  ],
+  "bestWind": [
+   60,
+   150
+  ],
+  "kiteWind": null,
+  "level": "intermediate",
+  "hazards": [
+   "rips"
+  ],
+  "sources": [
+   "https://www.centerofportugal.com/article/beaches-of-aveiro",
+   "https://observador.pt/2020/05/25/em-busca-da-onda-perfeita-no-centro-de-portugal/",
+   "https://www.openstreetmap.org/way/232655636"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "pt-praia-de-sao-jacinto",
+  "name": "São Jacinto",
+  "aliases": [],
+  "lat": 40.6765,
+  "lon": -8.7471,
+  "country": "PT",
+  "zone": "pt-aveiro",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 288,
+  "window": [
+   205,
+   15
+  ],
+  "bestTide": [
+   "mid"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   258,
+   318
+  ],
+  "bestWind": [
+   63,
+   153
+  ],
+  "kiteWind": null,
+  "level": "intermediate",
+  "hazards": [
+   "rips",
+   "currents"
+  ],
+  "sources": [
+   "https://www.centerofportugal.com/article/beaches-of-aveiro",
+   "https://observador.pt/2020/05/25/em-busca-da-onda-perfeita-no-centro-de-portugal/",
+   "https://www.openstreetmap.org/way/221058079"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "pt-praia-da-barra-2",
+  "name": "Praia da Barra",
+  "aliases": [
+   "Barra"
+  ],
+  "lat": 40.6371,
+  "lon": -8.7509,
+  "country": "PT",
+  "zone": "pt-aveiro",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 264,
+  "window": [
+   195,
+   310
+  ],
+  "bestTide": [
+   "low",
+   "mid"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   234,
+   294
+  ],
+  "bestWind": [
+   39,
+   129
+  ],
+  "kiteWind": null,
+  "level": "all",
+  "hazards": [
+   "currents",
+   "crowds"
+  ],
+  "notes": "Beach just south of the Aveiro harbour jetty with several peaks; rarely flat and the busiest surf spot of the Aveiro coast.",
+  "sources": [
+   "https://observador.pt/2020/05/25/em-busca-da-onda-perfeita-no-centro-de-portugal/",
+   "https://www.siestacampers.com/blog/surfing-in-porto",
+   "https://www.openstreetmap.org/way/168740954"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "pt-praia-da-costa-nova",
+  "name": "Costa Nova",
+  "aliases": [],
+  "lat": 40.619,
+  "lon": -8.7547,
+  "country": "PT",
+  "zone": "pt-aveiro",
+  "break": "beach",
+  "sports": [
+   "surf",
+   "kite"
+  ],
+  "facing": 276,
+  "window": [
+   195,
+   345
+  ],
+  "bestTide": [
+   "mid"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   246,
+   306
+  ],
+  "bestWind": [
+   51,
+   141
+  ],
+  "kiteWind": [
+   290,
+   20
+  ],
+  "level": "all",
+  "hazards": [
+   "rips"
+  ],
+  "sources": [
+   "https://www.centerofportugal.com/article/beaches-of-aveiro",
+   "https://observador.pt/2020/05/25/em-busca-da-onda-perfeita-no-centro-de-portugal/",
+   "https://www.openstreetmap.org/way/301852964"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "pt-praia-de-mira",
+  "name": "Praia de Mira",
+  "aliases": [
+   "Mira"
+  ],
+  "lat": 40.4537,
+  "lon": -8.8066,
+  "country": "PT",
+  "zone": "pt-aveiro",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 285,
+  "window": [
+   195,
+   10
+  ],
+  "bestTide": [
+   "mid"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   255,
+   315
+  ],
+  "bestWind": [
+   60,
+   150
+  ],
+  "kiteWind": null,
+  "level": "intermediate",
+  "hazards": [
+   "rips"
+  ],
+  "sources": [
+   "https://observador.pt/2020/05/25/em-busca-da-onda-perfeita-no-centro-de-portugal/",
+   "https://www.openstreetmap.org/way/253988846"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "pt-praia-da-murtinheira",
+  "name": "Murtinheira",
+  "aliases": [],
+  "lat": 40.2032,
+  "lon": -8.9026,
+  "country": "PT",
+  "zone": "pt-figueira-leiria",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 290,
+  "window": [
+   200,
+   15
+  ],
+  "bestTide": [
+   "mid"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   260,
+   320
+  ],
+  "bestWind": [
+   65,
+   155
+  ],
+  "kiteWind": null,
+  "level": "intermediate",
+  "hazards": [
+   "rips",
+   "rocks"
+  ],
+  "sources": [
+   "https://observador.pt/2020/05/25/em-busca-da-onda-perfeita-no-centro-de-portugal/",
+   "https://surfingfigueira.com/en/blog/222/surfing-in-figueira-da-foz-discover-the-queen-of-beaches/",
+   "https://www.openstreetmap.org/way/298821364"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "pt-buarcos",
+  "name": "Buarcos",
+  "aliases": [],
+  "lat": 40.1627,
+  "lon": -8.8803,
+  "country": "PT",
+  "zone": "pt-figueira-leiria",
+  "break": "point",
+  "sports": [
+   "surf"
+  ],
+  "facing": 236,
+  "window": [
+   190,
+   320
+  ],
+  "bestTide": [
+   "mid"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   260,
+   320
+  ],
+  "bestWind": [
+   11,
+   101
+  ],
+  "kiteWind": null,
+  "level": "intermediate",
+  "hazards": [
+   "rocks"
+  ],
+  "notes": "Right-hand point that wraps along Buarcos bay, sheltered from north wind; rides of a few hundred metres on a big clean swell.",
+  "sources": [
+   "https://www.boundlessroads.com/surfing-in-portugal/",
+   "https://surfingfigueira.com/en/blog/693/surf-spots-in-figueira-da-foz-discover-the-main-ones/",
+   "https://observador.pt/2020/05/25/em-busca-da-onda-perfeita-no-centro-de-portugal/",
+   "https://www.beportugal.com/surfing-in-portugal/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "pt-praia-do-cabedelo-4",
+  "name": "Cabedelo (Figueira da Foz)",
+  "aliases": [
+   "Cabedelo"
+  ],
+  "lat": 40.138,
+  "lon": -8.8643,
+  "country": "PT",
+  "zone": "pt-figueira-leiria",
+  "break": "rivermouth",
+  "sports": [
+   "surf"
+  ],
+  "facing": 265,
+  "window": [
+   200,
+   310
+  ],
+  "bestTide": [
+   "low",
+   "mid"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   235,
+   295
+  ],
+  "bestWind": [
+   40,
+   130
+  ],
+  "kiteWind": null,
+  "level": "intermediate",
+  "hazards": [
+   "crowds",
+   "currents"
+  ],
+  "notes": "Long right on the south side of the Mondego mouth, protected from north wind by the breakwater; historic national and international contest venue.",
+  "sources": [
+   "https://www.boundlessroads.com/surfing-in-portugal/",
+   "https://surfingfigueira.com/en/blog/693/surf-spots-in-figueira-da-foz-discover-the-main-ones/",
+   "https://observador.pt/2020/05/25/em-busca-da-onda-perfeita-no-centro-de-portugal/",
+   "https://www.centerofportugal.com/things-to-do/beaches-surf?page=2",
+   "https://www.beportugal.com/surfing-in-portugal/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "pt-praia-da-cova-gala",
+  "name": "Cova Gala",
+  "aliases": [
+   "Cova-Gala"
+  ],
+  "lat": 40.123,
+  "lon": -8.8651,
+  "country": "PT",
+  "zone": "pt-figueira-leiria",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 271,
+  "window": [
+   200,
+   330
+  ],
+  "bestTide": [
+   "mid"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   241,
+   301
+  ],
+  "bestWind": [
+   46,
+   136
+  ],
+  "kiteWind": null,
+  "level": "intermediate",
+  "hazards": [
+   "currents"
+  ],
+  "sources": [
+   "https://surfingfigueira.com/en/blog/693/surf-spots-in-figueira-da-foz-discover-the-main-ones/",
+   "https://www.openstreetmap.org/way/212896662"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "pt-praia-sao-pedro-de-moel",
+  "name": "São Pedro de Moel",
+  "aliases": [],
+  "lat": 39.755,
+  "lon": -9.0346,
+  "country": "PT",
+  "zone": "pt-figueira-leiria",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 288,
+  "window": [
+   200,
+   15
+  ],
+  "bestTide": [
+   "low",
+   "mid"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   258,
+   318
+  ],
+  "bestWind": [
+   63,
+   153
+  ],
+  "kiteWind": null,
+  "level": "intermediate",
+  "hazards": [
+   "rocks"
+  ],
+  "sources": [
+   "https://www.centerofportugal.com/things-to-do/beaches-surf?page=2",
+   "https://www.openstreetmap.org/way/208735252"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "pt-praia-de-paredes-de-vitoria",
+  "name": "Paredes da Vitória",
+  "aliases": [],
+  "lat": 39.7028,
+  "lon": -9.0524,
+  "country": "PT",
+  "zone": "pt-figueira-leiria",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 278,
+  "window": [
+   200,
+   5
+  ],
+  "bestTide": [
+   "mid"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   248,
+   308
+  ],
+  "bestWind": [
+   53,
+   143
+  ],
+  "kiteWind": null,
+  "level": "intermediate",
+  "hazards": [
+   "rips"
+  ],
+  "sources": [
+   "https://www.centerofportugal.com/things-to-do/beaches-surf?page=2",
+   "https://www.openstreetmap.org/way/203028083"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "pt-norte-nazare",
+  "name": "Praia do Norte (Nazaré)",
+  "aliases": [
+   "Praia do Norte"
+  ],
+  "lat": 39.6123,
+  "lon": -9.0867,
+  "country": "PT",
+  "zone": "pt-nazare",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 284,
+  "window": [
+   215,
+   15
+  ],
+  "bestTide": [],
+  "dangerTide": [],
+  "bestSwell": [
+   260,
+   320
+  ],
+  "bestWind": [
+   59,
+   149
+  ],
+  "kiteWind": null,
+  "level": "advanced",
+  "hazards": [
+   "currents",
+   "shorebreak",
+   "rocks"
+  ],
+  "notes": "Big-wave beach focused by the Nazaré submarine canyon; giant days are tow-in territory and the shorebreak is deadly.",
+  "sources": [
+   "https://www.boundlessroads.com/surfing-in-portugal/",
+   "https://lisboasecreta.co/en/surf-spots-guide-lisbon-surroundings/",
+   "https://www.rapturecamps.com/surfcamp/portugal/surf-spots",
+   "https://observador.pt/2020/05/25/em-busca-da-onda-perfeita-no-centro-de-portugal/",
+   "https://www.vagamundos.pt/melhores-praias-do-oeste-portugal/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "pt-praia-da-nazare",
+  "name": "Nazaré (Praia da Vila)",
+  "aliases": [
+   "Praia da Nazaré"
+  ],
+  "lat": 39.5991,
+  "lon": -9.0757,
+  "country": "PT",
+  "zone": "pt-nazare",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 272,
+  "window": [
+   220,
+   320
+  ],
+  "bestTide": [
+   "mid"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   242,
+   302
+  ],
+  "bestWind": [
+   47,
+   137
+  ],
+  "kiteWind": null,
+  "level": "beginner",
+  "hazards": [
+   "crowds"
+  ],
+  "sources": [
+   "https://pt.wikipedia.org/wiki/Nazar%C3%A9_%28Portugal%29",
+   "https://www.openstreetmap.org/relation/6143763"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "pt-praia-do-salgado",
+  "name": "Praia do Salgado",
+  "aliases": [
+   "Salgado"
+  ],
+  "lat": 39.5567,
+  "lon": -9.106,
+  "country": "PT",
+  "zone": "pt-nazare",
+  "break": "beach",
+  "sports": [
+   "surf",
+   "kite"
+  ],
+  "facing": 302,
+  "window": [
+   225,
+   15
+  ],
+  "bestTide": [
+   "mid"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   272,
+   332
+  ],
+  "bestWind": [
+   77,
+   167
+  ],
+  "kiteWind": [
+   320,
+   30
+  ],
+  "level": "intermediate",
+  "hazards": [
+   "rips",
+   "currents"
+  ],
+  "sources": [
+   "https://www.boundlessroads.com/surfing-in-portugal/",
+   "https://www.openstreetmap.org/relation/6171559"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "pt-foz-do-arelho",
+  "name": "Foz do Arelho",
+  "aliases": [],
+  "lat": 39.4334,
+  "lon": -9.2324,
+  "country": "PT",
+  "zone": "pt-peniche",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 317,
+  "window": [
+   245,
+   30
+  ],
+  "bestTide": [
+   "mid"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   287,
+   347
+  ],
+  "bestWind": [
+   92,
+   182
+  ],
+  "kiteWind": null,
+  "level": "intermediate",
+  "hazards": [
+   "currents",
+   "shorebreak"
+  ],
+  "sources": [
+   "https://www.vagamundos.pt/melhores-praias-do-oeste-portugal/",
+   "https://en.wikipedia.org/wiki/Foz_do_Arelho",
+   "https://www.openstreetmap.org/way/531929108"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "pt-lagoa-de-obidos",
+  "name": "Lagoa de Óbidos",
+  "aliases": [],
+  "lat": 39.4185,
+  "lon": -9.215,
+  "country": "PT",
+  "zone": "pt-peniche",
+  "break": "beach",
+  "sports": [
+   "kite",
+   "windsurf"
+  ],
+  "facing": 317,
+  "window": [
+   245,
+   30
+  ],
+  "bestTide": [],
+  "dangerTide": [],
+  "bestSwell": null,
+  "bestWind": null,
+  "kiteWind": [
+   300,
+   30
+  ],
+  "level": "beginner",
+  "hazards": [
+   "currents"
+  ],
+  "notes": "Shallow lagoon behind Foz do Arelho; flat-water kite and windsurf spot in the summer north wind.",
+  "sources": [
+   "https://www.vagamundos.pt/melhores-praias-do-oeste-portugal/",
+   "https://www.timeout.pt/lisboa/pt/coisas-para-fazer/as-melhores-praias-do-oeste",
+   "https://eurocityguide.com/portugal/nazare-beach-guide"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "pt-praia-del-rey",
+  "name": "Praia d'El Rey",
+  "aliases": [
+   "Praia d'el Rei",
+   "Praia del Rey"
+  ],
+  "lat": 39.3931,
+  "lon": -9.2908,
+  "country": "PT",
+  "zone": "pt-peniche",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 326,
+  "window": [
+   260,
+   40
+  ],
+  "bestTide": [
+   "mid"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   296,
+   356
+  ],
+  "bestWind": [
+   101,
+   191
+  ],
+  "kiteWind": null,
+  "level": "intermediate",
+  "hazards": [
+   "rips"
+  ],
+  "sources": [
+   "https://wavesnbackpack.com/en/surfing-in-peniche/"
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "pt-almagreira",
+  "name": "Almagreira",
+  "aliases": [
+   "Praia da Almagreira"
+  ],
+  "lat": 39.3805,
+  "lon": -9.3138,
+  "country": "PT",
+  "zone": "pt-peniche",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 336,
+  "window": [
+   285,
+   40
+  ],
+  "bestTide": [
+   "mid",
+   "high"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   290,
+   360
+  ],
+  "bestWind": [
+   111,
+   201
+  ],
+  "kiteWind": null,
+  "level": "intermediate",
+  "hazards": [
+   "rocks",
+   "currents"
+  ],
+  "sources": [
+   "https://www.visitportugal.com/en/node/419041",
+   "https://www.boundlessroads.com/surfing-in-portugal/",
+   "https://observador.pt/2020/05/25/em-busca-da-onda-perfeita-no-centro-de-portugal/",
+   "https://esim.holafly.com/es/blog/consejos-viaje/surf-peniche/",
+   "https://www.surfnesslodge.com/en/surfing-in-peniche-complete-guide-to-the-best-spots-from-supertubos-to-lagido/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "pt-praia-do-lagido",
+  "name": "Lagide",
+  "aliases": [
+   "Lagido",
+   "Praia do Lagido"
+  ],
+  "lat": 39.3745,
+  "lon": -9.3321,
+  "country": "PT",
+  "zone": "pt-peniche",
+  "break": "reef",
+  "sports": [
+   "surf"
+  ],
+  "facing": 344,
+  "window": [
+   290,
+   40
+  ],
+  "bestTide": [
+   "low",
+   "mid"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   314,
+   14
+  ],
+  "bestWind": [
+   119,
+   209
+  ],
+  "kiteWind": null,
+  "level": "all",
+  "hazards": [
+   "reef",
+   "crowds"
+  ],
+  "notes": "Flat reef at the east end of Baleal bay with lefts and rights; works in westerly and southerly wind when the north coast is blown out.",
+  "sources": [
+   "https://www.visitportugal.com/en/node/419041",
+   "https://www.boundlessroads.com/surfing-in-portugal/",
+   "https://www.rapturecamps.com/surfcamp/portugal/surf-spots",
+   "https://www.campervanlife.com/travel-guide/europe/portugal/surfing-peniche/",
+   "https://esim.holafly.com/es/blog/consejos-viaje/surf-peniche/",
+   "https://www.openstreetmap.org/way/138709035"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "pt-cantinho-da-baia",
+  "name": "Cantinho da Baía",
+  "aliases": [
+   "Baleal Sul"
+  ],
+  "lat": 39.3712,
+  "lon": -9.3401,
+  "country": "PT",
+  "zone": "pt-peniche",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 352,
+  "window": [
+   315,
+   45
+  ],
+  "bestTide": [
+   "mid",
+   "high"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   322,
+   22
+  ],
+  "bestWind": [
+   127,
+   217
+  ],
+  "kiteWind": null,
+  "level": "beginner",
+  "hazards": [
+   "crowds"
+  ],
+  "sources": [
+   "https://wavesnbackpack.com/en/surfing-in-peniche/",
+   "https://www.surfnesslodge.com/en/surfing-in-peniche-complete-guide-to-the-best-spots-from-supertubos-to-lagido/",
+   "https://www.openstreetmap.org/way/475503978"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "pt-praia-do-baleal",
+  "name": "Baleal",
+  "aliases": [
+   "Praia do Baleal",
+   "Baleal Norte"
+  ],
+  "lat": 39.3631,
+  "lon": -9.3511,
+  "country": "PT",
+  "zone": "pt-peniche",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 341,
+  "window": [
+   305,
+   25
+  ],
+  "bestTide": [
+   "low",
+   "mid",
+   "high"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   311,
+   11
+  ],
+  "bestWind": [
+   116,
+   206
+  ],
+  "kiteWind": null,
+  "level": "beginner",
+  "hazards": [
+   "crowds"
+  ],
+  "notes": "Curved bay between Peniche and the Baleal tombolo with many peaks; the main learning area of Peniche and offshore in southerly winds.",
+  "sources": [
+   "https://www.boundlessroads.com/surfing-in-portugal/",
+   "https://www.rapturecamps.com/surfcamp/portugal/surf-spots",
+   "https://www.campervanlife.com/travel-guide/europe/portugal/surfing-peniche/",
+   "https://observador.pt/2020/05/25/em-busca-da-onda-perfeita-no-centro-de-portugal/",
+   "https://www.vagamundos.pt/melhores-praias-do-oeste-portugal/",
+   "https://www.openstreetmap.org/way/138709494"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "pt-peniche-de-cima",
+  "name": "Peniche de Cima",
+  "aliases": [
+   "Praia de Peniche de Cima"
+  ],
+  "lat": 39.3631,
+  "lon": -9.3675,
+  "country": "PT",
+  "zone": "pt-peniche",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 4,
+  "window": [
+   320,
+   40
+  ],
+  "bestTide": [
+   "mid",
+   "high"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   334,
+   34
+  ],
+  "bestWind": [
+   139,
+   229
+  ],
+  "kiteWind": null,
+  "level": "beginner",
+  "hazards": [
+   "crowds"
+  ],
+  "sources": [
+   "https://www.vagamundos.pt/melhores-praias-do-oeste-portugal/"
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "pt-gamboa",
+  "name": "Gamboa",
+  "aliases": [
+   "Praia da Gamboa"
+  ],
+  "lat": 39.3656,
+  "lon": -9.3718,
+  "country": "PT",
+  "zone": "pt-peniche",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 10,
+  "window": [
+   310,
+   50
+  ],
+  "bestTide": [
+   "mid"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   340,
+   40
+  ],
+  "bestWind": [
+   145,
+   235
+  ],
+  "kiteWind": null,
+  "level": "intermediate",
+  "hazards": [
+   "rocks"
+  ],
+  "sources": [
+   "https://www.vagamundos.pt/melhores-praias-do-oeste-portugal/",
+   "https://www.centerofportugal.com/article/surf-schools-surf-houses-in-peniche",
+   "https://www.openstreetmap.org/node/5330894324"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "pt-spot-de-surf-do-molhe-leste",
+  "name": "Molhe Leste",
+  "aliases": [],
+  "lat": 39.3495,
+  "lon": -9.3692,
+  "country": "PT",
+  "zone": "pt-peniche",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 222,
+  "window": [
+   180,
+   290
+  ],
+  "bestTide": [
+   "mid",
+   "high"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   190,
+   260
+  ],
+  "bestWind": [
+   357,
+   87
+  ],
+  "kiteWind": null,
+  "level": "intermediate",
+  "hazards": [
+   "crowds",
+   "rocks"
+  ],
+  "notes": "Right-hand sandbar against the east breakwater of Peniche harbour; a softer option next to Supertubos on southwest swell.",
+  "sources": [
+   "https://www.visitportugal.com/en/node/419041",
+   "https://www.rapturecamps.com/surfcamp/portugal/surf-spots",
+   "https://observador.pt/2020/05/25/em-busca-da-onda-perfeita-no-centro-de-portugal/",
+   "https://www.vagamundos.pt/melhores-praias-do-oeste-portugal/",
+   "https://esim.holafly.com/es/blog/consejos-viaje/surf-peniche/",
+   "https://www.openstreetmap.org/node/5422670882"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "pt-spot-de-surf-supertubos",
+  "name": "Supertubos",
+  "aliases": [
+   "Medão Grande",
+   "Praia do Medão"
+  ],
+  "lat": 39.3456,
+  "lon": -9.3659,
+  "country": "PT",
+  "zone": "pt-peniche",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 239,
+  "window": [
+   180,
+   290
+  ],
+  "bestTide": [
+   "low",
+   "mid"
+  ],
+  "dangerTide": [
+   "low"
+  ],
+  "bestSwell": [
+   220,
+   290
+  ],
+  "bestWind": [
+   14,
+   104
+  ],
+  "kiteWind": null,
+  "level": "advanced",
+  "hazards": [
+   "shorebreak",
+   "crowds",
+   "currents"
+  ],
+  "notes": "Hollow, shallow sandbar barrels a short walk from Peniche harbour; venue of the WSL Championship Tour event.",
+  "sources": [
+   "https://www.visitportugal.com/en/node/419041",
+   "https://www.boundlessroads.com/surfing-in-portugal/",
+   "https://www.rapturecamps.com/surfcamp/portugal/surf-spots",
+   "https://www.campervanlife.com/travel-guide/europe/portugal/surfing-peniche/",
+   "https://observador.pt/2020/05/25/em-busca-da-onda-perfeita-no-centro-de-portugal/",
+   "https://www.openstreetmap.org/node/5426686211"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "pt-praia-da-consolacao",
+  "name": "Consolação",
+  "aliases": [
+   "Praia da Consolação"
+  ],
+  "lat": 39.3385,
+  "lon": -9.3624,
+  "country": "PT",
+  "zone": "pt-peniche",
+  "break": "reef",
+  "sports": [
+   "surf"
+  ],
+  "facing": 250,
+  "window": [
+   185,
+   300
+  ],
+  "bestTide": [
+   "low",
+   "mid"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   220,
+   280
+  ],
+  "bestWind": [
+   25,
+   115
+  ],
+  "kiteWind": null,
+  "level": "intermediate",
+  "hazards": [
+   "rocks",
+   "reef"
+  ],
+  "sources": [
+   "https://www.visitportugal.com/en/node/419041",
+   "https://www.boundlessroads.com/surfing-in-portugal/",
+   "https://www.rapturecamps.com/surfcamp/portugal/surf-spots",
+   "https://observador.pt/2020/05/25/em-busca-da-onda-perfeita-no-centro-de-portugal/",
+   "https://www.vagamundos.pt/melhores-praias-do-oeste-portugal/",
+   "https://www.openstreetmap.org/way/530345667"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "pt-praia-da-areia-branca-2",
+  "name": "Areia Branca",
+  "aliases": [
+   "Praia da Areia Branca"
+  ],
+  "lat": 39.2663,
+  "lon": -9.3377,
+  "country": "PT",
+  "zone": "pt-peniche",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 272,
+  "window": [
+   200,
+   330
+  ],
+  "bestTide": [
+   "mid"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   242,
+   302
+  ],
+  "bestWind": [
+   47,
+   137
+  ],
+  "kiteWind": null,
+  "level": "all",
+  "hazards": [
+   "rips"
+  ],
+  "sources": [
+   "https://www.vagamundos.pt/melhores-praias-do-oeste-portugal/",
+   "https://www.waterwind.it/new/en/windsurfing/reports-and-photos/session-reports/1843-the-spots-of-lourinha-areia-branca-,-and-ericeira,-portugal.html",
+   "https://www.openstreetmap.org/relation/1446589"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "pt-praia-de-porto-novo",
+  "name": "Porto Novo",
+  "aliases": [],
+  "lat": 39.1779,
+  "lon": -9.3578,
+  "country": "PT",
+  "zone": "pt-ericeira",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 278,
+  "window": [
+   210,
+   350
+  ],
+  "bestTide": [
+   "mid"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   248,
+   308
+  ],
+  "bestWind": [
+   53,
+   143
+  ],
+  "kiteWind": null,
+  "level": "intermediate",
+  "hazards": [
+   "rips"
+  ],
+  "sources": [
+   "https://www.pousadasjuventude.pt/en/community/itineraries/santa-cruz/",
+   "https://www.openstreetmap.org/way/130301682"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "pt-santa-cruz",
+  "name": "Santa Cruz",
+  "aliases": [],
+  "lat": 39.137,
+  "lon": -9.3839,
+  "country": "PT",
+  "zone": "pt-ericeira",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 294,
+  "window": [
+   210,
+   5
+  ],
+  "bestTide": [
+   "mid"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   264,
+   324
+  ],
+  "bestWind": [
+   69,
+   159
+  ],
+  "kiteWind": null,
+  "level": "all",
+  "hazards": [
+   "rocks",
+   "rips"
+  ],
+  "sources": [
+   "https://www.rapturecamps.com/surfcamp/portugal/surf-spots",
+   "https://observador.pt/2020/05/25/em-busca-da-onda-perfeita-no-centro-de-portugal/",
+   "https://www.vagamundos.pt/melhores-praias-do-oeste-portugal/",
+   "https://www.pousadasjuventude.pt/en/community/itineraries/santa-cruz/",
+   "https://www.centerofportugal.com/article/surf-schools-surf-houses-in-peniche"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "pt-azul",
+  "name": "Praia Azul",
+  "aliases": [],
+  "lat": 39.115,
+  "lon": -9.3945,
+  "country": "PT",
+  "zone": "pt-ericeira",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 284,
+  "window": [
+   210,
+   10
+  ],
+  "bestTide": [
+   "mid"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   254,
+   314
+  ],
+  "bestWind": [
+   59,
+   149
+  ],
+  "kiteWind": null,
+  "level": "all",
+  "hazards": [
+   "rips"
+  ],
+  "sources": [
+   "https://observador.pt/2020/05/25/em-busca-da-onda-perfeita-no-centro-de-portugal/",
+   "https://www.centerofportugal.com/article/surf-schools-surf-houses-in-peniche"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "pt-praia-da-foz-do-sizandro",
+  "name": "Foz do Sizandro",
+  "aliases": [],
+  "lat": 39.1109,
+  "lon": -9.397,
+  "country": "PT",
+  "zone": "pt-ericeira",
+  "break": "rivermouth",
+  "sports": [
+   "surf"
+  ],
+  "facing": 297,
+  "window": [
+   215,
+   15
+  ],
+  "bestTide": [
+   "mid"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   267,
+   327
+  ],
+  "bestWind": [
+   72,
+   162
+  ],
+  "kiteWind": null,
+  "level": "intermediate",
+  "hazards": [
+   "currents"
+  ],
+  "sources": [
+   "https://www.pousadasjuventude.pt/en/community/itineraries/santa-cruz/",
+   "https://www.openstreetmap.org/way/25695681"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "pt-praia-de-sao-lourenco",
+  "name": "São Lourenço",
+  "aliases": [],
+  "lat": 39.0119,
+  "lon": -9.4233,
+  "country": "PT",
+  "zone": "pt-ericeira",
+  "break": "reef",
+  "sports": [
+   "surf"
+  ],
+  "facing": 280,
+  "window": [
+   195,
+   0
+  ],
+  "bestTide": [
+   "mid"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   280,
+   330
+  ],
+  "bestWind": [
+   45,
+   135
+  ],
+  "kiteWind": null,
+  "level": "advanced",
+  "hazards": [
+   "rocks",
+   "reef"
+  ],
+  "notes": "Northernmost wave of the Ericeira surfing reserve: a heavy right over rock in front of a sandy bay, best on big northwest swell.",
+  "sources": [
+   "https://www.rhlt.pt/en/portfolio/world-surfing-reserve/",
+   "https://www.rapturecamps.com/surfcamp/portugal/surf-spots",
+   "https://www.timeout.pt/lisboa/pt/coisas-para-fazer/as-melhores-praias-do-oeste",
+   "https://www.openstreetmap.org/way/27264077"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "pt-praia-dos-coxos",
+  "name": "Coxos",
+  "aliases": [],
+  "lat": 39.0051,
+  "lon": -9.4263,
+  "country": "PT",
+  "zone": "pt-ericeira",
+  "break": "reef",
+  "sports": [
+   "surf"
+  ],
+  "facing": 280,
+  "window": [
+   195,
+   0
+  ],
+  "bestTide": [
+   "mid",
+   "high"
+  ],
+  "dangerTide": [
+   "low"
+  ],
+  "bestSwell": [
+   285,
+   335
+  ],
+  "bestWind": [
+   45,
+   135
+  ],
+  "kiteWind": null,
+  "level": "advanced",
+  "hazards": [
+   "rocks",
+   "reef",
+   "localism",
+   "crowds"
+  ],
+  "notes": "Hollow, powerful right over a rock shelf in a small cove; one of the most demanding waves of the Ericeira reserve.",
+  "sources": [
+   "https://www.rhlt.pt/en/portfolio/world-surfing-reserve/",
+   "https://lisboasecreta.co/en/surf-spots-guide-lisbon-surroundings/",
+   "https://www.rapturecamps.com/surfcamp/portugal/surf-spots",
+   "https://www.siestacampers.com/blog/surfing-lisbon-7-best-surf-spots-close-to-town",
+   "https://www.visitlisboa.com/en/p/surf",
+   "https://www.openstreetmap.org/way/27264941"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "pt-crazy-left",
+  "name": "Crazy Left",
+  "aliases": [],
+  "lat": 38.9974,
+  "lon": -9.4265,
+  "country": "PT",
+  "zone": "pt-ericeira",
+  "break": "reef",
+  "sports": [
+   "surf"
+  ],
+  "facing": 274,
+  "window": [
+   195,
+   0
+  ],
+  "bestTide": [
+   "mid",
+   "high"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   244,
+   304
+  ],
+  "bestWind": [
+   45,
+   135
+  ],
+  "kiteWind": null,
+  "level": "advanced",
+  "hazards": [
+   "rocks",
+   "reef"
+  ],
+  "sources": [
+   "https://www.rhlt.pt/en/portfolio/world-surfing-reserve/",
+   "https://www.ericeiramag.pt/en/video-of-the-week-57/",
+   "https://www.openstreetmap.org/node/3685989445"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "pt-cave",
+  "name": "Cave",
+  "aliases": [
+   "Cave Ericeira"
+  ],
+  "lat": 38.9923,
+  "lon": -9.425,
+  "country": "PT",
+  "zone": "pt-ericeira",
+  "break": "reef",
+  "sports": [
+   "surf"
+  ],
+  "facing": 265,
+  "window": [
+   195,
+   350
+  ],
+  "bestTide": [
+   "low",
+   "mid"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   235,
+   295
+  ],
+  "bestWind": [
+   45,
+   135
+  ],
+  "kiteWind": null,
+  "level": "advanced",
+  "hazards": [
+   "reef",
+   "rocks"
+  ],
+  "sources": [
+   "https://www.rhlt.pt/en/portfolio/world-surfing-reserve/",
+   "https://www.ericeiramag.pt/en/video-of-the-week-57/"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "pt-praia-ribeira-d-ilhas",
+  "name": "Ribeira d'Ilhas",
+  "aliases": [
+   "Ribeira de Ilhas"
+  ],
+  "lat": 38.9868,
+  "lon": -9.4206,
+  "country": "PT",
+  "zone": "pt-ericeira",
+  "break": "point",
+  "sports": [
+   "surf"
+  ],
+  "facing": 256,
+  "window": [
+   195,
+   345
+  ],
+  "bestTide": [
+   "mid"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   280,
+   330
+  ],
+  "bestWind": [
+   45,
+   135
+  ],
+  "kiteWind": null,
+  "level": "all",
+  "hazards": [
+   "rocks",
+   "crowds"
+  ],
+  "notes": "Long right-hand point over rock and cobble at the heart of the Ericeira reserve; regular venue of WSL events.",
+  "sources": [
+   "https://www.rhlt.pt/en/portfolio/world-surfing-reserve/",
+   "https://lisboasecreta.co/en/surf-spots-guide-lisbon-surroundings/",
+   "https://www.rapturecamps.com/surfcamp/portugal/surf-spots",
+   "https://www.visitlisboa.com/en/p/surf",
+   "https://www.roughguides.com/portugal/ericeira-travel-guide/",
+   "https://www.openstreetmap.org/way/27265003"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "pt-reef-ericeira",
+  "name": "Reef",
+  "aliases": [
+   "The Reef"
+  ],
+  "lat": 38.9815,
+  "lon": -9.4225,
+  "country": "PT",
+  "zone": "pt-ericeira",
+  "break": "reef",
+  "sports": [
+   "surf"
+  ],
+  "facing": 275,
+  "window": [
+   200,
+   350
+  ],
+  "bestTide": [
+   "mid",
+   "high"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   245,
+   305
+  ],
+  "bestWind": [
+   45,
+   135
+  ],
+  "kiteWind": null,
+  "level": "intermediate",
+  "hazards": [
+   "reef",
+   "rocks"
+  ],
+  "sources": [
+   "https://www.rhlt.pt/en/portfolio/world-surfing-reserve/",
+   "https://www.rapturecamps.com/surfcamp/portugal/surf-spots",
+   "https://esim.holafly.com/es/blog/consejos-viaje/surf-peniche/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "pt-pedra-branca",
+  "name": "Pedra Branca",
+  "aliases": [],
+  "lat": 38.9775,
+  "lon": -9.4225,
+  "country": "PT",
+  "zone": "pt-ericeira",
+  "break": "reef",
+  "sports": [
+   "surf"
+  ],
+  "facing": 271,
+  "window": [
+   200,
+   350
+  ],
+  "bestTide": [
+   "low",
+   "mid"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   270,
+   320
+  ],
+  "bestWind": [
+   45,
+   135
+  ],
+  "kiteWind": null,
+  "level": "advanced",
+  "hazards": [
+   "reef",
+   "rocks",
+   "crowds"
+  ],
+  "notes": "Shallow left-hand reef just north of Ericeira town, hollow and fast on west to northwest swell.",
+  "sources": [
+   "https://www.rhlt.pt/en/portfolio/world-surfing-reserve/",
+   "https://www.boundlessroads.com/surfing-in-portugal/",
+   "https://lisboasecreta.co/en/surf-spots-guide-lisbon-surroundings/",
+   "https://www.rapturecamps.com/surfcamp/portugal/surf-spots",
+   "https://www.portugal.com/activities-experiences/portuguese-surf-guide-top-5-surf-spots-in-portugal/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "pt-praia-do-norte-2",
+  "name": "Praia do Norte (Ericeira)",
+  "aliases": [
+   "Praia do Norte"
+  ],
+  "lat": 38.9665,
+  "lon": -9.4215,
+  "country": "PT",
+  "zone": "pt-ericeira",
+  "break": "reef",
+  "sports": [
+   "surf"
+  ],
+  "facing": 270,
+  "window": [
+   200,
+   355
+  ],
+  "bestTide": [
+   "mid",
+   "high"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   240,
+   300
+  ],
+  "bestWind": [
+   45,
+   135
+  ],
+  "kiteWind": null,
+  "level": "intermediate",
+  "hazards": [
+   "rocks"
+  ],
+  "sources": [
+   "https://www.boundlessroads.com/surfing-in-portugal/",
+   "https://lisboasecreta.co/en/surf-spots-guide-lisbon-surroundings/",
+   "https://www.rapturecamps.com/surfcamp/portugal/surf-spots",
+   "https://www.corinthia.com/en-gb/lisbon/discover-lisbon/colours-of-lisbon-your-ultimate-surf-guide/",
+   "https://observador.pt/2020/05/25/em-busca-da-onda-perfeita-no-centro-de-portugal/",
+   "https://www.openstreetmap.org/way/1342511934"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "pt-praia-do-sul",
+  "name": "Praia do Sul (Ericeira)",
+  "aliases": [
+   "Praia do Sul"
+  ],
+  "lat": 38.9569,
+  "lon": -9.417,
+  "country": "PT",
+  "zone": "pt-ericeira",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 270,
+  "window": [
+   205,
+   335
+  ],
+  "bestTide": [
+   "mid",
+   "high"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   240,
+   300
+  ],
+  "bestWind": [
+   45,
+   135
+  ],
+  "kiteWind": null,
+  "level": "beginner",
+  "hazards": [
+   "rocks"
+  ],
+  "sources": [
+   "https://lisboasecreta.co/en/surf-spots-guide-lisbon-surroundings/",
+   "https://observador.pt/2020/05/25/em-busca-da-onda-perfeita-no-centro-de-portugal/",
+   "https://www.lapointcamps.com/blog/the-ultimate-guide-to-surfing-in-lisbon/",
+   "https://www.roughguides.com/portugal/ericeira-travel-guide/",
+   "https://www.portugal.com/activities-experiences/portuguese-surf-guide-top-5-surf-spots-in-portugal/",
+   "https://www.openstreetmap.org/way/1342250779"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "pt-praia-da-foz-do-lizandro",
+  "name": "Foz do Lizandro",
+  "aliases": [],
+  "lat": 38.9423,
+  "lon": -9.4175,
+  "country": "PT",
+  "zone": "pt-ericeira",
+  "break": "rivermouth",
+  "sports": [
+   "surf"
+  ],
+  "facing": 284,
+  "window": [
+   205,
+   355
+  ],
+  "bestTide": [
+   "mid",
+   "high"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   254,
+   314
+  ],
+  "bestWind": [
+   59,
+   149
+  ],
+  "kiteWind": null,
+  "level": "beginner",
+  "hazards": [
+   "currents",
+   "crowds"
+  ],
+  "notes": "Sandy river-mouth beach south of Ericeira; the go-to learning spot of the area at mid to high tide.",
+  "sources": [
+   "https://lisboasecreta.co/en/surf-spots-guide-lisbon-surroundings/",
+   "https://www.rapturecamps.com/surfcamp/portugal/surf-spots",
+   "https://www.siestacampers.com/blog/surfing-lisbon-7-best-surf-spots-close-to-town",
+   "https://www.lapointcamps.com/blog/the-ultimate-guide-to-surfing-in-lisbon/",
+   "https://www.roughguides.com/portugal/ericeira-travel-guide/",
+   "https://www.openstreetmap.org/way/1341368308"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "pt-praia-de-sao-juliao",
+  "name": "São Julião",
+  "aliases": [
+   "Praia de São Julião"
+  ],
+  "lat": 38.9303,
+  "lon": -9.4225,
+  "country": "PT",
+  "zone": "pt-ericeira",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 282,
+  "window": [
+   205,
+   355
+  ],
+  "bestTide": [
+   "mid"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   252,
+   312
+  ],
+  "bestWind": [
+   57,
+   147
+  ],
+  "kiteWind": null,
+  "level": "beginner",
+  "hazards": [
+   "rips"
+  ],
+  "sources": [
+   "https://www.rapturecamps.com/surfcamp/portugal/surf-spots",
+   "https://www.corinthia.com/en-gb/lisbon/discover-lisbon/colours-of-lisbon-your-ultimate-surf-guide/",
+   "https://www.lapointcamps.com/blog/the-ultimate-guide-to-surfing-in-lisbon/",
+   "https://www.timeout.pt/lisboa/pt/coisas-para-fazer/as-melhores-praias-em-oeiras",
+   "https://www.openstreetmap.org/way/1342250797"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "pt-praia-das-macas",
+  "name": "Praia das Maçãs",
+  "aliases": [],
+  "lat": 38.8263,
+  "lon": -9.4717,
+  "country": "PT",
+  "zone": "pt-lisboa",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 290,
+  "window": [
+   210,
+   10
+  ],
+  "bestTide": [
+   "mid"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   260,
+   320
+  ],
+  "bestWind": [
+   65,
+   155
+  ],
+  "kiteWind": null,
+  "level": "intermediate",
+  "hazards": [
+   "rocks",
+   "rips"
+  ],
+  "sources": [
+   "https://www.corinthia.com/en-gb/lisbon/discover-lisbon/colours-of-lisbon-your-ultimate-surf-guide/",
+   "https://lisboasecreta.co/en/best-beaches-in-sintra/",
+   "https://www.timeout.pt/lisboa/pt/coisas-para-fazer/melhores-praias-sintra",
+   "https://www.openstreetmap.org/way/1023897546"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "pt-praia-grande-sintra",
+  "name": "Praia Grande (Sintra)",
+  "aliases": [
+   "Praia Grande"
+  ],
+  "lat": 38.8133,
+  "lon": -9.48,
+  "country": "PT",
+  "zone": "pt-lisboa",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 296,
+  "window": [
+   210,
+   15
+  ],
+  "bestTide": [
+   "low",
+   "mid"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   266,
+   326
+  ],
+  "bestWind": [
+   71,
+   161
+  ],
+  "kiteWind": null,
+  "level": "intermediate",
+  "hazards": [
+   "rips",
+   "currents",
+   "shorebreak"
+  ],
+  "notes": "Exposed beach below the Sintra hills; long-standing venue of international bodyboard events with powerful waves.",
+  "sources": [
+   "https://lisboasecreta.co/en/surf-spots-guide-lisbon-surroundings/",
+   "https://www.siestacampers.com/blog/surfing-lisbon-7-best-surf-spots-close-to-town",
+   "https://www.corinthia.com/en-gb/lisbon/discover-lisbon/colours-of-lisbon-your-ultimate-surf-guide/",
+   "https://www.zigzagonearth.com/best-beaches-sintra-portugal/",
+   "https://www.timeout.pt/lisboa/pt/coisas-para-fazer/melhores-praias-sintra",
+   "https://www.openstreetmap.org/way/1341611681"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "pt-praia-pequena",
+  "name": "Praia Pequena",
+  "aliases": [],
+  "lat": 38.8197,
+  "lon": -9.4759,
+  "country": "PT",
+  "zone": "pt-lisboa",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 290,
+  "window": [
+   210,
+   10
+  ],
+  "bestTide": [
+   "mid"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   260,
+   320
+  ],
+  "bestWind": [
+   65,
+   155
+  ],
+  "kiteWind": null,
+  "level": "intermediate",
+  "hazards": [
+   "rocks"
+  ],
+  "sources": [
+   "https://lisboasecreta.co/en/best-beaches-in-sintra/",
+   "https://www.openstreetmap.org/way/1341617128"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "pt-adraga",
+  "name": "Adraga",
+  "aliases": [
+   "Praia da Adraga"
+  ],
+  "lat": 38.8031,
+  "lon": -9.4874,
+  "country": "PT",
+  "zone": "pt-lisboa",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 294,
+  "window": [
+   205,
+   15
+  ],
+  "bestTide": [
+   "mid"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   264,
+   324
+  ],
+  "bestWind": [
+   69,
+   159
+  ],
+  "kiteWind": null,
+  "level": "intermediate",
+  "hazards": [
+   "rocks",
+   "rips"
+  ],
+  "sources": [
+   "https://www.roughguides.com/portugal/ericeira-travel-guide/",
+   "https://www.zigzagonearth.com/best-beaches-sintra-portugal/"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "pt-guincho",
+  "name": "Guincho",
+  "aliases": [
+   "Praia do Guincho"
+  ],
+  "lat": 38.7317,
+  "lon": -9.476,
+  "country": "PT",
+  "zone": "pt-lisboa",
+  "break": "beach",
+  "sports": [
+   "surf",
+   "kite",
+   "windsurf"
+  ],
+  "facing": 281,
+  "window": [
+   205,
+   340
+  ],
+  "bestTide": [
+   "low",
+   "mid",
+   "high"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   251,
+   311
+  ],
+  "bestWind": [
+   56,
+   146
+  ],
+  "kiteWind": [
+   320,
+   20
+  ],
+  "level": "intermediate",
+  "hazards": [
+   "rips",
+   "currents"
+  ],
+  "notes": "Exposed beach west of Cascais with year-round surf and a strong summer north wind that makes it a reference kite and windsurf spot.",
+  "sources": [
+   "https://www.boundlessroads.com/surfing-in-portugal/",
+   "https://lisboasecreta.co/en/surf-spots-guide-lisbon-surroundings/",
+   "https://www.rapturecamps.com/surfcamp/portugal/surf-spots",
+   "https://www.siestacampers.com/blog/surfing-lisbon-7-best-surf-spots-close-to-town",
+   "https://www.corinthia.com/en-gb/lisbon/discover-lisbon/colours-of-lisbon-your-ultimate-surf-guide/",
+   "https://www.openstreetmap.org/node/5367328615"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "pt-praia-da-cresmina",
+  "name": "Cresmina",
+  "aliases": [
+   "Praia da Cresmina"
+  ],
+  "lat": 38.7262,
+  "lon": -9.4782,
+  "country": "PT",
+  "zone": "pt-lisboa",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 279,
+  "window": [
+   200,
+   340
+  ],
+  "bestTide": [
+   "mid"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   249,
+   309
+  ],
+  "bestWind": [
+   54,
+   144
+  ],
+  "kiteWind": null,
+  "level": "intermediate",
+  "hazards": [
+   "rocks"
+  ],
+  "sources": [
+   "https://www.siestacampers.com/blog/surfing-lisbon-7-best-surf-spots-close-to-town",
+   "https://www.openstreetmap.org/way/23848001"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "pt-poca",
+  "name": "Praia da Poça",
+  "aliases": [
+   "Poça"
+  ],
+  "lat": 38.7008,
+  "lon": -9.3923,
+  "country": "PT",
+  "zone": "pt-lisboa",
+  "break": "reef",
+  "sports": [
+   "surf"
+  ],
+  "facing": 200,
+  "window": [
+   130,
+   250
+  ],
+  "bestTide": [
+   "mid"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   200,
+   250
+  ],
+  "bestWind": [
+   335,
+   65
+  ],
+  "kiteWind": null,
+  "level": "advanced",
+  "hazards": [
+   "reef",
+   "rocks"
+  ],
+  "sources": [
+   "https://www.siestacampers.com/blog/surfing-lisbon-7-best-surf-spots-close-to-town",
+   "https://www.lapointcamps.com/blog/the-ultimate-guide-to-surfing-in-lisbon/"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "pt-praia-de-sao-pedro-do-estoril",
+  "name": "São Pedro do Estoril",
+  "aliases": [],
+  "lat": 38.6926,
+  "lon": -9.3709,
+  "country": "PT",
+  "zone": "pt-lisboa",
+  "break": "reef",
+  "sports": [
+   "surf"
+  ],
+  "facing": 203,
+  "window": [
+   135,
+   265
+  ],
+  "bestTide": [
+   "low",
+   "mid"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   200,
+   260
+  ],
+  "bestWind": [
+   338,
+   68
+  ],
+  "kiteWind": null,
+  "level": "intermediate",
+  "hazards": [
+   "reef",
+   "rocks",
+   "crowds"
+  ],
+  "sources": [
+   "https://www.corinthia.com/en-gb/lisbon/discover-lisbon/colours-of-lisbon-your-ultimate-surf-guide/",
+   "https://www.lapointcamps.com/blog/the-ultimate-guide-to-surfing-in-lisbon/",
+   "https://pt.wikipedia.org/wiki/S%C3%A3o_Pedro_do_Estoril",
+   "https://www.openstreetmap.org/way/103471037"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "pt-praia-da-baforeira",
+  "name": "Bafureira",
+  "aliases": [
+   "Baforeira"
+  ],
+  "lat": 38.6911,
+  "lon": -9.3667,
+  "country": "PT",
+  "zone": "pt-lisboa",
+  "break": "reef",
+  "sports": [
+   "surf"
+  ],
+  "facing": 210,
+  "window": [
+   135,
+   270
+  ],
+  "bestTide": [
+   "mid",
+   "high"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   180,
+   240
+  ],
+  "bestWind": [
+   345,
+   75
+  ],
+  "kiteWind": null,
+  "level": "intermediate",
+  "hazards": [
+   "rocks"
+  ],
+  "sources": [
+   "https://www.corinthia.com/en-gb/lisbon/discover-lisbon/colours-of-lisbon-your-ultimate-surf-guide/",
+   "https://www.lapointcamps.com/blog/the-ultimate-guide-to-surfing-in-lisbon/",
+   "https://www.openstreetmap.org/way/221553167"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "pt-praia-de-carcavelos",
+  "name": "Carcavelos",
+  "aliases": [
+   "Praia de Carcavelos"
+  ],
+  "lat": 38.6778,
+  "lon": -9.3369,
+  "country": "PT",
+  "zone": "pt-lisboa",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 208,
+  "window": [
+   140,
+   275
+  ],
+  "bestTide": [
+   "low",
+   "mid"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   200,
+   270
+  ],
+  "bestWind": [
+   330,
+   60
+  ],
+  "kiteWind": null,
+  "level": "all",
+  "hazards": [
+   "crowds",
+   "pollution"
+  ],
+  "notes": "Long beach of the Cascais line, ten minutes from Lisbon; hollow sandbars on west to southwest swell and very crowded.",
+  "sources": [
+   "https://www.boundlessroads.com/surfing-in-portugal/",
+   "https://lisboasecreta.co/en/surf-spots-guide-lisbon-surroundings/",
+   "https://www.rapturecamps.com/surfcamp/portugal/surf-spots",
+   "https://www.siestacampers.com/blog/surfing-lisbon-7-best-surf-spots-close-to-town",
+   "https://www.corinthia.com/en-gb/lisbon/discover-lisbon/colours-of-lisbon-your-ultimate-surf-guide/",
+   "https://www.openstreetmap.org/way/157464438"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "pt-praia-da-torre",
+  "name": "Praia da Torre",
+  "aliases": [
+   "Torre"
+  ],
+  "lat": 38.6741,
+  "lon": -9.3226,
+  "country": "PT",
+  "zone": "pt-lisboa",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 197,
+  "window": [
+   145,
+   280
+  ],
+  "bestTide": [
+   "mid",
+   "high"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   167,
+   227
+  ],
+  "bestWind": [
+   332,
+   62
+  ],
+  "kiteWind": null,
+  "level": "beginner",
+  "hazards": [
+   "pollution",
+   "crowds"
+  ],
+  "sources": [
+   "https://rr.pt/noticia/pais/2021/02/21/pratica-de-surf-autorizada-em-quatro-praias-de-oeiras/227618/",
+   "https://www.openstreetmap.org/way/531918708"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "pt-praia-de-santo-amaro",
+  "name": "Santo Amaro de Oeiras",
+  "aliases": [
+   "Praia de Santo Amaro",
+   "Santo Amaro"
+  ],
+  "lat": 38.6837,
+  "lon": -9.3092,
+  "country": "PT",
+  "zone": "pt-lisboa",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 184,
+  "window": [
+   150,
+   225
+  ],
+  "bestTide": [
+   "mid",
+   "high"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   154,
+   214
+  ],
+  "bestWind": [
+   319,
+   49
+  ],
+  "kiteWind": null,
+  "level": "beginner",
+  "hazards": [
+   "pollution"
+  ],
+  "sources": [
+   "https://rr.pt/noticia/pais/2021/02/21/pratica-de-surf-autorizada-em-quatro-praias-de-oeiras/227618/",
+   "https://www.openstreetmap.org/way/180126358"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "pt-praia-da-cova-do-vapor",
+  "name": "Cova do Vapor",
+  "aliases": [],
+  "lat": 38.6608,
+  "lon": -9.2602,
+  "country": "PT",
+  "zone": "pt-lisboa",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 235,
+  "window": [
+   160,
+   280
+  ],
+  "bestTide": [
+   "low"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   205,
+   265
+  ],
+  "bestWind": [
+   10,
+   100
+  ],
+  "kiteWind": null,
+  "level": "intermediate",
+  "hazards": [
+   "currents",
+   "rocks"
+  ],
+  "sources": [
+   "https://lisboasecreta.co/en/surf-spots-guide-lisbon-surroundings/",
+   "https://www.siestacampers.com/blog/surfing-lisbon-7-best-surf-spots-close-to-town",
+   "https://www.timeout.pt/lisboa/pt/coisas-para-fazer/praias-da-costa-da-caparica",
+   "https://www.openstreetmap.org/way/222122955"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "pt-praia-de-sao-joao",
+  "name": "São João da Caparica",
+  "aliases": [
+   "Praia de São João"
+  ],
+  "lat": 38.6556,
+  "lon": -9.2524,
+  "country": "PT",
+  "zone": "pt-lisboa",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 225,
+  "window": [
+   165,
+   280
+  ],
+  "bestTide": [
+   "low",
+   "mid"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   195,
+   255
+  ],
+  "bestWind": [
+   0,
+   90
+  ],
+  "kiteWind": null,
+  "level": "intermediate",
+  "hazards": [
+   "rocks",
+   "crowds"
+  ],
+  "sources": [
+   "https://www.timeout.pt/lisboa/pt/coisas-para-fazer/praias-da-costa-da-caparica",
+   "https://www.openstreetmap.org/way/222122956"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "pt-costa-da-caparica",
+  "name": "Costa da Caparica",
+  "aliases": [
+   "Caparica"
+  ],
+  "lat": 38.6424,
+  "lon": -9.2412,
+  "country": "PT",
+  "zone": "pt-lisboa",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 233,
+  "window": [
+   170,
+   285
+  ],
+  "bestTide": [
+   "low",
+   "mid"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   203,
+   263
+  ],
+  "bestWind": [
+   8,
+   98
+  ],
+  "kiteWind": null,
+  "level": "all",
+  "hazards": [
+   "crowds",
+   "rocks"
+  ],
+  "notes": "Groyne-divided town beaches where peaks form beside the rock jetties; busy learning and surf school area.",
+  "sources": [
+   "https://www.boundlessroads.com/surfing-in-portugal/",
+   "https://lisboasecreta.co/en/surf-spots-guide-lisbon-surroundings/",
+   "https://www.rapturecamps.com/surfcamp/portugal/surf-spots",
+   "https://www.siestacampers.com/blog/surfing-lisbon-7-best-surf-spots-close-to-town",
+   "https://www.corinthia.com/en-gb/lisbon/discover-lisbon/colours-of-lisbon-your-ultimate-surf-guide/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "pt-praia-do-castelo",
+  "name": "Praia do Castelo",
+  "aliases": [],
+  "lat": 38.6126,
+  "lon": -9.2177,
+  "country": "PT",
+  "zone": "pt-lisboa",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 241,
+  "window": [
+   180,
+   295
+  ],
+  "bestTide": [
+   "mid"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   211,
+   271
+  ],
+  "bestWind": [
+   16,
+   106
+  ],
+  "kiteWind": null,
+  "level": "all",
+  "hazards": [
+   "rips"
+  ],
+  "sources": [
+   "https://lisboasecreta.co/praias-costa-da-caparica/",
+   "https://www.openstreetmap.org/way/222678477"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "pt-fonte-da-telha",
+  "name": "Fonte da Telha",
+  "aliases": [],
+  "lat": 38.5711,
+  "lon": -9.1978,
+  "country": "PT",
+  "zone": "pt-lisboa",
+  "break": "beach",
+  "sports": [
+   "surf",
+   "kite"
+  ],
+  "facing": 248,
+  "window": [
+   190,
+   310
+  ],
+  "bestTide": [
+   "mid"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   218,
+   278
+  ],
+  "bestWind": [
+   23,
+   113
+  ],
+  "kiteWind": [
+   300,
+   20
+  ],
+  "level": "beginner",
+  "hazards": [
+   "rips"
+  ],
+  "sources": [
+   "https://lisboasecreta.co/en/surf-spots-guide-lisbon-surroundings/",
+   "https://www.siestacampers.com/blog/surfing-lisbon-7-best-surf-spots-close-to-town",
+   "https://www.timeout.pt/lisboa/pt/coisas-para-fazer/praias-da-costa-da-caparica",
+   "https://www.openstreetmap.org/way/222678478"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "pt-lagoa-de-albufeira-2",
+  "name": "Lagoa de Albufeira",
+  "aliases": [],
+  "lat": 38.508,
+  "lon": -9.164,
+  "country": "PT",
+  "zone": "pt-setubal",
+  "break": "beach",
+  "sports": [
+   "kite",
+   "windsurf"
+  ],
+  "facing": 269,
+  "window": [
+   200,
+   335
+  ],
+  "bestTide": [],
+  "dangerTide": [],
+  "bestSwell": null,
+  "bestWind": null,
+  "kiteWind": [
+   300,
+   30
+  ],
+  "level": "beginner",
+  "hazards": [
+   "currents"
+  ],
+  "notes": "Sheltered lagoon behind the Albufeira bar; flat-water kite and windsurf spot in the summer northerly.",
+  "sources": [
+   "https://www.siestacampers.com/blog/surfing-lisbon-7-best-surf-spots-close-to-town",
+   "https://www.lapointcamps.com/blog/the-ultimate-guide-to-surfing-in-lisbon/",
+   "https://pt.wikipedia.org/wiki/Praia_da_Lagoa_de_Albufeira"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "pt-lagoa-de-albufeira",
+  "name": "Lagoa de Albufeira (Mar)",
+  "aliases": [
+   "Praia da Lagoa de Albufeira"
+  ],
+  "lat": 38.5065,
+  "lon": -9.1845,
+  "country": "PT",
+  "zone": "pt-setubal",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 269,
+  "window": [
+   200,
+   335
+  ],
+  "bestTide": [
+   "mid"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   239,
+   299
+  ],
+  "bestWind": [
+   44,
+   134
+  ],
+  "kiteWind": null,
+  "level": "intermediate",
+  "hazards": [
+   "currents",
+   "shorebreak"
+  ],
+  "sources": [
+   "https://www.siestacampers.com/blog/surfing-lisbon-7-best-surf-spots-close-to-town",
+   "https://www.lapointcamps.com/blog/the-ultimate-guide-to-surfing-in-lisbon/",
+   "https://pt.wikipedia.org/wiki/Praia_da_Lagoa_de_Albufeira",
+   "https://www.wikidata.org/wiki/Q10352616"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "pt-praia-do-meco",
+  "name": "Meco",
+  "aliases": [
+   "Praia do Meco"
+  ],
+  "lat": 38.4887,
+  "lon": -9.1859,
+  "country": "PT",
+  "zone": "pt-setubal",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 275,
+  "window": [
+   205,
+   340
+  ],
+  "bestTide": [
+   "mid"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   245,
+   305
+  ],
+  "bestWind": [
+   50,
+   140
+  ],
+  "kiteWind": null,
+  "level": "intermediate",
+  "hazards": [
+   "rips"
+  ],
+  "sources": [
+   "https://lifecooler.com/artigo/atividades/praia-das-bicas/353049",
+   "https://www.openstreetmap.org/relation/2953471"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "pt-praia-das-bicas",
+  "name": "Bicas",
+  "aliases": [
+   "Praia das Bicas"
+  ],
+  "lat": 38.466,
+  "lon": -9.1937,
+  "country": "PT",
+  "zone": "pt-setubal",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 285,
+  "window": [
+   210,
+   345
+  ],
+  "bestTide": [
+   "mid"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   255,
+   315
+  ],
+  "bestWind": [
+   60,
+   150
+  ],
+  "kiteWind": null,
+  "level": "intermediate",
+  "hazards": [
+   "rips",
+   "rocks"
+  ],
+  "sources": [
+   "https://lifecooler.com/artigo/atividades/praia-das-bicas/353049",
+   "https://www.openstreetmap.org/way/186703545"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "pt-praia-da-comporta",
+  "name": "Comporta",
+  "aliases": [
+   "Praia da Comporta"
+  ],
+  "lat": 38.3807,
+  "lon": -8.8053,
+  "country": "PT",
+  "zone": "pt-setubal",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 243,
+  "window": [
+   175,
+   295
+  ],
+  "bestTide": [
+   "low",
+   "mid",
+   "high"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   213,
+   273
+  ],
+  "bestWind": [
+   18,
+   108
+  ],
+  "kiteWind": null,
+  "level": "beginner",
+  "hazards": [
+   "rips"
+  ],
+  "sources": [
+   "https://www.rapturecamps.com/surfcamp/portugal/surf-spots",
+   "https://www.timeout.pt/lisboa/pt/viagens/as-melhores-praias-na-comporta-e-em-troia",
+   "https://www.mrandmrssmith.com/editorial/travel-guides/guide-to-comporta",
+   "https://oladaniela.com/comporta-guide/",
+   "https://travelworldonline.de/en/straende-im-alentejo/",
+   "https://www.openstreetmap.org/way/208100412"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "pt-praia-do-carvalhal",
+  "name": "Carvalhal (Grândola)",
+  "aliases": [
+   "Praia do Carvalhal"
+  ],
+  "lat": 38.3061,
+  "lon": -8.7829,
+  "country": "PT",
+  "zone": "pt-alentejo",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 261,
+  "window": [
+   185,
+   330
+  ],
+  "bestTide": [
+   "mid"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   231,
+   291
+  ],
+  "bestWind": [
+   36,
+   126
+  ],
+  "kiteWind": null,
+  "level": "beginner",
+  "hazards": [
+   "rips"
+  ],
+  "sources": [
+   "https://www.rapturecamps.com/surfcamp/portugal/surf-spots",
+   "https://www.mrandmrssmith.com/editorial/travel-guides/guide-to-comporta",
+   "https://oladaniela.com/comporta-guide/",
+   "https://www.timeout.pt/lisboa/pt/atraccoes/praia-do-pego",
+   "https://www.openstreetmap.org/way/208100114"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "pt-praia-do-pego",
+  "name": "Pego",
+  "aliases": [
+   "Praia do Pego"
+  ],
+  "lat": 38.2921,
+  "lon": -8.7809,
+  "country": "PT",
+  "zone": "pt-alentejo",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 262,
+  "window": [
+   185,
+   335
+  ],
+  "bestTide": [
+   "mid"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   232,
+   292
+  ],
+  "bestWind": [
+   37,
+   127
+  ],
+  "kiteWind": null,
+  "level": "intermediate",
+  "hazards": [
+   "rips"
+  ],
+  "sources": [
+   "https://www.mrandmrssmith.com/editorial/travel-guides/guide-to-comporta",
+   "https://oladaniela.com/comporta-guide/",
+   "https://www.timeout.pt/lisboa/pt/atraccoes/praia-do-pego",
+   "https://www.openstreetmap.org/way/197531412"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "pt-praia-de-sao-torpes",
+  "name": "São Torpes",
+  "aliases": [
+   "Praia de São Torpes"
+  ],
+  "lat": 37.9189,
+  "lon": -8.8065,
+  "country": "PT",
+  "zone": "pt-alentejo",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 234,
+  "window": [
+   185,
+   270
+  ],
+  "bestTide": [
+   "mid",
+   "high"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   204,
+   264
+  ],
+  "bestWind": [
+   9,
+   99
+  ],
+  "kiteWind": null,
+  "level": "all",
+  "hazards": [
+   "pollution",
+   "rips"
+  ],
+  "notes": "Beach south of Sines port, warmed by the power-station outfall; sheltered from north wind and a winter alternative when the coast is big.",
+  "sources": [
+   "https://www.travelextra.ie/surf-holidays-in-portugals-alentejo-region/",
+   "https://www.beportugal.com/sines/",
+   "https://www.vagamundos.pt/visitar-sines-e-porto-covo/",
+   "https://www.openstreetmap.org/way/208112443"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "pt-praia-de-morgavel",
+  "name": "Morgavel",
+  "aliases": [],
+  "lat": 37.9071,
+  "lon": -8.8015,
+  "country": "PT",
+  "zone": "pt-alentejo",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 249,
+  "window": [
+   185,
+   290
+  ],
+  "bestTide": [
+   "mid"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   219,
+   279
+  ],
+  "bestWind": [
+   24,
+   114
+  ],
+  "kiteWind": null,
+  "level": "intermediate",
+  "hazards": [
+   "rocks"
+  ],
+  "sources": [
+   "https://www.beportugal.com/sines/",
+   "https://www.openstreetmap.org/way/208889174"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "pt-vieirinha",
+  "name": "Vieirinha",
+  "aliases": [
+   "Vale Figueiros"
+  ],
+  "lat": 37.8947,
+  "lon": -8.7985,
+  "country": "PT",
+  "zone": "pt-alentejo",
+  "break": "reef",
+  "sports": [
+   "surf"
+  ],
+  "facing": 254,
+  "window": [
+   185,
+   305
+  ],
+  "bestTide": [
+   "mid"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   224,
+   284
+  ],
+  "bestWind": [
+   29,
+   119
+  ],
+  "kiteWind": null,
+  "level": "intermediate",
+  "hazards": [
+   "rocks"
+  ],
+  "sources": [
+   "https://www.beportugal.com/sines/",
+   "https://www.openstreetmap.org/way/232239487"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "pt-praia-grande-de-porto-covo",
+  "name": "Porto Covo",
+  "aliases": [
+   "Praia Grande de Porto Covo"
+  ],
+  "lat": 37.8573,
+  "lon": -8.7952,
+  "country": "PT",
+  "zone": "pt-alentejo",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 263,
+  "window": [
+   190,
+   315
+  ],
+  "bestTide": [
+   "mid"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   233,
+   293
+  ],
+  "bestWind": [
+   38,
+   128
+  ],
+  "kiteWind": null,
+  "level": "all",
+  "hazards": [
+   "rocks"
+  ],
+  "sources": [
+   "https://www.rapturecamps.com/surfcamp/portugal/surf-spots",
+   "https://www.visitalentejo.pt/en/blog/the-next-big-surf-destination-is-the-atlantic-coast-of-the-alentejo/",
+   "https://www.travelextra.ie/surf-holidays-in-portugals-alentejo-region/",
+   "https://travelworldonline.de/en/straende-im-alentejo/",
+   "https://www.beportugal.com/sines/",
+   "https://www.openstreetmap.org/way/957455879"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "pt-praia-da-ilha-do-pessegueiro",
+  "name": "Ilha do Pessegueiro",
+  "aliases": [
+   "Praia da Ilha do Pessegueiro"
+  ],
+  "lat": 37.8349,
+  "lon": -8.7932,
+  "country": "PT",
+  "zone": "pt-alentejo",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 267,
+  "window": [
+   190,
+   325
+  ],
+  "bestTide": [
+   "mid"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   237,
+   297
+  ],
+  "bestWind": [
+   42,
+   132
+  ],
+  "kiteWind": null,
+  "level": "intermediate",
+  "hazards": [
+   "rocks",
+   "currents"
+  ],
+  "sources": [
+   "https://www.beportugal.com/sines/",
+   "https://www.vagamundos.pt/visitar-sines-e-porto-covo/",
+   "https://www.openstreetmap.org/way/1060552289"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "pt-praia-dos-aivados",
+  "name": "Aivados",
+  "aliases": [],
+  "lat": 37.8104,
+  "lon": -8.7972,
+  "country": "PT",
+  "zone": "pt-alentejo",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 273,
+  "window": [
+   195,
+   330
+  ],
+  "bestTide": [
+   "mid"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   243,
+   303
+  ],
+  "bestWind": [
+   48,
+   138
+  ],
+  "kiteWind": null,
+  "level": "intermediate",
+  "hazards": [
+   "rocks",
+   "rips"
+  ],
+  "sources": [
+   "https://www.travelextra.ie/surf-holidays-in-portugals-alentejo-region/",
+   "https://www.openstreetmap.org/way/208883907"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "pt-malhao",
+  "name": "Malhão",
+  "aliases": [
+   "Praia do Malhão"
+  ],
+  "lat": 37.7848,
+  "lon": -8.8033,
+  "country": "PT",
+  "zone": "pt-alentejo",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 267,
+  "window": [
+   195,
+   335
+  ],
+  "bestTide": [
+   "mid"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   237,
+   297
+  ],
+  "bestWind": [
+   42,
+   132
+  ],
+  "kiteWind": null,
+  "level": "all",
+  "hazards": [
+   "rips",
+   "rocks"
+  ],
+  "notes": "Long exposed beach north of Milfontes with multiple peaks; one of the most consistent breaks of the Alentejo coast.",
+  "sources": [
+   "https://www.rapturecamps.com/surfcamp/portugal/surf-spots",
+   "https://www.travelextra.ie/surf-holidays-in-portugals-alentejo-region/",
+   "https://www.openstreetmap.org/way/393008274"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "pt-praia-da-franquia",
+  "name": "Franquia (Vila Nova de Milfontes)",
+  "aliases": [
+   "Praia da Franquia"
+  ],
+  "lat": 37.7211,
+  "lon": -8.7866,
+  "country": "PT",
+  "zone": "pt-alentejo",
+  "break": "rivermouth",
+  "sports": [
+   "surf"
+  ],
+  "facing": 241,
+  "window": [
+   190,
+   325
+  ],
+  "bestTide": [
+   "mid",
+   "high"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   211,
+   271
+  ],
+  "bestWind": [
+   16,
+   106
+  ],
+  "kiteWind": null,
+  "level": "beginner",
+  "hazards": [
+   "currents"
+  ],
+  "sources": [
+   "https://www.rapturecamps.com/surfcamp/portugal/surf-spots",
+   "https://www.visitalentejo.pt/en/blog/the-next-big-surf-destination-is-the-atlantic-coast-of-the-alentejo/",
+   "https://www.travelextra.ie/surf-holidays-in-portugals-alentejo-region/",
+   "https://travelworldonline.de/en/straende-im-alentejo/",
+   "https://www.openstreetmap.org/way/185659906"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "pt-praia-do-farol",
+  "name": "Praia do Farol (Milfontes)",
+  "aliases": [
+   "Praia do Farol"
+  ],
+  "lat": 37.7189,
+  "lon": -8.7877,
+  "country": "PT",
+  "zone": "pt-alentejo",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 247,
+  "window": [
+   190,
+   325
+  ],
+  "bestTide": [
+   "mid"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   217,
+   277
+  ],
+  "bestWind": [
+   22,
+   112
+  ],
+  "kiteWind": null,
+  "level": "beginner",
+  "hazards": [
+   "currents"
+  ],
+  "sources": [
+   "https://www.rapturecamps.com/surfcamp/portugal/surf-spots",
+   "https://www.visitalentejo.pt/en/blog/the-next-big-surf-destination-is-the-atlantic-coast-of-the-alentejo/",
+   "https://www.travelextra.ie/surf-holidays-in-portugals-alentejo-region/",
+   "https://travelworldonline.de/en/straende-im-alentejo/",
+   "https://www.openstreetmap.org/way/208113986"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "pt-almograve",
+  "name": "Almograve",
+  "aliases": [
+   "Praia de Almograve"
+  ],
+  "lat": 37.6524,
+  "lon": -8.8038,
+  "country": "PT",
+  "zone": "pt-alentejo",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 283,
+  "window": [
+   195,
+   355
+  ],
+  "bestTide": [
+   "low",
+   "mid"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   253,
+   313
+  ],
+  "bestWind": [
+   58,
+   148
+  ],
+  "kiteWind": null,
+  "level": "intermediate",
+  "hazards": [
+   "rocks",
+   "rips"
+  ],
+  "sources": [
+   "https://www.rapturecamps.com/surfcamp/portugal/surf-spots",
+   "https://www.openstreetmap.org/way/504562243"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "pt-praia-da-zambujeira-do-mar",
+  "name": "Zambujeira do Mar",
+  "aliases": [],
+  "lat": 37.5226,
+  "lon": -8.7898,
+  "country": "PT",
+  "zone": "pt-alentejo",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 276,
+  "window": [
+   195,
+   340
+  ],
+  "bestTide": [
+   "mid",
+   "high"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   246,
+   306
+  ],
+  "bestWind": [
+   51,
+   141
+  ],
+  "kiteWind": null,
+  "level": "intermediate",
+  "hazards": [
+   "rocks",
+   "rips"
+  ],
+  "sources": [
+   "https://www.rapturecamps.com/surfcamp/portugal/surf-spots",
+   "https://www.travelextra.ie/surf-holidays-in-portugals-alentejo-region/",
+   "https://observador.pt/especiais/este-verao-todos-os-caminhos-vao-dar-a-odemira/",
+   "https://www.beportugal.com/sines/",
+   "https://www.vagamundos.pt/visitar-sines-e-porto-covo/",
+   "https://www.openstreetmap.org/way/696854735"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "pt-praia-do-carvalhal-2",
+  "name": "Carvalhal (Odemira)",
+  "aliases": [
+   "Praia do Carvalhal"
+  ],
+  "lat": 37.5039,
+  "lon": -8.7934,
+  "country": "PT",
+  "zone": "pt-alentejo",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 276,
+  "window": [
+   200,
+   345
+  ],
+  "bestTide": [
+   "mid"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   246,
+   306
+  ],
+  "bestWind": [
+   51,
+   141
+  ],
+  "kiteWind": null,
+  "level": "intermediate",
+  "hazards": [
+   "rocks"
+  ],
+  "sources": [
+   "https://www.rapturecamps.com/surfcamp/portugal/surf-spots",
+   "https://www.mrandmrssmith.com/editorial/travel-guides/guide-to-comporta",
+   "https://oladaniela.com/comporta-guide/",
+   "https://www.timeout.pt/lisboa/pt/atraccoes/praia-do-pego",
+   "https://www.openstreetmap.org/way/157818268"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "pt-odeceixe",
+  "name": "Odeceixe",
+  "aliases": [
+   "Praia de Odeceixe"
+  ],
+  "lat": 37.4412,
+  "lon": -8.8007,
+  "country": "PT",
+  "zone": "pt-alentejo",
+  "break": "rivermouth",
+  "sports": [
+   "surf"
+  ],
+  "facing": 292,
+  "window": [
+   210,
+   355
+  ],
+  "bestTide": [
+   "mid",
+   "high"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   262,
+   322
+  ],
+  "bestWind": [
+   67,
+   157
+  ],
+  "kiteWind": null,
+  "level": "beginner",
+  "hazards": [
+   "currents",
+   "rocks"
+  ],
+  "notes": "Beach at the Seixe river mouth on the Alentejo–Algarve border; sandbars shaped by the river make it a popular learning spot.",
+  "sources": [
+   "https://www.rapturecamps.com/surfcamp/portugal/surf-spots",
+   "https://www.visitalentejo.pt/en/blog/the-next-big-surf-destination-is-the-atlantic-coast-of-the-alentejo/",
+   "https://www.algarveportugaltourism.com/algarve-beaches/surfing-beaches.html",
+   "https://www.myguidealgarve.com/travel-articles/best-surf-spots-algarve",
+   "https://www.algarvetips.com/activities/sports/surfing/",
+   "https://www.openstreetmap.org/way/1242990216"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "pt-praia-da-amoreira",
+  "name": "Amoreira",
+  "aliases": [
+   "Praia da Amoreira"
+  ],
+  "lat": 37.352,
+  "lon": -8.8461,
+  "country": "PT",
+  "zone": "pt-costa-vicentina",
+  "break": "rivermouth",
+  "sports": [
+   "surf"
+  ],
+  "facing": 302,
+  "window": [
+   220,
+   15
+  ],
+  "bestTide": [
+   "mid",
+   "high"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   272,
+   332
+  ],
+  "bestWind": [
+   77,
+   167
+  ],
+  "kiteWind": null,
+  "level": "all",
+  "hazards": [
+   "currents"
+  ],
+  "sources": [
+   "https://www.algarveportugaltourism.com/algarve-beaches/surfing-beaches.html",
+   "https://www.viagensecaminhos.com/aljezur-portugal/",
+   "https://www.algarvetips.com/cities/aljezur/",
+   "https://pt.wikipedia.org/wiki/Praia_da_Amoreira",
+   "https://www.openstreetmap.org/way/1242019126"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "pt-praia-de-monte-clerigo",
+  "name": "Monte Clérigo",
+  "aliases": [
+   "Praia de Monte Clérigo"
+  ],
+  "lat": 37.3429,
+  "lon": -8.8547,
+  "country": "PT",
+  "zone": "pt-costa-vicentina",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 304,
+  "window": [
+   220,
+   15
+  ],
+  "bestTide": [
+   "mid"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   274,
+   334
+  ],
+  "bestWind": [
+   79,
+   169
+  ],
+  "kiteWind": null,
+  "level": "all",
+  "hazards": [
+   "rips",
+   "rocks"
+  ],
+  "sources": [
+   "https://www.algarveportugaltourism.com/algarve-beaches/surfing-beaches.html",
+   "https://www.algarvetips.com/beaches/west-coast/praia-de-monte-clerigo/",
+   "https://pt.wikipedia.org/wiki/Praia_de_Monte_Cl%C3%A9rigo",
+   "https://www.openstreetmap.org/way/55705498"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "pt-praia-da-arrifana",
+  "name": "Arrifana",
+  "aliases": [
+   "Praia da Arrifana"
+  ],
+  "lat": 37.2919,
+  "lon": -8.8662,
+  "country": "PT",
+  "zone": "pt-costa-vicentina",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 266,
+  "window": [
+   205,
+   315
+  ],
+  "bestTide": [
+   "mid",
+   "high"
+  ],
+  "dangerTide": [
+   "low"
+  ],
+  "bestSwell": [
+   260,
+   315
+  ],
+  "bestWind": [
+   0,
+   100
+  ],
+  "kiteWind": null,
+  "level": "all",
+  "hazards": [
+   "rocks",
+   "crowds"
+  ],
+  "notes": "Cliff-ringed bay sheltered from north wind, with a beach break for learners and a right point over rock at its northern end.",
+  "sources": [
+   "https://www.boundlessroads.com/surfing-in-portugal/",
+   "https://www.rapturecamps.com/surfcamp/portugal/surf-spots",
+   "https://www.algarveportugaltourism.com/algarve-beaches/surfing-beaches.html",
+   "https://www.myguidealgarve.com/travel-articles/best-surf-spots-algarve",
+   "https://www.algarvetips.com/beaches/west-coast/praia-de-monte-clerigo/",
+   "https://www.openstreetmap.org/way/1241777732"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "pt-vale-figueiras",
+  "name": "Vale Figueiras",
+  "aliases": [
+   "Praia de Vale Figueiras"
+  ],
+  "lat": 37.2476,
+  "lon": -8.8707,
+  "country": "PT",
+  "zone": "pt-costa-vicentina",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 290,
+  "window": [
+   220,
+   355
+  ],
+  "bestTide": [
+   "mid"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   260,
+   320
+  ],
+  "bestWind": [
+   65,
+   155
+  ],
+  "kiteWind": null,
+  "level": "intermediate",
+  "hazards": [
+   "rips",
+   "currents"
+  ],
+  "sources": [
+   "https://www.algarveportugaltourism.com/algarve-beaches/surfing-beaches.html",
+   "https://www.algarvetips.com/cities/aljezur/"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "pt-praia-da-bordeira",
+  "name": "Bordeira",
+  "aliases": [
+   "Carrapateira",
+   "Praia da Bordeira"
+  ],
+  "lat": 37.2005,
+  "lon": -8.9035,
+  "country": "PT",
+  "zone": "pt-costa-vicentina",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 305,
+  "window": [
+   245,
+   5
+  ],
+  "bestTide": [
+   "mid"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   275,
+   335
+  ],
+  "bestWind": [
+   80,
+   170
+  ],
+  "kiteWind": null,
+  "level": "intermediate",
+  "hazards": [
+   "rips",
+   "currents"
+  ],
+  "notes": "Wide, fully exposed beach at Carrapateira with a river-mouth sandbar; powerful and consistent.",
+  "sources": [
+   "https://www.boundlessroads.com/surfing-in-portugal/",
+   "https://www.rapturecamps.com/surfcamp/portugal/surf-spots",
+   "https://www.algarveportugaltourism.com/algarve-beaches/surfing-beaches.html",
+   "https://www.myguidealgarve.com/travel-articles/best-surf-spots-algarve",
+   "https://www.algarvetips.com/activities/sports/surfing/",
+   "https://www.openstreetmap.org/way/1241619236"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "pt-praia-do-amado",
+  "name": "Amado",
+  "aliases": [
+   "Praia do Amado"
+  ],
+  "lat": 37.1698,
+  "lon": -8.9044,
+  "country": "PT",
+  "zone": "pt-costa-vicentina",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 255,
+  "window": [
+   210,
+   330
+  ],
+  "bestTide": [
+   "low",
+   "mid",
+   "high"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   225,
+   285
+  ],
+  "bestWind": [
+   30,
+   120
+  ],
+  "kiteWind": null,
+  "level": "all",
+  "hazards": [
+   "rocks",
+   "crowds",
+   "currents"
+  ],
+  "notes": "Consistent beach break south of Carrapateira with several peaks and many surf schools; contest venue that holds a big swell.",
+  "sources": [
+   "https://www.boundlessroads.com/surfing-in-portugal/",
+   "https://www.rapturecamps.com/surfcamp/portugal/surf-spots",
+   "https://www.algarveportugaltourism.com/algarve-beaches/surfing-beaches.html",
+   "https://www.myguidealgarve.com/travel-articles/best-surf-spots-algarve",
+   "https://www.algarvetips.com/activities/sports/surfing/",
+   "https://www.openstreetmap.org/way/1328449735"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "pt-praia-da-cordoama",
+  "name": "Cordoama",
+  "aliases": [
+   "Praia da Cordoama",
+   "Cordoama"
+  ],
+  "lat": 37.1093,
+  "lon": -8.9394,
+  "country": "PT",
+  "zone": "pt-costa-vicentina",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 301,
+  "window": [
+   225,
+   10
+  ],
+  "bestTide": [
+   "low",
+   "mid"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   271,
+   331
+  ],
+  "bestWind": [
+   76,
+   166
+  ],
+  "kiteWind": null,
+  "level": "intermediate",
+  "hazards": [
+   "rocks",
+   "currents"
+  ],
+  "sources": [
+   "https://www.boundlessroads.com/surfing-in-portugal/",
+   "https://www.rapturecamps.com/surfcamp/portugal/surf-spots",
+   "https://www.algarveportugaltourism.com/algarve-beaches/surfing-beaches.html",
+   "https://www.algarvetips.com/activities/sports/surfing/",
+   "https://portugalgetaways.com/en-us/destinations/portugal/algarve/best-beaches-surfing-algarve",
+   "https://www.openstreetmap.org/way/1327926836"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "pt-praia-do-castelejo",
+  "name": "Castelejo",
+  "aliases": [
+   "Praia do Castelejo"
+  ],
+  "lat": 37.1008,
+  "lon": -8.9471,
+  "country": "PT",
+  "zone": "pt-costa-vicentina",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 311,
+  "window": [
+   230,
+   15
+  ],
+  "bestTide": [
+   "low",
+   "mid"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   281,
+   341
+  ],
+  "bestWind": [
+   86,
+   176
+  ],
+  "kiteWind": null,
+  "level": "intermediate",
+  "hazards": [
+   "rocks",
+   "currents"
+  ],
+  "sources": [
+   "https://www.boundlessroads.com/surfing-in-portugal/",
+   "https://www.algarveportugaltourism.com/algarve-beaches/surfing-beaches.html",
+   "https://www.myguidealgarve.com/travel-articles/best-surf-spots-algarve",
+   "https://portugalgetaways.com/en-us/destinations/portugal/algarve/best-beaches-surfing-algarve",
+   "https://www.seabookings.com/blog/5-best-surf-spots-in-the-algarve/",
+   "https://www.openstreetmap.org/way/1244531551"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "pt-praia-da-ponta-ruiva",
+  "name": "Ponta Ruiva",
+  "aliases": [
+   "Praia da Ponta Ruiva"
+  ],
+  "lat": 37.0696,
+  "lon": -8.9646,
+  "country": "PT",
+  "zone": "pt-costa-vicentina",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 299,
+  "window": [
+   215,
+   15
+  ],
+  "bestTide": [
+   "low",
+   "mid"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   269,
+   329
+  ],
+  "bestWind": [
+   74,
+   164
+  ],
+  "kiteWind": null,
+  "level": "advanced",
+  "hazards": [
+   "rocks",
+   "reef"
+  ],
+  "sources": [
+   "https://www.algarvetips.com/beaches/west-coast/praia-da-ponta-ruiva/",
+   "https://www.portugal.com/activities-experiences/portuguese-surf-guide-top-5-surf-spots-in-portugal/",
+   "https://www.openstreetmap.org/way/1243482695"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "pt-praia-do-beliche",
+  "name": "Beliche",
+  "aliases": [
+   "Praia do Beliche"
+  ],
+  "lat": 37.0248,
+  "lon": -8.9648,
+  "country": "PT",
+  "zone": "pt-costa-vicentina",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 209,
+  "window": [
+   160,
+   300
+  ],
+  "bestTide": [
+   "mid"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   240,
+   290
+  ],
+  "bestWind": [
+   330,
+   60
+  ],
+  "kiteWind": null,
+  "level": "intermediate",
+  "hazards": [
+   "rocks",
+   "localism"
+  ],
+  "notes": "Cliff-backed cove inside Cape St Vincent, sheltered from north wind and good when the west coast is too big or windy.",
+  "sources": [
+   "https://www.boundlessroads.com/surfing-in-portugal/",
+   "https://www.rapturecamps.com/blog/the-algarve-a-complete-guide-for-surfers",
+   "https://www.algarveportugaltourism.com/algarve-beaches/surfing-beaches.html",
+   "https://www.myguidealgarve.com/travel-articles/best-surf-spots-algarve",
+   "https://belmarresort.com/en/blog/the-7-best-surf-spots-in-the-algarve/",
+   "https://www.openstreetmap.org/way/94838670"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "pt-praia-do-tonel-2",
+  "name": "Tonel",
+  "aliases": [
+   "Praia do Tonel"
+  ],
+  "lat": 37.0065,
+  "lon": -8.9495,
+  "country": "PT",
+  "zone": "pt-costa-vicentina",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 240,
+  "window": [
+   180,
+   290
+  ],
+  "bestTide": [
+   "mid",
+   "high"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   210,
+   270
+  ],
+  "bestWind": [
+   15,
+   105
+  ],
+  "kiteWind": null,
+  "level": "intermediate",
+  "hazards": [
+   "rocks",
+   "currents"
+  ],
+  "notes": "Exposed beach under the Sagres fortress, the most consistent spot of the Sagres area with peaks across the tide.",
+  "sources": [
+   "https://www.rapturecamps.com/surfcamp/portugal/surf-spots",
+   "https://www.algarveportugaltourism.com/algarve-beaches/surfing-beaches.html",
+   "https://www.myguidealgarve.com/travel-articles/best-surf-spots-algarve",
+   "https://www.algarve-tourist.com/Sagres-portugal/Sagres-beach-guide.html",
+   "https://thatadventurer.co.uk/best-beaches-in-sagres-portugal/",
+   "https://www.openstreetmap.org/way/1255056880"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "pt-praia-da-mareta",
+  "name": "Mareta",
+  "aliases": [
+   "Praia da Mareta"
+  ],
+  "lat": 37.0046,
+  "lon": -8.9384,
+  "country": "PT",
+  "zone": "pt-costa-vicentina",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 179,
+  "window": [
+   125,
+   230
+  ],
+  "bestTide": [
+   "mid"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   170,
+   230
+  ],
+  "bestWind": [
+   330,
+   30
+  ],
+  "kiteWind": null,
+  "level": "intermediate",
+  "hazards": [
+   "rocks"
+  ],
+  "sources": [
+   "https://www.algarveportugaltourism.com/algarve-beaches/surfing-beaches.html",
+   "https://www.algarve-tourist.com/Sagres-portugal/Sagres-beach-guide.html",
+   "https://thatadventurer.co.uk/best-beaches-in-sagres-portugal/",
+   "https://www.beportugal.com/surfing-in-portugal/",
+   "https://www.openstreetmap.org/way/71340752"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "pt-praia-do-martinhal",
+  "name": "Martinhal",
+  "aliases": [
+   "Praia do Martinhal"
+  ],
+  "lat": 37.0183,
+  "lon": -8.9248,
+  "country": "PT",
+  "zone": "pt-costa-vicentina",
+  "break": "beach",
+  "sports": [
+   "surf",
+   "windsurf",
+   "kite"
+  ],
+  "facing": 163,
+  "window": [
+   70,
+   215
+  ],
+  "bestTide": [
+   "mid"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   150,
+   215
+  ],
+  "bestWind": [
+   298,
+   28
+  ],
+  "kiteWind": [
+   300,
+   30
+  ],
+  "level": "intermediate",
+  "hazards": [],
+  "sources": [
+   "https://www.algarve-tourist.com/Sagres-portugal/Sagres-beach-guide.html",
+   "https://www.algarveportugaltourism.com/sagres/beaches/",
+   "https://www.openstreetmap.org/way/1254208003"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "pt-praia-do-zavial",
+  "name": "Zavial",
+  "aliases": [
+   "Praia do Zavial"
+  ],
+  "lat": 37.0447,
+  "lon": -8.8702,
+  "country": "PT",
+  "zone": "pt-costa-vicentina",
+  "break": "point",
+  "sports": [
+   "surf"
+  ],
+  "facing": 169,
+  "window": [
+   80,
+   265
+  ],
+  "bestTide": [
+   "mid",
+   "high"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   200,
+   250
+  ],
+  "bestWind": [
+   330,
+   40
+  ],
+  "kiteWind": null,
+  "level": "intermediate",
+  "hazards": [
+   "rocks",
+   "reef"
+  ],
+  "notes": "Right-hand point and beach on the south coast west of Salema; comes alive on winter southwest swells with northerly wind.",
+  "sources": [
+   "https://www.rapturecamps.com/surfcamp/portugal/surf-spots",
+   "https://www.algarveportugaltourism.com/algarve-beaches/surfing-beaches.html",
+   "https://www.myguidealgarve.com/travel-articles/best-surf-spots-algarve",
+   "https://www.algarvetips.com/activities/sports/surfing/",
+   "https://portugalgetaways.com/en-us/destinations/portugal/algarve/best-beaches-surfing-algarve",
+   "https://www.openstreetmap.org/way/156814657"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "pt-praia-do-burgau",
+  "name": "Burgau",
+  "aliases": [
+   "Praia do Burgau"
+  ],
+  "lat": 37.0708,
+  "lon": -8.774,
+  "country": "PT",
+  "zone": "pt-costa-vicentina",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 167,
+  "window": [
+   85,
+   240
+  ],
+  "bestTide": [
+   "mid"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   137,
+   197
+  ],
+  "bestWind": [
+   302,
+   32
+  ],
+  "kiteWind": null,
+  "level": "intermediate",
+  "hazards": [
+   "rocks"
+  ],
+  "sources": [
+   "https://www.seabookings.com/blog/5-best-surf-spots-in-the-algarve/",
+   "https://www.openstreetmap.org/way/38502661"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "pt-praia-da-luz",
+  "name": "Praia da Luz",
+  "aliases": [
+   "Luz"
+  ],
+  "lat": 37.0854,
+  "lon": -8.726,
+  "country": "PT",
+  "zone": "pt-algarve",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 171,
+  "window": [
+   100,
+   240
+  ],
+  "bestTide": [
+   "mid"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   141,
+   201
+  ],
+  "bestWind": [
+   306,
+   36
+  ],
+  "kiteWind": null,
+  "level": "all",
+  "hazards": [
+   "rocks"
+  ],
+  "notes": "Sheltered south-coast bay that wakes up on winter southwest swells; a reef in front of Rocha Negra suits better surfers.",
+  "sources": [
+   "https://www.rapturecamps.com/surfcamp/portugal/surf-spots",
+   "https://www.myguidealgarve.com/travel-articles/best-surf-spots-algarve",
+   "https://www.beportugal.com/surfing-in-portugal/",
+   "https://www.openstreetmap.org/way/156815842"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "pt-praia-de-porto-de-mos",
+  "name": "Porto de Mós",
+  "aliases": [
+   "Praia de Porto de Mós"
+  ],
+  "lat": 37.0841,
+  "lon": -8.6898,
+  "country": "PT",
+  "zone": "pt-algarve",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 178,
+  "window": [
+   105,
+   250
+  ],
+  "bestTide": [
+   "mid"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   148,
+   208
+  ],
+  "bestWind": [
+   313,
+   43
+  ],
+  "kiteWind": null,
+  "level": "beginner",
+  "hazards": [
+   "rocks"
+  ],
+  "sources": [
+   "https://www.algarveportugaltourism.com/algarve-beaches/surfing-beaches.html",
+   "https://belmarresort.com/en/blog/the-7-best-surf-spots-in-the-algarve/",
+   "https://portugalgetaways.com/en-us/destinations/portugal/algarve/best-beaches-surfing-algarve",
+   "https://www.openstreetmap.org/way/886719362"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "pt-meia-praia",
+  "name": "Meia Praia",
+  "aliases": [],
+  "lat": 37.12,
+  "lon": -8.6243,
+  "country": "PT",
+  "zone": "pt-algarve",
+  "break": "beach",
+  "sports": [
+   "surf",
+   "kite",
+   "windsurf"
+  ],
+  "facing": 176,
+  "window": [
+   105,
+   220
+  ],
+  "bestTide": [
+   "mid",
+   "high"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   146,
+   206
+  ],
+  "bestWind": [
+   311,
+   41
+  ],
+  "kiteWind": [
+   180,
+   270
+  ],
+  "level": "beginner",
+  "hazards": [],
+  "notes": "Long sandy bay east of Lagos with gentle south-swell waves for learners and good kite conditions in onshore afternoon breezes.",
+  "sources": [
+   "https://www.rapturecamps.com/blog/the-algarve-a-complete-guide-for-surfers",
+   "https://belmarresort.com/en/blog/the-7-best-surf-spots-in-the-algarve/",
+   "https://portugalgetaways.com/en-us/destinations/portugal/algarve/best-beaches-surfing-algarve",
+   "https://www.seabookings.com/blog/5-best-surf-spots-in-the-algarve/",
+   "https://www.openstreetmap.org/way/1069286046"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "pt-praia-da-rocha",
+  "name": "Praia da Rocha",
+  "aliases": [],
+  "lat": 37.1156,
+  "lon": -8.54,
+  "country": "PT",
+  "zone": "pt-algarve",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 186,
+  "window": [
+   120,
+   245
+  ],
+  "bestTide": [
+   "mid"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   156,
+   216
+  ],
+  "bestWind": [
+   321,
+   51
+  ],
+  "kiteWind": null,
+  "level": "beginner",
+  "hazards": [
+   "crowds"
+  ],
+  "notes": "Wide beach west of the Portimão jetty that picks up more south and southwest swell than most of the south Algarve.",
+  "sources": [
+   "https://www.rapturecamps.com/blog/the-algarve-a-complete-guide-for-surfers",
+   "https://www.myguidealgarve.com/travel-articles/best-surf-spots-algarve",
+   "https://portugalgetaways.com/en-us/destinations/portugal/algarve/best-beaches-surfing-algarve",
+   "https://www.openstreetmap.org/way/98687797"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "pt-praia-de-armacao-de-pera",
+  "name": "Armação de Pêra",
+  "aliases": [],
+  "lat": 37.0996,
+  "lon": -8.3614,
+  "country": "PT",
+  "zone": "pt-algarve",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 189,
+  "window": [
+   120,
+   250
+  ],
+  "bestTide": [
+   "mid"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   159,
+   219
+  ],
+  "bestWind": [
+   324,
+   54
+  ],
+  "kiteWind": null,
+  "level": "beginner",
+  "hazards": [],
+  "sources": [
+   "https://www.myguidealgarve.com/travel-articles/best-surf-spots-algarve",
+   "https://www.openstreetmap.org/way/259211193"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "pt-praia-da-gale",
+  "name": "Galé",
+  "aliases": [
+   "Praia da Galé"
+  ],
+  "lat": 37.0807,
+  "lon": -8.3188,
+  "country": "PT",
+  "zone": "pt-algarve",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 209,
+  "window": [
+   125,
+   270
+  ],
+  "bestTide": [
+   "mid"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   179,
+   239
+  ],
+  "bestWind": [
+   344,
+   74
+  ],
+  "kiteWind": null,
+  "level": "beginner",
+  "hazards": [
+   "rocks"
+  ],
+  "sources": [
+   "https://www.myguidealgarve.com/travel-articles/best-surf-spots-algarve",
+   "https://www.openstreetmap.org/way/1250910960"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "pt-praia-de-vilamoura",
+  "name": "Vilamoura",
+  "aliases": [],
+  "lat": 37.0703,
+  "lon": -8.1176,
+  "country": "PT",
+  "zone": "pt-algarve",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 196,
+  "window": [
+   125,
+   270
+  ],
+  "bestTide": [
+   "mid"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   166,
+   226
+  ],
+  "bestWind": [
+   331,
+   61
+  ],
+  "kiteWind": null,
+  "level": "beginner",
+  "hazards": [],
+  "sources": [
+   "https://www.algarveportugaltourism.com/algarve-beaches/surfing-beaches.html",
+   "https://portugalgetaways.com/en-us/destinations/portugal/algarve/best-beaches-surfing-algarve",
+   "https://www.openstreetmap.org/way/85956082"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "pt-praia-da-ilha-de-faro",
+  "name": "Praia de Faro",
+  "aliases": [
+   "Ilha de Faro"
+  ],
+  "lat": 36.9994,
+  "lon": -7.9849,
+  "country": "PT",
+  "zone": "pt-algarve",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 222,
+  "window": [
+   130,
+   300
+  ],
+  "bestTide": [
+   "mid"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   192,
+   252
+  ],
+  "bestWind": [
+   357,
+   87
+  ],
+  "kiteWind": null,
+  "level": "beginner",
+  "hazards": [
+   "crowds"
+  ],
+  "notes": "Barrier-island beach of the Ria Formosa near Faro airport; small southwest-swell waves for beginners.",
+  "sources": [
+   "https://www.boundlessroads.com/surfing-in-portugal/",
+   "https://www.rapturecamps.com/surfcamp/portugal/surf-spots",
+   "https://www.myguidealgarve.com/travel-articles/best-surf-spots-algarve",
+   "https://portugalgetaways.com/en-us/destinations/portugal/algarve/best-beaches-surfing-algarve",
+   "https://www.portugalvisitor.com/portugal-city-guides/aljezur",
+   "https://www.openstreetmap.org/relation/12567393"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "pt-jardim-do-mar",
+  "name": "Jardim do Mar",
+  "aliases": [],
+  "lat": 32.7371,
+  "lon": -17.2142,
+  "country": "PT",
+  "zone": "pt-madeira",
+  "break": "point",
+  "sports": [
+   "surf"
+  ],
+  "facing": 231,
+  "window": [
+   125,
+   320
+  ],
+  "bestTide": [
+   "low",
+   "mid"
+  ],
+  "dangerTide": [
+   "high"
+  ],
+  "bestSwell": [
+   270,
+   320
+  ],
+  "bestWind": [
+   30,
+   120
+  ],
+  "kiteWind": null,
+  "level": "advanced",
+  "hazards": [
+   "rocks",
+   "reef",
+   "currents"
+  ],
+  "notes": "Long, powerful right-hand point over boulders below the village of the same name; Madeira's flagship big-wave spot.",
+  "sources": [
+   "https://www.boundlessroads.com/surfing-in-portugal/",
+   "https://www.rapturecamps.com/blog/surfing-in-madeira",
+   "https://en.wikipedia.org/wiki/Surfing_in_Madeira",
+   "https://www.madeira-live.com/en/surf.html",
+   "https://www.barcelo.com/guia-turismo/en/portugal/madeira/things-to-do/surfing-in-madeira/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "pt-ponta-pequena",
+  "name": "Ponta Pequena",
+  "aliases": [],
+  "lat": 32.7474,
+  "lon": -17.2218,
+  "country": "PT",
+  "zone": "pt-madeira",
+  "break": "point",
+  "sports": [
+   "surf"
+  ],
+  "facing": 227,
+  "window": [
+   145,
+   320
+  ],
+  "bestTide": [
+   "low"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   270,
+   320
+  ],
+  "bestWind": [
+   30,
+   120
+  ],
+  "kiteWind": null,
+  "level": "advanced",
+  "hazards": [
+   "rocks",
+   "reef"
+  ],
+  "sources": [
+   "https://en.wikipedia.org/wiki/Surfing_in_Madeira",
+   "https://www.madeira-live.com/en/surf.html",
+   "https://www.mustseespots.com/madeira/articles/madeira-surf-guide-best-spots-and-beaches-for-riding-waves/",
+   "https://esim.holafly.com/trip-planning/surf-madeira/",
+   "https://www.openstreetmap.org/node/3995320534"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "pt-paul-do-mar",
+  "name": "Paul do Mar",
+  "aliases": [],
+  "lat": 32.7516,
+  "lon": -17.2263,
+  "country": "PT",
+  "zone": "pt-madeira",
+  "break": "point",
+  "sports": [
+   "surf"
+  ],
+  "facing": 229,
+  "window": [
+   145,
+   325
+  ],
+  "bestTide": [
+   "mid",
+   "high"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   270,
+   320
+  ],
+  "bestWind": [
+   30,
+   120
+  ],
+  "kiteWind": null,
+  "level": "advanced",
+  "hazards": [
+   "rocks",
+   "reef",
+   "currents"
+  ],
+  "notes": "Heavy, hollow right over volcanic boulders at the fishing village of Paul do Mar; handles big winter swells.",
+  "sources": [
+   "https://www.boundlessroads.com/surfing-in-portugal/",
+   "https://www.rapturecamps.com/blog/surfing-in-madeira",
+   "https://en.wikipedia.org/wiki/Surfing_in_Madeira",
+   "https://www.madeira-live.com/en/surf.html",
+   "https://www.barcelo.com/guia-turismo/en/portugal/madeira/things-to-do/surfing-in-madeira/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "pt-madalena-do-mar",
+  "name": "Madalena do Mar",
+  "aliases": [],
+  "lat": 32.702,
+  "lon": -17.1387,
+  "country": "PT",
+  "zone": "pt-madeira",
+  "break": "reef",
+  "sports": [
+   "surf"
+  ],
+  "facing": 209,
+  "window": [
+   130,
+   295
+  ],
+  "bestTide": [
+   "mid"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   179,
+   239
+  ],
+  "bestWind": [
+   344,
+   74
+  ],
+  "kiteWind": null,
+  "level": "advanced",
+  "hazards": [
+   "rocks",
+   "reef"
+  ],
+  "sources": [
+   "https://www.barcelo.com/guia-turismo/en/portugal/madeira/things-to-do/surfing-in-madeira/",
+   "https://www.wikidata.org/wiki/Q10352623"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "pt-lugar-de-baixo",
+  "name": "Lugar de Baixo",
+  "aliases": [],
+  "lat": 32.6785,
+  "lon": -17.0864,
+  "country": "PT",
+  "zone": "pt-madeira",
+  "break": "reef",
+  "sports": [
+   "surf"
+  ],
+  "facing": 192,
+  "window": [
+   115,
+   270
+  ],
+  "bestTide": [
+   "mid"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   162,
+   222
+  ],
+  "bestWind": [
+   327,
+   57
+  ],
+  "kiteWind": null,
+  "level": "advanced",
+  "hazards": [
+   "rocks",
+   "reef"
+  ],
+  "notes": "Fast, hollow boulder-reef wave near Ponta do Sol on the island's south coast.",
+  "sources": [
+   "https://www.madeira-live.com/en/surf.html",
+   "https://www.easyjet.com/en/traveller/portugal/madeira/best-surf-spots-madeira"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "pt-praia-da-ribeira-brava",
+  "name": "Ribeira Brava",
+  "aliases": [],
+  "lat": 32.6695,
+  "lon": -17.0669,
+  "country": "PT",
+  "zone": "pt-madeira",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 204,
+  "window": [
+   115,
+   285
+  ],
+  "bestTide": [
+   "mid"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   174,
+   234
+  ],
+  "bestWind": [
+   339,
+   69
+  ],
+  "kiteWind": null,
+  "level": "intermediate",
+  "hazards": [
+   "rocks"
+  ],
+  "sources": [
+   "https://www.barcelo.com/guia-turismo/en/portugal/madeira/things-to-do/surfing-in-madeira/",
+   "https://www.openstreetmap.org/way/1499877825"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "pt-machico",
+  "name": "Machico",
+  "aliases": [
+   "Praia de Machico"
+  ],
+  "lat": 32.7169,
+  "lon": -16.7626,
+  "country": "PT",
+  "zone": "pt-madeira",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 143,
+  "window": [
+   85,
+   195
+  ],
+  "bestTide": [
+   "mid"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   113,
+   173
+  ],
+  "bestWind": [
+   278,
+   8
+  ],
+  "kiteWind": null,
+  "level": "beginner",
+  "hazards": [
+   "rocks"
+  ],
+  "sources": [
+   "https://flysurfbrand.com/en/blogs/surf/surf-en-madeira-flysurf",
+   "https://esim.holafly.com/trip-planning/surf-madeira/"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "pt-praia-da-alagoa-2",
+  "name": "Porto da Cruz",
+  "aliases": [
+   "Praia da Alagoa"
+  ],
+  "lat": 32.7771,
+  "lon": -16.8298,
+  "country": "PT",
+  "zone": "pt-madeira",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 45,
+  "window": [
+   320,
+   100
+  ],
+  "bestTide": [
+   "mid"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   15,
+   75
+  ],
+  "bestWind": [
+   180,
+   270
+  ],
+  "kiteWind": null,
+  "level": "all",
+  "hazards": [
+   "rocks"
+  ],
+  "notes": "Pebble beach on the north-east coast promoted by Madeira's surf club as the island's safest place to learn.",
+  "sources": [
+   "https://www.boundlessroads.com/surfing-in-portugal/",
+   "https://www.rapturecamps.com/blog/surfing-in-madeira",
+   "https://www.madeira-live.com/en/surf.html",
+   "https://www.barcelo.com/guia-turismo/en/portugal/madeira/things-to-do/surfing-in-madeira/",
+   "https://www.mustseespots.com/madeira/articles/madeira-surf-guide-best-spots-and-beaches-for-riding-waves/",
+   "https://www.openstreetmap.org/way/168959347"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "pt-ponta-delgada",
+  "name": "Ponta Delgada (Madeira)",
+  "aliases": [
+   "Ponta Delgada"
+  ],
+  "lat": 32.8277,
+  "lon": -16.9823,
+  "country": "PT",
+  "zone": "pt-madeira",
+  "break": "reef",
+  "sports": [
+   "surf"
+  ],
+  "facing": 7,
+  "window": [
+   285,
+   80
+  ],
+  "bestTide": [
+   "mid"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   337,
+   37
+  ],
+  "bestWind": [
+   142,
+   232
+  ],
+  "kiteWind": null,
+  "level": "advanced",
+  "hazards": [
+   "rocks"
+  ],
+  "sources": [
+   "https://www.barcelo.com/guia-turismo/en/portugal/madeira/things-to-do/surfing-in-madeira/",
+   "https://flysurfbrand.com/en/blogs/surf/surf-en-madeira-flysurf"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "pt-sao-vicente",
+  "name": "São Vicente",
+  "aliases": [
+   "Fajã da Areia"
+  ],
+  "lat": 32.8146,
+  "lon": -17.0328,
+  "country": "PT",
+  "zone": "pt-madeira",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 353,
+  "window": [
+   295,
+   65
+  ],
+  "bestTide": [
+   "mid"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   323,
+   23
+  ],
+  "bestWind": [
+   128,
+   218
+  ],
+  "kiteWind": null,
+  "level": "intermediate",
+  "hazards": [
+   "rocks"
+  ],
+  "notes": "Black-sand and boulder beach at Fajã da Areia on the north coast, home of the São Vicente surf club and suited to intermediates.",
+  "sources": [
+   "https://www.boundlessroads.com/surfing-in-portugal/",
+   "https://www.rapturecamps.com/blog/surfing-in-madeira",
+   "https://www.madeira-live.com/en/surf.html",
+   "https://www.barcelo.com/guia-turismo/en/portugal/madeira/things-to-do/surfing-in-madeira/",
+   "https://www.mustseespots.com/madeira/articles/madeira-surf-guide-best-spots-and-beaches-for-riding-waves/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "pt-seixal",
+  "name": "Seixal",
+  "aliases": [
+   "Praia do Seixal"
+  ],
+  "lat": 32.8208,
+  "lon": -17.1015,
+  "country": "PT",
+  "zone": "pt-madeira",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 35,
+  "window": [
+   310,
+   85
+  ],
+  "bestTide": [
+   "mid"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   5,
+   65
+  ],
+  "bestWind": [
+   170,
+   260
+  ],
+  "kiteWind": null,
+  "level": "beginner",
+  "hazards": [
+   "rocks"
+  ],
+  "sources": [
+   "https://www.portomoniz.pt/en/visit/activities-and-experiences/surf",
+   "https://www.mustseespots.com/madeira/articles/madeira-surf-guide-best-spots-and-beaches-for-riding-waves/",
+   "https://esim.holafly.com/trip-planning/surf-madeira/",
+   "https://www.openstreetmap.org/way/130906202"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "pt-porto-moniz",
+  "name": "Porto Moniz",
+  "aliases": [],
+  "lat": 32.8691,
+  "lon": -17.1683,
+  "country": "PT",
+  "zone": "pt-madeira",
+  "break": "reef",
+  "sports": [
+   "surf"
+  ],
+  "facing": 23,
+  "window": [
+   270,
+   100
+  ],
+  "bestTide": [
+   "mid"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   353,
+   53
+  ],
+  "bestWind": [
+   158,
+   248
+  ],
+  "kiteWind": null,
+  "level": "advanced",
+  "hazards": [
+   "rocks"
+  ],
+  "sources": [
+   "https://www.portomoniz.pt/en/visit/activities-and-experiences/surf",
+   "https://www.mustseespots.com/madeira/articles/madeira-surf-guide-best-spots-and-beaches-for-riding-waves/"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "pt-praia-da-ribeira-das-galinhas",
+  "name": "Ribeira das Galinhas",
+  "aliases": [],
+  "lat": 32.7592,
+  "lon": -17.2335,
+  "country": "PT",
+  "zone": "pt-madeira",
+  "break": "reef",
+  "sports": [
+   "surf"
+  ],
+  "facing": 238,
+  "window": [
+   145,
+   325
+  ],
+  "bestTide": [
+   "mid"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   208,
+   268
+  ],
+  "bestWind": [
+   13,
+   103
+  ],
+  "kiteWind": null,
+  "level": "advanced",
+  "hazards": [
+   "rocks",
+   "reef"
+  ],
+  "sources": [
+   "https://www.boundlessroads.com/surfing-in-portugal/",
+   "https://www.openstreetmap.org/relation/3307950"
+  ],
+  "confidence": "medium"
+ }
+]
