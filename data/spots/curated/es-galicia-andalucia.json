@@ -1,0 +1,5160 @@
+[
+ {
+  "id": "es-enseada-de-espasante",
+  "name": "San Antonio de Espasante",
+  "aliases": [
+   "Espasante"
+  ],
+  "lat": 43.721,
+  "lon": -7.815,
+  "country": "ES",
+  "zone": "es-galicia-rias-altas",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 2,
+  "window": [
+   325,
+   50
+  ],
+  "bestTide": [
+   "mid",
+   "high"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   325,
+   330
+  ],
+  "bestWind": [
+   135,
+   225
+  ],
+  "kiteWind": null,
+  "level": "beginner",
+  "hazards": [
+   "rips"
+  ],
+  "notes": "Sheltered beach at the mouth of the Ortigueira estuary with a local surf school.",
+  "sources": [
+   "https://www.turismo.gal/tebascms/filestore/1/5/7/8/5_8681404c46eb0ce/15785_c565fb2b241388b.pdf",
+   "https://turismoferrolterra.es/wp-content/uploads/2020/12/Guia_turismo_activo_castellano-1.pdf",
+   "https://www.spain.info/en/beach/san-antonio-espasante/",
+   "https://www.paxinasgalegas.es/fiestas/ortegal-surf-escola-ortigueira-19302.html"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "es-praia-do-sarridal",
+  "name": "Sarridal",
+  "aliases": [],
+  "lat": 43.7344,
+  "lon": -7.7773,
+  "country": "ES",
+  "zone": "es-galicia-rias-altas",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 342,
+  "window": [
+   300,
+   50
+  ],
+  "bestTide": [
+   "mid"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   300,
+   330
+  ],
+  "bestWind": [
+   115,
+   205
+  ],
+  "kiteWind": null,
+  "level": "intermediate",
+  "hazards": [
+   "rocks"
+  ],
+  "sources": [
+   "https://www.turismo.gal/tebascms/filestore/1/5/7/8/5_8681404c46eb0ce/15785_c565fb2b241388b.pdf",
+   "https://turismoferrolterra.es/wp-content/uploads/2020/12/Praias_castelan_-2017-1.pdf",
+   "https://guias-viajar.com/gl/turismo-espana/visitar-galicia/mejores-playas-a-coruna-provincia/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "es-praia-do-picon",
+  "name": "Picón",
+  "aliases": [],
+  "lat": 43.7456,
+  "lon": -7.7441,
+  "country": "ES",
+  "zone": "es-galicia-rias-altas",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 347,
+  "window": [
+   290,
+   45
+  ],
+  "bestTide": [
+   "mid"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   290,
+   330
+  ],
+  "bestWind": [
+   120,
+   210
+  ],
+  "kiteWind": null,
+  "level": "intermediate",
+  "hazards": [
+   "rocks",
+   "currents"
+  ],
+  "notes": "Cliff-backed beach below Loiba, exposed to north swells.",
+  "sources": [
+   "https://www.turismo.gal/tebascms/filestore/1/5/7/8/5_8681404c46eb0ce/15785_c565fb2b241388b.pdf",
+   "https://turismoferrolterra.es/wp-content/uploads/2020/12/Praias_castelan_-2017-1.pdf"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "es-praia-de-vilarrube",
+  "name": "Vilarrube",
+  "aliases": [],
+  "lat": 43.6429,
+  "lon": -8.0774,
+  "country": "ES",
+  "zone": "es-galicia-rias-altas",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 350,
+  "window": [
+   340,
+   0
+  ],
+  "bestTide": [
+   "mid",
+   "high"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   340,
+   0
+  ],
+  "bestWind": [
+   125,
+   215
+  ],
+  "kiteWind": null,
+  "level": "beginner",
+  "hazards": [],
+  "notes": "Estuary-mouth beach that only gets smaller surf; useful when Pantín is too big.",
+  "sources": [
+   "https://www.turismo.gal/tebascms/filestore/1/5/7/8/5_8681404c46eb0ce/15785_c565fb2b241388b.pdf",
+   "https://explora.concellodevaldovino.com/en/valdovino-es-surf",
+   "https://turismoferrolterra.es/wp-content/uploads/2020/12/Guia_turismo_activo_castellano-1.pdf"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "es-baleo",
+  "name": "Baleo",
+  "aliases": [
+   "Figaredo"
+  ],
+  "lat": 43.6472,
+  "lon": -8.1034,
+  "country": "ES",
+  "zone": "es-galicia-rias-altas",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 327,
+  "window": [
+   245,
+   30
+  ],
+  "bestTide": [
+   "mid"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   270,
+   330
+  ],
+  "bestWind": [
+   100,
+   190
+  ],
+  "kiteWind": null,
+  "level": "intermediate",
+  "hazards": [
+   "rocks"
+  ],
+  "sources": [
+   "https://www.turismo.gal/tebascms/filestore/1/5/7/8/5_8681404c46eb0ce/15785_c565fb2b241388b.pdf",
+   "https://explora.concellodevaldovino.com/en/master/resource/r/praia-de-pantin",
+   "https://turismoferrolterra.es/wp-content/uploads/2020/12/Praias_castelan_-2017-1.pdf",
+   "https://www.spain.info/en/beach/baleo/",
+   "https://www.yumping.com/en/adventure-sports-news/what-is-the-best-beach-in-galicia-for-surfing--c1299"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "es-praia-de-pantin",
+  "name": "Pantín",
+  "aliases": [],
+  "lat": 43.6411,
+  "lon": -8.1155,
+  "country": "ES",
+  "zone": "es-galicia-rias-altas",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 326,
+  "window": [
+   250,
+   30
+  ],
+  "bestTide": [
+   "low",
+   "mid"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   290,
+   350
+  ],
+  "bestWind": [
+   100,
+   200
+  ],
+  "kiteWind": null,
+  "level": "all",
+  "hazards": [
+   "rips",
+   "crowds"
+  ],
+  "notes": "Host of the Pantín Classic; rights and lefts by the rocks at the north end.",
+  "sources": [
+   "https://www.turismo.gal/tebascms/filestore/1/5/7/8/5_8681404c46eb0ce/15785_c565fb2b241388b.pdf",
+   "https://explora.concellodevaldovino.com/en/valdovino-es-surf",
+   "https://turismoferrolterra.es/wp-content/uploads/2020/12/Guia_turismo_activo_castellano-1.pdf",
+   "https://www.spain.info/en/beach/pantin/",
+   "https://blog.mundo-r.com/es/playas-surf-coruna/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "es-praia-da-frouxeira",
+  "name": "Frouxeira",
+  "aliases": [
+   "A Frouxeira"
+  ],
+  "lat": 43.6134,
+  "lon": -8.1606,
+  "country": "ES",
+  "zone": "es-galicia-rias-altas",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 340,
+  "window": [
+   295,
+   35
+  ],
+  "bestTide": [
+   "mid"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   295,
+   330
+  ],
+  "bestWind": [
+   115,
+   205
+  ],
+  "kiteWind": null,
+  "level": "all",
+  "hazards": [
+   "rips"
+  ],
+  "notes": "Long open beach with shifting sandbars.",
+  "sources": [
+   "https://www.turismo.gal/tebascms/filestore/1/5/7/8/5_8681404c46eb0ce/15785_c565fb2b241388b.pdf",
+   "https://explora.concellodevaldovino.com/en/valdovino-es-surf",
+   "https://turismoferrolterra.es/wp-content/uploads/2020/12/Guia_turismo_activo_castellano-1.pdf",
+   "https://www.spain.info/en/beach/a-frouxeira/",
+   "https://guias-viajar.com/gl/turismo-espana/visitar-galicia/mejores-playas-a-coruna-provincia/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "es-praia-de-campelo-2",
+  "name": "Campelo",
+  "aliases": [],
+  "lat": 43.5825,
+  "lon": -8.217,
+  "country": "ES",
+  "zone": "es-galicia-rias-altas",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 308,
+  "window": [
+   260,
+   30
+  ],
+  "bestTide": [
+   "mid"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   290,
+   330
+  ],
+  "bestWind": [
+   45,
+   135
+  ],
+  "kiteWind": null,
+  "level": "intermediate",
+  "hazards": [
+   "rocks"
+  ],
+  "notes": "Small cliff-backed cove with fast peaks that works on small swells.",
+  "sources": [
+   "https://www.turismo.gal/tebascms/filestore/1/5/7/8/5_8681404c46eb0ce/15785_c565fb2b241388b.pdf",
+   "https://explora.concellodevaldovino.com/en/valdovino-es-surf",
+   "https://turismoferrolterra.es/wp-content/uploads/2020/12/Guia_turismo_activo_castellano-1.pdf",
+   "https://www.yumping.com/en/adventure-sports-news/what-is-the-best-beach-in-galicia-for-surfing--c1299"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "es-praia-de-ponzos",
+  "name": "Ponzos",
+  "aliases": [],
+  "lat": 43.5563,
+  "lon": -8.266,
+  "country": "ES",
+  "zone": "es-galicia-rias-altas",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 339,
+  "window": [
+   290,
+   40
+  ],
+  "bestTide": [
+   "mid"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   290,
+   330
+  ],
+  "bestWind": [
+   115,
+   205
+  ],
+  "kiteWind": null,
+  "level": "intermediate",
+  "hazards": [
+   "currents",
+   "rips"
+  ],
+  "notes": "Rural beach with long waves; currents when the sea is big.",
+  "sources": [
+   "https://www.turismo.gal/tebascms/filestore/1/5/7/8/5_8681404c46eb0ce/15785_c565fb2b241388b.pdf",
+   "https://turismoferrolterra.es/wp-content/uploads/2020/12/Guia_turismo_activo_castellano-1.pdf",
+   "https://www.spain.info/en/beach/ponzos/",
+   "https://planomato.com/es/ferrol/n/surf-ferrolterra-mejores-playas-escuelas",
+   "https://www.yumping.com/en/adventure-sports-news/what-is-the-best-beach-in-galicia-for-surfing--c1299"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "es-praia-de-santa-comba",
+  "name": "Santa Comba",
+  "aliases": [],
+  "lat": 43.5569,
+  "lon": -8.2874,
+  "country": "ES",
+  "zone": "es-galicia-rias-altas",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 349,
+  "window": [
+   295,
+   45
+  ],
+  "bestTide": [
+   "low"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   295,
+   330
+  ],
+  "bestWind": [
+   125,
+   215
+  ],
+  "kiteWind": null,
+  "level": "intermediate",
+  "hazards": [
+   "rocks"
+  ],
+  "notes": "Straight beach below the Santa Comba islet chapel, best at low tide.",
+  "sources": [
+   "https://www.turismo.gal/tebascms/filestore/1/5/7/8/5_8681404c46eb0ce/15785_c565fb2b241388b.pdf",
+   "https://turismoferrolterra.es/wp-content/uploads/2020/12/Guia_turismo_activo_castellano-1.pdf",
+   "https://www.spain.info/en/beach/santa-comba/",
+   "https://guias-viajar.com/gl/turismo-espana/visitar-galicia/mejores-playas-a-coruna-provincia/",
+   "https://www.yumping.com/en/adventure-sports-news/what-is-the-best-beach-in-galicia-for-surfing--c1299"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "es-praia-do-vilar",
+  "name": "Covas - O Vilar",
+  "aliases": [
+   "O Vilar"
+  ],
+  "lat": 43.5412,
+  "lon": -8.3018,
+  "country": "ES",
+  "zone": "es-galicia-rias-altas",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 258,
+  "window": [
+   225,
+   300
+  ],
+  "bestTide": [
+   "mid",
+   "high"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   270,
+   300
+  ],
+  "bestWind": [
+   35,
+   125
+  ],
+  "kiteWind": null,
+  "level": "beginner",
+  "hazards": [],
+  "sources": [
+   "https://www.turismo.gal/tebascms/filestore/1/5/7/8/5_8681404c46eb0ce/15785_c565fb2b241388b.pdf",
+   "https://turismoferrolterra.es/wp-content/uploads/2020/12/Guia_turismo_activo_castellano-1.pdf",
+   "https://www.spain.info/en/beach/o-vilar/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "es-a-fragata",
+  "name": "A Fragata",
+  "aliases": [],
+  "lat": 43.538,
+  "lon": -8.298,
+  "country": "ES",
+  "zone": "es-galicia-rias-altas",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 272,
+  "window": [
+   240,
+   310
+  ],
+  "bestTide": [
+   "mid"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   270,
+   310
+  ],
+  "bestWind": [
+   45,
+   135
+  ],
+  "kiteWind": null,
+  "level": "intermediate",
+  "hazards": [
+   "rocks"
+  ],
+  "sources": [
+   "https://www.turismo.gal/tebascms/filestore/1/5/7/8/5_8681404c46eb0ce/15785_c565fb2b241388b.pdf",
+   "https://turismoferrolterra.es/wp-content/uploads/2020/12/Guia_turismo_activo_castellano-1.pdf",
+   "https://www.yumping.com/en/adventure-sports-news/what-is-the-best-beach-in-galicia-for-surfing--c1299"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "es-praia-de-esmelle",
+  "name": "Esmelle",
+  "aliases": [],
+  "lat": 43.5349,
+  "lon": -8.2975,
+  "country": "ES",
+  "zone": "es-galicia-rias-altas",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 277,
+  "window": [
+   245,
+   310
+  ],
+  "bestTide": [
+   "mid"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   270,
+   310
+  ],
+  "bestWind": [
+   50,
+   140
+  ],
+  "kiteWind": null,
+  "level": "intermediate",
+  "hazards": [
+   "rocks"
+  ],
+  "notes": "Smaller beach that holds well when the sea is moderate.",
+  "sources": [
+   "https://www.turismo.gal/tebascms/filestore/1/5/7/8/5_8681404c46eb0ce/15785_c565fb2b241388b.pdf",
+   "https://turismoferrolterra.es/wp-content/uploads/2020/12/Guia_turismo_activo_castellano-1.pdf",
+   "https://www.spain.info/en/beach/esmelle/",
+   "https://planomato.com/es/ferrol/n/surf-ferrolterra-mejores-playas-escuelas",
+   "https://guias-viajar.com/gl/turismo-espana/visitar-galicia/mejores-playas-a-coruna-provincia/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "es-praia-de-san-xurxo",
+  "name": "San Xurxo",
+  "aliases": [
+   "San Jorge"
+  ],
+  "lat": 43.527,
+  "lon": -8.3039,
+  "country": "ES",
+  "zone": "es-galicia-rias-altas",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 293,
+  "window": [
+   260,
+   325
+  ],
+  "bestTide": [
+   "mid"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   270,
+   325
+  ],
+  "bestWind": [
+   70,
+   160
+  ],
+  "kiteWind": null,
+  "level": "beginner",
+  "hazards": [],
+  "notes": "Wide bay used by surf schools; a left at one end.",
+  "sources": [
+   "https://www.turismo.gal/tebascms/filestore/1/5/7/8/5_8681404c46eb0ce/15785_c565fb2b241388b.pdf",
+   "https://turismoferrolterra.es/wp-content/uploads/2020/12/Guia_turismo_activo_castellano-1.pdf",
+   "https://www.spain.info/en/beach/san-xurxo/",
+   "https://planomato.com/es/ferrol/n/surf-ferrolterra-mejores-playas-escuelas",
+   "https://guias-viajar.com/gl/turismo-espana/visitar-galicia/mejores-playas-a-coruna-provincia/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "es-praia-de-doninos",
+  "name": "Doniños",
+  "aliases": [],
+  "lat": 43.496,
+  "lon": -8.3208,
+  "country": "ES",
+  "zone": "es-galicia-rias-altas",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 286,
+  "window": [
+   220,
+   335
+  ],
+  "bestTide": [
+   "low",
+   "mid"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   280,
+   335
+  ],
+  "bestWind": [
+   45,
+   135
+  ],
+  "kiteWind": null,
+  "level": "all",
+  "hazards": [
+   "rips",
+   "crowds"
+  ],
+  "notes": "Two-kilometre beach near Ferrol with several sandbar peaks, Outeiro at the north end.",
+  "sources": [
+   "https://www.turismo.gal/tebascms/filestore/1/5/7/8/5_8681404c46eb0ce/15785_c565fb2b241388b.pdf",
+   "https://turismoferrolterra.es/wp-content/uploads/2020/12/Guia_turismo_activo_castellano-1.pdf",
+   "https://www.spain.info/en/beach/doninos/",
+   "https://blog.mundo-r.com/es/playas-surf-coruna/",
+   "https://planomato.com/es/ferrol/n/surf-ferrolterra-mejores-playas-escuelas"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "es-praia-de-penencia",
+  "name": "Penencia",
+  "aliases": [
+   "Punta Penencia"
+  ],
+  "lat": 43.4893,
+  "lon": -8.323,
+  "country": "ES",
+  "zone": "es-galicia-rias-altas",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 295,
+  "window": [
+   225,
+   350
+  ],
+  "bestTide": [
+   "low",
+   "mid"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   270,
+   330
+  ],
+  "bestWind": [
+   70,
+   160
+  ],
+  "kiteWind": null,
+  "level": "intermediate",
+  "hazards": [
+   "rocks"
+  ],
+  "notes": "Quieter south end of Doniños below the Penencia point.",
+  "sources": [
+   "https://www.turismo.gal/tebascms/filestore/1/5/7/8/5_8681404c46eb0ce/15785_c565fb2b241388b.pdf",
+   "https://turismoferrolterra.es/wp-content/uploads/2020/12/Praias_castelan_-2017-1.pdf",
+   "https://www.paxinasgalegas.es/fiestas/las-mejores-playas-para-hacer-surf-en-galicia-per42.html"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "es-praia-de-chanteiro",
+  "name": "Chanteiro",
+  "aliases": [],
+  "lat": 43.4469,
+  "lon": -8.3043,
+  "country": "ES",
+  "zone": "es-galicia-rias-altas",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 262,
+  "window": [
+   240,
+   285
+  ],
+  "bestTide": [
+   "mid",
+   "high"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   270,
+   285
+  ],
+  "bestWind": [
+   35,
+   125
+  ],
+  "kiteWind": null,
+  "level": "beginner",
+  "hazards": [],
+  "notes": "Inner-estuary beach that only breaks on big north-west swells.",
+  "sources": [
+   "https://www.turismo.gal/tebascms/filestore/1/5/7/8/5_8681404c46eb0ce/15785_c565fb2b241388b.pdf",
+   "https://turismoferrolterra.es/wp-content/uploads/2020/12/Praias_castelan_-2017-1.pdf",
+   "https://www.spain.info/en/beach/chanteiro/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "es-ondalonga",
+  "name": "Ondalonga (Pedrido)",
+  "aliases": [
+   "Ponte Pedrido"
+  ],
+  "lat": 43.3331,
+  "lon": -8.2207,
+  "country": "ES",
+  "zone": "es-galicia-rias-altas",
+  "break": "rivermouth",
+  "sports": [
+   "surf"
+  ],
+  "facing": 330,
+  "window": [
+   310,
+   350
+  ],
+  "bestTide": [
+   "low",
+   "mid"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   310,
+   330
+  ],
+  "bestWind": [
+   100,
+   220
+  ],
+  "kiteWind": null,
+  "level": "beginner",
+  "hazards": [
+   "currents"
+  ],
+  "notes": "Very long, slow wave at the mouth of the Betanzos estuary that needs a big swell; longboard spot.",
+  "sources": [
+   "https://www.turismo.gal/tebascms/filestore/1/5/7/8/5_8681404c46eb0ce/15785_c565fb2b241388b.pdf",
+   "https://www.spain.info/en/beach/pedrido/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "es-praia-de-bastiagueiro",
+  "name": "Bastiagueiro",
+  "aliases": [],
+  "lat": 43.3422,
+  "lon": -8.3633,
+  "country": "ES",
+  "zone": "es-galicia-rias-altas",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 345,
+  "window": [
+   330,
+   0
+  ],
+  "bestTide": [
+   "mid",
+   "high"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   330,
+   330
+  ],
+  "bestWind": [
+   120,
+   210
+  ],
+  "kiteWind": null,
+  "level": "beginner",
+  "hazards": [],
+  "notes": "Sheltered bay beach in Oleiros that works on large north-west swells.",
+  "sources": [
+   "https://www.turismo.gal/tebascms/filestore/1/5/7/8/5_8681404c46eb0ce/15785_c565fb2b241388b.pdf",
+   "https://www.spain.info/en/beach/bastiagueiro/",
+   "https://www.paxinasgalegas.es/fiestas/las-mejores-playas-para-hacer-surf-en-galicia-per42.html",
+   "https://www.yumping.com/en/adventure-sports-news/what-is-the-best-beach-in-galicia-for-surfing--c1299"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "es-praia-do-orzan",
+  "name": "Orzán",
+  "aliases": [],
+  "lat": 43.3723,
+  "lon": -8.4062,
+  "country": "ES",
+  "zone": "es-galicia-rias-altas",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 310,
+  "window": [
+   285,
+   335
+  ],
+  "bestTide": [
+   "mid",
+   "high"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   315,
+   335
+  ],
+  "bestWind": [
+   120,
+   220
+  ],
+  "kiteWind": null,
+  "level": "all",
+  "hazards": [
+   "crowds",
+   "rocks"
+  ],
+  "notes": "A Coruña's city beach, a winter classic with several sandbar peaks.",
+  "sources": [
+   "https://www.turismo.gal/tebascms/filestore/1/5/7/8/5_8681404c46eb0ce/15785_c565fb2b241388b.pdf",
+   "https://www.spain.info/en/beach/orzan/",
+   "https://blog.mundo-r.com/es/playas-surf-coruna/",
+   "https://www.yumping.com/en/adventure-sports-news/what-is-the-best-beach-in-galicia-for-surfing--c1299",
+   "https://www.verplayas.com/?p=20480"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "es-praia-do-matadoiro",
+  "name": "O Matadoiro",
+  "aliases": [
+   "Matadero"
+  ],
+  "lat": 43.3754,
+  "lon": -8.4073,
+  "country": "ES",
+  "zone": "es-galicia-rias-altas",
+  "break": "reef",
+  "sports": [
+   "surf"
+  ],
+  "facing": 314,
+  "window": [
+   280,
+   355
+  ],
+  "bestTide": [
+   "mid"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   315,
+   355
+  ],
+  "bestWind": [
+   120,
+   220
+  ],
+  "kiteWind": null,
+  "level": "advanced",
+  "hazards": [
+   "rocks",
+   "crowds",
+   "localism"
+  ],
+  "notes": "Right-hander off the rocks at the east end of Orzán.",
+  "sources": [
+   "https://www.turismo.gal/tebascms/filestore/1/5/7/8/5_8681404c46eb0ce/15785_c565fb2b241388b.pdf",
+   "https://blog.mundo-r.com/es/playas-surf-coruna/",
+   "https://www.yumping.com/en/adventure-sports-news/what-is-the-best-beach-in-galicia-for-surfing--c1299"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "es-o-areal-de-sabon",
+  "name": "Sabón",
+  "aliases": [],
+  "lat": 43.3305,
+  "lon": -8.5095,
+  "country": "ES",
+  "zone": "es-galicia-rias-altas",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 292,
+  "window": [
+   265,
+   320
+  ],
+  "bestTide": [
+   "mid",
+   "high"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   270,
+   320
+  ],
+  "bestWind": [
+   65,
+   155
+  ],
+  "kiteWind": null,
+  "level": "beginner",
+  "hazards": [
+   "pollution"
+  ],
+  "notes": "Arteixo beach with long waves over wide sandbanks; surf schools.",
+  "sources": [
+   "https://www.turismo.gal/tebascms/filestore/1/5/7/8/5_8681404c46eb0ce/15785_c565fb2b241388b.pdf",
+   "https://www.spain.info/en/beach/sabon/",
+   "https://blog.mundo-r.com/es/playas-surf-coruna/",
+   "https://www.paxinasgalegas.es/fiestas/las-mejores-playas-para-hacer-surf-en-galicia-per42.html",
+   "https://www.yumping.com/en/adventure-sports-news/what-is-the-best-beach-in-galicia-for-surfing--c1299"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "es-valcobo",
+  "name": "Valcobo",
+  "aliases": [],
+  "lat": 43.3223,
+  "lon": -8.5264,
+  "country": "ES",
+  "zone": "es-galicia-rias-altas",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 320,
+  "window": [
+   275,
+   355
+  ],
+  "bestTide": [
+   "mid"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   275,
+   330
+  ],
+  "bestWind": [
+   95,
+   185
+  ],
+  "kiteWind": null,
+  "level": "intermediate",
+  "hazards": [
+   "rocks"
+  ],
+  "sources": [
+   "https://www.turismo.gal/tebascms/filestore/1/5/7/8/5_8681404c46eb0ce/15785_c565fb2b241388b.pdf",
+   "https://www.spain.info/en/beach/valcobo/"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "es-praia-de-barranan",
+  "name": "Barrañán",
+  "aliases": [],
+  "lat": 43.3123,
+  "lon": -8.5522,
+  "country": "ES",
+  "zone": "es-galicia-rias-altas",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 342,
+  "window": [
+   290,
+   20
+  ],
+  "bestTide": [
+   "mid"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   290,
+   330
+  ],
+  "bestWind": [
+   115,
+   205
+  ],
+  "kiteWind": null,
+  "level": "all",
+  "hazards": [
+   "rocks"
+  ],
+  "notes": "Popular Arteixo beach with variable peaks over sand and rock.",
+  "sources": [
+   "https://www.turismo.gal/tebascms/filestore/1/5/7/8/5_8681404c46eb0ce/15785_c565fb2b241388b.pdf",
+   "https://www.spain.info/en/beach/barranan/",
+   "https://guias-viajar.com/gl/turismo-espana/visitar-galicia/mejores-playas-a-coruna-provincia/",
+   "https://www.yumping.com/en/adventure-sports-news/what-is-the-best-beach-in-galicia-for-surfing--c1299",
+   "https://www.verplayas.com/?p=20480"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "es-caion",
+  "name": "Caión",
+  "aliases": [
+   "Salseiras"
+  ],
+  "lat": 43.3167,
+  "lon": -8.6099,
+  "country": "ES",
+  "zone": "es-costa-da-morte",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 340,
+  "window": [
+   280,
+   60
+  ],
+  "bestTide": [
+   "mid",
+   "high"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   300,
+   0
+  ],
+  "bestWind": [
+   135,
+   200
+  ],
+  "kiteWind": null,
+  "level": "intermediate",
+  "hazards": [
+   "rocks"
+  ],
+  "notes": "Two main peaks, a central one and a right sheltered by the harbour wall.",
+  "sources": [
+   "https://www.turismo.gal/tebascms/filestore/1/5/7/8/5_8681404c46eb0ce/15785_c565fb2b241388b.pdf",
+   "https://visitacostadamorte.com/en?p=64128",
+   "https://blog.mundo-r.com/es/playas-surf-coruna/",
+   "https://guias-viajar.com/gl/turismo-espana/visitar-galicia/mejores-playas-a-coruna-provincia/",
+   "https://www.yumping.com/en/adventure-sports-news/what-is-the-best-beach-in-galicia-for-surfing--c1299"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "es-praia-de-baldaio-as-sainas",
+  "name": "Baldaio",
+  "aliases": [],
+  "lat": 43.3008,
+  "lon": -8.6759,
+  "country": "ES",
+  "zone": "es-costa-da-morte",
+  "break": "beach",
+  "sports": [
+   "surf",
+   "kite"
+  ],
+  "facing": 352,
+  "window": [
+   300,
+   65
+  ],
+  "bestTide": [
+   "mid"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   300,
+   330
+  ],
+  "bestWind": [
+   125,
+   215
+  ],
+  "kiteWind": [
+   200,
+   290
+  ],
+  "level": "all",
+  "hazards": [
+   "rips"
+  ],
+  "notes": "Long dune beach in the Razo-Baldaio natural area.",
+  "sources": [
+   "https://www.turismo.gal/tebascms/filestore/1/5/7/8/5_8681404c46eb0ce/15785_c565fb2b241388b.pdf",
+   "https://visitacostadamorte.com/en?p=64128",
+   "https://www.spain.info/en/beach/baldaio/",
+   "https://blog.mundo-r.com/es/playas-surf-coruna/",
+   "https://guias-viajar.com/gl/turismo-espana/visitar-galicia/mejores-playas-a-coruna-provincia/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "es-praia-de-razo",
+  "name": "Razo",
+  "aliases": [],
+  "lat": 43.2908,
+  "lon": -8.711,
+  "country": "ES",
+  "zone": "es-costa-da-morte",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 0,
+  "window": [
+   310,
+   65
+  ],
+  "bestTide": [
+   "low",
+   "mid",
+   "high"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   310,
+   350
+  ],
+  "bestWind": [
+   150,
+   230
+  ],
+  "kiteWind": null,
+  "level": "all",
+  "hazards": [
+   "rips",
+   "crowds"
+  ],
+  "notes": "Long beach break with peaks along its whole length; surf-camp hub of the region.",
+  "sources": [
+   "https://www.turismo.gal/tebascms/filestore/1/5/7/8/5_8681404c46eb0ce/15785_c565fb2b241388b.pdf",
+   "https://visitacostadamorte.com/en?p=64128",
+   "https://www.spain.info/en/beach/razo/",
+   "https://blog.mundo-r.com/es/playas-surf-coruna/",
+   "https://guias-viajar.com/gl/turismo-espana/visitar-galicia/mejores-playas-a-coruna-provincia/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "es-praia-de-area-maior",
+  "name": "Malpica (Area Maior)",
+  "aliases": [
+   "Area Maior"
+  ],
+  "lat": 43.3251,
+  "lon": -8.8127,
+  "country": "ES",
+  "zone": "es-costa-da-morte",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 23,
+  "window": [
+   335,
+   90
+  ],
+  "bestTide": [
+   "mid"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   335,
+   30
+  ],
+  "bestWind": [
+   160,
+   240
+  ],
+  "kiteWind": null,
+  "level": "intermediate",
+  "hazards": [
+   "rocks"
+  ],
+  "notes": "Town beach with a left by the rocks and a right towards the centre.",
+  "sources": [
+   "https://www.turismo.gal/tebascms/filestore/1/5/7/8/5_8681404c46eb0ce/15785_c565fb2b241388b.pdf",
+   "https://www.concellomalpica.com/turismo/?p=4312",
+   "https://visitacostadamorte.com/en?p=64128",
+   "https://guias-viajar.com/gl/turismo-espana/visitar-galicia/mejores-playas-a-coruna-provincia/",
+   "https://www.paxinasgalegas.es/fiestas/las-mejores-playas-para-hacer-surf-en-galicia-per42.html"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "es-praia-de-seaia",
+  "name": "Seaia",
+  "aliases": [],
+  "lat": 43.3285,
+  "lon": -8.8268,
+  "country": "ES",
+  "zone": "es-costa-da-morte",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 35,
+  "window": [
+   345,
+   90
+  ],
+  "bestTide": [
+   "mid"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   12,
+   62
+  ],
+  "bestWind": [
+   170,
+   260
+  ],
+  "kiteWind": null,
+  "level": "intermediate",
+  "hazards": [
+   "rocks"
+  ],
+  "sources": [
+   "https://www.concellomalpica.com/turismo/?p=4312",
+   "https://visitacostadamorte.com/en?p=64128",
+   "https://www.spain.info/en/beach/seaia/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "es-beo",
+  "name": "Beo",
+  "aliases": [],
+  "lat": 43.3204,
+  "lon": -8.8469,
+  "country": "ES",
+  "zone": "es-costa-da-morte",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 308,
+  "window": [
+   270,
+   0
+  ],
+  "bestTide": [
+   "mid"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   270,
+   330
+  ],
+  "bestWind": [
+   85,
+   175
+  ],
+  "kiteWind": null,
+  "level": "intermediate",
+  "hazards": [
+   "rocks"
+  ],
+  "sources": [
+   "https://www.turismo.gal/tebascms/filestore/1/5/7/8/5_8681404c46eb0ce/15785_c565fb2b241388b.pdf",
+   "https://www.concellomalpica.com/turismo/?p=4312",
+   "https://www.spain.info/en/beach/beo/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "es-praia-de-barizo",
+  "name": "Barizo",
+  "aliases": [],
+  "lat": 43.3141,
+  "lon": -8.8758,
+  "country": "ES",
+  "zone": "es-costa-da-morte",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 321,
+  "window": [
+   275,
+   20
+  ],
+  "bestTide": [
+   "mid"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   275,
+   330
+  ],
+  "bestWind": [
+   95,
+   185
+  ],
+  "kiteWind": null,
+  "level": "intermediate",
+  "hazards": [
+   "rocks"
+  ],
+  "sources": [
+   "https://www.concellomalpica.com/turismo/?p=4312",
+   "https://www.spain.info/en/beach/barizo/"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "es-praia-de-ninons",
+  "name": "Niñóns",
+  "aliases": [],
+  "lat": 43.2949,
+  "lon": -8.9083,
+  "country": "ES",
+  "zone": "es-costa-da-morte",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 300,
+  "window": [
+   265,
+   345
+  ],
+  "bestTide": [
+   "mid"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   270,
+   330
+  ],
+  "bestWind": [
+   75,
+   165
+  ],
+  "kiteWind": null,
+  "level": "advanced",
+  "hazards": [
+   "rocks",
+   "currents"
+  ],
+  "sources": [
+   "https://www.spain.info/en/beach/ninons/"
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "es-praia-da-barra",
+  "name": "A Barra (Ponteceso)",
+  "aliases": [
+   "A Barra"
+  ],
+  "lat": 43.2325,
+  "lon": -8.9398,
+  "country": "ES",
+  "zone": "es-costa-da-morte",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 292,
+  "window": [
+   270,
+   315
+  ],
+  "bestTide": [
+   "mid"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   270,
+   315
+  ],
+  "bestWind": [
+   65,
+   155
+  ],
+  "kiteWind": null,
+  "level": "intermediate",
+  "hazards": [
+   "currents"
+  ],
+  "sources": [
+   "https://www.turismo.gal/tebascms/filestore/1/5/7/8/5_8681404c46eb0ce/15785_c565fb2b241388b.pdf",
+   "https://visitacostadamorte.com/en?p=64128",
+   "https://www.elviajedesofi.com/?p=13503"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "es-praia-de-balares",
+  "name": "Balarés",
+  "aliases": [],
+  "lat": 43.2412,
+  "lon": -8.9441,
+  "country": "ES",
+  "zone": "es-costa-da-morte",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 290,
+  "window": [
+   265,
+   315
+  ],
+  "bestTide": [
+   "mid"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   270,
+   315
+  ],
+  "bestWind": [
+   65,
+   155
+  ],
+  "kiteWind": null,
+  "level": "beginner",
+  "hazards": [],
+  "sources": [
+   "https://www.spain.info/en/beach/balares/"
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "es-praia-de-soesto",
+  "name": "Soesto",
+  "aliases": [],
+  "lat": 43.2152,
+  "lon": -9.0211,
+  "country": "ES",
+  "zone": "es-costa-da-morte",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 317,
+  "window": [
+   260,
+   20
+  ],
+  "bestTide": [
+   "mid"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   280,
+   0
+  ],
+  "bestWind": [
+   100,
+   210
+  ],
+  "kiteWind": null,
+  "level": "intermediate",
+  "hazards": [
+   "rips"
+  ],
+  "notes": "One of the most consistent beaches on the Costa da Morte, picks up small swells.",
+  "sources": [
+   "https://www.turismo.gal/tebascms/filestore/1/5/7/8/5_8681404c46eb0ce/15785_c565fb2b241388b.pdf",
+   "https://visitacostadamorte.com/en?p=64128",
+   "https://www.spain.info/en/beach/soesto/",
+   "https://guias-viajar.com/gl/turismo-espana/visitar-galicia/mejores-playas-a-coruna-provincia/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "es-praia-de-traba",
+  "name": "Traba",
+  "aliases": [],
+  "lat": 43.1924,
+  "lon": -9.046,
+  "country": "ES",
+  "zone": "es-costa-da-morte",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 323,
+  "window": [
+   275,
+   20
+  ],
+  "bestTide": [
+   "mid"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   275,
+   330
+  ],
+  "bestWind": [
+   100,
+   190
+  ],
+  "kiteWind": null,
+  "level": "intermediate",
+  "hazards": [
+   "rips"
+  ],
+  "notes": "Long dune beach next to a lagoon between Laxe and Camariñas.",
+  "sources": [
+   "https://www.turismo.gal/tebascms/filestore/1/5/7/8/5_8681404c46eb0ce/15785_c565fb2b241388b.pdf",
+   "https://visitacostadamorte.com/en?p=64128",
+   "https://www.spain.info/en/beach/traba/",
+   "https://guias-viajar.com/gl/turismo-espana/visitar-galicia/mejores-playas-a-coruna-provincia/",
+   "https://www.yumping.com/en/adventure-sports-news/what-is-the-best-beach-in-galicia-for-surfing--c1299"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "es-arou",
+  "name": "Arou",
+  "aliases": [],
+  "lat": 43.1862,
+  "lon": -9.1065,
+  "country": "ES",
+  "zone": "es-costa-da-morte",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 343,
+  "window": [
+   295,
+   40
+  ],
+  "bestTide": [
+   "mid"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   295,
+   330
+  ],
+  "bestWind": [
+   120,
+   210
+  ],
+  "kiteWind": null,
+  "level": "intermediate",
+  "hazards": [
+   "rocks"
+  ],
+  "sources": [
+   "https://www.turismo.gal/tebascms/filestore/1/5/7/8/5_8681404c46eb0ce/15785_c565fb2b241388b.pdf",
+   "https://www.spain.info/en/beach/arou/"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "es-playa-de-trece",
+  "name": "Trece",
+  "aliases": [
+   "O Trece"
+  ],
+  "lat": 43.1842,
+  "lon": -9.1585,
+  "country": "ES",
+  "zone": "es-costa-da-morte",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 354,
+  "window": [
+   305,
+   30
+  ],
+  "bestTide": [
+   "mid"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   305,
+   330
+  ],
+  "bestWind": [
+   130,
+   220
+  ],
+  "kiteWind": null,
+  "level": "advanced",
+  "hazards": [
+   "rocks",
+   "currents"
+  ],
+  "sources": [
+   "https://visitacostadamorte.com/en?p=64128",
+   "https://www.spain.info/en/beach/trece/",
+   "https://elviajedesofi.com/surf-en-costa-da-morte/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "es-praia-de-lourido",
+  "name": "Lourido",
+  "aliases": [],
+  "lat": 43.0887,
+  "lon": -9.2232,
+  "country": "ES",
+  "zone": "es-costa-da-morte",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 303,
+  "window": [
+   265,
+   0
+  ],
+  "bestTide": [
+   "mid"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   270,
+   330
+  ],
+  "bestWind": [
+   80,
+   170
+  ],
+  "kiteWind": null,
+  "level": "intermediate",
+  "hazards": [
+   "rips"
+  ],
+  "sources": [
+   "https://www.turismo.gal/tebascms/filestore/1/5/7/8/5_8681404c46eb0ce/15785_c565fb2b241388b.pdf",
+   "https://elviajedesofi.com/surf-en-costa-da-morte/"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "es-praia-de-moreira",
+  "name": "Moreira",
+  "aliases": [],
+  "lat": 43.0507,
+  "lon": -9.2628,
+  "country": "ES",
+  "zone": "es-costa-da-morte",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 334,
+  "window": [
+   285,
+   10
+  ],
+  "bestTide": [
+   "mid"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   285,
+   330
+  ],
+  "bestWind": [
+   110,
+   200
+  ],
+  "kiteWind": null,
+  "level": "intermediate",
+  "hazards": [
+   "rocks"
+  ],
+  "notes": "Cove under Cape Touriñán.",
+  "sources": [
+   "https://www.turismo.gal/tebascms/filestore/1/5/7/8/5_8681404c46eb0ce/15785_c565fb2b241388b.pdf",
+   "https://concellomuxia.com/en/item/deportes-nauticos/"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "es-praia-de-nemina",
+  "name": "Nemiña",
+  "aliases": [],
+  "lat": 43.0073,
+  "lon": -9.263,
+  "country": "ES",
+  "zone": "es-costa-da-morte",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 253,
+  "window": [
+   200,
+   300
+  ],
+  "bestTide": [
+   "mid"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   250,
+   300
+  ],
+  "bestWind": [
+   30,
+   120
+  ],
+  "kiteWind": null,
+  "level": "all",
+  "hazards": [
+   "rips"
+  ],
+  "notes": "Wild beach sheltered from north winds, rights and lefts over sand.",
+  "sources": [
+   "https://www.turismo.gal/tebascms/filestore/1/5/7/8/5_8681404c46eb0ce/15785_c565fb2b241388b.pdf",
+   "https://concellomuxia.com/en/item/deportes-nauticos/",
+   "https://visitacostadamorte.com/en?p=64128",
+   "https://www.spain.info/en/beach/nemina/",
+   "https://www.yumping.com/en/adventure-sports-news/what-is-the-best-beach-in-galicia-for-surfing--c1299"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "es-praia-de-lires",
+  "name": "Lires",
+  "aliases": [],
+  "lat": 43.0017,
+  "lon": -9.2621,
+  "country": "ES",
+  "zone": "es-costa-da-morte",
+  "break": "rivermouth",
+  "sports": [
+   "surf"
+  ],
+  "facing": 263,
+  "window": [
+   205,
+   315
+  ],
+  "bestTide": [
+   "mid",
+   "high"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   270,
+   315
+  ],
+  "bestWind": [
+   40,
+   130
+  ],
+  "kiteWind": null,
+  "level": "intermediate",
+  "hazards": [
+   "currents"
+  ],
+  "notes": "Left at the river mouth at the south end of the Nemiña bay.",
+  "sources": [
+   "https://www.turismo.gal/tebascms/filestore/1/5/7/8/5_8681404c46eb0ce/15785_c565fb2b241388b.pdf",
+   "https://concellomuxia.com/en/item/deportes-nauticos/",
+   "https://visitacostadamorte.com/en?p=64128"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "es-praia-de-rostro",
+  "name": "O Rostro",
+  "aliases": [
+   "Rostro"
+  ],
+  "lat": 42.9668,
+  "lon": -9.2672,
+  "country": "ES",
+  "zone": "es-costa-da-morte",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 291,
+  "window": [
+   230,
+   340
+  ],
+  "bestTide": [
+   "mid"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   270,
+   330
+  ],
+  "bestWind": [
+   65,
+   155
+  ],
+  "kiteWind": null,
+  "level": "advanced",
+  "hazards": [
+   "rips",
+   "currents"
+  ],
+  "notes": "Fully exposed two-kilometre beach with several fast peaks.",
+  "sources": [
+   "https://www.turismo.gal/tebascms/filestore/1/5/7/8/5_8681404c46eb0ce/15785_c565fb2b241388b.pdf",
+   "https://visitacostadamorte.com/en?p=64128",
+   "https://www.spain.info/en/beach/o-rostro/",
+   "https://blog.mundo-r.com/es/playas-surf-coruna/",
+   "https://www.yumping.com/en/adventure-sports-news/what-is-the-best-beach-in-galicia-for-surfing--c1299"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "es-praia-do-mar-de-fora",
+  "name": "Mar de Fóra",
+  "aliases": [],
+  "lat": 42.9087,
+  "lon": -9.2764,
+  "country": "ES",
+  "zone": "es-costa-da-morte",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 270,
+  "window": [
+   195,
+   320
+  ],
+  "bestTide": [
+   "mid"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   270,
+   320
+  ],
+  "bestWind": [
+   45,
+   135
+  ],
+  "kiteWind": null,
+  "level": "advanced",
+  "hazards": [
+   "rips",
+   "shorebreak"
+  ],
+  "notes": "Exposed beach on the open side of Cape Fisterra; dangerous currents.",
+  "sources": [
+   "https://www.turismo.gal/tebascms/filestore/1/5/7/8/5_8681404c46eb0ce/15785_c565fb2b241388b.pdf",
+   "https://visitacostadamorte.com/en?p=64128",
+   "https://www.spain.info/en/beach/mar-fora/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "es-praia-de-estorde",
+  "name": "Estorde",
+  "aliases": [],
+  "lat": 42.942,
+  "lon": -9.2198,
+  "country": "ES",
+  "zone": "es-costa-da-morte",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 182,
+  "window": [
+   160,
+   205
+  ],
+  "bestTide": [
+   "high"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   160,
+   205
+  ],
+  "bestWind": [
+   315,
+   45
+  ],
+  "kiteWind": null,
+  "level": "beginner",
+  "hazards": [],
+  "notes": "Sheltered beach in the Corcubión estuary that only breaks on big swells.",
+  "sources": [
+   "https://www.turismo.gal/tebascms/filestore/1/5/7/8/5_8681404c46eb0ce/15785_c565fb2b241388b.pdf",
+   "https://www.spain.info/en/beach/estorde/"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "es-praia-de-carnota",
+  "name": "Carnota",
+  "aliases": [],
+  "lat": 42.8246,
+  "lon": -9.1065,
+  "country": "ES",
+  "zone": "es-costa-da-morte",
+  "break": "beach",
+  "sports": [
+   "surf",
+   "kite"
+  ],
+  "facing": 260,
+  "window": [
+   230,
+   290
+  ],
+  "bestTide": [
+   "mid"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   270,
+   290
+  ],
+  "bestWind": [
+   35,
+   125
+  ],
+  "kiteWind": [
+   300,
+   30
+  ],
+  "level": "all",
+  "hazards": [
+   "rips"
+  ],
+  "notes": "Seven-kilometre dune beach, one of the longest in Galicia.",
+  "sources": [
+   "https://www.turismo.gal/tebascms/filestore/1/5/7/8/5_8681404c46eb0ce/15785_c565fb2b241388b.pdf",
+   "https://visitacostadamorte.com/en?p=64128",
+   "https://www.spain.info/en/beach/carnota/",
+   "https://blog.mundo-r.com/es/playas-surf-coruna/",
+   "https://guias-viajar.com/gl/turismo-espana/visitar-galicia/mejores-playas-a-coruna-provincia/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "es-praia-de-larino",
+  "name": "Lariño",
+  "aliases": [],
+  "lat": 42.7652,
+  "lon": -9.1182,
+  "country": "ES",
+  "zone": "es-costa-da-morte",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 244,
+  "window": [
+   175,
+   315
+  ],
+  "bestTide": [
+   "mid"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   270,
+   315
+  ],
+  "bestWind": [
+   20,
+   110
+  ],
+  "kiteWind": null,
+  "level": "advanced",
+  "hazards": [
+   "rocks"
+  ],
+  "notes": "Short, powerful waves over sand and rock.",
+  "sources": [
+   "https://visitacostadamorte.com/en?p=67022",
+   "https://www.spain.info/en/beach/larino/",
+   "https://blog.mundo-r.com/es/playas-surf-coruna/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "es-praia-do-ancoradoiro",
+  "name": "Louro",
+  "aliases": [
+   "Ancoradoiro"
+  ],
+  "lat": 42.7564,
+  "lon": -9.1165,
+  "country": "ES",
+  "zone": "es-costa-da-morte",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 243,
+  "window": [
+   175,
+   315
+  ],
+  "bestTide": [
+   "mid"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   270,
+   315
+  ],
+  "bestWind": [
+   20,
+   110
+  ],
+  "kiteWind": null,
+  "level": "intermediate",
+  "hazards": [
+   "rocks"
+  ],
+  "notes": "Beach below Monte Louro at the mouth of the Muros estuary.",
+  "sources": [
+   "https://www.turismo.gal/tebascms/filestore/1/5/7/8/5_8681404c46eb0ce/15785_c565fb2b241388b.pdf",
+   "https://visitacostadamorte.com/en?p=67022",
+   "https://www.spain.info/en/beach/ancoradoiro/",
+   "https://www.yumping.com/en/adventure-sports-news/what-is-the-best-beach-in-galicia-for-surfing--c1299",
+   "https://www.verplayas.com/?p=20480"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "es-praia-de-fonforron",
+  "name": "Fonforrón",
+  "aliases": [],
+  "lat": 42.7153,
+  "lon": -9.0103,
+  "country": "ES",
+  "zone": "es-rias-baixas",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 253,
+  "window": [
+   220,
+   285
+  ],
+  "bestTide": [
+   "mid"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   270,
+   285
+  ],
+  "bestWind": [
+   30,
+   120
+  ],
+  "kiteWind": null,
+  "level": "intermediate",
+  "hazards": [
+   "rocks"
+  ],
+  "sources": [
+   "https://www.turismo.gal/tebascms/filestore/1/5/7/8/5_8681404c46eb0ce/15785_c565fb2b241388b.pdf",
+   "https://www.spain.info/en/beach/fonforron/"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "es-playa-a-aguieira",
+  "name": "Aguieira",
+  "aliases": [],
+  "lat": 42.7441,
+  "lon": -8.9783,
+  "country": "ES",
+  "zone": "es-rias-baixas",
+  "break": "beach",
+  "sports": [
+   "surf",
+   "kite",
+   "windsurf"
+  ],
+  "facing": 252,
+  "window": [
+   240,
+   265
+  ],
+  "bestTide": [
+   "mid",
+   "high"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   240,
+   265
+  ],
+  "bestWind": [
+   25,
+   115
+  ],
+  "kiteWind": [
+   180,
+   300
+  ],
+  "level": "beginner",
+  "hazards": [],
+  "notes": "Long beach inside the Muros-Noia estuary mouth; small surf, used for kite and windsurf.",
+  "sources": [
+   "https://www.turismo.gal/tebascms/filestore/1/5/7/8/5_8681404c46eb0ce/15785_c565fb2b241388b.pdf",
+   "https://www.paxinasgalegas.es/deportes-acuaticos-y-escuelas-de-surf-o-porto-do-son-2500ep_72ay.html"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "es-praia-de-queiruga",
+  "name": "Queiruga",
+  "aliases": [],
+  "lat": 42.6751,
+  "lon": -9.0325,
+  "country": "ES",
+  "zone": "es-rias-baixas",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 277,
+  "window": [
+   220,
+   320
+  ],
+  "bestTide": [
+   "mid"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   270,
+   320
+  ],
+  "bestWind": [
+   50,
+   140
+  ],
+  "kiteWind": null,
+  "level": "intermediate",
+  "hazards": [
+   "rocks"
+  ],
+  "sources": [
+   "https://www.turismo.gal/tebascms/filestore/1/5/7/8/5_8681404c46eb0ce/15785_c565fb2b241388b.pdf"
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "es-castro-de-barona",
+  "name": "Castro de Baroña",
+  "aliases": [
+   "Baroña"
+  ],
+  "lat": 42.693,
+  "lon": -9.0324,
+  "country": "ES",
+  "zone": "es-rias-baixas",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 258,
+  "window": [
+   205,
+   315
+  ],
+  "bestTide": [
+   "mid"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   270,
+   315
+  ],
+  "bestWind": [
+   35,
+   125
+  ],
+  "kiteWind": null,
+  "level": "intermediate",
+  "hazards": [
+   "rocks"
+  ],
+  "sources": [
+   "https://www.turismo.gal/tebascms/filestore/1/5/7/8/5_8681404c46eb0ce/15785_c565fb2b241388b.pdf",
+   "https://www.yumping.com/en/adventure-sports-news/what-is-the-best-beach-in-galicia-for-surfing--c1299",
+   "https://www.paxinasgalegas.es/fiestas/playa-aguieira-porto-do-son-19526.html"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "es-praia-do-rio-sieira",
+  "name": "Río Sieira",
+  "aliases": [],
+  "lat": 42.6484,
+  "lon": -9.0381,
+  "country": "ES",
+  "zone": "es-rias-baixas",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 260,
+  "window": [
+   210,
+   330
+  ],
+  "bestTide": [
+   "mid"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   250,
+   320
+  ],
+  "bestWind": [
+   45,
+   135
+  ],
+  "kiteWind": null,
+  "level": "all",
+  "hazards": [
+   "rips"
+  ],
+  "notes": "Consistent beach backed by the Coviña pine wood, popular with Santiago surfers.",
+  "sources": [
+   "https://www.turismo.gal/tebascms/filestore/1/5/7/8/5_8681404c46eb0ce/15785_c565fb2b241388b.pdf",
+   "https://www.spain.info/en/beach/rio-sieira/",
+   "https://www.paxinasgalegas.es/deportes-acuaticos-y-escuelas-de-surf-o-porto-do-son-2500ep_72ay.html"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "es-praia-das-furnas",
+  "name": "As Furnas",
+  "aliases": [
+   "Xuño"
+  ],
+  "lat": 42.6444,
+  "lon": -9.0404,
+  "country": "ES",
+  "zone": "es-rias-baixas",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 277,
+  "window": [
+   215,
+   330
+  ],
+  "bestTide": [
+   "mid"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   270,
+   330
+  ],
+  "bestWind": [
+   50,
+   140
+  ],
+  "kiteWind": null,
+  "level": "intermediate",
+  "hazards": [
+   "rocks",
+   "rips"
+  ],
+  "notes": "Wild beach with strong waves that breaks on little swell.",
+  "sources": [
+   "https://www.turismo.gal/tebascms/filestore/1/5/7/8/5_8681404c46eb0ce/15785_c565fb2b241388b.pdf",
+   "https://www.spain.info/en/beach/as-furnas/",
+   "https://www.paxinasgalegas.es/fiestas/las-mejores-playas-para-hacer-surf-en-galicia-per42.html",
+   "https://www.yumping.com/en/adventure-sports-news/what-is-the-best-beach-in-galicia-for-surfing--c1299"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "es-praia-de-espineirido-2",
+  "name": "Espiñeirido",
+  "aliases": [],
+  "lat": 42.6026,
+  "lon": -9.0639,
+  "country": "ES",
+  "zone": "es-rias-baixas",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 286,
+  "window": [
+   235,
+   340
+  ],
+  "bestTide": [
+   "mid"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   270,
+   330
+  ],
+  "bestWind": [
+   60,
+   150
+  ],
+  "kiteWind": null,
+  "level": "intermediate",
+  "hazards": [
+   "currents",
+   "rips"
+  ],
+  "sources": [
+   "https://www.turismo.gal/tebascms/filestore/1/5/7/8/5_8681404c46eb0ce/15785_c565fb2b241388b.pdf",
+   "https://www.yumping.com/en/adventure-sports-news/what-is-the-best-beach-in-galicia-for-surfing--c1299"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "es-praia-da-ladeira",
+  "name": "A Ladeira (Corrubedo)",
+  "aliases": [
+   "Corrubedo"
+  ],
+  "lat": 42.5756,
+  "lon": -9.0653,
+  "country": "ES",
+  "zone": "es-rias-baixas",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 198,
+  "window": [
+   170,
+   225
+  ],
+  "bestTide": [
+   "mid",
+   "high"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   172,
+   222
+  ],
+  "bestWind": [
+   335,
+   65
+  ],
+  "kiteWind": null,
+  "level": "beginner",
+  "hazards": [],
+  "notes": "Corrubedo beach sheltered from north winds; surf school on site.",
+  "sources": [
+   "https://www.turismo.gal/tebascms/filestore/1/5/7/8/5_8681404c46eb0ce/15785_c565fb2b241388b.pdf",
+   "https://www.spain.info/en/beach/a-ladeira/",
+   "https://www.yumping.com/en/adventure-sports-news/what-is-the-best-beach-in-galicia-for-surfing--c1299",
+   "https://www.elviajedesofi.com/?p=13534"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "es-playa-o-vilar-ribeira",
+  "name": "O Vilar (Ribeira)",
+  "aliases": [
+   "Corrubedo dunes"
+  ],
+  "lat": 42.5471,
+  "lon": -9.0313,
+  "country": "ES",
+  "zone": "es-rias-baixas",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 258,
+  "window": [
+   210,
+   295
+  ],
+  "bestTide": [
+   "mid"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   270,
+   295
+  ],
+  "bestWind": [
+   35,
+   125
+  ],
+  "kiteWind": null,
+  "level": "intermediate",
+  "hazards": [
+   "rips"
+  ],
+  "sources": [
+   "https://www.turismo.gal/tebascms/filestore/1/5/7/8/5_8681404c46eb0ce/15785_c565fb2b241388b.pdf",
+   "https://www.spain.info/en/beach/vilar/",
+   "https://www.yumping.com/en/adventure-sports-news/what-is-the-best-beach-in-galicia-for-surfing--c1299",
+   "https://www.elviajedesofi.com/?p=13534"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "es-praia-de-baleeiros",
+  "name": "Balieiros",
+  "aliases": [
+   "Baleeiros"
+  ],
+  "lat": 42.5793,
+  "lon": -9.0829,
+  "country": "ES",
+  "zone": "es-rias-baixas",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 306,
+  "window": [
+   235,
+   350
+  ],
+  "bestTide": [
+   "mid"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   270,
+   330
+  ],
+  "bestWind": [
+   80,
+   170
+  ],
+  "kiteWind": null,
+  "level": "intermediate",
+  "hazards": [
+   "rocks"
+  ],
+  "sources": [
+   "https://www.turismo.gal/tebascms/filestore/1/5/7/8/5_8681404c46eb0ce/15785_c565fb2b241388b.pdf",
+   "https://www.yumping.com/en/adventure-sports-news/what-is-the-best-beach-in-galicia-for-surfing--c1299"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "es-praia-da-lanzada",
+  "name": "A Lanzada",
+  "aliases": [],
+  "lat": 42.4485,
+  "lon": -8.8788,
+  "country": "ES",
+  "zone": "es-rias-baixas",
+  "break": "beach",
+  "sports": [
+   "surf",
+   "kite",
+   "windsurf"
+  ],
+  "facing": 248,
+  "window": [
+   220,
+   275
+  ],
+  "bestTide": [
+   "low",
+   "mid"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   270,
+   275
+  ],
+  "bestWind": [
+   25,
+   115
+  ],
+  "kiteWind": [
+   330,
+   60
+  ],
+  "level": "all",
+  "hazards": [
+   "rips"
+  ],
+  "notes": "Two-and-a-half-kilometre open beach on the O Grove isthmus; easy waves on the rising tide.",
+  "sources": [
+   "https://www.turismo.gal/tebascms/filestore/1/5/7/8/5_8681404c46eb0ce/15785_c565fb2b241388b.pdf",
+   "https://turismoriasbaixas.com/en/inspirate/experiencias/surfing-paradise",
+   "https://www.spain.info/en/beach/a-lanzada/",
+   "https://www.paxinasgalegas.es/fiestas/las-mejores-playas-para-hacer-surf-en-galicia-per42.html",
+   "https://www.yumping.com/en/adventure-sports-news/what-is-the-best-beach-in-galicia-for-surfing--c1299"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "es-foxos",
+  "name": "Foxos",
+  "aliases": [],
+  "lat": 42.4268,
+  "lon": -8.8758,
+  "country": "ES",
+  "zone": "es-rias-baixas",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 258,
+  "window": [
+   230,
+   285
+  ],
+  "bestTide": [
+   "mid"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   270,
+   285
+  ],
+  "bestWind": [
+   35,
+   125
+  ],
+  "kiteWind": null,
+  "level": "intermediate",
+  "hazards": [
+   "rocks"
+  ],
+  "sources": [
+   "https://www.turismo.gal/tebascms/filestore/1/5/7/8/5_8681404c46eb0ce/15785_c565fb2b241388b.pdf",
+   "https://turismoriasbaixas.com/en/inspirate/experiencias/surfing-paradise",
+   "https://www.yumping.com/en/adventure-sports-news/what-is-the-best-beach-in-galicia-for-surfing--c1299"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "es-montalvo",
+  "name": "Montalvo",
+  "aliases": [],
+  "lat": 42.3967,
+  "lon": -8.8503,
+  "country": "ES",
+  "zone": "es-rias-baixas",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 218,
+  "window": [
+   195,
+   270
+  ],
+  "bestTide": [
+   "mid"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   210,
+   265
+  ],
+  "bestWind": [
+   0,
+   60
+  ],
+  "kiteWind": null,
+  "level": "intermediate",
+  "hazards": [
+   "rocks",
+   "shorebreak"
+  ],
+  "notes": "Needs a groundswell; left at Punta Montalvo and a right at the other end.",
+  "sources": [
+   "https://www.turismo.gal/tebascms/filestore/1/5/7/8/5_8681404c46eb0ce/15785_c565fb2b241388b.pdf",
+   "https://turismoriasbaixas.com/en/inspirate/experiencias/surfing-paradise",
+   "https://www.spain.info/en/beach/montalvo/",
+   "https://www.yumping.com/en/adventure-sports-news/what-is-the-best-beach-in-galicia-for-surfing--c1299",
+   "https://www.elviajedesofi.com/?p=13503"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "es-praia-de-canelas-2",
+  "name": "Canelas",
+  "aliases": [],
+  "lat": 42.3885,
+  "lon": -8.832,
+  "country": "ES",
+  "zone": "es-rias-baixas",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 225,
+  "window": [
+   205,
+   245
+  ],
+  "bestTide": [
+   "mid",
+   "high"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   205,
+   245
+  ],
+  "bestWind": [
+   0,
+   90
+  ],
+  "kiteWind": null,
+  "level": "beginner",
+  "hazards": [],
+  "sources": [
+   "https://www.turismo.gal/tebascms/filestore/1/5/7/8/5_8681404c46eb0ce/15785_c565fb2b241388b.pdf",
+   "https://turismoriasbaixas.com/en/inspirate/experiencias/surfing-paradise",
+   "https://www.yumping.com/en/adventure-sports-news/what-is-the-best-beach-in-galicia-for-surfing--c1299"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "es-praia-de-areas",
+  "name": "Areas (Sanxenxo)",
+  "aliases": [
+   "Areas"
+  ],
+  "lat": 42.3927,
+  "lon": -8.7795,
+  "country": "ES",
+  "zone": "es-rias-baixas",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 235,
+  "window": [
+   220,
+   250
+  ],
+  "bestTide": [
+   "high"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   220,
+   250
+  ],
+  "bestWind": [
+   10,
+   100
+  ],
+  "kiteWind": null,
+  "level": "beginner",
+  "hazards": [],
+  "sources": [
+   "https://www.turismo.gal/tebascms/filestore/1/5/7/8/5_8681404c46eb0ce/15785_c565fb2b241388b.pdf",
+   "https://turismoriasbaixas.com/en/inspirate/experiencias/surfing-paradise",
+   "https://www.spain.info/en/beach/areas/",
+   "https://www.paxinasgalegas.es/fiestas/las-mejores-playas-para-hacer-surf-en-galicia-per42.html",
+   "https://www.elviajedesofi.com/?p=13534"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "es-nerga",
+  "name": "Nerga",
+  "aliases": [],
+  "lat": 42.2565,
+  "lon": -8.8369,
+  "country": "ES",
+  "zone": "es-rias-baixas",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 205,
+  "window": [
+   190,
+   255
+  ],
+  "bestTide": [
+   "mid",
+   "high"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   215,
+   250
+  ],
+  "bestWind": [
+   340,
+   70
+  ],
+  "kiteWind": null,
+  "level": "beginner",
+  "hazards": [],
+  "notes": "Beach at the mouth of the Vigo estuary that needs a big swell.",
+  "sources": [
+   "https://www.turismo.gal/tebascms/filestore/1/5/7/8/5_8681404c46eb0ce/15785_c565fb2b241388b.pdf",
+   "https://www.spain.info/en/beach/nerga/",
+   "https://www.verplayas.com/?p=20490",
+   "https://www.elviajedesofi.com/?p=13503"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "es-barra",
+  "name": "Barra (Cangas)",
+  "aliases": [
+   "Praia de Barra"
+  ],
+  "lat": 42.2602,
+  "lon": -8.8534,
+  "country": "ES",
+  "zone": "es-rias-baixas",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 215,
+  "window": [
+   195,
+   260
+  ],
+  "bestTide": [
+   "mid"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   220,
+   255
+  ],
+  "bestWind": [
+   350,
+   80
+  ],
+  "kiteWind": null,
+  "level": "intermediate",
+  "hazards": [
+   "rocks"
+  ],
+  "sources": [
+   "https://www.turismo.gal/tebascms/filestore/1/5/7/8/5_8681404c46eb0ce/15785_c565fb2b241388b.pdf",
+   "https://www.elviajedesofi.com/?p=13503"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "es-praia-de-melide",
+  "name": "Melide (Cangas)",
+  "aliases": [],
+  "lat": 42.2553,
+  "lon": -8.8713,
+  "country": "ES",
+  "zone": "es-rias-baixas",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 297,
+  "window": [
+   265,
+   330
+  ],
+  "bestTide": [
+   "mid"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   270,
+   330
+  ],
+  "bestWind": [
+   70,
+   160
+  ],
+  "kiteWind": null,
+  "level": "intermediate",
+  "hazards": [
+   "rocks"
+  ],
+  "sources": [
+   "https://www.turismo.gal/tebascms/filestore/1/5/7/8/5_8681404c46eb0ce/15785_c565fb2b241388b.pdf",
+   "https://www.elviajedesofi.com/?p=13534"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "es-playa-o-vao",
+  "name": "O Vao",
+  "aliases": [],
+  "lat": 42.1989,
+  "lon": -8.7941,
+  "country": "ES",
+  "zone": "es-rias-baixas",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 245,
+  "window": [
+   230,
+   260
+  ],
+  "bestTide": [
+   "mid",
+   "high"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   230,
+   260
+  ],
+  "bestWind": [
+   20,
+   110
+  ],
+  "kiteWind": null,
+  "level": "beginner",
+  "hazards": [],
+  "notes": "Vigo city beach that only works on big winter swells.",
+  "sources": [
+   "https://www.turismo.gal/tebascms/filestore/1/5/7/8/5_8681404c46eb0ce/15785_c565fb2b241388b.pdf"
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "es-playa-de-samil",
+  "name": "Samil",
+  "aliases": [],
+  "lat": 42.2093,
+  "lon": -8.7779,
+  "country": "ES",
+  "zone": "es-rias-baixas",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 248,
+  "window": [
+   240,
+   255
+  ],
+  "bestTide": [
+   "high"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   240,
+   255
+  ],
+  "bestWind": [
+   25,
+   115
+  ],
+  "kiteWind": null,
+  "level": "beginner",
+  "hazards": [],
+  "sources": [
+   "https://www.turismo.gal/tebascms/filestore/1/5/7/8/5_8681404c46eb0ce/15785_c565fb2b241388b.pdf",
+   "https://www.spain.info/en/beach/samil/"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "es-fontaina",
+  "name": "Fontaíña",
+  "aliases": [],
+  "lat": 42.2005,
+  "lon": -8.7888,
+  "country": "ES",
+  "zone": "es-rias-baixas",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 250,
+  "window": [
+   240,
+   260
+  ],
+  "bestTide": [
+   "mid"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   240,
+   260
+  ],
+  "bestWind": [
+   25,
+   115
+  ],
+  "kiteWind": null,
+  "level": "beginner",
+  "hazards": [
+   "rocks"
+  ],
+  "sources": [
+   "https://www.turismo.gal/tebascms/filestore/1/5/7/8/5_8681404c46eb0ce/15785_c565fb2b241388b.pdf"
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "es-patos",
+  "name": "Patos",
+  "aliases": [],
+  "lat": 42.1556,
+  "lon": -8.8262,
+  "country": "ES",
+  "zone": "es-rias-baixas",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 282,
+  "window": [
+   270,
+   295
+  ],
+  "bestTide": [
+   "mid",
+   "high"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   270,
+   295
+  ],
+  "bestWind": [
+   60,
+   160
+  ],
+  "kiteWind": null,
+  "level": "all",
+  "hazards": [
+   "crowds",
+   "rocks"
+  ],
+  "notes": "Nigrán beach facing the Cíes Islands, the surf hub of the Vigo area.",
+  "sources": [
+   "https://www.turismo.gal/tebascms/filestore/1/5/7/8/5_8681404c46eb0ce/15785_c565fb2b241388b.pdf",
+   "https://turismoriasbaixas.com/en/inspirate/experiencias/surfing-paradise",
+   "https://www.paxinasgalegas.es/fiestas/las-mejores-playas-para-hacer-surf-en-galicia-per42.html",
+   "https://www.verplayas.com/?p=20490",
+   "https://www.picuco.com/es-es/blog/surf-galicia-mejores-playas-olas"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "es-pico-de-patos",
+  "name": "Pico de Patos",
+  "aliases": [],
+  "lat": 42.1578,
+  "lon": -8.8243,
+  "country": "ES",
+  "zone": "es-rias-baixas",
+  "break": "reef",
+  "sports": [
+   "surf"
+  ],
+  "facing": 280,
+  "window": [
+   265,
+   295
+  ],
+  "bestTide": [
+   "mid"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   265,
+   295
+  ],
+  "bestWind": [
+   60,
+   160
+  ],
+  "kiteWind": null,
+  "level": "advanced",
+  "hazards": [
+   "rocks",
+   "crowds",
+   "localism"
+  ],
+  "notes": "Fast right and left over rock at the west end of Patos.",
+  "sources": [
+   "https://www.turismo.gal/tebascms/filestore/1/5/7/8/5_8681404c46eb0ce/15785_c565fb2b241388b.pdf",
+   "https://turismoriasbaixas.com/en/inspirate/experiencias/surfing-paradise",
+   "https://www.paxinasgalegas.es/fiestas/las-mejores-playas-para-hacer-surf-en-galicia-per42.html",
+   "https://www.verplayas.com/?p=20490"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "es-praia-da-madorra",
+  "name": "A Madorra",
+  "aliases": [],
+  "lat": 42.1458,
+  "lon": -8.8263,
+  "country": "ES",
+  "zone": "es-rias-baixas",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 260,
+  "window": [
+   245,
+   275
+  ],
+  "bestTide": [
+   "mid"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   270,
+   275
+  ],
+  "bestWind": [
+   35,
+   125
+  ],
+  "kiteWind": null,
+  "level": "intermediate",
+  "hazards": [
+   "rocks"
+  ],
+  "sources": [
+   "https://www.turismo.gal/tebascms/filestore/1/5/7/8/5_8681404c46eb0ce/15785_c565fb2b241388b.pdf",
+   "https://www.spain.info/en/beach/madorra/"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "es-praia-america",
+  "name": "Praia América",
+  "aliases": [],
+  "lat": 42.1357,
+  "lon": -8.8205,
+  "country": "ES",
+  "zone": "es-rias-baixas",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 270,
+  "window": [
+   255,
+   285
+  ],
+  "bestTide": [
+   "mid"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   270,
+   285
+  ],
+  "bestWind": [
+   45,
+   135
+  ],
+  "kiteWind": null,
+  "level": "beginner",
+  "hazards": [],
+  "notes": "Long beach in the Baiona bay that needs a large swell to break.",
+  "sources": [
+   "https://www.turismo.gal/tebascms/filestore/1/5/7/8/5_8681404c46eb0ce/15785_c565fb2b241388b.pdf",
+   "https://www.spain.info/en/beach/america/",
+   "https://www.paxinasgalegas.es/fiestas/las-mejores-playas-para-hacer-surf-en-galicia-per42.html",
+   "https://www.verplayas.com/?p=20490",
+   "https://www.elviajedesofi.com/?p=13534"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "es-a-ladeira",
+  "name": "A Ladeira (Baiona)",
+  "aliases": [
+   "Ladeira"
+  ],
+  "lat": 42.115,
+  "lon": -8.833,
+  "country": "ES",
+  "zone": "es-rias-baixas",
+  "break": "beach",
+  "sports": [
+   "surf",
+   "kite"
+  ],
+  "facing": 315,
+  "window": [
+   310,
+   320
+  ],
+  "bestTide": [
+   "mid"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   310,
+   320
+  ],
+  "bestWind": [
+   90,
+   180
+  ],
+  "kiteWind": [
+   300,
+   30
+  ],
+  "level": "beginner",
+  "hazards": [],
+  "sources": [
+   "https://www.turismo.gal/tebascms/filestore/1/5/7/8/5_8681404c46eb0ce/15785_c565fb2b241388b.pdf",
+   "https://www.spain.info/en/beach/ladeira/",
+   "https://www.yumping.com/en/adventure-sports-news/what-is-the-best-beach-in-galicia-for-surfing--c1299",
+   "https://www.elviajedesofi.com/?p=13534"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "es-o-porto-de-oia",
+  "name": "A Esquerda de Oia",
+  "aliases": [
+   "La Izquierda de Oia"
+  ],
+  "lat": 42.0022,
+  "lon": -8.8795,
+  "country": "ES",
+  "zone": "es-rias-baixas",
+  "break": "reef",
+  "sports": [
+   "surf"
+  ],
+  "facing": 257,
+  "window": [
+   190,
+   345
+  ],
+  "bestTide": [
+   "mid"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   220,
+   300
+  ],
+  "bestWind": [
+   45,
+   135
+  ],
+  "kiteWind": null,
+  "level": "advanced",
+  "hazards": [
+   "rocks",
+   "reef"
+  ],
+  "notes": "Powerful left over rock in front of the Santa María de Oia monastery.",
+  "sources": [
+   "https://www.turismo.gal/tebascms/filestore/1/5/7/8/5_8681404c46eb0ce/15785_c565fb2b241388b.pdf",
+   "https://guia.concellodeoia.es/en/surf",
+   "https://turismoriasbaixas.com/en/inspirate/experiencias/surfing-paradise"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "es-playa-de-punta-del-moral",
+  "name": "Punta del Moral",
+  "aliases": [],
+  "lat": 37.18,
+  "lon": -7.3388,
+  "country": "ES",
+  "zone": "es-huelva",
+  "break": "rivermouth",
+  "sports": [
+   "surf"
+  ],
+  "facing": 159,
+  "window": [
+   85,
+   245
+  ],
+  "bestTide": [
+   "mid",
+   "high"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   180,
+   245
+  ],
+  "bestWind": [
+   330,
+   60
+  ],
+  "kiteWind": null,
+  "level": "intermediate",
+  "hazards": [
+   "currents"
+  ],
+  "notes": "Peaks next to the Guadiana breakwater; works in winter with south-west swell.",
+  "sources": [
+   "https://www.spain.info/en/beach/punta-moral/",
+   "https://www.barcelo.com/guia-turismo/es/espana/huelva/que-ver/surf-en-huelva/",
+   "https://www.travelextra.ie/?p=119415"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "es-playa-de-isla-canela",
+  "name": "Isla Canela",
+  "aliases": [],
+  "lat": 37.1701,
+  "lon": -7.3734,
+  "country": "ES",
+  "zone": "es-huelva",
+  "break": "beach",
+  "sports": [
+   "surf",
+   "kite"
+  ],
+  "facing": 165,
+  "window": [
+   80,
+   250
+  ],
+  "bestTide": [
+   "mid"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   225,
+   250
+  ],
+  "bestWind": [
+   300,
+   30
+  ],
+  "kiteWind": [
+   200,
+   290
+  ],
+  "level": "beginner",
+  "hazards": [],
+  "sources": [
+   "https://andalucia.com/beaches/cdl-huelva-cadiz.htm",
+   "https://www.barcelo.com/guia-turismo/es/espana/huelva/que-ver/surf-en-huelva/",
+   "https://www.travelextra.ie/?p=119415"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "es-playa-central",
+  "name": "Isla Cristina",
+  "aliases": [],
+  "lat": 37.1957,
+  "lon": -7.3011,
+  "country": "ES",
+  "zone": "es-huelva",
+  "break": "beach",
+  "sports": [
+   "surf",
+   "kite"
+  ],
+  "facing": 163,
+  "window": [
+   90,
+   235
+  ],
+  "bestTide": [
+   "mid",
+   "high"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   225,
+   235
+  ],
+  "bestWind": [
+   300,
+   30
+  ],
+  "kiteWind": [
+   200,
+   290
+  ],
+  "level": "beginner",
+  "hazards": [],
+  "notes": "Variable peaks up to about a metre in autumn and winter.",
+  "sources": [
+   "https://andalucia.com/beaches/cdl-huelva-cadiz.htm",
+   "https://www.barcelo.com/guia-turismo/es/espana/huelva/que-ver/surf-en-huelva/",
+   "https://www.travelextra.ie/?p=119415",
+   "https://www.picuco.com/es-es/blog/turismo-activo-en-andalucia-costa-surf-kite-y-kayak-en"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "es-playa-de-islantilla",
+  "name": "Islantilla",
+  "aliases": [],
+  "lat": 37.2027,
+  "lon": -7.2385,
+  "country": "ES",
+  "zone": "es-huelva",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 175,
+  "window": [
+   95,
+   250
+  ],
+  "bestTide": [
+   "mid"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   225,
+   250
+  ],
+  "bestWind": [
+   310,
+   40
+  ],
+  "kiteWind": null,
+  "level": "beginner",
+  "hazards": [],
+  "sources": [
+   "https://www.spain.info/en/beach/islantilla/",
+   "https://andalucia.com/beaches/cdl-huelva-cadiz.htm"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "es-playa-de-el-portil",
+  "name": "El Portil",
+  "aliases": [],
+  "lat": 37.2076,
+  "lon": -7.0493,
+  "country": "ES",
+  "zone": "es-huelva",
+  "break": "beach",
+  "sports": [
+   "surf",
+   "kite",
+   "windsurf"
+  ],
+  "facing": 193,
+  "window": [
+   120,
+   260
+  ],
+  "bestTide": [
+   "mid"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   225,
+   260
+  ],
+  "bestWind": [
+   330,
+   60
+  ],
+  "kiteWind": [
+   200,
+   290
+  ],
+  "level": "beginner",
+  "hazards": [],
+  "notes": "Calm water behind the El Rompido sand spit, used for kite lessons.",
+  "sources": [
+   "https://www.spain.info/en/beach/portil/",
+   "https://www.barcelo.com/guia-turismo/es/espana/huelva/que-ver/surf-en-huelva/",
+   "https://www.picuco.com/es-es/blog/turismo-activo-en-andalucia-costa-surf-kite-y-kayak-en"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "es-playa-urbana-de-punta-umbria",
+  "name": "Punta Umbría",
+  "aliases": [],
+  "lat": 37.1752,
+  "lon": -6.9667,
+  "country": "ES",
+  "zone": "es-huelva",
+  "break": "beach",
+  "sports": [
+   "surf",
+   "kite"
+  ],
+  "facing": 208,
+  "window": [
+   130,
+   280
+  ],
+  "bestTide": [
+   "mid",
+   "low"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   225,
+   280
+  ],
+  "bestWind": [
+   345,
+   75
+  ],
+  "kiteWind": [
+   200,
+   290
+  ],
+  "level": "beginner",
+  "hazards": [],
+  "notes": "Urban beach break; winter swell with westerly winds.",
+  "sources": [
+   "https://www.spain.info/en/beach/punta-umbria/",
+   "https://andalucia.com/beaches/cdl-huelva-cadiz.htm",
+   "https://www.barcelo.com/guia-turismo/es/espana/huelva/que-ver/surf-en-huelva/",
+   "https://www.travelextra.ie/?p=119415"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "es-playa-mazagon-castilla",
+  "name": "Mazagón",
+  "aliases": [],
+  "lat": 37.1275,
+  "lon": -6.8268,
+  "country": "ES",
+  "zone": "es-huelva",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 168,
+  "window": [
+   120,
+   205
+  ],
+  "bestTide": [
+   "low",
+   "mid"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   137,
+   187
+  ],
+  "bestWind": [
+   305,
+   35
+  ],
+  "kiteWind": null,
+  "level": "intermediate",
+  "hazards": [],
+  "notes": "Best-known surf beach in Huelva, with occasional hollow rights and lefts in winter.",
+  "sources": [
+   "https://www.spain.info/en/beach/mazagon/",
+   "https://andalucia.com/beaches/cdl-huelva-cadiz.htm",
+   "https://www.barcelo.com/guia-turismo/es/espana/huelva/que-ver/surf-en-huelva/",
+   "https://www.travelextra.ie/?p=119415"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "es-playa-de-torre-de-la-higuera",
+  "name": "Matalascañas (Torre de la Higuera)",
+  "aliases": [
+   "Torre de la Higuera"
+  ],
+  "lat": 37.0094,
+  "lon": -6.5752,
+  "country": "ES",
+  "zone": "es-huelva",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 220,
+  "window": [
+   140,
+   300
+  ],
+  "bestTide": [
+   "mid"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   225,
+   285
+  ],
+  "bestWind": [
+   355,
+   85
+  ],
+  "kiteWind": null,
+  "level": "beginner",
+  "hazards": [
+   "rocks"
+  ],
+  "notes": "Gentle sandbar waves at the north end of Matalascañas beside the toppled tower.",
+  "sources": [
+   "https://www.spain.info/en/beach/matalascanas/",
+   "https://andalucia.com/beaches/cdl-huelva-cadiz.htm",
+   "https://www.barcelo.com/guia-turismo/es/espana/huelva/que-ver/surf-en-huelva/",
+   "https://www.travelextra.ie/?p=119415",
+   "https://www.picuco.com/es-es/blog/turismo-activo-en-andalucia-costa-surf-kite-y-kayak-en"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "es-playa-de-regla",
+  "name": "Chipiona (Regla)",
+  "aliases": [
+   "Playa de Regla"
+  ],
+  "lat": 36.7294,
+  "lon": -6.4413,
+  "country": "ES",
+  "zone": "es-cadiz-norte",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 263,
+  "window": [
+   165,
+   350
+  ],
+  "bestTide": [
+   "mid",
+   "high"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   225,
+   285
+  ],
+  "bestWind": [
+   40,
+   130
+  ],
+  "kiteWind": null,
+  "level": "beginner",
+  "hazards": [
+   "rocks"
+  ],
+  "sources": [
+   "https://andalucia.com/cadiz/costa-de-la-luz/destinations.htm",
+   "https://www.verplayas.com/?p=10726"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "es-playa-de-las-tres-piedras",
+  "name": "Tres Piedras",
+  "aliases": [
+   "La Ballena"
+  ],
+  "lat": 36.6953,
+  "lon": -6.4268,
+  "country": "ES",
+  "zone": "es-cadiz-norte",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 247,
+  "window": [
+   160,
+   335
+  ],
+  "bestTide": [
+   "mid",
+   "high"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   225,
+   285
+  ],
+  "bestWind": [
+   20,
+   110
+  ],
+  "kiteWind": null,
+  "level": "beginner",
+  "hazards": [
+   "rocks"
+  ],
+  "sources": [
+   "https://andalucia.com/beaches/cdl-huelva-cadiz.htm",
+   "https://www.verplayas.com/?p=10726",
+   "https://www.barcelo.com/guia-turismo/es/espana/cadiz/que-ver/playas-de-cadiz/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "es-playa-de-punta-candor",
+  "name": "Punta Candor",
+  "aliases": [],
+  "lat": 36.6401,
+  "lon": -6.393,
+  "country": "ES",
+  "zone": "es-cadiz-norte",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 252,
+  "window": [
+   150,
+   335
+  ],
+  "bestTide": [
+   "mid"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   225,
+   285
+  ],
+  "bestWind": [
+   25,
+   115
+  ],
+  "kiteWind": null,
+  "level": "intermediate",
+  "hazards": [
+   "rocks"
+  ],
+  "notes": "Rota's most exposed stretch, used for surf and bodyboard.",
+  "sources": [
+   "https://www.spain.info/en/beach/punta-candor/",
+   "https://www.verplayas.com/?p=10726",
+   "https://www.barcelo.com/guia-turismo/es/espana/cadiz/que-ver/playas-de-cadiz/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "es-playa-de-la-costilla",
+  "name": "La Costilla",
+  "aliases": [],
+  "lat": 36.6184,
+  "lon": -6.3648,
+  "country": "ES",
+  "zone": "es-cadiz-norte",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 220,
+  "window": [
+   160,
+   300
+  ],
+  "bestTide": [
+   "mid"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   225,
+   285
+  ],
+  "bestWind": [
+   355,
+   85
+  ],
+  "kiteWind": null,
+  "level": "beginner",
+  "hazards": [],
+  "sources": [
+   "https://www.spain.info/en/beach/costilla/",
+   "https://www.verplayas.com/?p=10726"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "es-playa-de-fuentebravia",
+  "name": "Fuentebravía",
+  "aliases": [],
+  "lat": 36.6094,
+  "lon": -6.2876,
+  "country": "ES",
+  "zone": "es-cadiz-norte",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 234,
+  "window": [
+   200,
+   275
+  ],
+  "bestTide": [
+   "mid"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   225,
+   275
+  ],
+  "bestWind": [
+   10,
+   100
+  ],
+  "kiteWind": null,
+  "level": "beginner",
+  "hazards": [],
+  "sources": [
+   "https://www.spain.info/en/beach/fuentebravia/",
+   "https://www.minube.com/tips/actualidad/los-mejores-spots-de-kitesurf-en-cadiz",
+   "https://www.verplayas.com/?p=10726"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "es-playa-de-valdelagrana",
+  "name": "Valdelagrana",
+  "aliases": [],
+  "lat": 36.5739,
+  "lon": -6.2273,
+  "country": "ES",
+  "zone": "es-cadiz-norte",
+  "break": "beach",
+  "sports": [
+   "kite",
+   "windsurf"
+  ],
+  "facing": 260,
+  "window": [
+   245,
+   275
+  ],
+  "bestTide": [
+   "mid",
+   "high"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   245,
+   275
+  ],
+  "bestWind": [
+   35,
+   125
+  ],
+  "kiteWind": [
+   240,
+   330
+  ],
+  "level": "beginner",
+  "hazards": [],
+  "notes": "Bay beach with a regular afternoon westerly; flat-water kite and windsurf.",
+  "sources": [
+   "https://www.spain.info/en/beach/valdelagrana/",
+   "https://www.escapadarural.com/que-hacer/el-puerto-de-santa-maria/playa-de-valdelagrana",
+   "https://www.yumping.com/en/kitesurfing/cadiz-kite--e19741352"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "es-playa-de-santa-maria-del-mar-2",
+  "name": "Santa María del Mar",
+  "aliases": [],
+  "lat": 36.5197,
+  "lon": -6.2879,
+  "country": "ES",
+  "zone": "es-cadiz-norte",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 235,
+  "window": [
+   155,
+   290
+  ],
+  "bestTide": [
+   "mid",
+   "high"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   225,
+   285
+  ],
+  "bestWind": [
+   10,
+   100
+  ],
+  "kiteWind": null,
+  "level": "intermediate",
+  "hazards": [
+   "crowds",
+   "rocks",
+   "localism"
+  ],
+  "notes": "Small city beach below the old town; crowded with locals.",
+  "sources": [
+   "https://andalucia.com/beaches/cadiz-city.htm",
+   "https://murciatoday.com/playa-de-la-victoria-and-playa-de-la-cortadura-cadiz-costa-de-la-luz-beach-guide_2172495-a.html",
+   "https://www.barcelo.com/guia-turismo/es/espana/cadiz/que-ver/playas-de-cadiz/",
+   "https://www.picuco.com/es-es/blog/turismo-activo-en-andalucia-costa-surf-kite-y-kayak-en"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "es-playa-la-victoria",
+  "name": "La Cabañita (La Victoria)",
+  "aliases": [
+   "La Victoria"
+  ],
+  "lat": 36.5091,
+  "lon": -6.2832,
+  "country": "ES",
+  "zone": "es-cadiz-norte",
+  "break": "reef",
+  "sports": [
+   "surf"
+  ],
+  "facing": 237,
+  "window": [
+   160,
+   305
+  ],
+  "bestTide": [
+   "high"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   225,
+   285
+  ],
+  "bestWind": [
+   10,
+   100
+  ],
+  "kiteWind": null,
+  "level": "advanced",
+  "hazards": [
+   "rocks",
+   "crowds"
+  ],
+  "notes": "Peak over rock slabs on La Victoria beach, best in autumn and winter.",
+  "sources": [
+   "https://www.spain.info/en/beach/victoria/",
+   "https://andalucia.com/beaches/cadiz-city.htm",
+   "https://murciatoday.com/playa-de-la-victoria-and-playa-de-la-cortadura-cadiz-costa-de-la-luz-beach-guide_2172495-a.html",
+   "https://www.barcelo.com/guia-turismo/es/espana/cadiz/que-ver/playas-de-cadiz/",
+   "https://www.picuco.com/es-es/blog/turismo-activo-en-andalucia-costa-surf-kite-y-kayak-en"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "es-playa-de-la-cortadura",
+  "name": "Cortadura",
+  "aliases": [],
+  "lat": 36.4898,
+  "lon": -6.2706,
+  "country": "ES",
+  "zone": "es-cadiz-norte",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 232,
+  "window": [
+   165,
+   315
+  ],
+  "bestTide": [
+   "mid",
+   "high"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   225,
+   285
+  ],
+  "bestWind": [
+   0,
+   110
+  ],
+  "kiteWind": null,
+  "level": "all",
+  "hazards": [
+   "crowds"
+  ],
+  "notes": "Urban beach break along the isthmus, works on all tides.",
+  "sources": [
+   "https://www.spain.info/en/beach/cortadura/",
+   "https://andalucia.com/beaches/cadiz-city.htm",
+   "https://flysurfbrand.com/en/blogs/surf/viaje-de-surf-en-cadiz",
+   "https://www.minube.com/tips/actualidad/los-mejores-spots-de-kitesurf-en-cadiz",
+   "https://murciatoday.com/playa-de-la-victoria-and-playa-de-la-cortadura-cadiz-costa-de-la-luz-beach-guide_2172495-a.html"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "es-playa-de-torregorda",
+  "name": "Torregorda",
+  "aliases": [],
+  "lat": 36.46,
+  "lon": -6.2549,
+  "country": "ES",
+  "zone": "es-cadiz-norte",
+  "break": "beach",
+  "sports": [
+   "surf",
+   "kite"
+  ],
+  "facing": 246,
+  "window": [
+   165,
+   320
+  ],
+  "bestTide": [
+   "mid"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   225,
+   285
+  ],
+  "bestWind": [
+   20,
+   110
+  ],
+  "kiteWind": [
+   240,
+   330
+  ],
+  "level": "intermediate",
+  "hazards": [],
+  "sources": [
+   "https://andalucia.com/beaches/cadiz-city.htm",
+   "https://murciatoday.com/playa-de-la-victoria-and-playa-de-la-cortadura-cadiz-costa-de-la-luz-beach-guide_2172495-a.html"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "es-playa-de-camposoto",
+  "name": "Camposoto",
+  "aliases": [],
+  "lat": 36.4108,
+  "lon": -6.2229,
+  "country": "ES",
+  "zone": "es-cadiz-norte",
+  "break": "beach",
+  "sports": [
+   "surf",
+   "kite",
+   "windsurf"
+  ],
+  "facing": 243,
+  "window": [
+   180,
+   325
+  ],
+  "bestTide": [
+   "mid"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   225,
+   285
+  ],
+  "bestWind": [
+   20,
+   110
+  ],
+  "kiteWind": [
+   240,
+   330
+  ],
+  "level": "intermediate",
+  "hazards": [
+   "currents"
+  ],
+  "notes": "Nine-kilometre natural beach in San Fernando, known for windsurf.",
+  "sources": [
+   "https://www.spain.info/en/beach/camposoto/",
+   "https://andalucia.com/beaches/cdl-huelva-cadiz.htm",
+   "https://murciatoday.com/playa-de-la-victoria-and-playa-de-la-cortadura-cadiz-costa-de-la-luz-beach-guide_2172495-a.html",
+   "https://www.barcelo.com/guia-turismo/es/espana/cadiz/que-ver/playas-de-cadiz/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "es-playa-de-sancti-petri",
+  "name": "Sancti Petri",
+  "aliases": [],
+  "lat": 36.3838,
+  "lon": -6.2078,
+  "country": "ES",
+  "zone": "es-cadiz-norte",
+  "break": "beach",
+  "sports": [
+   "kite",
+   "windsurf"
+  ],
+  "facing": 216,
+  "window": [
+   150,
+   260
+  ],
+  "bestTide": [
+   "mid"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   225,
+   260
+  ],
+  "bestWind": [
+   350,
+   80
+  ],
+  "kiteWind": [
+   240,
+   330
+  ],
+  "level": "beginner",
+  "hazards": [
+   "currents"
+  ],
+  "notes": "Thermal westerly of up to about 20 knots on summer afternoons.",
+  "sources": [
+   "https://andalucia.com/cadiz/costa-de-la-luz/destinations.htm",
+   "https://www.minube.com/tips/actualidad/los-mejores-spots-de-kitesurf-en-cadiz",
+   "https://www.barcelo.com/guia-turismo/es/espana/cadiz/que-ver/playas-de-cadiz/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "es-playa-de-la-barrosa",
+  "name": "La Barrosa",
+  "aliases": [],
+  "lat": 36.3518,
+  "lon": -6.1734,
+  "country": "ES",
+  "zone": "es-la-janda",
+  "break": "beach",
+  "sports": [
+   "surf",
+   "windsurf",
+   "kite"
+  ],
+  "facing": 239,
+  "window": [
+   160,
+   305
+  ],
+  "bestTide": [
+   "mid"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   225,
+   285
+  ],
+  "bestWind": [
+   15,
+   105
+  ],
+  "kiteWind": [
+   240,
+   330
+  ],
+  "level": "beginner",
+  "hazards": [],
+  "sources": [
+   "https://www.spain.info/en/beach/barrosa/",
+   "https://www.minube.com/tips/actualidad/los-mejores-spots-de-kitesurf-en-cadiz",
+   "https://www.windsurf.co.uk/featured/cadiz-spot-guide-cadizfornia/6/",
+   "https://www.barcelo.com/guia-turismo/es/espana/cadiz/que-ver/playas-de-cadiz/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "es-torre-del-puerco",
+  "name": "Torre del Puerco",
+  "aliases": [],
+  "lat": 36.3304,
+  "lon": -6.1633,
+  "country": "ES",
+  "zone": "es-la-janda",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 244,
+  "window": [
+   160,
+   315
+  ],
+  "bestTide": [
+   "low",
+   "mid"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   225,
+   285
+  ],
+  "bestWind": [
+   20,
+   110
+  ],
+  "kiteWind": null,
+  "level": "intermediate",
+  "hazards": [
+   "rocks"
+  ],
+  "sources": [
+   "https://www.spain.info/en/beach/puerco/",
+   "https://www.andalucia.com/beaches/conildelafrontera.htm"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "es-playa-de-roche",
+  "name": "Roche",
+  "aliases": [
+   "Calas de Roche"
+  ],
+  "lat": 36.314,
+  "lon": -6.1557,
+  "country": "ES",
+  "zone": "es-la-janda",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 244,
+  "window": [
+   150,
+   325
+  ],
+  "bestTide": [
+   "low",
+   "mid"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   225,
+   285
+  ],
+  "bestWind": [
+   20,
+   110
+  ],
+  "kiteWind": null,
+  "level": "intermediate",
+  "hazards": [
+   "shorebreak",
+   "rocks"
+  ],
+  "notes": "Cliff coves sheltered from the Levante; hollow at low tide, shorebreak at high tide.",
+  "sources": [
+   "https://www.spain.info/en/beach/roche/",
+   "https://andalucia.com/cadiz/costa-de-la-luz/destinations.htm",
+   "https://flysurfbrand.com/en/blogs/surf/surf-en-andalucia",
+   "https://dosxtremos.com/en/activities/surfing-from-cadiz-to-tarifa-the-choice-of-breaks-is-endless",
+   "https://www.escueladesurf9pies.com/en/surf-cadiz/surf-conil"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "es-cala-del-rio-roche",
+  "name": "Cabo Roche",
+  "aliases": [],
+  "lat": 36.2939,
+  "lon": -6.1392,
+  "country": "ES",
+  "zone": "es-la-janda",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 222,
+  "window": [
+   145,
+   320
+  ],
+  "bestTide": [
+   "low",
+   "mid"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   225,
+   285
+  ],
+  "bestWind": [
+   355,
+   85
+  ],
+  "kiteWind": null,
+  "level": "intermediate",
+  "hazards": [
+   "rocks"
+  ],
+  "sources": [
+   "https://www.andalucia.com/beaches/conildelafrontera.htm"
+  ],
+  "confidence": "low"
+ },
+ {
+  "id": "es-playa-fuente-del-gallo",
+  "name": "Fuente del Gallo",
+  "aliases": [],
+  "lat": 36.2903,
+  "lon": -6.1122,
+  "country": "ES",
+  "zone": "es-la-janda",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 223,
+  "window": [
+   155,
+   280
+  ],
+  "bestTide": [
+   "mid"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   225,
+   280
+  ],
+  "bestWind": [
+   0,
+   90
+  ],
+  "kiteWind": null,
+  "level": "intermediate",
+  "hazards": [
+   "rocks"
+  ],
+  "notes": "Cove north of Conil with a mellow right, good for longboards.",
+  "sources": [
+   "https://www.spain.info/en/beach/fuente-gallo/",
+   "https://www.andalucia.com/beaches/conildelafrontera.htm",
+   "https://www.escueladesurf9pies.com/en/surf-cadiz/surf-conil"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "es-playa-de-la-fontanilla",
+  "name": "La Fontanilla",
+  "aliases": [],
+  "lat": 36.2819,
+  "lon": -6.102,
+  "country": "ES",
+  "zone": "es-la-janda",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 226,
+  "window": [
+   155,
+   290
+  ],
+  "bestTide": [
+   "mid"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   225,
+   285
+  ],
+  "bestWind": [
+   0,
+   90
+  ],
+  "kiteWind": null,
+  "level": "beginner",
+  "hazards": [
+   "rips",
+   "rocks"
+  ],
+  "notes": "Several peaks in front of the car park and a right off the rocks.",
+  "sources": [
+   "https://es.wikipedia.org/wiki/Playa_de_La_Fontanilla",
+   "https://andalucia.com/beaches/cdl-huelva-cadiz.htm",
+   "https://flysurfbrand.com/en/blogs/surf/surf-en-andalucia",
+   "https://www.escueladesurf9pies.com/en/surf-cadiz/surf-conil",
+   "https://www.barcelo.com/guia-turismo/es/espana/cadiz/que-ver/playas-de-cadiz/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "es-playa-de-los-bateles",
+  "name": "Los Bateles",
+  "aliases": [],
+  "lat": 36.2704,
+  "lon": -6.0929,
+  "country": "ES",
+  "zone": "es-la-janda",
+  "break": "beach",
+  "sports": [
+   "surf",
+   "windsurf"
+  ],
+  "facing": 239,
+  "window": [
+   160,
+   305
+  ],
+  "bestTide": [
+   "mid"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   225,
+   285
+  ],
+  "bestWind": [
+   15,
+   105
+  ],
+  "kiteWind": [
+   240,
+   330
+  ],
+  "level": "beginner",
+  "hazards": [
+   "rips"
+  ],
+  "sources": [
+   "https://www.spain.info/en/beach/bateles/",
+   "https://www.andalucia.com/beaches/conildelafrontera.htm",
+   "https://www.minube.com/tips/actualidad/los-mejores-spots-de-kitesurf-en-cadiz",
+   "https://www.escueladesurf9pies.com/en/surf-cadiz/surf-conil",
+   "https://www.barcelo.com/guia-turismo/es/espana/cadiz/que-ver/playas-de-cadiz/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "es-playa-de-castilnovo",
+  "name": "Castilnovo",
+  "aliases": [],
+  "lat": 36.2622,
+  "lon": -6.0885,
+  "country": "ES",
+  "zone": "es-la-janda",
+  "break": "beach",
+  "sports": [
+   "surf",
+   "windsurf",
+   "kite"
+  ],
+  "facing": 243,
+  "window": [
+   160,
+   310
+  ],
+  "bestTide": [
+   "mid"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   225,
+   285
+  ],
+  "bestWind": [
+   20,
+   110
+  ],
+  "kiteWind": [
+   240,
+   330
+  ],
+  "level": "intermediate",
+  "hazards": [],
+  "notes": "Wild beach south of Conil known for windsurf.",
+  "sources": [
+   "https://www.spain.info/en/beach/castilnovo/",
+   "https://www.andalucia.com/beaches/conildelafrontera.htm",
+   "https://www.barcelo.com/guia-turismo/es/espana/cadiz/que-ver/playas-de-cadiz/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "es-playa-de-el-palmar",
+  "name": "El Palmar",
+  "aliases": [],
+  "lat": 36.2203,
+  "lon": -6.065,
+  "country": "ES",
+  "zone": "es-la-janda",
+  "break": "beach",
+  "sports": [
+   "surf",
+   "kite"
+  ],
+  "facing": 241,
+  "window": [
+   155,
+   320
+  ],
+  "bestTide": [
+   "mid",
+   "high"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   230,
+   290
+  ],
+  "bestWind": [
+   0,
+   110
+  ],
+  "kiteWind": [
+   240,
+   330
+  ],
+  "level": "all",
+  "hazards": [
+   "crowds",
+   "rips"
+  ],
+  "notes": "Eight kilometres of sandbar peaks; the surf centre of Cádiz with many schools.",
+  "sources": [
+   "https://andalucia.com/cadiz/costa-de-la-luz/destinations.htm",
+   "https://flysurfbrand.com/en/blogs/surf/surf-en-andalucia",
+   "https://alexpastorkiteclub.com/blog/tarifa/kitesurfing-in-tarifa/",
+   "https://dosxtremos.com/en/activities/surfing-from-cadiz-to-tarifa-the-choice-of-breaks-is-endless",
+   "https://www.minube.com/tips/actualidad/los-mejores-spots-de-kitesurf-en-cadiz"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "es-playa-la-mangueta",
+  "name": "La Mangueta",
+  "aliases": [],
+  "lat": 36.2016,
+  "lon": -6.0529,
+  "country": "ES",
+  "zone": "es-la-janda",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 230,
+  "window": [
+   145,
+   320
+  ],
+  "bestTide": [
+   "mid"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   225,
+   285
+  ],
+  "bestWind": [
+   5,
+   95
+  ],
+  "kiteWind": null,
+  "level": "intermediate",
+  "hazards": [
+   "rocks"
+  ],
+  "sources": [
+   "https://www.spain.info/en/beach/mangueta/",
+   "https://www.hoteles.net/cadiz/vejer-de-la-frontera/playa-la-mangueta-cadiz.html"
+  ],
+  "confidence": "medium"
+ },
+ {
+  "id": "es-playa-de-zahora",
+  "name": "Zahora",
+  "aliases": [],
+  "lat": 36.1916,
+  "lon": -6.0404,
+  "country": "ES",
+  "zone": "es-la-janda",
+  "break": "reef",
+  "sports": [
+   "surf"
+  ],
+  "facing": 232,
+  "window": [
+   150,
+   320
+  ],
+  "bestTide": [
+   "low"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   225,
+   285
+  ],
+  "bestWind": [
+   0,
+   110
+  ],
+  "kiteWind": null,
+  "level": "intermediate",
+  "hazards": [
+   "rocks",
+   "crowds"
+  ],
+  "notes": "Several peaks over a rocky bottom, mainly a winter spot.",
+  "sources": [
+   "https://www.spain.info/en/beach/zahora/",
+   "https://andalucia.com/beaches/cdl-huelva-cadiz.htm",
+   "https://www.barcelo.com/guia-turismo/es/espana/cadiz/que-ver/playas-de-cadiz/",
+   "https://www.guiarepsol.com/es/viajar/vamos-de-excursion/playas-surf-cadiz/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "es-los-canos-de-meca",
+  "name": "Los Caños de Meca",
+  "aliases": [
+   "Caños de Meca"
+  ],
+  "lat": 36.1838,
+  "lon": -6.0372,
+  "country": "ES",
+  "zone": "es-la-janda",
+  "break": "reef",
+  "sports": [
+   "surf",
+   "kite"
+  ],
+  "facing": 220,
+  "window": [
+   115,
+   320
+  ],
+  "bestTide": [
+   "mid"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   225,
+   285
+  ],
+  "bestWind": [
+   355,
+   85
+  ],
+  "kiteWind": [
+   60,
+   120
+  ],
+  "level": "intermediate",
+  "hazards": [
+   "rocks",
+   "reef"
+  ],
+  "notes": "Reef and point waves beside Cape Trafalgar; a strong-Levante kite alternative.",
+  "sources": [
+   "https://www.spain.info/en/beach/canos-meca/",
+   "https://andalucia.com/cadiz/costa-de-la-luz/destinations.htm",
+   "https://flysurfbrand.com/en/blogs/surf/surf-en-andalucia",
+   "https://kitefuntarifa.com/en/blog/guide-kitesurf-spots-winds-tarifa.html",
+   "https://alexpastorkiteclub.com/blog/tarifa/kitesurfing-in-tarifa/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "es-playa-de-la-hierbabuena",
+  "name": "Hierbabuena",
+  "aliases": [
+   "Yerbabuena"
+  ],
+  "lat": 36.1846,
+  "lon": -5.9415,
+  "country": "ES",
+  "zone": "es-la-janda",
+  "break": "reef",
+  "sports": [
+   "surf"
+  ],
+  "facing": 192,
+  "window": [
+   135,
+   260
+  ],
+  "bestTide": [
+   "mid",
+   "high"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   210,
+   260
+  ],
+  "bestWind": [
+   0,
+   90
+  ],
+  "kiteWind": null,
+  "level": "advanced",
+  "hazards": [
+   "rocks",
+   "localism"
+  ],
+  "notes": "Long right over reef below the Barbate cliffs; walk-in access.",
+  "sources": [
+   "https://www.spain.info/en/beach/hierbabuena/",
+   "https://es.wikipedia.org/wiki/Playa_de_la_Hierbabuena",
+   "https://flysurfbrand.com/en/blogs/surf/viaje-de-surf-en-cadiz",
+   "https://alexpastorkiteclub.com/blog/tarifa/kitesurfing-in-tarifa/",
+   "https://dosxtremos.com/en/activities/surfing-from-cadiz-to-tarifa-the-choice-of-breaks-is-endless"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "es-playa-del-carmen",
+  "name": "Barbate (El Carmen)",
+  "aliases": [],
+  "lat": 36.1838,
+  "lon": -5.9156,
+  "country": "ES",
+  "zone": "es-la-janda",
+  "break": "beach",
+  "sports": [
+   "surf"
+  ],
+  "facing": 207,
+  "window": [
+   145,
+   255
+  ],
+  "bestTide": [
+   "mid"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   225,
+   255
+  ],
+  "bestWind": [
+   340,
+   70
+  ],
+  "kiteWind": null,
+  "level": "beginner",
+  "hazards": [],
+  "sources": [
+   "https://andalucia.com/cadiz/costa-de-la-luz/destinations.htm",
+   "https://flysurfbrand.com/en/blogs/surf/surf-en-andalucia",
+   "https://alexpastorkiteclub.com/blog/tarifa/kitesurfing-in-tarifa/",
+   "https://dosxtremos.com/en/activities/surfing-from-cadiz-to-tarifa-the-choice-of-breaks-is-endless",
+   "https://www.minube.com/tips/actualidad/los-mejores-spots-de-kitesurf-en-cadiz"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "es-playa-zahara-de-los-atunes",
+  "name": "Zahara de los Atunes",
+  "aliases": [],
+  "lat": 36.1341,
+  "lon": -5.8498,
+  "country": "ES",
+  "zone": "es-la-janda",
+  "break": "beach",
+  "sports": [
+   "surf",
+   "kite"
+  ],
+  "facing": 225,
+  "window": [
+   150,
+   285
+  ],
+  "bestTide": [
+   "mid"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   225,
+   285
+  ],
+  "bestWind": [
+   0,
+   90
+  ],
+  "kiteWind": [
+   60,
+   120
+  ],
+  "level": "intermediate",
+  "hazards": [],
+  "sources": [
+   "https://es.wikipedia.org/wiki/Playa_de_Zahara",
+   "https://andalucia.com/cadiz/costa-de-la-luz/destinations.htm",
+   "https://www.minube.com/tips/actualidad/los-mejores-spots-de-kitesurf-en-cadiz",
+   "https://www.barcelo.com/guia-turismo/es/espana/cadiz/que-ver/playas-de-cadiz/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "es-playa-de-atlanterra",
+  "name": "Atlanterra",
+  "aliases": [],
+  "lat": 36.1137,
+  "lon": -5.8333,
+  "country": "ES",
+  "zone": "es-la-janda",
+  "break": "beach",
+  "sports": [
+   "surf",
+   "kite"
+  ],
+  "facing": 231,
+  "window": [
+   150,
+   290
+  ],
+  "bestTide": [
+   "mid"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   225,
+   285
+  ],
+  "bestWind": [
+   5,
+   95
+  ],
+  "kiteWind": [
+   60,
+   120
+  ],
+  "level": "intermediate",
+  "hazards": [
+   "rocks"
+  ],
+  "sources": [
+   "https://www.spain.info/en/beach/atlanterra/",
+   "https://andalucia.com/cadiz/costa-de-la-luz/destinations.htm",
+   "https://www.barcelo.com/guia-turismo/es/espana/cadiz/que-ver/playas-de-cadiz/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "es-playa-de-bolonia",
+  "name": "Bolonia",
+  "aliases": [],
+  "lat": 36.0871,
+  "lon": -5.7781,
+  "country": "ES",
+  "zone": "es-tarifa",
+  "break": "beach",
+  "sports": [
+   "surf",
+   "kite",
+   "windsurf"
+  ],
+  "facing": 197,
+  "window": [
+   130,
+   245
+  ],
+  "bestTide": [
+   "mid"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   225,
+   245
+  ],
+  "bestWind": [
+   330,
+   60
+  ],
+  "kiteWind": [
+   70,
+   300
+  ],
+  "level": "beginner",
+  "hazards": [],
+  "notes": "Dune-backed bay; kite zone in front of the La Cabaña beach bar.",
+  "sources": [
+   "https://www.spain.info/en/beach/bolonia/",
+   "https://andalucia.com/tarifa/kitesurf/practice-areas",
+   "https://kitefuntarifa.com/en/blog/guide-wing-foil-spots-tarifa.html",
+   "https://alexpastorkiteclub.com/blog/tarifa/kitesurfing-in-tarifa/",
+   "https://dosxtremos.com/en/activities/surfing-from-cadiz-to-tarifa-the-choice-of-breaks-is-endless"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "es-punta-paloma-2",
+  "name": "Punta Paloma",
+  "aliases": [],
+  "lat": 36.0579,
+  "lon": -5.7114,
+  "country": "ES",
+  "zone": "es-tarifa",
+  "break": "point",
+  "sports": [
+   "surf",
+   "kite"
+  ],
+  "facing": 192,
+  "window": [
+   125,
+   280
+  ],
+  "bestTide": [
+   "mid"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   200,
+   260
+  ],
+  "bestWind": [
+   0,
+   90
+  ],
+  "kiteWind": [
+   70,
+   300
+  ],
+  "level": "intermediate",
+  "hazards": [
+   "rocks"
+  ],
+  "notes": "Right-hand point wave in winter storms; kite at the dune end of Valdevaqueros.",
+  "sources": [
+   "https://es.wikipedia.org/wiki/Playa_de_la_Paloma",
+   "https://andalucia.com/tarifa/kitesurf/practice-areas",
+   "https://flysurfbrand.com/en/blogs/surf/viaje-de-surf-en-cadiz",
+   "https://kitefuntarifa.com/en/blog/guide-kitesurf-spots-winds-tarifa.html",
+   "https://alexpastorkiteclub.com/blog/tarifa/kitesurfing-in-tarifa/"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "es-playa-de-valdevaqueros",
+  "name": "Valdevaqueros",
+  "aliases": [],
+  "lat": 36.0649,
+  "lon": -5.6852,
+  "country": "ES",
+  "zone": "es-tarifa",
+  "break": "beach",
+  "sports": [
+   "kite",
+   "windsurf"
+  ],
+  "facing": 208,
+  "window": [
+   140,
+   260
+  ],
+  "bestTide": [
+   "mid"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   225,
+   260
+  ],
+  "bestWind": [
+   345,
+   75
+  ],
+  "kiteWind": [
+   70,
+   300
+  ],
+  "level": "all",
+  "hazards": [
+   "rocks",
+   "crowds"
+  ],
+  "notes": "Main Levante kite beach, sheltered by Punta Paloma; rocks at the south end.",
+  "sources": [
+   "https://www.spain.info/en/beach/valdevaqueros/",
+   "https://andalucia.com/tarifa/kitesurf/practice-areas",
+   "https://flysurfbrand.com/en/blogs/surf/surf-en-andalucia",
+   "https://www.barcelo.com/guia-turismo/es/espana/cadiz/que-ver/surf-kitesurf-tarifa/",
+   "https://kitefuntarifa.com/en/blog/guide-kitesurf-spots-winds-tarifa.html"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "es-playa-los-lances",
+  "name": "Los Lances Norte",
+  "aliases": [],
+  "lat": 36.0501,
+  "lon": -5.6492,
+  "country": "ES",
+  "zone": "es-tarifa",
+  "break": "beach",
+  "sports": [
+   "kite",
+   "windsurf"
+  ],
+  "facing": 218,
+  "window": [
+   150,
+   280
+  ],
+  "bestTide": [
+   "mid"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   225,
+   280
+  ],
+  "bestWind": [
+   355,
+   85
+  ],
+  "kiteWind": [
+   70,
+   300
+  ],
+  "level": "all",
+  "hazards": [
+   "crowds"
+  ],
+  "notes": "Main kite zone between Río Jara and the Valdevaqueros end; rescue boats in Levante.",
+  "sources": [
+   "https://www.spain.info/en/beach/lances-norte/",
+   "https://andalucia.com/tarifa/kitesurf/practice-areas",
+   "https://flysurfbrand.com/en/blogs/surf/surf-en-andalucia",
+   "https://www.barcelo.com/guia-turismo/es/espana/cadiz/que-ver/surf-kitesurf-tarifa/",
+   "https://kitefuntarifa.com/en/blog/guide-kitesurf-spots-winds-tarifa.html"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "es-rio-jara",
+  "name": "Río Jara",
+  "aliases": [],
+  "lat": 36.0388,
+  "lon": -5.6359,
+  "country": "ES",
+  "zone": "es-tarifa",
+  "break": "rivermouth",
+  "sports": [
+   "kite"
+  ],
+  "facing": 225,
+  "window": [
+   155,
+   285
+  ],
+  "bestTide": [
+   "mid",
+   "high"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   225,
+   285
+  ],
+  "bestWind": [
+   0,
+   90
+  ],
+  "kiteWind": [
+   60,
+   130
+  ],
+  "level": "advanced",
+  "hazards": [
+   "currents",
+   "rocks"
+  ],
+  "notes": "River-mouth area of Los Lances; gusty Levante, kiting off-season only.",
+  "sources": [
+   "https://andalucia.com/tarifa/kitesurf/practice-areas",
+   "https://alexpastorkiteclub.com/blog/tarifa/kitesurfing-in-tarifa/",
+   "https://www.minube.com/tips/actualidad/los-mejores-spots-de-kitesurf-en-cadiz"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "es-playa-de-los-lances",
+  "name": "Los Lances Sur",
+  "aliases": [],
+  "lat": 36.0205,
+  "lon": -5.6194,
+  "country": "ES",
+  "zone": "es-tarifa",
+  "break": "beach",
+  "sports": [
+   "kite",
+   "windsurf",
+   "surf"
+  ],
+  "facing": 230,
+  "window": [
+   160,
+   290
+  ],
+  "bestTide": [
+   "mid"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   225,
+   285
+  ],
+  "bestWind": [
+   5,
+   95
+  ],
+  "kiteWind": [
+   235,
+   300
+  ],
+  "level": "all",
+  "hazards": [
+   "shorebreak"
+  ],
+  "notes": "Town end of Los Lances; Poniente kite spot and winter beach break.",
+  "sources": [
+   "https://www.spain.info/en/beach/lances-sur/",
+   "https://andalucia.com/tarifa/kitesurf/practice-areas",
+   "https://flysurfbrand.com/en/blogs/surf/surf-en-andalucia",
+   "https://www.barcelo.com/guia-turismo/es/espana/cadiz/que-ver/surf-kitesurf-tarifa/",
+   "https://kitefuntarifa.com/en/blog/guide-kitesurf-spots-winds-tarifa.html"
+  ],
+  "confidence": "high"
+ },
+ {
+  "id": "es-balneario",
+  "name": "Balneario",
+  "aliases": [],
+  "lat": 36.0088,
+  "lon": -5.6108,
+  "country": "ES",
+  "zone": "es-tarifa",
+  "break": "beach",
+  "sports": [
+   "kite"
+  ],
+  "facing": 241,
+  "window": [
+   190,
+   290
+  ],
+  "bestTide": [
+   "mid"
+  ],
+  "dangerTide": [],
+  "bestSwell": [
+   225,
+   285
+  ],
+  "bestWind": [
+   15,
+   105
+  ],
+  "kiteWind": [
+   60,
+   130
+  ],
+  "level": "advanced",
+  "hazards": [
+   "rocks",
+   "currents"
+  ],
+  "notes": "Beside the Tarifa causeway; offshore Levante for experienced riders only.",
+  "sources": [
+   "https://andalucia.com/tarifa/kitesurf/practice-areas",
+   "https://flysurfbrand.com/en/blogs/surf/viaje-de-surf-en-cadiz",
+   "https://kitefuntarifa.com/en/blog/guide-kitesurf-spots-winds-tarifa.html",
+   "https://alexpastorkiteclub.com/blog/tarifa/kitesurfing-in-tarifa/",
+   "https://www.iksurfmag.com/travel-guides/europe/spain/tarifa"
+  ],
+  "confidence": "high"
+ }
+]
