@@ -226,8 +226,11 @@ def assign(spot: dict, registry: dict[str, dict], land=None) -> str | None:
 class LandMask:
     """Coarse land test on the ECMWF 0.1° land-sea mask (cached by the build).
 
-    The first and last 3 km of the segment are ignored (the spot itself sits on
-    the coast and coarse coastal cells are mixed land/sea)."""
+    The first SPOT_SKIP_KM next to the spot (it sits on the coast and 0.1° coastal
+    cells are mixed land/sea) and the last 3 km next to the buoy are ignored.
+    Coarse: headlands thinner than ~10 km are not seen."""
+
+    SPOT_SKIP_KM = 8.0
 
     def __init__(self, grid, lsm: np.ndarray):
         self.grid, self.lsm = grid, lsm
@@ -253,7 +256,7 @@ class LandMask:
         n = max(int(km), 2)
         for k in range(n + 1):
             f = k / n
-            if f * km < 3.0 or (1 - f) * km < 3.0:
+            if f * km < self.SPOT_SKIP_KM or (1 - f) * km < 3.0:
                 continue
             lat = lat1 + (lat2 - lat1) * f
             lon = lon1 + (lon2 - lon1) * f
