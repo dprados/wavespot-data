@@ -99,6 +99,11 @@ def fetch(spots: list[dict], now: dt.datetime, cache_dir: str | None, workers: i
     wave_cells, wave_km = map_cells("ecmwf_wave_v2", swh0.grid, [wave_valid], spots, 40.0, cache_dir)
     if lsm0 is not None:
         sea = lsm0.values < 0.5
+        if cache_dir:  # reused by the buoy assignment (land between spot and buoy)
+            from ..buoys import LandMask
+            import os
+            os.makedirs(cache_dir, exist_ok=True)
+            LandMask.save(os.path.join(cache_dir, "lsm_ecmwf.npz"), lsm0.grid, lsm0.values)
         wind_grid = lsm0.grid
         wind_cells, _ = map_cells("ecmwf_wind_sea", wind_grid, [sea], spots, 10.0, cache_dir)
     else:

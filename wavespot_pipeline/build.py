@@ -18,15 +18,17 @@ import time
 from collections import defaultdict
 from concurrent.futures import ThreadPoolExecutor
 
+from . import buoys as buoys_mod
 from . import config, products
-from .blend import Sources, blend
-from .sources import ecmwf, gfswave, ibi, icon_eu, oisst
-from .sources.base import SourceStatus
+from .blend import Sources, blend, model_arrays
+from .sources import arome, ecmwf, gfswave, ibi, icon_eu, oisst
+from .sources.base import SourceStatus, http_get
 from .spots import is_named, load_spots, load_zone_registry, tile_of, zone_name
 from .state import LastGood
 
 log = logging.getLogger("wavespot")
-ALL_SOURCES = ("ibi", "ibi-sst", "ecmwf", "icon-eu", "gfs-wave", "oisst")
+SPOT_FILES = ["data/spots/curated/*.json", "data/seed_spots.json", "data/spots/layer1.json"]
+ALL_SOURCES = ("ibi", "ibi-sst", "ecmwf", "icon-eu", "arome", "gfs-wave", "oisst", "buoys")
 
 
 def dumps(obj) -> str:
@@ -67,8 +69,10 @@ def fetch_all(spots, now, h_start, work, cache, skip: set[str]) -> tuple[Sources
         "ibi-sst": lambda: ibi.fetch_sst(spots, h_start, os.path.join(work, "ibi"), cache),
         "ecmwf": lambda: ecmwf.fetch(spots, now, cache),
         "icon-eu": lambda: icon_eu.fetch(spots, now, cache),
+        "arome": lambda: arome.fetch(spots, now, cache),
         "gfs-wave": lambda: gfswave.fetch(spots, now, h_start, cache),
         "oisst": lambda: oisst.fetch(spots, now, cache),
+        "buoys": lambda: _buoys(work, now),
     }
     with ThreadPoolExecutor(len(jobs)) as ex:
         futs = {name: ex.submit(guarded, name, fn) for name, fn in jobs.items()}
@@ -98,6 +102,10 @@ def fetch_all(spots, now, h_start, work, cache, skip: set[str]) -> tuple[Sources
     if r:
         src.icon, st = r
         statuses.append(st)
+    r = unpack("arome", results["arome"])
+    if r:
+        src.arome, st = r
+        statuses.append(st)
     r = unpack("gfs-wave", results["gfs-wave"])
     if r:
         src.gfs, st = r
@@ -106,13 +114,23 @@ def fetch_all(spots, now, h_start, work, cache, skip: set[str]) -> tuple[Sources
     if r:
         src.sst_oisst, st = r
         statuses.append(st)
+    r = unpack("buoys", results["buoys"])
+    if r:
+        src.buoys, st = r
+        statuses.append(st)
     return src, statuses
+
+
+def _buoys(work: str, now: dt.datetime):
+    t0 = time.time()
+    b = buoys_mod.collect(os.path.join(work, "buoys"), now)
+    return b, SourceStatus("buoys", bool(b), time.time() - t0, f"{len(b)} buoys")
 
 
 def main(argv=None) -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--out", default="site/v1")
-    ap.add_argument("--spots", nargs="+", default=["data/seed_spots.json", "data/spots/layer1.json"])
+    ap.add_argument("--spots", nargs="+", default=SPOT_FILES)
     ap.add_argument("--tides", default="data/tides/eot20_constituents.json")
     ap.add_argument("--zones", default="data/spots/zones.json", help="zone registry from the spot layer")
     ap.add_argument("--cache", default="cache")
@@ -147,8 +165,29 @@ def main(argv=None) -> int:
     for st in statuses:
         log.info("source %-11s ok=%s %.0fs %.0f MB %s", st.name, st.ok, st.seconds, st.bytes / 1e6, st.detail)
 
+    # Buoys: publish the latest observations and assign one to each spot.
+    if src.buoys is None and args.base_url:
+        try:
+            prev = json.loads(http_get(args.base_url + "buoys/latest.json", timeout=30))
+            src.buoys = prev.get("buoys") or []
+            buoys_generated = prev.get("generated", generated)
+        except Exception:
+            src.buoys, buoys_generated = [], generated
+    else:
+        buoys_generated = generated
+    registry = buoys_mod.update_registry(args.cache, src.buoys or [])
+    if src.buoys:
+        buoys_mod.write_latest(args.out, src.buoys, buoys_generated)
+    land = buoys_mod.LandMask.load(os.path.join(args.cache, "lsm_ecmwf.npz"))
+    for s in spots:
+        if not s.get("buoy"):
+            s["buoy"] = buoys_mod.assign(s, registry, land)
+    log.info("buoys: %d live, %d known, %d spots assigned", len(src.buoys or []), len(registry),
+             sum(1 for s in spots if s.get("buoy")))
+
     t = time.time()
     blended = blend(src, len(spots), h_start)
+    marrays = model_arrays(src, len(spots), h_start)
     timings["blend"] = time.time() - t
 
     t = time.time()
@@ -183,6 +222,8 @@ def main(argv=None) -> int:
                 dropped += 1
                 log.warning("spot %s dropped: no data and no last-good", spot["id"])
                 continue
+        if spot["layer"] == 2:
+            write(os.path.join(out, "models", f"{spot['id']}.json"), products.models_doc(spot, marrays, i))
         today = products.today_index(doc, now)
         tiles[tile_of(spot["lat"], spot["lon"])].append(
             products.index_entry(doc, products.index_r(doc, today), products.index_rk(doc, today)))

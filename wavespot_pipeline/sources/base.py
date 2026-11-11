@@ -124,6 +124,18 @@ class GribField:
     values: np.ndarray     # (nlat, nlon) float32, NaN = missing
 
 
+def peek_grib(message: bytes) -> str:
+    """shortName of a GRIB message without decoding its values."""
+    import eccodes
+
+    with IO_LOCK:
+        h = eccodes.codes_new_from_message(message)
+        try:
+            return eccodes.codes_get(h, "shortName")
+        finally:
+            eccodes.codes_release(h)
+
+
 def decode_grib(message: bytes) -> GribField:
     with IO_LOCK:
         return _decode_grib(message)

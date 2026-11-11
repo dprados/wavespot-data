@@ -1,0 +1,72 @@
+name: Buoys
+
+# Hourly: latest wave/wind observations (Copernicus Marine In Situ IBI NRT) ->
+# v1/buoys/latest.json. Pages deploys replace the whole site, so this job
+# restores the last forecast site from actions/cache and redeploys it with the
+# fresh buoy file. Shares the "pages" concurrency group with forecast.yml.
+on:
+  schedule:
+    - cron: "25 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    outputs:
+      built: ${{ steps.buoys.outputs.built }}
+    steps:
+      - uses: actions/checkout@v7
+
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: requirements*.txt
+
+      - name: Install
+        run: python -m pip install --quiet -r requirements.txt
+
+      - name: Restore last forecast site
+        id: site
+        uses: actions/cache/restore@v6
+        with:
+          path: site
+          key: site-none
+          restore-keys: site-
+
+      - name: Fetch buoys
+        id: buoys
+        if: steps.site.outputs.cache-matched-key != ''
+        env:
+          COPERNICUSMARINE_SERVICE_USERNAME: ${{ secrets.COPERNICUSMARINE_SERVICE_USERNAME }}
+          COPERNICUSMARINE_SERVICE_PASSWORD: ${{ secrets.COPERNICUSMARINE_SERVICE_PASSWORD }}
+        run: |
+          python -m wavespot_pipeline.buoys --out site/v1 --work "$RUNNER_TEMP/work" --cache "$RUNNER_TEMP/cache"
+          python -m wavespot_pipeline.validate site/v1
+          echo "built=true" >> "$GITHUB_OUTPUT"
+
+      - uses: actions/upload-pages-artifact@v5
+        if: steps.buoys.outputs.built == 'true'
+        with:
+          path: site
+
+  deploy:
+    needs: build
+    if: needs.build.outputs.built == 'true'
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v5

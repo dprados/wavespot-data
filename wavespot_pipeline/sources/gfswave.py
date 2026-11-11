@@ -19,12 +19,13 @@ from .base import SourceData, SourceStatus, decode_grib, extract, http_exists, h
 
 # (shortName, level) -> internal name
 KEYS = {
+    ("swh", 1): "ghs", ("perpw", 1): "gtp", ("dirpw", 1): "gdir",
     ("shww", 1): "wwh", ("mpww", 1): "wwp", ("wvdir", 1): "wwd",
     ("shts", 1): "sw1h", ("mpts", 1): "sw1p", ("swdir", 1): "sw1d",
     ("shts", 2): "sw2h", ("mpts", 2): "sw2p", ("swdir", 2): "sw2d",
     ("shts", 3): "sw3h", ("mpts", 3): "sw3p", ("swdir", 3): "sw3d",
 }
-IDX_NAMES = ("HTSGW", "WVHGT", "WVPER", "WVDIR", "SWELL", "SWPER", "SWDIR")
+IDX_NAMES = ("HTSGW", "PERPW", "DIRPW", "WVHGT", "WVPER", "WVDIR", "SWELL", "SWPER", "SWDIR")
 
 
 def _file(run: dt.datetime, step: int) -> str:
@@ -106,7 +107,9 @@ def sort_swells(raw: dict[str, np.ndarray]) -> dict[str, np.ndarray]:
     take = lambda a, k: np.take_along_axis(a, order[k:k + 1], axis=0)[0]  # noqa: E731
     return {"s1h": take(h, 0), "s1p": take(p, 0), "s1d": take(d, 0),
             "s2h": take(h, 1), "s2p": take(p, 1), "s2d": take(d, 1),
-            "wwh": raw["wwh"], "wwp": raw["wwp"], "wwd": raw["wwd"]}
+            "wwh": raw["wwh"], "wwp": raw["wwp"], "wwd": raw["wwd"],
+            # Model totals (for models/{id}.json only)
+            "ghs": raw["ghs"], "gtp": raw["gtp"], "gdir": raw["gdir"]}
 
 
 def fetch(spots: list[dict], now: dt.datetime, h_start: dt.datetime, cache_dir: str | None, workers: int = 4):

@@ -36,14 +36,16 @@ def test_ranges_are_plausible():
     store = load(STORE)["spots"]
     t = dt.datetime(2026, 11, 1, tzinfo=dt.timezone.utc).timestamp() + 600 * np.arange(30 * 144)
 
-    def rng(sid):
-        h = tides.predict(store[sid]["cons"], t)
+    def rng(lat, lon):
+        # nearest catalogue spot (ids change as curated spots replace seed ones)
+        s = min(store.values(), key=lambda v: (v["lat"] - lat) ** 2 + (v["lon"] - lon) ** 2)
+        h = tides.predict(s["cons"], t)
         return h.max() - h.min()
 
-    assert 3.0 < rng("es-zarautz") < 5.0
-    assert 3.0 < rng("fr-hossegor-la-graviere") < 5.0
-    assert 1.5 < rng("es-famara") < 3.0
-    assert 1.2 < rng("pt-jardim-do-mar") < 2.6
+    assert 3.0 < rng(43.288, -2.170) < 5.0       # Zarautz
+    assert 3.0 < rng(43.672, -1.445) < 5.0       # Hossegor
+    assert 1.5 < rng(29.116, -13.562) < 3.0      # Famara
+    assert 1.2 < rng(32.736, -17.212) < 2.6      # Jardim do Mar
 
 
 def test_day_stages():

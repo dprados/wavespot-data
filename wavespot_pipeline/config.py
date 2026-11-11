@@ -73,6 +73,24 @@ ICON_EU_VARS = {"u_10m": "U_10M", "v_10m": "V_10M", "vmax_10m": "VMAX_10M"}
 ICON_EU_STEPS = list(range(0, 79)) + list(range(81, 121, 3))
 ICON_EU_DOMAIN = (29.5, 70.5, -23.5, 62.5)
 
+# ------------------------------------------------------------------ Météo-France AROME
+AROME_BASE = "https://meteofrance-pnt.s3.rbx.io.cloud.ovh.net"
+AROME_BLOCKS = ["00H06H", "07H12H", "13H18H", "19H24H", "25H30H", "31H36H", "37H42H", "43H48H"]
+AROME_DOMAIN = (37.5, 55.4, -12.0, 16.0)
+AROME_EDGE_MARGIN = 0.5
+AROME_ES_MIN_LAT = 41.8     # northern Spain (Galicia .. Basque coast)
+
+# ------------------------------------------------------------------ Copernicus In Situ (buoys)
+INSITU_DATASET = "cmems_obs-ins_ibi_phybgcwav_mynrt_na_irr"
+BUOY_BBOX = (20.0, 49.5, -20.0, 0.0)
+BUOY_MAX_AGE_H = 24
+BUOY_MAX_KM = 60.0
+BUOY_FACING_TOL = 60.0
+
+# Layer-2 model comparison (schema §5)
+MODELS_STEP = 3
+MODELS_N = 40
+
 # ------------------------------------------------------------------ NOAA GFS-Wave
 GFSWAVE_NOMADS = "https://nomads.ncep.noaa.gov/cgi-bin/filter_gfswave.pl"
 GFSWAVE_AWS = "https://noaa-gfs-bdp-pds.s3.amazonaws.com"

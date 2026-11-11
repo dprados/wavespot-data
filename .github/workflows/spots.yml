@@ -1,0 +1,64 @@
+name: Spots
+
+# Catalogue checks whenever spot files change: unique ids, merge rules, and no
+# layer-2 point (curated + seed) on land, using OSM land polygons (ODbL) kept in
+# actions/cache (key osm-land-v1; refreshed manually by bumping the key).
+on:
+  push:
+    branches: [main]
+    paths:
+      - data/seed_spots.json
+      - data/spots/**
+  pull_request:
+    paths:
+      - data/seed_spots.json
+      - data/spots/**
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v7
+
+      - uses: actions/setup-python@v7
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: requirements*.txt
+
+      - name: Install
+        run: python -m pip install --quiet -r requirements-dev.txt shapely pyogrio
+
+      - name: Restore OSM land polygons
+        id: land
+        uses: actions/cache/restore@v6
+        with:
+          path: ~/osm-land
+          key: osm-land-v1
+
+      - name: Download OSM land polygons (cache miss only)
+        if: steps.land.outputs.cache-hit != 'true'
+        run: |
+          mkdir -p ~/osm-land && cd ~/osm-land
+          curl -sSfL -o land.zip https://osmdata.openstreetmap.de/download/land-polygons-split-4326.zip
+          unzip -q land.zip && rm land.zip
+          ls -la land-polygons-split-4326
+
+      - name: Save OSM land polygons
+        if: steps.land.outputs.cache-hit != 'true'
+        uses: actions/cache/save@v6
+        with:
+          path: ~/osm-land
+          key: osm-land-v1
+
+      - name: Catalogue tests (ids, merge rules, land)
+        env:
+          WAVESPOT_LAND: /home/runner/osm-land/land-polygons-split-4326/land_polygons.shp
+        run: |
+          python -m pytest -q tests/test_catalog.py
+          python -m wavespot_pipeline.landcheck "$WAVESPOT_LAND"

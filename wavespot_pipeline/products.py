@@ -66,6 +66,25 @@ def spot_doc(spot: dict, blended, i: int, h_start: dt.datetime, generated: str, 
     }
 
 
+def models_doc(spot: dict, arrays: dict, i: int) -> dict:
+    """models/{id}.json (schema §5): raw series per model, 3-hourly, 5 days."""
+    start = dt.datetime.fromtimestamp(int(arrays["start"]), dt.timezone.utc)
+
+    def block(per_model, fields):
+        out = {}
+        for m, f in per_model.items():
+            if not np.isfinite(f[fields[0]][i]).any():
+                continue          # model does not cover this spot
+            out[m] = {k: _round_list(f[k][i], {"hs": "hs", "tp": "tp", "dir": "dir", "ws": "ws", "wd": "wd"}[k])
+                      for k in fields}
+        return out
+
+    return {"v": config.SCHEMA_VERSION, "id": spot["id"], "start": start.strftime("%Y-%m-%dT%H:%M:%SZ"),
+            "step": config.MODELS_STEP, "n": config.MODELS_N,
+            "waves": block(arrays["waves"], ("hs", "tp", "dir")),
+            "wind": block(arrays["wind"], ("ws", "wd"))}
+
+
 def doc_is_complete(doc: dict, min_frac: float = 0.5) -> bool:
     h = doc["h"]
     n = max(h["n"], 1)

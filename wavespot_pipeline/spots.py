@@ -28,6 +28,52 @@ INFO_DEFAULTS = {
     "sources": [],
 }
 DEDUPE_KM = 0.3
+SAME_POINT_KM = 0.05     # closer than this: same spot whatever the names say
+STOPWORDS = {"playa", "praia", "plage", "platja", "praias", "spot", "surf", "de", "del", "la", "las", "los", "le", "les",
+             "l", "d", "do", "da", "dos", "das", "du", "des", "el", "o", "a", "e", "y", "et", "the", "of", "beach",
+             "cala", "cove", "anse", "port", "porto", "puerto", "baie", "bahia", "baia", "plaia", "praiaz", "sur",
+             "norte", "sul", "nord", "north", "south", "este", "oeste", "est", "ouest", "grande", "grand"}
+
+
+def is_curated_path(path: str) -> bool:
+    return os.sep + "curated" + os.sep in os.path.abspath(path)
+
+
+def expand_paths(paths: Iterable[str]) -> list[str]:
+    """Expand globs (e.g. data/spots/curated/*.json), keeping the given order."""
+    import glob as _glob
+
+    out = []
+    for p in paths:
+        hits = sorted(_glob.glob(p)) if any(c in p for c in "*?[") else [p]
+        out.extend(hits)
+    return out
+
+
+def _tokens(name: str) -> set[str]:
+    return {t for t in slug(name).split("-") if t and t not in STOPWORDS}
+
+
+def similar_names(a: dict, b: dict) -> bool:
+    """Loose name match between two spots (names + aliases)."""
+    from difflib import SequenceMatcher
+
+    na = [a.get("name") or ""] + list(a.get("aliases") or [])
+    nb = [b.get("name") or ""] + list(b.get("aliases") or [])
+    for x in na:
+        for y in nb:
+            tx, ty = _tokens(x), _tokens(y)
+            if not tx or not ty:
+                continue
+            if any(len(t) >= 4 for t in tx & ty) or tx <= ty or ty <= tx:
+                return True
+            if SequenceMatcher(None, "-".join(sorted(tx)), "-".join(sorted(ty))).ratio() >= 0.8:
+                return True
+            cx = "".join(t for t in slug(x).split("-") if t not in STOPWORDS)
+            cy = "".join(t for t in slug(y).split("-") if t not in STOPWORDS)
+            if cx and cy and SequenceMatcher(None, cx, cy).ratio() >= 0.8:
+                return True
+    return False
 
 
 def slug(text: str) -> str:
@@ -152,6 +198,23 @@ def zone_name(zone: str, registry: dict[str, dict]) -> dict:
     return config.ZONE_NAMES.get(zone, {"en": zone})
 
 
+CURATED_INFO_KEYS = ("break", "sports", "facing", "window", "bestTide", "dangerTide", "bestSwell", "bestWind",
+                     "kiteWind", "level", "hazards", "sources")
+INFO_ENUM_HAZARDS = {"rips", "rocks", "reef", "crowds", "currents", "shorebreak", "pollution", "localism"}
+
+
+def from_curated(raw: dict) -> dict:
+    """Curated layer (docs/curated-brief.md): flat attributes -> pipeline shape.
+
+    layer 2; verified = confidence high|medium; `notes`/`confidence` are not published.
+    """
+    out = {k: raw[k] for k in ("id", "name", "aliases", "lat", "lon", "country", "zone", "buoy") if k in raw}
+    out["info"] = {k: raw[k] for k in CURATED_INFO_KEYS if k in raw}
+    out["layer"] = 2
+    out["verified"] = raw.get("confidence") in ("high", "medium")
+    return out
+
+
 def normalise(raw: dict, default_layer: int, registry: dict | None = None) -> dict:
     lat, lon = float(raw["lat"]), float(raw["lon"])
     country = (raw.get("country") or "").upper()
@@ -190,6 +253,8 @@ def normalise(raw: dict, default_layer: int, registry: dict | None = None) -> di
 def _read(path: str) -> tuple[list[dict], int]:
     with open(path) as f:
         blob = json.load(f)
+    if is_curated_path(path):
+        return [from_curated(r) for r in (blob if isinstance(blob, list) else blob.get("spots", []))], 2
     if isinstance(blob, dict):
         items = blob.get("spots") or []
         layer = int(blob.get("layer") or (2 if "seed" in os.path.basename(path) else 1))
@@ -202,8 +267,10 @@ def _read(path: str) -> tuple[list[dict], int]:
 def load_spots(paths: Iterable[str], registry: dict[str, dict] | None = None) -> list[dict]:
     """Load spot files in priority order (first file wins on id clash).
 
-    Later (usually automatic, layer-1) spots closer than 300 m to an already
-    loaded spot are dropped as duplicates. Missing files are skipped.
+    Order used by the build: curated layer (data/spots/curated/*.json) >
+    seed > automatic layer 1. A later spot is dropped when an earlier one has
+    the same id, or lies ≤300 m away with a similar name ("equivalent" spot).
+    Missing files are skipped; globs are expanded.
     Spots without a zone take the zone of the nearest spot (same country,
     ≤ 50 km) whose file provided one — i.e. the zone layer built with the
     spots — else the built-in assign_zone() rules.
@@ -211,7 +278,7 @@ def load_spots(paths: Iterable[str], registry: dict[str, dict] | None = None) ->
     out: list[dict] = []
     ids: set[str] = set()
     cells: dict[tuple[int, int], list[dict]] = {}
-    for path in paths:
+    for path in expand_paths(paths):
         if not path or not os.path.exists(path):
             log.info("spots file %s not present, skipped", path)
             continue
@@ -228,7 +295,7 @@ def load_spots(paths: Iterable[str], registry: dict[str, dict] | None = None) ->
             key = (int(s["lat"] * 100), int(s["lon"] * 100))
             near = [o for di in (-1, 0, 1) for dj in (-1, 0, 1)
                     for o in cells.get((key[0] + di, key[1] + dj), [])]
-            if any(_km(s, o) < DEDUPE_KM for o in near):
+            if any(_km(s, o) < SAME_POINT_KM or (_km(s, o) < DEDUPE_KM and similar_names(s, o)) for o in near):
                 continue
             ids.add(s["id"])
             cells.setdefault(key, []).append(s)

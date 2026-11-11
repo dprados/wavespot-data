@@ -140,6 +140,34 @@ def validate_zone(doc: dict) -> list[str]:
     return errs
 
 
+def validate_models(doc: dict) -> list[str]:
+    errs = []
+    if doc.get("v") != config.SCHEMA_VERSION or doc.get("step") != config.MODELS_STEP or doc.get("n") != config.MODELS_N:
+        return ["bad models header"]
+    if not ISO.match(str(doc.get("start"))):
+        errs.append("bad start")
+    for group, fields in (("waves", ("hs", "tp", "dir")), ("wind", ("ws", "wd"))):
+        for model, block in (doc.get(group) or {}).items():
+            for f in fields:
+                arr = block.get(f)
+                if not isinstance(arr, list) or len(arr) != doc["n"]:
+                    errs.append(f"{group}.{model}.{f} bad length")
+    return errs
+
+
+def validate_buoys(doc: dict) -> list[str]:
+    errs = []
+    if doc.get("v") != config.SCHEMA_VERSION or not ISO.match(str(doc.get("generated"))):
+        return ["bad buoys header"]
+    for b in doc.get("buoys", []):
+        for k in ("id", "name", "lat", "lon", "t", "hs", "tp", "dir", "ws", "wd", "sst"):
+            if k not in b:
+                errs.append(f"buoy {b.get('id')} missing {k}")
+        if not ISO.match(str(b.get("t"))):
+            errs.append(f"buoy {b.get('id')} bad t")
+    return errs
+
+
 def validate_meta(doc: dict) -> list[str]:
     errs = []
     for k in ("v", "generated", "tiles", "zones", "attribution"):
@@ -172,6 +200,14 @@ def validate_site(root: str) -> list[str]:
     for name in sorted(os.listdir(os.path.join(root, "spots"))):
         with open(os.path.join(root, "spots", name)) as f:
             errs += [f"{name}: {e}" for e in validate_spot(json.load(f))]
+    mdir = os.path.join(root, "models")
+    for name in sorted(os.listdir(mdir)) if os.path.isdir(mdir) else []:
+        with open(os.path.join(mdir, name)) as f:
+            errs += [f"models/{name}: {e}" for e in validate_models(json.load(f))]
+    bpath = os.path.join(root, "buoys", "latest.json")
+    if os.path.exists(bpath):
+        with open(bpath) as f:
+            errs += [f"buoys: {e}" for e in validate_buoys(json.load(f))]
     zdir = os.path.join(root, "zones")
     for name in sorted(os.listdir(zdir)) if os.path.isdir(zdir) else []:
         with open(os.path.join(zdir, name)) as f:

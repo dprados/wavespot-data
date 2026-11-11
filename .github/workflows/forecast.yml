@@ -13,7 +13,7 @@ permissions:
   actions: write          # prune old state caches
 
 concurrency:
-  group: forecast
+  group: pages            # shared with buoys.yml: one Pages deploy at a time
   cancel-in-progress: false
 
 jobs:
@@ -100,6 +100,20 @@ jobs:
       - uses: actions/upload-pages-artifact@v5
         with:
           path: site
+
+      - name: Save site for the hourly buoy deploys
+        uses: actions/cache/save@v6
+        with:
+          path: site
+          key: site-${{ github.run_id }}
+
+      - name: Prune old site caches
+        continue-on-error: true
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh cache list --repo "$GITHUB_REPOSITORY" --key site- --sort created_at --order desc --limit 100 \
+            --json id -q '.[2:][].id' | xargs -r -n1 gh cache delete --repo "$GITHUB_REPOSITORY"
 
   deploy:
     needs: build

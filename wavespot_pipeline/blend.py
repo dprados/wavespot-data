@@ -4,7 +4,7 @@ Waves  h : IBI hourly -> per-hour fallback ECMWF (+ GFS-Wave partitions rescaled
            -> GFS-Wave alone.
 Waves h3 : ECMWF (+ GFS partitions) with a 24 h ramp that carries the IBI/ECMWF Hs ratio
            of the last 12 h of `h` into `h3` (no jump at the hand-over) -> GFS alone.
-Wind   h : ICON-EU where covered, cross-faded into ECMWF over its last 6 h; ECMWF elsewhere.
+Wind   h : AROME (FR + north ES, 0-48 h) > ICON-EU (0-120 h) > ECMWF, 6 h cross-fades.
 Wind  h3 : ECMWF.  t2: ECMWF.  SST: IBI daily -> OISST, held constant.
 """
 from __future__ import annotations
@@ -31,9 +31,11 @@ class Sources:
     ecmwf_wave: SourceData | None = None
     ecmwf_wind: SourceData | None = None
     icon: SourceData | None = None
+    arome: SourceData | None = None
     gfs: SourceData | None = None
     sst_ibi: SourceData | None = None
     sst_oisst: SourceData | None = None
+    buoys: list | None = None      # latest observations (not blended)
 
 
 @dataclass
@@ -154,36 +156,47 @@ def _ramp(h: dict, h3: dict, ec_on_h: np.ndarray, model_h, model_h3):
         h3[f] = h3[f] * factor
 
 
-def _wind(src: Sources, target: np.ndarray, nspots: int, allow_icon: bool):
-    ec_u = _on(src.ecmwf_wind, "u10", target, nspots, 6.0)
-    ec_v = _on(src.ecmwf_wind, "v10", target, nspots, 6.0)
-    ec_g = _on(src.ecmwf_wind, "gust", target, nspots, 6.0)
-    t2 = _on(src.ecmwf_wind, "t2", target, nspots, 6.0)
-    u, v, g = ec_u.copy(), ec_v.copy(), ec_g.copy()
-    model = np.array(["ecmwf" if src.ecmwf_wind is not None else None] * nspots, dtype=object)
-    if allow_icon and src.icon is not None:
-        iu = _on(src.icon, "u10", target, nspots, 3.5)
-        iv = _on(src.icon, "v10", target, nspots, 3.5)
-        ig = _on(src.icon, "gust", target, nspots, 3.5)
-        for i in range(nspots):
-            ok = np.isfinite(iu[i]) & np.isfinite(iv[i])
-            if not ok.any():
-                continue
-            first = int(np.nonzero(ok)[0].min())
-            last = int(np.nonzero(ok)[0].max())
-            w = ok.astype(float)
-            if first > 0:  # run started after h.start: fade in from ECMWF
-                fade_in = np.arange(first, min(first + 7, last + 1))
-                w[fade_in] = np.minimum(w[fade_in], (fade_in - first) / 6.0)
+def _overlay(base_u, base_v, base_g, src: SourceData, target, nspots, model, name, max_gap_h):
+    """Overlay a higher-resolution wind source on (u, v, gust), cross-fading over
+    6 h at both ends of its coverage so there is no jump at the hand-over."""
+    iu = _on(src, "u10", target, nspots, max_gap_h)
+    iv = _on(src, "v10", target, nspots, max_gap_h)
+    ig = _on(src, "gust", target, nspots, max_gap_h)
+    u, v, g = base_u.copy(), base_v.copy(), base_g.copy()
+    for i in range(nspots):
+        ok = np.isfinite(iu[i]) & np.isfinite(iv[i])
+        if not ok.any():
+            continue
+        first = int(np.nonzero(ok)[0].min())
+        last = int(np.nonzero(ok)[0].max())
+        w = ok.astype(float)
+        if first > 0:  # run started after h.start: fade in from the base
+            fade_in = np.arange(first, min(first + 7, last + 1))
+            w[fade_in] = np.minimum(w[fade_in], (fade_in - first) / 6.0)
+        if last < len(target) - 1:
             fade = np.arange(max(0, last - 6), last + 1)
             w[fade] = np.minimum(w[fade], (last - fade) / 6.0)
-            has_ec = np.isfinite(ec_u[i]) & np.isfinite(ec_v[i])
-            w = np.where(has_ec, w, ok.astype(float))
-            u[i] = np.where(ok, w * iu[i] + (1 - w) * np.nan_to_num(ec_u[i]), ec_u[i])
-            v[i] = np.where(ok, w * iv[i] + (1 - w) * np.nan_to_num(ec_v[i]), ec_v[i])
-            gi = np.where(np.isfinite(ig[i]), ig[i], ec_g[i])
-            g[i] = np.where(ok & np.isfinite(ec_g[i]), w * gi + (1 - w) * ec_g[i], np.where(ok, gi, ec_g[i]))
-            model[i] = "icon-eu"
+        has_base = np.isfinite(base_u[i]) & np.isfinite(base_v[i])
+        w = np.where(has_base, w, ok.astype(float))
+        u[i] = np.where(ok, w * iu[i] + (1 - w) * np.nan_to_num(base_u[i]), base_u[i])
+        v[i] = np.where(ok, w * iv[i] + (1 - w) * np.nan_to_num(base_v[i]), base_v[i])
+        gi = np.where(np.isfinite(ig[i]), ig[i], base_g[i])
+        g[i] = np.where(ok & np.isfinite(base_g[i]), w * gi + (1 - w) * base_g[i], np.where(ok, gi, base_g[i]))
+        model[i] = name
+    return u, v, g
+
+
+def _wind(src: Sources, target: np.ndarray, nspots: int, allow_regional: bool):
+    """ECMWF base, then ICON-EU, then AROME on top (each where it has data)."""
+    u = _on(src.ecmwf_wind, "u10", target, nspots, 6.0)
+    v = _on(src.ecmwf_wind, "v10", target, nspots, 6.0)
+    g = _on(src.ecmwf_wind, "gust", target, nspots, 6.0)
+    t2 = _on(src.ecmwf_wind, "t2", target, nspots, 6.0)
+    model = np.array(["ecmwf" if src.ecmwf_wind is not None else None] * nspots, dtype=object)
+    if allow_regional:
+        for name, s, gap in (("icon-eu", src.icon, 3.5), ("arome", src.arome, 1.5)):
+            if s is not None:
+                u, v, g = _overlay(u, v, g, s, target, nspots, model, name, gap)
     ws, wd = wind_from_uv(u, v)
     # Gusts are "max since previous step": undefined at step 0 -> back-fill up to 3 h.
     for i in range(nspots):
@@ -210,8 +223,8 @@ def blend(src: Sources, nspots: int, h_start: dt.datetime) -> Blended:
     wh, model_wh, ec_on_h = _waves(src, th, nspots, use_ibi=True)
     w3, model_w3, _ = _waves(src, th3, nspots, use_ibi=False)
     _ramp(wh, w3, ec_on_h["hs"], model_wh, model_w3)
-    windh, model_wind = _wind(src, th, nspots, allow_icon=True)
-    wind3, model_wind3 = _wind(src, th3, nspots, allow_icon=False)
+    windh, model_wind = _wind(src, th, nspots, allow_regional=True)
+    wind3, model_wind3 = _wind(src, th3, nspots, allow_regional=False)
     sst_h = _sst(src, th, nspots)
     sst_3 = _sst(src, th3, nspots)
     h = {**wh, **windh, "sst": sst_h}
@@ -219,3 +232,35 @@ def blend(src: Sources, nspots: int, h_start: dt.datetime) -> Blended:
     models = [{"waves": model_wh[i], "wavesLong": model_w3[i], "wind": model_wind[i], "windLong": model_wind3[i]}
               for i in range(nspots)]
     return Blended(h, h3, models)
+
+
+# ------------------------------------------------------------ model comparison (§5)
+MODEL_WAVES = (("ibi", "ibi", ("hs", "tp", "dir")), ("ecmwf", "ecmwf_wave", ("hs", "tp", "dir")),
+               ("gfs", "gfs", ("ghs", "gtp", "gdir")))
+MODEL_WIND = (("icon-eu", "icon"), ("ecmwf", "ecmwf_wind"), ("arome", "arome"))
+
+
+def model_times(h_start: dt.datetime) -> np.ndarray:
+    return int(h_start.timestamp()) + 3600 * config.MODELS_STEP * np.arange(config.MODELS_N, dtype=np.int64)
+
+
+def model_arrays(src: Sources, nspots: int, h_start: dt.datetime) -> dict:
+    """Raw per-model series on a common 3-hourly axis: {"waves": {model: {hs,tp,dir}}, "wind": {...}}."""
+    t = model_times(h_start)
+    waves, wind = {}, {}
+    for name, attr, (fh, fp, fd) in MODEL_WAVES:
+        s = getattr(src, attr)
+        if s is None or not {fh, fp, fd} <= set(s.fields):
+            continue
+        waves[name] = {"hs": interp_scalar(s.times, s.fields[fh], t, 6.0),
+                       "tp": interp_scalar(s.times, s.fields[fp], t, 6.0),
+                       "dir": interp_direction(s.times, s.fields[fd], t, 6.0)}
+    for name, attr in MODEL_WIND:
+        s = getattr(src, attr)
+        if s is None:
+            continue
+        u = interp_scalar(s.times, s.fields["u10"], t, 6.0)
+        v = interp_scalar(s.times, s.fields["v10"], t, 6.0)
+        ws, wd = wind_from_uv(u, v)
+        wind[name] = {"ws": ws, "wd": wd}
+    return {"start": t[0], "waves": waves, "wind": wind}

@@ -103,7 +103,8 @@ def extract(model_dir: str, lats: np.ndarray, lons: np.ndarray, cutoff_km: float
 def main(argv=None) -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--model-dir", required=True)
-    ap.add_argument("--spots", nargs="+", default=["data/seed_spots.json", "data/spots/layer1.json"])
+    ap.add_argument("--spots", nargs="+",
+                    default=["data/spots/curated/*.json", "data/seed_spots.json", "data/spots/layer1.json"])
     ap.add_argument("--out", default=DEFAULT_OUT)
     ap.add_argument("--download", action="store_true", help="download EOT20 if missing")
     ap.add_argument("--all", action="store_true", help="recompute every spot")
