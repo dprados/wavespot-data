@@ -73,3 +73,18 @@ def test_build_serves_alias_copies(tmp_path, monkeypatch):
                      "--tides", "none", "--published", str(tmp_path / "pub.txt"),
                      "--aliases", str(tmp_path / "al2.json")])
     assert rc == 3
+
+
+def test_seed_matching_is_strict(tmp_path):
+    """A curated beach that only lists the seed's town as alias is not the seed spot."""
+    (tmp_path / "curated").mkdir()
+    (tmp_path / "curated" / "x.json").write_text(json.dumps([
+        {"id": "es-arrietara", "name": "Larrabasterra", "aliases": ["Sopelana"], "lat": 43.3876, "lon": -2.9970,
+         "country": "ES", "break": "beach", "sports": ["surf"], "facing": 320, "window": [270, 20],
+         "confidence": "high"}]))
+    (tmp_path / "seed_spots.json").write_text(json.dumps({"layer": 2, "spots": [
+        {"id": "es-sopelana", "name": "Sopelana", "lat": 43.3894, "lon": -2.9956, "country": "ES",
+         "info": {"facing": 320}}]}))
+    merges = {}
+    spots = load_spots([str(tmp_path / "curated" / "*.json"), str(tmp_path / "seed_spots.json")], None, merges)
+    assert sorted(s["id"] for s in spots) == ["es-arrietara", "es-sopelana"] and merges == {}

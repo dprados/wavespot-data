@@ -317,7 +317,7 @@ def load_spots(paths: Iterable[str], registry: dict[str, dict] | None = None,
             key = (int(s["lat"] * 100), int(s["lon"] * 100))
             near = [o for di in (-1, 0, 1) for dj in (-1, 0, 1)
                     for o in cells.get((key[0] + di, key[1] + dj), [])]
-            twin = _twin(s, near)
+            twin = _seed_twin(s, near) if src == "seed" else _twin(s, near)
             if twin is not None:
                 if src == "seed" and twin["_src"] == "curated" and not twin.get("_renamed"):
                     # Keep the seed id on the curated spot; the curated id becomes an alias.
@@ -362,6 +362,35 @@ def _twin(s: dict, near: list[dict]) -> dict | None:
         sc = name_score(s, o)
         if d < SAME_POINT_KM or (d < DEDUPE_KM and similar_names(s, o)) or (d < SAME_NAME_KM and sc >= 0.9):
             cands.append((sc, -d, o))
+    if not cands:
+        return None
+    return max(cands, key=lambda c: (c[0], c[1]))[2]
+
+
+SEED_MATCH_KM = 0.15
+
+
+def _norm_names(spot: dict, with_aliases: bool = True) -> set[str]:
+    out = set()
+    for n in [spot.get("name") or ""] + (list(spot.get("aliases") or []) if with_aliases else []):
+        sl = slug(n)
+        if sl:
+            out.add(sl)
+            collapsed = "-".join(t for t in sl.split("-") if t not in STOPWORDS)
+            if collapsed:
+                out.add(collapsed)
+    return out
+
+
+def _seed_twin(s: dict, near: list[dict]) -> dict | None:
+    """Strict rule for seed spots (2026-11-11): a seed is replaced only by a
+    curated spot whose normalised name equals the seed's name or one of its
+    aliases, or that lies ≤150 m away. Curated aliases are not used (a beach
+    listing the town as alias, e.g. Larrabasterra/"Sopelana", is not the seed
+    spot). Otherwise the seed stays a layer-2 spot of its own."""
+    names = _norm_names(s)
+    cands = [(name_score(s, o), -_km(s, o), o) for o in near
+             if _km(s, o) <= SEED_MATCH_KM or (_km(s, o) < SAME_NAME_KM and names & _norm_names(o, False))]
     if not cands:
         return None
     return max(cands, key=lambda c: (c[0], c[1]))[2]
