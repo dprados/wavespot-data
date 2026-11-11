@@ -68,7 +68,7 @@ def validate_spot(doc: dict) -> list[str]:
         return errs
     if doc["v"] != config.SCHEMA_VERSION:
         errs.append("bad v")
-    if not re.match(r"^[a-z]{2}-[a-z0-9-]+$", doc["id"]):
+    if not re.match(r"^[a-z]{2}-[a-z0-9.-]+$", doc["id"]):
         errs.append(f"bad id {doc['id']}")
     if doc["layer"] not in (1, 2):
         errs.append("bad layer")

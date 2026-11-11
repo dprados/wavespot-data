@@ -17,6 +17,9 @@ from ..cells import map_cells
 from .base import SourceData, SourceStatus, decode_grib, extract, http_exists, http_get, log, stack_times
 
 
+ALIASES = {"10fg": ("10fg", "10fg3", "10fg6")}
+
+
 def _url(mirror: str, run: dt.datetime, stream: str, step: int, ext: str) -> str:
     d = run.strftime("%Y%m%d")
     hh = run.strftime("%H")
@@ -80,9 +83,11 @@ def fetch(spots: list[dict], now: dt.datetime, cache_dir: str | None, workers: i
 
     def get_field(stream, step, param):
         idx = indexes.get((stream, step), {})
-        if param not in idx:
+        # Gusts: "10fg" (max since previous step) except 93-144 h where only "10fg3" is published.
+        name = next((p for p in ALIASES.get(param, (param,)) if p in idx), None)
+        if name is None:
             return None
-        data = http_get(_url(mirror, run, stream, step, "grib2"), idx[param])
+        data = http_get(_url(mirror, run, stream, step, "grib2"), idx[name])
         return decode_grib(data), len(data)
 
     # Masks from step 0: wave validity and land-sea mask for wind.
