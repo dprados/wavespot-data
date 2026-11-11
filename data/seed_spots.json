@@ -1136,7 +1136,9 @@
   {
    "id": "fr-biarritz-cote-des-basques",
    "name": "Biarritz – Côte des Basques",
-   "aliases": [],
+   "aliases": [
+    "Côte des Basques"
+   ],
    "lat": 43.477,
    "lon": -1.569,
    "country": "FR",
@@ -1173,7 +1175,9 @@
   {
    "id": "fr-lacanau",
    "name": "Lacanau",
-   "aliases": [],
+   "aliases": [
+    "Lacanau La Centrale"
+   ],
    "lat": 45.001,
    "lon": -1.206,
    "country": "FR",
@@ -1460,7 +1464,9 @@
   {
    "id": "ma-essaouira",
    "name": "Essaouira",
-   "aliases": [],
+   "aliases": [
+    "Essaouira Bay"
+   ],
    "lat": 31.505,
    "lon": -9.772,
    "country": "MA",
