@@ -136,7 +136,7 @@ def test_spot_doc_validates_and_rates():
         assert validate.validate_zone(z) == []
 
 
-def test_build_end_to_end_with_stubbed_sources(tmp_path, monkeypatch):
+def test_build_end_to_end_with_stubbed_sources(tmp_path, monkeypatch, frozen_build_clock):
     def fake_fetch_all(spots, now, h_start, work, cache, skip):
         return make_sources(), []
     monkeypatch.setattr(build, "fetch_all", fake_fetch_all)
@@ -153,7 +153,7 @@ def test_build_end_to_end_with_stubbed_sources(tmp_path, monkeypatch):
     assert tile_of(43.2885, -2.17) in meta["tiles"]
 
 
-def test_last_good_reused_when_sources_fail(tmp_path, monkeypatch):
+def test_last_good_reused_when_sources_fail(tmp_path, monkeypatch, frozen_build_clock):
     spots_file = tmp_path / "s.json"
     spots_file.write_text(json.dumps({"layer": 2, "spots": spots2()}))
     args = ["--spots", str(spots_file), "--cache", str(tmp_path / "c"), "--work", str(tmp_path / "w"),

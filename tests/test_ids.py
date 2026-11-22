@@ -48,7 +48,7 @@ def test_resolve_rules():
     assert orphans == ["gone"]
 
 
-def test_build_serves_alias_copies(tmp_path, monkeypatch):
+def test_build_serves_alias_copies(tmp_path, monkeypatch, frozen_build_clock):
     from test_blend_outputs import make_sources, spots2
 
     monkeypatch.setattr(build, "fetch_all", lambda *a: (make_sources(), []))
